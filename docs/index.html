@@ -64,7 +64,9 @@ a{color:var(--navy)}
       <p class="note">Ta clé reste <b>dans ton navigateur uniquement</b> (jamais publiée, jamais dans le code du site). Quand ma base n'a pas la réponse, ton navigateur demande directement à Google Gemini.</p>
     </div>
     <div id="ia-on" style="display:none">
+      <button class="btn gold" id="ia-test" type="button">Tester ma clé</button>
       <button class="btn" id="ia-del" type="button">Retirer la clé de ce navigateur</button>
+      <p class="note" id="ia-test-result"></p>
     </div>
   </section>
 
@@ -104,19 +106,23 @@ function findAnswer(text){
 const SYSTEME = "Tu es l'assistant des étudiants de l'Université IAM (Institut Africain de Management) de Bamako, au Mali. Tu réponds en français simple et clair, en 2 à 6 phrases maximum, avec un ton aidant pour des étudiants. Faits sûrs : l'atelier IAM Code to Career est piloté par DataInsights, chef d'atelier Abdoulaye TRAORE ; horaires : lundi à vendredi 9h00-15h00 (vendredi 9h00-13h00) ; 12 projets d'équipe ; livrables : démonstration, code sur GitHub, présentation, projet intégré au CV et au profil en ligne. Règles strictes : n'invente JAMAIS de dates officielles (examens, inscriptions, résultats) ni de numéros de téléphone : pour ces sujets, dis de vérifier auprès du secrétariat ou de l'affichage officiel de l'IAM. Tu peux expliquer des notions de cours (programmation, informatique) et donner des conseils d'étude.";
 async function gemini(question, contexte){
   const key = localStorage.getItem("gemini_key");
-  if (!key) return null;
+  if (!key) return { err: "aucune clé" };
   let prompt = SYSTEME;
   if (contexte) prompt += "\n\nInformations de la base officielle (à utiliser en priorité si elles répondent) :\n" + contexte;
   prompt += "\n\nQuestion de l'étudiant : " + question;
   try {
-    const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
-      { method:"POST", headers:{ "Content-Type":"application/json", "x-goog-api-key": key },
+    const url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + encodeURIComponent(key);
+    const r = await fetch(url,
+      { method:"POST", headers:{ "Content-Type":"application/json" },
         body: JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{ temperature:0.4, maxOutputTokens:500 } }) });
-    if (!r.ok) return null;
+    if (!r.ok){
+      const detail = (await r.text()).slice(0, 220);
+      return { err: "HTTP " + r.status + " — " + detail };
+    }
     const data = await r.json();
     const t = (data.candidates?.[0]?.content?.parts || []).map(p => p.text || "").join("").trim();
-    return t || null;
-  } catch(e){ return null; }
+    return t ? { text: t } : { err: "réponse vide de Google" };
+  } catch(e){ return { err: "réseau (" + e.message + ")" }; }
 }
 const box = document.getElementById("messages");
 function addMsg(text, who, cat){
@@ -131,11 +137,12 @@ async function ask(text){
   if (row){ addMsg(row.reponse, "bot", row.categorie); return; }
   const wait = addMsg("…", "bot");
   const ctx = sugg.map(s => "- " + s.question + " → " + s.reponse).join("\n");
-  const ia = await gemini(text, ctx);
-  if (ia){ wait.textContent = ia; const s = document.createElement("div"); s.className = "cat"; s.textContent = "Réponse IA — Google Gemini"; wait.appendChild(s); }
+  const res = await gemini(text, ctx);
+  if (res.text){ wait.textContent = res.text; const s = document.createElement("div"); s.className = "cat"; s.textContent = "Réponse IA — Google Gemini"; wait.appendChild(s); }
   else {
     let rep = "Je n'ai pas encore la réponse à cette question. En attendant, le secrétariat de l'IAM peut te renseigner directement.";
     if (!localStorage.getItem("gemini_key")) rep += " Astuce : active la vraie IA ci-dessous avec une clé gratuite pour que je réponde à bien plus de questions.";
+    else if (res.err) rep += "\n\n(Détail IA : " + res.err + " — vérifie ta clé dans la section « Vraie IA » ci-dessous, bouton « Tester ma clé ».)";
     if (sugg.length) rep += " Peut-être que tu cherches : " + sugg.map(s => "« " + s.question + " »").join(" ; ");
     wait.textContent = rep;
   }
@@ -161,6 +168,12 @@ document.getElementById("ia-save").addEventListener("click", () => {
   localStorage.setItem("gemini_key", v); refreshIa();
 });
 document.getElementById("ia-del").addEventListener("click", () => { localStorage.removeItem("gemini_key"); refreshIa(); });
+document.getElementById("ia-test").addEventListener("click", async () => {
+  const out = document.getElementById("ia-test-result");
+  out.textContent = "Test en cours…";
+  const res = await gemini("Dis bonjour en une phrase à un étudiant de l'IAM.", "");
+  out.textContent = res.text ? ("✅ L'IA répond : « " + res.text + " »") : ("❌ L'IA ne répond pas — détail : " + res.err);
+});
 fetch("kb.json").then(r => r.json()).then(data => {
   KB = data;
   const ex = document.getElementById("exemples");
