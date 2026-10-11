@@ -1392,5 +1392,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L2-07": {
+  "pdf": "pdf/INF-L2-07.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Comprendre les modèles OSI et TCP/IP",
+    "chaine": "Cookie connecté",
+    "url": "https://www.youtube.com/watch?v=26jazyc7VNk",
+    "langue": "Français",
+    "description": "Cette vidéo présente les deux modèles couche par couche, leur correspondance et le principe d'encapsulation avec des schémas simples. Regarde-la pour fixer la leçon 1 avant d'attaquer l'adressage avancé.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "16 - La Notation CIDR (LE DÉCOUPAGE EN SOUS-RÉSEAUX IP: LA MÉTHODE LA PLUS COMPLÈTE)",
+    "chaine": "Williams MEFRE",
+    "url": "https://www.youtube.com/watch?v=1KyBv-QVGyQ",
+    "langue": "Français",
+    "description": "Une méthode complète de découpage en sous-réseaux, du calcul binaire aux cas complexes, avec de nombreux exemples traités pas à pas. Refais les calculs de la leçon 2 à la main au fur et à mesure pour t'entraîner comme en examen.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "OSPF vs RIP : Quel protocole de routage choisir en 2026 ?",
+    "chaine": "Smart Engineering & AI",
+    "url": "https://www.youtube.com/watch?v=HhXXSxiZmys",
+    "langue": "Français",
+    "description": "Cette comparaison oppose le vecteur de distance de RIP à l'état de liens d'OSPF, en expliquant la convergence et le rôle de l'algorithme de Dijkstra. C'est le prolongement direct de la leçon 3 sur le routage dynamique.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Suivi d'une connexion TCP avec Wireshark",
+    "chaine": "IT-Connect - Florian",
+    "url": "https://www.youtube.com/watch?v=04qcPyUEQE4",
+    "langue": "Français",
+    "description": "On y suit une vraie connexion TCP dans Wireshark, en observant concrètement les numéros de séquence et d'acquittement étudiés dans la leçon 4. Elle fait aussi le pont avec la leçon 6 sur l'analyse de trafic.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Wireshark pour Débutants : Analyser le Trafic Réseau Pas à Pas (Capture & Filtres) | Outils réseaux",
+    "chaine": "BIBA4IT",
+    "url": "https://www.youtube.com/watch?v=kftGvxNxNR0",
+    "langue": "Français",
+    "description": "Installation, première capture sur une interface et usage des filtres d'affichage, le tout pas à pas pour un débutant. Suis-la en reproduisant sur ton poste la capture décrite dans la leçon 6.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
