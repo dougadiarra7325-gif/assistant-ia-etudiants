@@ -2126,5 +2126,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L2-24": {
+  "pdf": "pdf/INF-L2-24.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Pour comprendre et résoudre des problèmes d' échec de l' auto test de démarrage ( no post )",
+    "chaine": "DellVousAide",
+    "url": "https://www.youtube.com/watch?v=dybHSFv3h4U",
+    "langue": "Français",
+    "description": "La démarche officielle de Dell face à un PC qui bloque à l'auto-test de démarrage (POST) : identifier les symptômes, retirer les périphériques, décharger l'électricité résiduelle. Un modèle de diagnostic méthodique, étape par étape.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "PC bloqué ? Voici comment accéder à l’interface de réparation Windows 11/10 🔧",
+    "chaine": "Darty",
+    "url": "https://www.youtube.com/watch?v=fkYM4gc4_HQ",
+    "langue": "Français",
+    "description": "Comment forcer l'accès à l'environnement de récupération WinRE quand Windows ne démarre plus, puis utiliser le menu Dépannage. C'est exactement la porte d'entrée utilisée dans la procédure de la leçon 3.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Récupération de données perdues avec TestDisk, Photorec & DDRescue",
+    "chaine": "SF-Informatique",
+    "url": "https://www.youtube.com/watch?v=uqIqSf0Uous",
+    "langue": "Français",
+    "description": "Démonstration complète des outils libres de la leçon 4 : fichier supprimé, disque formaté par erreur et table de partitions défaillante, traités avec TestDisk, PhotoRec et DDRescue.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Récupérez facilement & Gratuitement des Fichiers effacés",
+    "chaine": "Darty",
+    "url": "https://www.youtube.com/watch?v=tsUIxX5_p1s",
+    "langue": "Français",
+    "description": "Version guidée et accessible de la récupération de fichiers effacés sur clé USB, carte mémoire ou disque externe, avec le rappel essentiel : agir vite et ne plus écrire sur le support concerné.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Windows Propre et Rapide : LA VRAI méthode des Pros",
+    "chaine": "LE FILTRE",
+    "url": "https://www.youtube.com/watch?v=f5JmNshxwpQ",
+    "langue": "Français",
+    "description": "Le nettoyage logiciel professionnel de Windows avec l'outil intégré Cleanmgr, profils de nettoyage et automatisation par le planificateur de tâches : la maintenance préventive logicielle de la leçon 5, sans logiciel tiers douteux.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
