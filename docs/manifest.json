@@ -4554,5 +4554,51 @@
     "niveau": "Avancé"
    }
   ]
+ },
+ "BBA-L2-03": {
+  "pdf": "pdf/BBA-L2-03.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Comment calculer le coût des produits [Formation Contrôle de gestion]",
+    "chaine": "Georges Souop",
+    "url": "https://www.youtube.com/watch?v=UrFEWCmQsR8",
+    "langue": "Français",
+    "description": "Une présentation complète de la méthode des coûts complets : charges incorporables, distinction direct/indirect et centres d'analyse, illustrée notamment par l'exemple d'une menuiserie. Parfaite en ouverture de ce cours, avant d'attaquer les calculs des leçons suivantes.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Coûts Complets : Cas pratique AGRI SOUSS (Comptabilité analytique).",
+    "chaine": "Abdellah Ounejjar",
+    "url": "https://www.youtube.com/watch?v=IleuccU1qoM",
+    "langue": "Français",
+    "description": "Un cas pratique complet et corrigé pas à pas : tableau de répartition, coût d'achat, coût de production, coût de revient et résultat analytique. À regarder après la leçon 5 pour refaire la chaîne entière des coûts sur un deuxième exemple.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "TD n°4 - Répartition des charges indirectes et résultat analytique (Comptabilité analytique)",
+    "chaine": "L'Économie-Gestion Simplement",
+    "url": "https://www.youtube.com/watch?v=LNkaeCuA4Vk",
+    "langue": "Français",
+    "description": "Un TD filmé consacré à la répartition des charges indirectes et au résultat analytique, avec inventaire permanent au CUMP. Idéal pour t'entraîner sur la répartition secondaire et les unités d'œuvre avant de refaire le TP de ce cours.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Combien d'argent pour lancer ton entreprise ?",
+    "chaine": "Thierry Goemans",
+    "url": "https://www.youtube.com/watch?v=odF6YEYgeJo",
+    "langue": "Français",
+    "description": "Une explication concrète du seuil de rentabilité et du point mort appliqués à la création d'entreprise : combien faut-il vendre, et pendant combien de temps, avant de couvrir toutes ses charges. Le complément pratique de la leçon 6 et du TD sur la boulangerie.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "La methode ABC - DCG UE11 CONTROLE DE GESTION",
+    "chaine": "Ficheben DCG DSCG DEC",
+    "url": "https://www.youtube.com/watch?v=uuJpIFk7Ou0",
+    "langue": "Français",
+    "description": "Un cours structuré sur la méthode ABC : limites des centres d'analyse traditionnels, choix des inducteurs, calcul des coûts par activité et comparaison des rentabilités. Le niveau est celui d'un examen de comptabilité approfondie : parfait pour prolonger la leçon 7.",
+    "niveau": "Licence 2 (approfondissement)"
+   }
+  ]
  }
 }
