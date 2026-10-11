@@ -4378,5 +4378,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L1-24": {
+  "pdf": "pdf/BBA-L1-24.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "L'Éthique des Organisations : Enjeux, Risques et Performance | Management STMG",
+    "chaine": "Christophe le Prof STMG",
+    "url": "https://www.youtube.com/watch?v=f-OI3o7zkh0",
+    "langue": "Français",
+    "description": "Un cours complet qui distingue éthique, déontologie et RSE, puis montre les risques du « non-éthique » et les outils pour agir (codes de conduite, chartes, alertes). Il recoupe directement les leçons 1, 2 et 6 : regarde-le après la leçon 1 et note les exemples de dilemmes traités.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Flash économie. La responsabilité sociale de l'entreprise (RSE)",
+    "chaine": "Pour réussir en économie",
+    "url": "https://www.youtube.com/watch?v=11STKGVfJ5k",
+    "langue": "Français",
+    "description": "Une synthèse courte sur la responsabilité sociale de l'entreprise : pourquoi une entreprise ne peut plus décider en ignorant son environnement social et naturel. À regarder avec la leçon 5, puis compare leur présentation des attentes envers l'entreprise à ta cartographie des parties prenantes.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comprendre la RSE (Responsabilité Sociétale des Entreprises) en quelques minutes - part 1",
+    "chaine": "Rate A Company - la RSE avec les parties prenantes",
+    "url": "https://www.youtube.com/watch?v=iYO8Kzl6Bjc",
+    "langue": "Français",
+    "description": "Les bases de la RSE en quelques minutes, avec les parties prenantes au centre du propos — le nom même de la chaîne le souligne. Idéal pour réviser les leçons 5 et 7 et pour voir comment la RSE relie intérêts de l'entreprise et attentes de la société.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comprendre la RSE et la norme ISO 26000 en quelques minutes - part 2",
+    "chaine": "Rate A Company - la RSE avec les parties prenantes",
+    "url": "https://www.youtube.com/watch?v=WQPXQihi9zw",
+    "langue": "Français",
+    "description": "La suite de la vidéo précédente, consacrée à la norme ISO 26000 : des lignes directrices pour structurer les engagements d'une organisation. Elle éclaire la leçon 6 : un cadre de référence aide une charte à couvrir les bons sujets, sans remplacer son application réelle.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les 3 piliers du développement durable (regard scientifique)",
+    "chaine": "Sustainability Illustrated",
+    "url": "https://www.youtube.com/watch?v=o6NWZUn8Nc4",
+    "langue": "Français",
+    "description": "Une vidéo sur tableau blanc qui explique les trois piliers (économie, social, environnement) et propose même une autre façon de les représenter, à partir des sciences naturelles. Parfaite pour fixer la leçon 7 et pour discuter : les piliers sont-ils vraiment trois colonnes séparées, ou un système où l'environnement porte les deux autres ?",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
