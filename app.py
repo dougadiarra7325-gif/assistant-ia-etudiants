@@ -115,6 +115,34 @@ SEED_QNA = [
     ("Divers", "Que sais-tu faire ?",
      "que sais tu,sais tu faire,fonctionnalites,aide,que peux tu",
      "Je peux répondre sur : l'atelier IAM Code to Career (horaires, projets, livrables, pitch), les emplois du temps, les examens, les démarches administratives (inscription, certificat de scolarité, relevé de notes, carte d'étudiant), les règlements généraux et l'orientation en informatique. Si je n'ai pas la réponse, je note ta question pour que l'équipe l'ajoute à ma base."),
+    # ---------------- IAM, filières et CV ----------------
+    ("IAM et filières", "C'est quoi l'IAM ?",
+     "iam,c est quoi iam,institut africain de management,universite iam,ecole iam,groupe iam",
+     "L'IAM, c'est l'Institut Africain de Management : un groupe d'enseignement supérieur présent notamment au Sénégal et au Mali. À Bamako, l'Université IAM forme des étudiants dans des parcours liés à la gestion, au droit, à la communication et à l'informatique. C'est aussi là que se déroule l'atelier IAM Code to Career."),
+    ("IAM et filières", "Quelles sont les filières de l'IAM ?",
+     "filieres,filiere,formations,programmes,parcours,diplomes,bba,big,mib,mba,gbba",
+     "Dans les parcours associés au Groupe IAM, on retrouve notamment : BBA/GBBA, BIG et Master Informatique, Droit, Communication & Digital Business, Banque & Ingénierie Financière, Comptabilité-Contrôle-Audit, Gestion des Ressources Humaines / Capital Humain, Marketing & Intelligence d'Affaires, Logistique / Supply Chain, Management de la Qualité, ainsi que des parcours MBA, DBA, MIB et MIAF. Les filières ouvertes peuvent varier selon le campus et l'année : confirme toujours la liste actuelle auprès de l'administration."),
+    ("IAM et filières", "Quelle filière choisir pour travailler dans l'informatique ?",
+     "filiere informatique,choisir filiere info,big,informatique de gestion,master informatique,orientation informatique",
+     "Pour travailler dans l'informatique, vise un parcours informatique comme BIG ou Master Informatique quand ils sont ouverts sur ton campus. Ce qui compte ensuite : programmation (Python, JavaScript, PHP, SQL), projets réels sur GitHub, portfolio, stages et capacité à présenter ton travail."),
+    ("CV et candidature", "Que mettre dans un CV d'étudiant ?",
+     "mettre cv,contenu cv,sections cv,rubriques cv,quoi mettre,composer cv",
+     "Un CV d'étudiant clair contient : 1) en-tête avec nom complet, téléphone, e-mail, ville et liens GitHub/LinkedIn/portfolio ; 2) un profil de 2 lignes ; 3) formation ; 4) compétences techniques ; 5) projets avec liens ; 6) expériences ou stages ; 7) langues et centres d'intérêt utiles. Reste sur une page si tu es étudiant."),
+    ("CV et candidature", "Aide-moi à écrire mon CV",
+     "aide cv,ecrire cv,rediger cv,faire mon cv,commencer cv,preparer cv",
+     "Je peux t'aider à structurer ton CV. Prépare ces informations : nom complet, filière et niveau, objectif professionnel, compétences, projets (avec liens GitHub ou portfolio), expériences/stages, langues. Ensuite suis cet ordre : en-tête, profil court, formation, compétences, projets, expériences, langues. Pour chaque projet, écris : le nom, les technologies utilisées, ce que l'application fait et le lien pour la voir."),
+    ("CV et candidature", "Comment présenter mes projets dans un CV ?",
+     "projets cv,decrire projet,presenter projet,portfolio cv,github cv,lien projet",
+     "Présente chaque projet en 2 lignes maximum : le nom du projet, la technologie, le problème résolu et le résultat. Exemple : « Assistant IA pour étudiants — Flask, SQLite, GitHub Pages : chatbot qui répond aux questions des étudiants de l'IAM, avec base documentée et vraie IA Gemini activable. » Ajoute toujours le lien GitHub ou la démo si elle existe."),
+    ("Divers", "Bonjour",
+     "bonjour,salut,bonsoir,hello,coucou",
+     "Bonjour ! Je suis l'assistant des étudiants de l'IAM. Je peux t'aider sur l'IAM et ses filières, l'atelier Code to Career, les cours, les examens, les démarches administratives, les CV et l'orientation. Pose-moi ta question."),
+    ("Divers", "Qui est Douga dit Ibrahim Diarra ?",
+     "douga,ibrahim diarra,qui est douga,diarra,createur du site,auteur du projet",
+     "Douga dit Ibrahim Diarra est un étudiant en Licence 2 informatique à l'Université IAM de Bamako et le créateur de cet assistant (projet n°11 de l'atelier IAM Code to Career). Il a aussi construit un portfolio en ligne et un portail d'offres d'emploi au Mali dans le même atelier, et il développe Bronbah Tech."),
+    ("Divers", "Peux-tu discuter avec moi ?",
+     "discuter,conversation,parler,question generale,autre sujet,discute",
+     "Oui, on peut discuter. Je suis surtout entraîné pour les sujets étudiants : IAM, filières, cours, examens, CV, portfolio, projets et orientation. Si la vraie IA est activée sur cet appareil, je peux aussi répondre à des questions plus générales ; sinon, je réponds avec ma base documentée et je te dis honnêtement quand je ne sais pas."),
 ]
 
 app = Flask(__name__)
@@ -223,13 +251,19 @@ SYSTEME_IA = (
     "DataInsights, chef d'atelier Abdoulaye TRAORE ; horaires de l'atelier : "
     "lundi à vendredi 9h00-15h00 (vendredi 9h00-13h00) ; 12 projets d'équipe ; "
     "livrables : démonstration, code sur GitHub, présentation, projet intégré au "
-    "CV et au profil en ligne. "
+    "    "CV et au profil en ligne. Tu peux aussi présenter l'IAM et ses grandes "
+    "familles de parcours (gestion/BBA, informatique, droit, communication "
+    "digitale, banque/finance, comptabilité/audit, ressources humaines, "
+    "marketing, logistique), en précisant que les filières ouvertes varient "
+    "selon le campus et l'année. ""
     "Règles strictes : n'invente JAMAIS de dates officielles (examens, "
     "inscriptions, résultats) ni de numéros de téléphone : pour ces sujets, dis "
     "de vérifier auprès du secrétariat ou de l'affichage officiel de l'IAM. "
-    "Tu peux expliquer des notions de cours (programmation, informatique) et "
-    "donner des conseils d'étude. Si la question n'a aucun rapport avec la vie "
-    "étudiante ou les études, recentre poliment sur ton rôle."
+    "Tu peux expliquer des notions de cours (programmation, informatique), "
+    "donner des conseils d'étude, aider à rédiger ou améliorer un CV étudiant, "
+    "et répondre simplement à des questions générales de conversation. Si la "
+    "question n'a aucun rapport avec la vie étudiante ou les études, réponds "
+    "brièvement puis propose de revenir aux sujets étudiants."
 )
 
 
