@@ -2486,5 +2486,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-07": {
+  "pdf": "pdf/INF-L3-07.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "C'EST QUOI L'IA, EN VRAI ? #ia #simple #llm",
+    "chaine": "IA tout simplement",
+    "url": "https://www.youtube.com/watch?v=g4OZs3UqQ-A",
+    "langue": "Français",
+    "description": "Une explication sans jargon de ce qu'est vraiment l'IA d'aujourd'hui, de la différence avec un programme classique et de la façon dont elle apprend par exemples. Parfaite pour ouvrir la leçon 1 avant le voyage historique.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le Machine Learning Expliqué Simplement: les Étapes de Construction d'un Modèle",
+    "chaine": "LeCoinStat",
+    "url": "https://www.youtube.com/watch?v=AKNJc-xC42w",
+    "langue": "Français",
+    "description": "La démarche complète de construction d'un modèle de machine learning, de la définition du problème à la validation, en passant par la collecte et la préparation des données. Elle recouvre exactement le protocole suivi dans les leçons 2 et 7.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "RÉSEAU DE NEURONES (2 COUCHES) - DEEP LEARNING 7",
+    "chaine": "Machine Learnia",
+    "url": "https://www.youtube.com/watch?v=YMP-lU-xqyc",
+    "langue": "Français",
+    "description": "Comment plusieurs neurones s'organisent en couches et comment l'information avance dans le réseau (propagation avant), puis comment l'entraînement corrige les poids (rétropropagation). Le prolongement direct du calcul de neurone de la leçon 4.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Réseau de neurones : pourquoi un seul neurone ne suffit pas ? — Cours 6/11",
+    "chaine": "Formation",
+    "url": "https://www.youtube.com/watch?v=wYF9JPHrnKI",
+    "langue": "Français",
+    "description": "Pourquoi un neurone isolé atteint vite ses limites et comment les couches de neurones se répartissent la détection de motifs, avec un exemple pratique en Python. À regarder après avoir fait le calcul à la main de la leçon 4.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "PYTHON SKLEARN: KNN, LinearRegression et SUPERVISED LEARNING (20/30)",
+    "chaine": "Machine Learnia",
+    "url": "https://www.youtube.com/watch?v=P6kSc3qVph0",
+    "langue": "Français",
+    "description": "L'API uniforme de scikit-learn (instancier, fit, predict, score) appliquée à la régression linéaire et aux plus proches voisins. Idéal pour refaire le projet de la leçon 7 en variant les modèles comme le demande le TP.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
