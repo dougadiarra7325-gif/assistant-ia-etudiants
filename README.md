@@ -18,7 +18,12 @@ Application portable : Python + Flask + **SQLite**, avec **vraie IA gratuite (Go
 
 Tables SQL : `users`, `qna`, `chatlog` (voir `schema.sql`). Mots de passe hachés, jamais affichés ni exportés.
 
-## Lancer en local
+## Les deux versions
+
+- **Version web GitHub Pages (publique, sans serveur)** : https://dougadiarra7325-gif.github.io/assistant-ia-etudiants/ — le chat et les 26 questions/réponses tournent dans le navigateur (dossier `docs/` de ce dépôt). La **vraie IA** s'y active avec une clé gratuite Google AI Studio : la clé reste dans le navigateur de l'utilisateur (jamais publiée) et le navigateur appelle Gemini directement.
+- **Version serveur (ce code Flask)** : comptes + espace admin pour enrichir la base, journal des questions, exports — à héberger sur un serveur Python (Render via `render.yaml`, ou tout hébergeur WSGI).
+
+## Lancer en local (version serveur)
 
 ```bash
 python3 -m venv .venv
