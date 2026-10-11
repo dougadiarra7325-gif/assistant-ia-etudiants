@@ -3612,5 +3612,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L1-07": {
+  "pdf": "pdf/BBA-L1-07.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Représenter une fonction affine - Seconde",
+    "chaine": "Yvan Monka",
+    "url": "https://www.youtube.com/watch?v=fq2sXpbdJQg",
+    "langue": "Français",
+    "description": "Comment tracer la droite d'une fonction affine à partir du coefficient directeur et de l'ordonnée à l'origine, sans tableau complet. C'est exactement la lecture graphique de la leçon 3 : mets en pause et refais chaque tracé sur papier quadrillé.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "LE COURS : Fonctions du second degré - Première",
+    "chaine": "Yvan Monka",
+    "url": "https://www.youtube.com/watch?v=WVYWdN13kPE",
+    "langue": "Français",
+    "description": "Le cours complet sur la parabole : forme canonique, sommet, sens de variation et tracé. Le prolongement direct du tableau de valeurs de g(x) = x² − 4x + 3 étudié en leçon 3.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "CALCUL - SEUIL DE RENTABILITÉ",
+    "chaine": "Nicolas Ernst",
+    "url": "https://www.youtube.com/watch?v=BEU-pxTbLls",
+    "langue": "Français",
+    "description": "Le calcul du seuil de rentabilité en valeur et en quantité, plus le point mort, dans le format des épreuves de gestion. À regarder après la leçon 5 en refaisant les calculs avec les données de l'atelier de couture du cours.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Seuil de Rentabilité et Point Mort : calculer l'argent nécessaire pour réussir à lancer un business",
+    "chaine": "Thierry Goemans",
+    "url": "https://www.youtube.com/watch?v=LIL7Eh2U_XY",
+    "langue": "Français",
+    "description": "Une vision entrepreneuriale du seuil : combien faut-il vendre, et pendant combien de temps, avant qu'un projet couvre ses charges ? Utile pour relier le calcul de la leçon 5 au business plan du TP.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Recherche opérationnelle :  Résolution graphique d'un programme linéaire",
+    "chaine": "Comprendre l'informatique",
+    "url": "https://www.youtube.com/watch?v=ZO0FvbLaoZI",
+    "langue": "Français",
+    "description": "La résolution graphique complète d'un programme linéaire : tracé des contraintes, région admissible, puis recherche de l'optimum par recensement des sommets — la méthode exacte de la leçon 7, montrée à l'écran.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
