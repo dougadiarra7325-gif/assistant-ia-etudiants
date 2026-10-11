@@ -174,5 +174,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-05": {
+  "pdf": "pdf/INF-L1-05.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Apprenez le CSS en 1 heure ! Cours Complet Débutant 2026",
+    "chaine": "Comment Coder",
+    "url": "https://www.youtube.com/watch?v=05mkyEm3Jiw",
+    "langue": "Français",
+    "description": "Un cours complet et récent qui parcourt les fondations du CSS en vidéo : écrire ses premières règles, cibler les éléments et organiser sa feuille de style. À regarder en ouverture du cours, puis à revisiter leçon par leçon.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Cours Complet HTML CSS - Tutoriel pour Débutants et Confirmés [Partie 1/3]",
+    "chaine": "Pierre Giraud",
+    "url": "https://www.youtube.com/watch?v=8FqZZrbnwkM",
+    "langue": "Français",
+    "description": "Première partie d'un cours complet très progressif, utile pour consolider les bases pas à pas : la façon dont le navigateur calcule l'espace de chaque élément y est expliquée en détail. Idéal en accompagnement des leçons 1 et 2, notamment le modèle de boîte.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Structurer son site avec Flexbox (Tuto débutant)",
+    "chaine": "Graven - Développement",
+    "url": "https://www.youtube.com/watch?v=2qA4mobfcK0",
+    "langue": "Français",
+    "description": "Un tutoriel clair qui montre comment structurer une page entière avec Flexbox : aligner, répartir et organiser les blocs sans contournements. Parfait pour voir la leçon 4 en action avant de refaire l'exercice de la barre de navigation.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Débuter avec CSS Grid - Partie 1",
+    "chaine": "SwebDev",
+    "url": "https://www.youtube.com/watch?v=1_SW9DO4tKs",
+    "langue": "Français",
+    "description": "Une première partie consacrée aux fondamentaux de CSS Grid : créer la grille, définir colonnes et rangées et placer les éléments. Elle prolonge directement la leçon 5 ; la suite de la série permet d'aller plus loin une fois les bases acquises.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les Bases du Responsive avec les @MediaQueries | HTML - CSS",
+    "chaine": "Cédric Design",
+    "url": "https://www.youtube.com/watch?v=BdzKNrxLiSs",
+    "langue": "Français",
+    "description": "Les media queries expliquées simplement : écrire les conditions, choisir les points de rupture et adapter concrètement une mise en page aux téléphones. Le complément parfait de la leçon 6 avant d'attaquer le projet final.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
