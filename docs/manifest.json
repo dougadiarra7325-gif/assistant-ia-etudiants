@@ -4248,5 +4248,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L1-21": {
+  "pdf": "pdf/BBA-L1-21.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Faut-il un gros capital, un diplôme ou des relations pour entreprendre",
+    "chaine": "BIL ACTU",
+    "url": "https://www.youtube.com/watch?v=EkzBL2GrltE",
+    "langue": "Français",
+    "description": "Un échange avec une entrepreneure qui démystifie les prérequis supposés de l'entrepreneuriat : capital, diplôme ou relations comptent moins que la démarche et la persévérance. À regarder en complément de la leçon 1 sur le profil de l'entrepreneur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Trouve ton idée de business facilement ! Spécial Entrepreneur Débutant",
+    "chaine": "Entrepreneur Facile",
+    "url": "https://www.youtube.com/watch?v=3W6RqzCJXNg",
+    "langue": "Français",
+    "description": "Une méthode simple en trois points pour clarifier une idée, définir son offre et sa cible au lieu de rester bloqué sur une intuition floue. Prolonge directement la leçon 2 sur le passage de l'idée à l'opportunité.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comment trouver une bonne idée de business ?",
+    "chaine": "Legalstart",
+    "url": "https://www.youtube.com/watch?v=4E3bOy2TxlM",
+    "langue": "Français",
+    "description": "Pourquoi une bonne idée répond d'abord à un besoin, et comment la faire correspondre à tes compétences, ton organisation et ton budget. Utile pour alimenter ta grille d'évaluation de la leçon 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "3 idées de business sans argent en Afrique (déjà testées)",
+    "chaine": "ZARC L'ENTREPRENEUR",
+    "url": "https://www.youtube.com/watch?v=6aLMG0AcbLY",
+    "langue": "Français",
+    "description": "Trois pistes d'activités à démarrer avec très peu de moyens en Afrique, présentées de façon concrète. À regarder avec l'esprit critique de la leçon 3 : chaque idée doit ensuite être vérifiée par l'observation de ton propre marché.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Entrepreneuriat des jeunes en Afrique :  Réussir avec impact Malgré les Défis | AJI Univers",
+    "chaine": "Djossons D'abord",
+    "url": "https://www.youtube.com/watch?v=lGwyGm2TxR0",
+    "langue": "Français",
+    "description": "Un échange avec un jeune entrepreneur africain sur les défis réels, les erreurs à éviter et l'importance de l'entourage et de l'accompagnement. En lien avec la leçon 6 sur l'écosystème d'appui et les parcours d'entrepreneurs.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
