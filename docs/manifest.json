@@ -128,5 +128,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L1-04": {
+  "pdf": "pdf/INF-L1-04.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "HTML5 – Le Cours Complet pour Débutants (2h de Formation)",
+    "chaine": "SM-Tech",
+    "url": "https://www.youtube.com/watch?v=wRH4Y6UOEX8",
+    "langue": "Français",
+    "description": "Un cours complet de deux heures qui couvre la structure d'un document HTML5, les balises de texte, les liens, les images, les tableaux, les formulaires et le HTML sémantique. C'est le compagnon vidéo de presque tout ce cours : regarde-le par chapitres, en suivant les leçons dans l'ordre.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Apprendre HTML & CSS de zéro – Jour 2/30 : ta première vraie page HTML balises, structure, attributs",
+    "chaine": "Jean-Luc | Developer",
+    "url": "https://www.youtube.com/watch?v=GDklaHHRbzY",
+    "langue": "Français",
+    "description": "Une vidéo courte et ciblée sur le squelette d'une page : balises ouvrantes, fermantes et orphelines, rôle du head (charset, viewport, title) et des attributs. Parfaite pour consolider la leçon 1 et préparer la leçon 5 sur les attributs.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Apprendre le HTML - Tutoriel Pour Débutant (2h)",
+    "chaine": "MaxCode",
+    "url": "https://www.youtube.com/watch?v=rRt-yvGQST0",
+    "langue": "Français",
+    "description": "Un grand tutoriel progressif : structure d'une page, balises, titres, paragraphes, formatage, listes ordonnées et non ordonnées, tableaux, puis attributs et liens. Les chapitres « Les Titres », « Les Paragraphes » et « Les Listes » correspondent directement à la leçon 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Apprendre HTML & CSS de zéro – Jour 4/30 : les liens et les images (href, chemins, img, alt)",
+    "chaine": "Jean-Luc | Developer",
+    "url": "https://www.youtube.com/watch?v=AcYkyBTGADg",
+    "langue": "Français",
+    "description": "Créer des liens entre ses pages, comprendre les chemins relatifs et absolus, utiliser les ancres et mailto, puis insérer des images avec src et un bon alt en choisissant le format adapté. Le complément idéal de la leçon 3, côté liens et images.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "[Cours HTML] Apprendre HTML de zéro (tuto débutant)",
+    "chaine": "From Scratch - Le développement Web de zéro",
+    "url": "https://www.youtube.com/watch?v=68oSyuKVjeU",
+    "langue": "Français",
+    "description": "Un cours complet qui construit une page pas à pas : structure, head, puis les zones header, main et footer, les images, les tableaux, les liens, les vidéos et les formulaires. Très utile pour visualiser l'assemblage sémantique de la leçon 4 et préparer le projet final.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
