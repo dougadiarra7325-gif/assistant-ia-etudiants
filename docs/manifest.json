@@ -2838,5 +2838,43 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-16": {
+  "pdf": "pdf/INF-L3-16.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Monolithe vs Micro-services : Ce que tu DOIS Comprendre",
+    "chaine": "Coding With Armand",
+    "url": "https://www.youtube.com/watch?v=heL-X6OPw5w",
+    "langue": "Français",
+    "description": "Une comparaison directe des deux architectures, avec leurs avantages et leurs coûts réels, qui prolonge la leçon 1. Idéale pour fixer les critères de choix avant d'attaquer le découpage en domaines.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Formation Gratuite Complète Microservices et application Cloud-Native + labs",
+    "chaine": "eazytraining",
+    "url": "https://www.youtube.com/watch?v=hpSpwH8K-xg",
+    "langue": "Français",
+    "description": "Une formation longue et pratique qui part du monolithe, découpe en microservices et va jusqu'à l'orchestration et la supervision. À regarder par chapitres, en commençant par ceux sur le découplage et la conteneurisation.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Apache Kafka : comprendre l'essentiel en 4 minutes",
+    "chaine": "Cookie connecté",
+    "url": "https://www.youtube.com/watch?v=kCLjBcKrbfM",
+    "langue": "Français",
+    "description": "Quatre minutes pour comprendre à quoi sert Kafka, le courtier d'événements le plus cité dans les architectures distribuées. Le complément parfait de la leçon sur la communication par messages, avant d'aller plus loin.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Back-end : passer du monolithe aux microservices | Exemple concret",
+    "chaine": "RichLabo",
+    "url": "https://www.youtube.com/watch?v=4IO4i_2wUtA",
+    "langue": "Français",
+    "description": "Le récit concret d'un passage du monolithe aux microservices sur un vrai projet, avec les compromis rencontrés en chemin. À comparer point par point avec le plan de migration de SahelMarché de la leçon 7.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
