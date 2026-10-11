@@ -3704,5 +3704,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L1-09": {
+  "pdf": "pdf/BBA-L1-09.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "Les bases de la communication - Présentation du module",
+    "chaine": "Ed Academy 4 Real",
+    "url": "https://www.youtube.com/watch?v=Wyu19YEm6mQ",
+    "langue": "Français",
+    "description": "Un module d'introduction qui reprend les fondations de la leçon 1 : le rôle de l'émetteur et du récepteur, ce qu'est un canal, et les raisons pour lesquelles on se comprend mal. Parfait pour réviser le vocabulaire du processus avant de passer aux écrits professionnels.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Communiquer, écouter et guider",
+    "chaine": "CFCQ",
+    "url": "https://www.youtube.com/watch?v=QI171Kcsd4o",
+    "langue": "Français",
+    "description": "Un centre de formation québécois en communication observe un écueil fréquent : deux interlocuteurs qui parlent chacun de leur côté sans fil conducteur partagé. La vidéo illustre concrètement ce que la leçon 4 appelle écouter autant que parler dans un échange oral.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Le point sur \"l'écoute active\" de Carl Rogers",
+    "chaine": "France 3 Hauts-de-France",
+    "url": "https://www.youtube.com/watch?v=INJbP1prz0Q",
+    "langue": "Français",
+    "description": "Une courte vidéo qui distingue entendre et écouter et présente les deux outils issus des travaux de Carl Rogers : le questionnement et la reformulation. Elle montre aussi pourquoi beaucoup de gens cherchent d'abord à être écoutés plutôt qu'à recevoir des conseils.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Exemple 1 Écoute active",
+    "chaine": "Mario Loubier / MLSolution",
+    "url": "https://www.youtube.com/watch?v=8ydS-zvoE-w",
+    "langue": "Français",
+    "description": "Un exemple commenté d'écoute active au travail, avec les gestes professionnels à l'écran : contact visuel, paraphrase, questions ouvertes, patience dans les silences. À regarder en remplissant la grille d'observation de la leçon 5 pour comparer.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Langage corporel et communication non verbale : Gestes efficaces",
+    "chaine": "Claire Univoix",
+    "url": "https://www.youtube.com/watch?v=2X-7zsQnFXE",
+    "langue": "Français",
+    "description": "Une formatrice en voix et prise de parole passe en revue les gestes qui soutiennent un message et ceux qui le desservent (posture fermée, regard fuyant, gestes d'auto-contact). À regarder avec l'esprit critique du cours : ces signaux s'observent en faisceaux, jamais un par un.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
