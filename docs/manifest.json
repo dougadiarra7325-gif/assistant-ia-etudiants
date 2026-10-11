@@ -4026,5 +4026,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L1-16": {
+  "pdf": "pdf/BBA-L1-16.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Max Weber et la bureaucratie : les fondements du management moderne",
+    "chaine": "Eco-Gest",
+    "url": "https://www.youtube.com/watch?v=SW4mWPRVAKQ",
+    "langue": "Français",
+    "description": "Une présentation claire du modèle bureaucratique de Max Weber : hiérarchie, règles formelles, rationalité, puis les limites et critiques du modèle. Le compagnon vidéo direct de la leçon 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Management S2: L'école des relations humaines : Elton MAYO",
+    "chaine": "Café éco",
+    "url": "https://www.youtube.com/watch?v=zPwzzUuCO3w",
+    "langue": "Français",
+    "description": "Le cours filmé présente l'école des relations humaines et les expériences de Hawthorne : l'homme social, les groupes informels et la critique du travailleur purement mécanique. À regarder en gardant à l'esprit les réserves méthodologiques discutées dans la leçon 3.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "4 concepts qui expliquent (enfin) comment fonctionnent les organisations",
+    "chaine": "Anthropologique[s].",
+    "url": "https://www.youtube.com/watch?v=CugDrucVEYU",
+    "langue": "Français",
+    "description": "Pouvoir, stratégie, zone d'incertitude et système d'action concret : les quatre concepts de l'analyse stratégique de Crozier expliqués simplement, avec des exemples. Le prolongement naturel de la leçon 4.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "MICHEL CROZIER RACONTE SON ENQUÊTE AU SEITA",
+    "chaine": "SCREENINGORGANISATION EDITIONS",
+    "url": "https://www.youtube.com/watch?v=uC7h7pku900",
+    "langue": "Français",
+    "description": "Source rare et précieuse : Michel Crozier lui-même raconte son enquête célèbre dans une manufacture de tabacs, où les relations de pouvoir entre ouvriers de production et ouvriers d'entretien ont nourri sa théorie des zones d'incertitude.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Construire une Culture d'Entreprise Forte et Partagée : Leviers Stratégies Culture Organisationnelle",
+    "chaine": "Benvivo",
+    "url": "https://www.youtube.com/watch?v=sJRuCZTpBYE",
+    "langue": "Français",
+    "description": "Une conférence sur les leviers d'une culture d'entreprise partagée : valeurs incarnées, rituels, communication et rôle exemplaire des dirigeants. Utile pour prolonger la leçon 5 — en la confrontant à notre règle d'or : comparer toujours l'affiché au pratiqué.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
