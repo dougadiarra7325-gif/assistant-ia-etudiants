@@ -4118,5 +4118,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "BBA-L1-18": {
+  "pdf": "pdf/BBA-L1-18.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Une étudiante DÉBORDÉE s'organise en 10 minutes",
+    "chaine": "Learnivore",
+    "url": "https://www.youtube.com/watch?v=kLmgkDkV734",
+    "langue": "Français",
+    "description": "Une méthode concrète pour reprendre le contrôle de son emploi du temps d'étudiant : repérer les contraintes fixes, ranger les tâches par priorité et construire un tableau de révision qui indique quoi travailler chaque jour. À regarder avant de construire le planning de la leçon 1.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comment éviter le plagiat ?",
+    "chaine": "PICORUTI",
+    "url": "https://www.youtube.com/watch?v=yn8mY9Wqx7U",
+    "langue": "Français",
+    "description": "Les gestes qui protègent d'un plagiat, volontaire ou non : citer fidèlement entre guillemets, paraphraser en reformulant réellement, et composer une bibliographie complète. Le prolongement direct de la leçon 4 et de ses exemples corrigés.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "ÉCRIS MIEUX : Plaire, paraphraser et bien citer",
+    "chaine": "PICORUTI",
+    "url": "https://www.youtube.com/watch?v=1BoB0cgguy4",
+    "langue": "Français",
+    "description": "Comment écrire un travail universitaire crédible : distinguer ses propres idées de celles des auteurs, citer au bon endroit et présenter une bibliographie cohérente. Utile avant de rédiger le devoir structuré de la leçon 5.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Tu Oublies 80% De Tes Cours (Voici Comment TOUT Retenir)",
+    "chaine": "Mental Étudiant",
+    "url": "https://www.youtube.com/watch?v=I4OimWA5-WQ",
+    "langue": "Français",
+    "description": "Pourquoi la relecture passive fait oublier l'essentiel, et trois pratiques actives pour retenir durablement : répétition espacée, rappel actif et explication à voix haute. À mettre en pratique dans les phases 2 et 3 du rétroplanning de la leçon 7.",
+    "niveau": "Tous niveaux"
+   },
+   {
+    "titre": "Comment bien réviser (LA routine PARFAITE)",
+    "chaine": "Maxi-Memoire",
+    "url": "https://www.youtube.com/watch?v=sBHGfyi0Jpc",
+    "langue": "Français",
+    "description": "Une routine de révision du soir, entièrement en français, qui articule rappel, correction et repérage des incompréhensions. Un bon complément pour organiser tes séances quotidiennes pendant la période d'examens.",
+    "niveau": "Tous niveaux"
+   }
+  ]
  }
 }
