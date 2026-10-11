@@ -220,5 +220,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L1-06": {
+  "pdf": "pdf/INF-L1-06.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Apprendre JavaScript en 1h : Cours complet débutant 2026",
+    "chaine": "Comment Coder",
+    "url": "https://www.youtube.com/watch?v=ldxt9FNUc50",
+    "langue": "Français",
+    "description": "Un cours d'ensemble d'une heure pour démarrer : où écrire le code, variables, conditions, boucles et premières fonctions, avec des exemples pratiques. Parfait en ouverture du cours, avant d'entrer dans le détail de chaque leçon.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "📘Cours JavaScript pour les débutants – Bases essentielles expliquées🔑",
+    "chaine": "ETC SCHOOL",
+    "url": "https://www.youtube.com/watch?v=7V3EN41zSdY",
+    "langue": "Français",
+    "description": "Les fondamentaux expliqués pas à pas : console.log, déclarations let et const, types de données, conditions if/else, fonctions et boucles for. Le tout est illustré par un fil rouge concret, une mini-boutique en ligne, proche de nos exemples de calculs de prix.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Introduction Complète à JavaScript : Variables, Fonctions, Conditions et Plus !",
+    "chaine": "Hamza Ma",
+    "url": "https://www.youtube.com/watch?v=p11-Z70AGz4",
+    "langue": "Français",
+    "description": "Un panorama structuré des bases : variables et opérateurs, structures de contrôle (conditions et boucles), puis un premier contact avec la manipulation du DOM. Un bon complément vidéo pour consolider les leçons 2 et 3 avant d'aborder le DOM.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Maîtrise JavaScript et le DOM en 30 Minutes - Tutoriel Complet Débutants (2026)",
+    "chaine": "Prakticode",
+    "url": "https://www.youtube.com/watch?v=L0P1sH3FGi4",
+    "langue": "Français",
+    "description": "La manipulation du DOM en pratique : créer et styliser des éléments dynamiquement, construire une navigation interactive et un compteur cliquable pour la gestion des événements. À regarder en travaillant les leçons 4 et 5, exemples à recopier en parallèle.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "JavaScript Moderne -- Cours complet pour débutants dans seulement 3 heures",
+    "chaine": "Malakisi",
+    "url": "https://www.youtube.com/watch?v=tcf1hvbByWU",
+    "langue": "Français",
+    "description": "Un cours long et structuré qui couvre variables, fonctions, tableaux et objets, puis la manipulation du DOM et l'organisation du code en modules. Idéal comme révision complète en fin de cours et pour approfondir la leçon 6 sur les tableaux et les objets.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
