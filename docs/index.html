@@ -139,8 +139,83 @@ function addMsg(text, who, cat){
   if (cat){ const s = document.createElement("div"); s.className = "cat"; s.textContent = cat; d.appendChild(s); }
   box.appendChild(d); box.scrollTop = box.scrollHeight; return d;
 }
+// === CALCULATRICE ===
+function fmtNum(v){
+  if (!isFinite(v)) return "∞";
+  let r = Math.round(v * 10000) / 10000;
+  let s = String(r);
+  let neg = s.startsWith("-"); if (neg) s = s.slice(1);
+  let parts = s.split(".");
+  parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  return (neg ? "-" : "") + parts.join(",");
+}
+function evalExpr(src){
+  const tokens = []; let i = 0;
+  while (i < src.length){
+    const c = src[i];
+    if (c === " ") { i++; continue; }
+    if (/[0-9.]/.test(c)){ let j = i; while (j < src.length && /[0-9.]/.test(src[j])) j++; tokens.push({t:"n", v:parseFloat(src.slice(i,j))}); i = j; continue; }
+    if (src.startsWith("sqrt", i)){ tokens.push({t:"f", v:"sqrt"}); i += 4; continue; }
+    if ("+-*/^()".includes(c)){ tokens.push({t:"o", v:c}); i++; continue; }
+    return null;
+  }
+  const prec = {"+":1,"-":1,"*":2,"/":2,"^":3,"u":4};
+  const out = [], ops = [];
+  let prev = null;
+  for (const tk of tokens){
+    if (tk.t === "n"){ out.push(tk); prev = tk; continue; }
+    if (tk.t === "f"){ ops.push(tk); prev = tk; continue; }
+    if (tk.v === "("){ ops.push(tk); prev = tk; continue; }
+    if (tk.v === ")"){ while (ops.length && ops[ops.length-1].v !== "(") out.push(ops.pop()); if (!ops.length) return null; ops.pop(); if (ops.length && ops[ops.length-1].t === "f") out.push(ops.pop()); prev = tk; continue; }
+    let op = tk.v;
+    if ((op === "-" || op === "+") && (!prev || (prev.t === "o" && prev.v !== ")"))){
+      if (op === "-") ops.push({t:"o", v:"u"});
+      prev = tk; continue;
+    }
+    while (ops.length){ const top = ops[ops.length-1]; if (top.t === "f" || (top.t === "o" && top.v !== "(" && (prec[top.v] > prec[op] || (prec[top.v] === prec[op] && op !== "^")))) out.push(ops.pop()); else break; }
+    ops.push({t:"o", v:op}); prev = tk;
+  }
+  while (ops.length){ const top = ops.pop(); if (top.v === "(") return null; out.push(top); }
+  const st = [];
+  for (const tk of out){
+    if (tk.t === "n") st.push(tk.v);
+    else if (tk.t === "f"){ if (st.length < 1) return null; st.push(Math.sqrt(st.pop())); }
+    else if (tk.v === "u"){ if (st.length < 1) return null; st.push(-st.pop()); }
+    else { if (st.length < 2) return null; const b = st.pop(), a = st.pop();
+      st.push(tk.v === "+" ? a+b : tk.v === "-" ? a-b : tk.v === "*" ? a*b : tk.v === "/" ? a/b : Math.pow(a,b)); }
+  }
+  return st.length === 1 ? st[0] : null;
+}
+function tryCalc(text){
+  let t = " " + text.toLowerCase().replace(/\s+/g, " ").trim() + " ";
+  let m = t.match(/moyenne[^0-9]*([0-9][0-9\s.,;]*)/);
+  if (t.includes("moyenne") && m){
+    const nums = (m[1].match(/\d+(?:[.,]\d+)?/g) || []).map(x => parseFloat(x.replace(",", ".")));
+    if (nums.length >= 2){ const moy = nums.reduce((a,b)=>a+b,0) / nums.length;
+      return "🧮 Moyenne de " + nums.join(" ; ") + " = " + fmtNum(moy) + " (sur 20 si ce sont des notes)."; }
+  }
+  m = t.match(/(\d+(?:[.,]\d+)?)\s*(?:%|pour\s*cent)\s*de\s*(\d+(?:[.,]\d+)?)/);
+  if (m){ const p = parseFloat(m[1].replace(",", ".")), base = parseFloat(m[2].replace(",", "."));
+    return "🧮 " + fmtNum(p) + " % de " + fmtNum(base) + " = " + fmtNum(p/100*base) + "."; }
+  let e = t.replace(/calcule[rz]?|calculer|combien font|combien fait|ca fait combien|resultat de|egal|=/g, " ");
+  e = e.replace(/[?!]/g, " ");
+  e = e.replace(/racine carree de|racine carrée de|racine de/g, " sqrt ");
+  e = e.replace(/×/g, "*").replace(/÷/g, "/");
+  e = e.replace(/(\d)\s*x\s*(\d)/g, "$1*$2");
+  e = e.replace(/(\d),(\d)/g, "$1.$2").replace(/,/g, " ");
+  e = e.replace(/(\d+(?:\.\d+)?)\s*%/g, "($1/100)");
+  e = e.trim();
+  if (!/^[0-9+\-*/^(). sqrt]+$/.test(e) || !/\d/.test(e) || !(/[+\-*/^]/.test(e.replace(/^-/, "")) || e.includes("sqrt"))) return null;
+  const val = evalExpr(e);
+  if (val === null || !isFinite(val)) return null;
+  const aff = e.replace(/sqrt/g, "√").replace(/\*/g, " × ").replace(/\//g, " ÷ ").replace(/\^/g, " ^ ").replace(/\s+/g, " ").trim();
+  return "🧮 " + aff + " = " + fmtNum(val) + ".";
+}
+// === FIN CALCULATRICE ===
 async function ask(text){
   addMsg(text, "user");
+  const calc = tryCalc(text);
+  if (calc){ addMsg(calc, "bot", "Calcul intégré — sans IA"); return; }
   const { row, sugg } = findAnswer(text);
   if (row){ addMsg(row.reponse, "bot", row.categorie); return; }
   const wait = addMsg("…", "bot");
@@ -188,6 +263,10 @@ fetch("kb.json").then(r => r.json()).then(data => {
   KB.filter(r => r.categorie === "Atelier Code to Career").slice(0,4).forEach(r => {
     const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = r.question;
     b.addEventListener("click", () => ask(r.question)); ex.appendChild(b);
+  });
+  [["🧮 Calcule 125 × 48", "Calcule 125 × 48"], ["C'est quoi le BBA ?", "C'est quoi le BBA ?"]].forEach(([label, q]) => {
+    const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = label;
+    b.addEventListener("click", () => ask(q)); ex.appendChild(b);
   });
   const doc = document.getElementById("doc");
   const cats = {};

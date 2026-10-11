@@ -143,6 +143,84 @@ SEED_QNA = [
     ("Divers", "Peux-tu discuter avec moi ?",
      "discuter,conversation,parler,question generale,autre sujet,discute",
      "Oui, on peut discuter. Je suis surtout entraîné pour les sujets étudiants : IAM, filières, cours, examens, CV, portfolio, projets et orientation. Si la vraie IA est activée sur cet appareil, je peux aussi répondre à des questions plus générales ; sinon, je réponds avec ma base documentée et je te dis honnêtement quand je ne sais pas."),
+    # ---------------- Définitions et filières ----------------
+    ("Définitions et filières", "C'est quoi l'informatique ?",
+     "informatique,c est quoi informatique,definition informatique,science informatique",
+     "L'informatique est la science du traitement automatique de l'information par les ordinateurs. Elle couvre la programmation, les réseaux, les bases de données, les systèmes, la cybersécurité et l'intelligence artificielle. À l'IAM, la filière informatique (BIG, Master Informatique) prépare à des métiers comme développeur, administrateur réseaux ou data analyst."),
+    ("Définitions et filières", "C'est quoi un algorithme ?",
+     "algorithme,c est quoi algorithme,definition algorithme",
+     "Un algorithme est une suite d'instructions précises et ordonnées qui permet de résoudre un problème ou d'accomplir une tâche. Imagine une recette de cuisine : des étapes à suivre dans l'ordre pour obtenir un résultat. Tout programme informatique est construit à partir d'algorithmes."),
+    ("Définitions et filières", "C'est quoi le BBA ?",
+     "bba,c est quoi bba,bachelor,business administration,administration des affaires",
+     "Le BBA (Bachelor of Business Administration) est une licence en administration des affaires : une formation généraliste en gestion d'entreprise — management, marketing, finance, comptabilité et ressources humaines. C'est la voie classique pour travailler en entreprise ou créer sa propre activité."),
+    ("Définitions et filières", "C'est quoi le GBBA ?",
+     "gbba,global bba,c est quoi gbba",
+     "Le GBBA (Global BBA) est la version internationale du BBA : le même socle en gestion d'entreprise, avec une dimension internationale renforcée (langues, ouverture sur l'étranger). Il prépare à des carrières de management dans des contextes multiculturels."),
+    ("Définitions et filières", "C'est quoi un MBA ?",
+     "mba,c est quoi mba,master business,dbà,dba",
+     "Le MBA (Master of Business Administration) est un diplôme de niveau master en management, souvent suivi après quelques années d'expérience professionnelle. Il sert à monter en compétences pour diriger des équipes ou des entreprises. Le DBA est son équivalent de niveau doctorat pour les cadres."),
+    ("Définitions et filières", "C'est quoi la filière Droit ?",
+     "droit,filiere droit,juriste,avocat,sciences juridiques",
+     "La filière Droit forme aux règles qui organisent la société et les affaires : droit privé, droit public, droit des affaires, droit du travail. Débouchés : juriste d'entreprise, métiers de la justice (avec les concours et étapes requis), administration, banques et assurances."),
+    ("Définitions et filières", "C'est quoi le marketing ?",
+     "marketing,c est quoi marketing,mercatique",
+     "Le marketing, c'est l'ensemble des méthodes pour comprendre les clients et leur proposer la bonne offre : étudier le marché, définir le produit, le prix, la distribution et la communication. Aujourd'hui, une grande partie se fait en ligne : c'est le marketing digital."),
+    ("Définitions et filières", "C'est quoi la comptabilité ?",
+     "comptabilite,c est quoi comptabilite,comptable,audit",
+     "La comptabilité consiste à enregistrer, classer et analyser toutes les opérations financières d'une entreprise (achats, ventes, salaires, impôts) pour produire des documents fiables : journal, bilan, compte de résultat. Débouchés : comptable, auditeur, contrôleur de gestion."),
+    ("Définitions et filières", "C'est quoi la finance et la banque ?",
+     "finance,banque,c est quoi finance,ingenierie financiere,epargne,credit,investissement",
+     "La finance s'occupe de gérer l'argent : épargne, crédit, investissement, budget et risques. La filière Banque & Ingénierie Financière prépare aux métiers des banques, des assurances et des services financiers (conseiller clientèle, analyste, gestionnaire)."),
+    ("Définitions et filières", "C'est quoi les ressources humaines ?",
+     "ressources humaines,rh,c est quoi rh,recrutement,capital humain",
+     "Les ressources humaines (RH) gèrent les personnes dans l'entreprise : recrutement, contrats, paie, formation, évaluation et climat de travail. La filière GRH / Capital Humain prépare aux métiers de chargé de recrutement, gestionnaire de paie ou responsable RH."),
+    ("Définitions et filières", "C'est quoi la logistique ?",
+     "logistique,supply chain,c est quoi logistique,transport,stock,chaine logistique",
+     "La logistique (supply chain) organise le parcours des marchandises : achats, stockage, transport et distribution jusqu'au client, au meilleur coût et dans les délais. Débouchés : gestionnaire de stock, responsable logistique, acheteur, transitaire."),
+    ("Définitions et filières", "C'est quoi la communication digitale ?",
+     "communication digitale,communication digital business,reseaux sociaux,community manager,publicite en ligne",
+     "La communication digitale, c'est faire connaître une marque ou un produit sur internet : réseaux sociaux, contenus, sites web, publicité en ligne et image de marque. Débouchés : community manager, chargé de communication, créateur de contenu, responsable marketing digital."),
+    ("Définitions et filières", "C'est quoi une base de données ?",
+     "base de donnees,c est quoi base donnees,sql,bdd,sqj",
+     "Une base de données est un ensemble organisé d'informations stockées dans un ordinateur, que l'on peut interroger et mettre à jour rapidement. Exemple : la liste des étudiants, leurs notes et leurs inscriptions. On la manipule souvent avec le langage SQL."),
+    ("Définitions et filières", "C'est quoi Internet ?",
+     "internet,c est quoi internet,web,site web",
+     "Internet est le réseau mondial qui relie des milliards d'ordinateurs et de téléphones pour échanger des informations. Le Web (les sites et pages que tu visites avec un navigateur) n'est qu'un des services d'Internet, avec la messagerie, la vidéo ou les réseaux sociaux."),
+    # ---------------- Vie universitaire ----------------
+    ("Vie universitaire", "Comment trouver un stage ?",
+     "stage,trouver stage,chercher stage,candidature stage,entreprise stage",
+     "Pour trouver un stage : 1) prépare un CV propre et une lettre de motivation courte ; 2) cible les entreprises de ton domaine et dépose des candidatures spontanées ; 3) active ton réseau (enseignants, camarades, LinkedIn) ; 4) relance poliment après une semaine ; 5) prépare-toi à présenter tes projets — un portfolio ou un GitHub actif fait souvent la différence."),
+    ("Vie universitaire", "C'est quoi un mémoire ?",
+     "memoire,c est quoi memoire,soutenance,travail fin etudes,problematique",
+     "Le mémoire est le grand travail de fin d'études : tu choisis un sujet, tu poses une problématique, tu mènes une recherche documentée, tu rédiges un document structuré, puis tu le défends oralement devant un jury — c'est la soutenance. Commence tôt : le choix du sujet et le plan prennent plus de temps qu'on ne croit."),
+    ("Vie universitaire", "C'est quoi un crédit et une UE ?",
+     "credit,credits,ue,unite enseignement,semestre,lmd,capitaliser",
+     "Dans le système LMD, les cours sont regroupés en unités d'enseignement (UE) réparties par semestres. Chaque UE validée rapporte des crédits : une fois obtenus, ces crédits sont capitalisés, c'est-à-dire acquis définitivement. En général, une licence complète représente 180 crédits."),
+    ("Vie universitaire", "C'est quoi le rattrapage ?",
+     "rattrapage,session rattrapage,deuxieme session,echoue,reprendre examen",
+     "Le rattrapage (ou deuxième session) est une seconde chance de composer dans les UE non validées à la session normale, selon le règlement de l'établissement. Il ne concerne que les matières en échec : concentre tes révisions sur celles-là et vérifie les dates affichées par l'administration."),
+    ("Vie universitaire", "Comment gérer son budget d'étudiant ?",
+     "budget,gerer argent,depenses,epargne etudiant,argent poche",
+     "Méthode simple : 1) liste tes dépenses fixes (transport, repas, forfait, fournitures) ; 2) fixe une limite par semaine et tiens-la ; 3) mets de côté une petite somme dès que tu reçois de l'argent, même 500 FCFA ; 4) évite les dettes pour des envies — distingue toujours besoin et envie avant d'acheter."),
+    ("Vie universitaire", "Comment s'organiser pour étudier ?",
+     "organiser,organisation,planning etudes,gerer temps,emploi du temps personnel",
+     "Organisation qui marche : un planning hebdomadaire réaliste, des sessions courtes mais régulières (25 à 50 minutes concentrées), le téléphone loin pendant les sessions, et 10 minutes chaque soir pour préparer le lendemain. Relis tes cours le jour même : c'est là que la mémoire se fixe."),
+    ("Vie universitaire", "Comment se préparer à un entretien de stage ou d'embauche ?",
+     "entretien,preparer entretien,stage entretien,embauche,questions entretien",
+     "Préparation : 1) renseigne-toi sur l'entreprise ; 2) prépare une présentation de 30 secondes (ton pitch) ; 3) choisis deux projets concrets à raconter ; 4) prépare une ou deux questions à poser à la fin ; 5) arrive en avance, tenu propre, téléphone éteint. Sois honnête sur ton niveau : un recruteur pardonne un débutant, pas un menteur."),
+    ("Vie universitaire", "À quoi sert la bibliothèque universitaire ?",
+     "bibliotheque,livres,emprunter,etudier bibliotheque,ressources",
+     "La bibliothèque sert à emprunter des livres de cours, réviser au calme, consulter des ressources que tu n'as pas à acheter et parfois travailler en groupe. C'est un vrai avantage gratuit : utilise-la avant les examens plutôt que de tout chercher sur internet au dernier moment."),
+    # ---------------- Calculs et notes ----------------
+    ("Calculs et notes", "Comment calculer sa moyenne ?",
+     "calculer moyenne,moyenne,coefficients,coefficient,moyenne notes,comment moyenne,coefficients moyenne",
+     "Avec des coefficients : multiplie chaque note par son coefficient, additionne tout, puis divise par la somme des coefficients. Sans coefficients : additionne les notes et divise par leur nombre. Tu peux aussi me le demander directement, par exemple : « moyenne de 12, 14, 9, 15 » ou « calcule (12×2 + 14×3) / 5 » — je sais calculer."),
+    ("Calculs et notes", "C'est quoi un pourcentage ?",
+     "pourcentage,c est quoi pourcentage,pour cent,calculer pourcentage",
+     "Un pourcentage est une part sur 100. Pour calculer X % d'un montant, multiplie le montant par X puis divise par 100 : par exemple 15 % de 20 000 FCFA = 3 000 FCFA. Tu peux me demander directement : « calcule 15 % de 20000 » — je le fais tout de suite."),
+    ("Calculs et notes", "Comment convertir des FCFA en euros ?",
+     "convertir,fcfa,euros,taux de change,conversion,franc cfa",
+     "Le franc CFA (XOF) a un taux fixe avec l'euro : 1 € = 655,957 FCFA, soit environ 656 FCFA. Pour convertir des FCFA en euros, divise par 656 : par exemple 65 600 FCFA ≈ 100 €. Pour les dollars ou d'autres devises, le taux change chaque jour : vérifie le taux du jour."),
 ]
 
 app = Flask(__name__)
@@ -353,12 +431,112 @@ def index():
     return render_template("index.html", exemples=[r["question"] for r in exemples])
 
 
+# ---------------- Calculatrice intégrée (sans IA) ----------------
+def _fmt_num(v):
+    if v != v or v in (float("inf"), float("-inf")):
+        return "∞"
+    r = round(v, 4)
+    s = f"{r:.4f}".rstrip("0").rstrip(".") if "." in f"{r:.4f}" else str(r)
+    neg = s.startswith("-")
+    if neg:
+        s = s[1:]
+    ent, _, dec = s.partition(".")
+    groupes = []
+    while len(ent) > 3:
+        groupes.append(ent[-3:])
+        ent = ent[:-3]
+    groupes.append(ent)
+    out = " ".join(reversed(groupes))
+    if dec:
+        out += "," + dec
+    return ("-" if neg else "") + out
+
+
+def _eval_ast(node):
+    import ast as _ast
+    if isinstance(node, _ast.Expression):
+        return _eval_ast(node.body)
+    if isinstance(node, _ast.Constant) and isinstance(node.value, (int, float)):
+        return float(node.value)
+    if isinstance(node, _ast.BinOp):
+        a, b = _eval_ast(node.left), _eval_ast(node.right)
+        if isinstance(node.op, _ast.Add):
+            return a + b
+        if isinstance(node.op, _ast.Sub):
+            return a - b
+        if isinstance(node.op, _ast.Mult):
+            return a * b
+        if isinstance(node.op, _ast.Div):
+            return a / b
+        if isinstance(node.op, _ast.Pow):
+            return a ** b
+    if isinstance(node, _ast.UnaryOp):
+        v = _eval_ast(node.operand)
+        if isinstance(node.op, _ast.USub):
+            return -v
+        if isinstance(node.op, _ast.UAdd):
+            return v
+    if isinstance(node, _ast.Call) and getattr(node.func, "id", "") == "sqrt" and len(node.args) == 1:
+        import math as _math
+        return _math.sqrt(_eval_ast(node.args[0]))
+    raise ValueError("expression non autorisée")
+
+
+def try_calc(text):
+    import re as _re
+    import ast as _ast
+    t = " " + _re.sub(r"\s+", " ", text.lower().strip()) + " "
+    m = _re.search(r"moyenne[^0-9]*([0-9][0-9\s.,;]*)", t)
+    if "moyenne" in t and m:
+        nums = [float(x.replace(",", ".")) for x in _re.findall(r"\d+(?:[.,]\d+)?", m.group(1))]
+        if len(nums) >= 2:
+            moy = sum(nums) / len(nums)
+            return ("🧮 Moyenne de " + " ; ".join(_fmt_num(n) for n in nums) + " = " +
+                    _fmt_num(moy) + " (sur 20 si ce sont des notes).")
+    m = _re.search(r"(\d+(?:[.,]\d+)?)\s*(?:%|pour\s*cent)\s*de\s*(\d+(?:[.,]\d+)?)", t)
+    if m:
+        p = float(m.group(1).replace(",", "."))
+        base = float(m.group(2).replace(",", "."))
+        return f"🧮 {_fmt_num(p)} % de {_fmt_num(base)} = {_fmt_num(p / 100 * base)}."
+    e = _re.sub(r"calcule[rz]?|calculer|combien font|combien fait|ca fait combien|resultat de|egal|=", " ", t)
+    e = _re.sub(r"[?!]", " ", e)
+    e = _re.sub(r"racine carree de|racine carrée de|racine de", " sqrt ", e)
+    e = e.replace("×", "*").replace("÷", "/")
+    e = _re.sub(r"(\d)\s*x\s*(\d)", r"\1*\2", e)
+    e = _re.sub(r"(\d),(\d)", r"\1.\2", e).replace(",", " ")
+    e = _re.sub(r"(\d+(?:\.\d+)?)\s*%", r"(\1/100)", e)
+    e = e.strip()
+    if not _re.fullmatch(r"[0-9+\-*/^(). sqrt]+", e) or not _re.search(r"\d", e):
+        return None
+    if not (_re.search(r"[+\-*/^]", e.lstrip("-")) or "sqrt" in e):
+        return None
+    e = e.replace("^", "**")
+    e = _re.sub(r"sqrt\s*(\([^()]*\)|\d+(?:\.\d+)?)", r"sqrt(\1)", e)
+    try:
+        val = _eval_ast(_ast.parse(e, mode="eval"))
+    except Exception:
+        return None
+    if val != val or val in (float("inf"), float("-inf")):
+        return None
+    aff = e.replace("**", " ^ ").replace("sqrt", "√").replace("*", " × ").replace("/", " ÷ ")
+    aff = _re.sub(r"\s+", " ", aff).strip()
+    return f"🧮 {aff} = {_fmt_num(val)}."
+
+
 @app.route("/api/chat", methods=["POST"])
 def api_chat():
     data = request.get_json(force=True, silent=True) or {}
     text = (data.get("message") or "").strip()
     if not text:
         return jsonify({"reponse": "Écris-moi ta question, je t'écoute."})
+    calc = try_calc(text)
+    if calc:
+        db = get_db()
+        db.execute("INSERT INTO chatlog (question, qna_id, source) VALUES (?, NULL, 'calc')",
+                   (text,))
+        db.commit()
+        return jsonify({"reponse": calc, "categorie": "Calcul intégré",
+                        "trouve": True, "ia": False})
     row, suggestions = answer_question(text)
     db = get_db()
     if row:
