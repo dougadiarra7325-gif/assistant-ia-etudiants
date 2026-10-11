@@ -1896,5 +1896,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L2-19": {
+  "pdf": "pdf/INF-L2-19.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "L'ergonomie, l'essentiel en 10 minutes",
+    "chaine": "Yannick Mahe",
+    "url": "https://www.youtube.com/watch?v=G1gMoZ1u_6s",
+    "langue": "Français",
+    "description": "Une animation claire qui présente les concepts fondamentaux de l'ergonomie avec des exemples concrets, y compris pour les interfaces et les sites web. Parfait pour fixer le vocabulaire de la leçon 1 avant d'appliquer les critères de Bastien et Scapin.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comment prendre en compte les besoins des utilisateurs en UX Design",
+    "chaine": "ENI Informatique",
+    "url": "https://www.youtube.com/watch?v=lN4wAflGZ1s",
+    "langue": "Français",
+    "description": "Un webinaire d'expert sur la démarche de conception d'interfaces centrée sur les utilisateurs, illustrée par un cas d'application réel analysé en deux versions. Il montre concrètement comment les besoins recueillis transforment une interface.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "FIGMA : Apprendre à faire une maquette de site web - Tutoriel facile en français",
+    "chaine": "Coriace | No-Code",
+    "url": "https://www.youtube.com/watch?v=tXPTymE828U",
+    "langue": "Français",
+    "description": "Prise en main pas à pas de Figma pour structurer une maquette web complète, de l'écran vide à la composition finale. Idéal pour reproduire, en parallèle de la leçon 3, la construction d'une fiche produit ou d'une fiche livre.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Créer une maquette Figma d'application mobile  - Cours gratuit débutant en français",
+    "chaine": "Coriace | No-Code",
+    "url": "https://www.youtube.com/watch?v=d0p3_bucMPI",
+    "langue": "Français",
+    "description": "Un cours complet qui construit les écrans d'une application mobile (inscription, accueil, menu, catégories) puis les relie en prototype cliquable. C'est exactement la démarche haute fidélité + prototype suivie pour BiblioIAM dans ce cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Accessibilité Web : Guide Complet pour le TP DWWM (WCAG 2.1, Outils & Exemples Concrets)",
+    "chaine": "Infor'Barget",
+    "url": "https://www.youtube.com/watch?v=1xGPmUHTEJQ",
+    "langue": "Français",
+    "description": "Un guide pratique des WCAG 2.1 : quatre principes, contraste de 4,5:1, textes alternatifs, navigation au clavier, et démonstration des outils gratuits d'audit (Axe, WAVE, Lighthouse). Prolonge directement la leçon 5 et prépare l'audit du TD 2.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
