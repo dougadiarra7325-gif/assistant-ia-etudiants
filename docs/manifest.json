@@ -1224,5 +1224,43 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L2-01": {
+  "pdf": "pdf/INF-L2-01.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Le langage Java : le cours complet (Java 25) · 30 chapitres, 87 exercices, de zéro à pro",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=PEKoLrPbeSg",
+    "langue": "Français",
+    "description": "Un cours complet et chapitré qui couvre presque tout ce cours : classes et objets à partir de 33 min, héritage et polymorphisme à 41 min, classes abstraites et interfaces à 45 min, exceptions à 55 min et collections à 1 h 03. Utilise les chapitres pour réviser la leçon que tu veux, dans l'ordre qui te convient.",
+    "niveau": "Débutant à avancé"
+   },
+   {
+    "titre": "Les 4 Piliers de la POO en Java : Encapsulation, Héritage, Polymorphisme et Abstraction expliqués!",
+    "chaine": "Solid Code App",
+    "url": "https://www.youtube.com/watch?v=nns_81aOUco",
+    "langue": "Français",
+    "description": "Les quatre piliers de l'objet expliqués avec des exemples concrets en Java : protéger les données par l'encapsulation, réutiliser par l'héritage, manier les objets de façon flexible par le polymorphisme et structurer par l'abstraction. Parfait en complément des leçons 3 à 5.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Java (8/12) — La gestion des exceptions",
+    "chaine": "Bitdyne",
+    "url": "https://www.youtube.com/watch?v=HAMQ5PlCCBQ",
+    "langue": "Français",
+    "description": "Un épisode entièrement consacré aux exceptions : throw et throws, try / catch / finally, exceptions contrôlées et non contrôlées, NumberFormatException et création d'une exception métier personnalisée. Le code montré est réellement compilé et exécuté à l'écran.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Apprendre Java en 3 heures - Cours Complet Débutant (4K)",
+    "chaine": "Comment Coder",
+    "url": "https://www.youtube.com/watch?v=KXZfh19JN-A",
+    "langue": "Français",
+    "description": "Un grand cours d'initiation dont la partie collections (à partir de 1 h 29) présente les listes dynamiques, ArrayList à 1 h 36 et HashMap à 1 h 41 avec des projets pratiques. La fin de la vidéo (à partir de 2 h 25) reprend aussi toute la POO : classes, constructeurs, encapsulation et héritage.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
