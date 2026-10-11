@@ -994,5 +994,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-22": {
+  "pdf": "pdf/INF-L1-22.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Apprendre HTML & CSS de zéro – Jour 1/30 : comment fonctionne un site web + installer VS Code",
+    "chaine": "Jean-Luc | Developer",
+    "url": "https://www.youtube.com/watch?v=YGdvw3V2LU4",
+    "langue": "Français",
+    "description": "Avant de commencer le projet : comprendre comment un site web fonctionne (navigateur, fichiers, rôles de HTML, CSS et JavaScript) et installer l'éditeur VS Code avec les extensions utiles. Le point de départ idéal pour organiser son poste de travail comme dans la leçon 1.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "FIGMA : Apprendre à faire une maquette de site web - Tutoriel facile en français",
+    "chaine": "Coriace | No-Code",
+    "url": "https://www.youtube.com/watch?v=tXPTymE828U",
+    "langue": "Français",
+    "description": "Un tutoriel pas à pas pour construire une maquette de site dans Figma, de la structure des blocs à une présentation propre et prête à intégrer. Parfait pour transformer tes maquettes papier de la leçon 2 en maquettes numériques présentables à un client.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Tutoriel Debutant - Créer son premier site avec HTML / CSS",
+    "chaine": "Graven - Développement",
+    "url": "https://www.youtube.com/watch?v=6hCGTJCo_Uo",
+    "langue": "Français",
+    "description": "Un projet complet réalisé à partir d'une maquette : création du dossier, page d'accueil, menu de navigation, sections de services et de produits, pied de page, puis version responsive. C'est exactement la démarche d'intégration de la leçon 3, en vraie grandeur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Créer un site de A à Z - HTML5, CSS3 & Bootstrap - TP [FR]",
+    "chaine": "Code & Design",
+    "url": "https://www.youtube.com/watch?v=vSeW6_0SMsk",
+    "langue": "Français",
+    "description": "Un travaux pratiques filmé qui mobilise toutes les compétences HTML et CSS pour construire un site complet d'une page. Utile pour comparer ta méthode d'intégration à une autre démarche complète et prendre des idées d'organisation.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "J'ai créé mon Portfolio avec l'IA en 10 min — GitHub Pages + Supabase (GRATUIT)",
+    "chaine": "CodeAvecAbel",
+    "url": "https://www.youtube.com/watch?v=mZ_Vk_9XvAM",
+    "langue": "Français",
+    "description": "La partie qui nous intéresse : la mise en ligne gratuite d'un site statique avec GitHub Pages, de la création du dépôt à l'adresse publique du site. Regarde-la en suivant la recette de la leçon 6 sur ton propre projet.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
