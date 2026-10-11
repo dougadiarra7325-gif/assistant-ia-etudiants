@@ -3474,5 +3474,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L1-04": {
+  "pdf": "pdf/BBA-L1-04.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Les 10 Principes Comptables SYSCOHADA | Leçon 2 — Formation Comptabilité OHADA",
+    "chaine": "Memori Éducation",
+    "url": "https://www.youtube.com/watch?v=Z-GYE-Q210Y",
+    "langue": "Français",
+    "description": "Les principes qui encadrent toute écriture comptable dans l'espace OHADA, expliqués avec des exemples tirés de PME de la zone. À regarder en premier : c'est le cadre général dans lequel s'inscrit tout ce cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comptabilité générale 1 : Application N° 1 - Bilan d'ouverture",
+    "chaine": "Abdellah Ounejjar",
+    "url": "https://www.youtube.com/watch?v=CtDs96OIAtA",
+    "langue": "Français",
+    "description": "Un bilan d'ouverture construit pas à pas, avec une correction détaillée poste par poste (capital, dettes fournisseurs, solde de banque). Le complément vidéo idéal de la leçon 2 pour refaire l'exemple du cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Débit Crédit SYSCOHADA Expliqué | Leçon 4 — Formation Comptabilité OHADA",
+    "chaine": "Memori Éducation",
+    "url": "https://www.youtube.com/watch?v=bAR_eHlql4o",
+    "langue": "Français",
+    "description": "Le mécanisme débit/crédit appliqué au référentiel SYSCOHADA, avec des exemples en francs CFA proches des réalités des PME de la zone OHADA. Parfait pour consolider la partie double de la leçon 3 avant les exercices.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comptabilité Générale S1 : Le Grand livre (Préparation aux Examens)",
+    "chaine": "Amine Li taalim",
+    "url": "https://www.youtube.com/watch?v=ZMu9m_qv0_w",
+    "langue": "Français",
+    "description": "Le rôle du grand livre dans la chaîne comptable et la manière de calculer les soldes débiteurs et créditeurs des comptes. Utile pour préparer le TD et le TP sur les documents comptables de la leçon 5.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "TVA à récupérer et TVA à payer, fais-tu la différence ? (cours n°18)",
+    "chaine": "El khader",
+    "url": "https://www.youtube.com/watch?v=j2EU19RgU44",
+    "langue": "Français",
+    "description": "La distinction entre TVA récupérable (déductible) et TVA à payer (collectée), démontrée sur un exemple chiffré complet. Le mécanisme est exactement celui du Mali ; seuls le taux et la monnaie de l'exemple changent.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
