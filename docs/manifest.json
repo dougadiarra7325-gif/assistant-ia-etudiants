@@ -764,5 +764,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L1-18": {
+  "pdf": "pdf/INF-L1-18.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "La loi d’Ohm (V=RI) expliquée simplement avec une analogie hydraulique (en 5 minutes)",
+    "chaine": "Julie Colaux",
+    "url": "https://www.youtube.com/watch?v=RuJ70RMkND8",
+    "langue": "Français",
+    "description": "La tension comparée à la pression de l'eau, le courant au débit et la résistance à un tuyau étroit : une image qui rend la loi d'Ohm intuitive en cinq minutes. À regarder avant de refaire les calculs de la leçon 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Loi d'Ohm - Relation tension, résistance, intensité - Calcul et graphique | Collège - Lycée",
+    "chaine": "e-profs - Physique Chimie",
+    "url": "https://www.youtube.com/watch?v=6jgH5IbID7I",
+    "langue": "Français",
+    "description": "La démarche expérimentale complète : des mesures réelles à la proportionnalité U = R × I, puis à la courbe caractéristique d'une résistance. Un bon complément pour relier la formule aux mesures que tu feras en TP.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "EP 01 - Les résistances",
+    "chaine": "Electronique Pratique",
+    "url": "https://www.youtube.com/watch?v=SQOiO76hJdk",
+    "langue": "Français",
+    "description": "Premier épisode d'une série d'électronique pratique : usage des résistances, code des couleurs, loi d'Ohm, puissance dissipée, puis résistances en série et en parallèle. Il couvre exactement les leçons 3 et 4 du cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Tu crois connaître la diode ? Découvre ce qu’il y a vraiment dedans",
+    "chaine": "Technologie en poche",
+    "url": "https://www.youtube.com/watch?v=-g33t5sIomE",
+    "langue": "Français",
+    "description": "À l'intérieur d'une diode : semi-conducteurs de type N et P, zone de déplétion, polarisation directe et inverse, et les applications comme le redressement. Pour comprendre pourquoi le courant ne passe que dans un sens.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le Transistor expliqué simplement – Le cœur de l’électronique moderne !",
+    "chaine": "Technologie en poche",
+    "url": "https://www.youtube.com/watch?v=NKS0ds06yVk",
+    "langue": "Français",
+    "description": "Base, collecteur, émetteur : le rôle de chaque broche et la double vie du transistor, interrupteur ou amplificateur, expliqués avec des analogies simples. Le complément visuel idéal de la fin de la leçon 4.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
