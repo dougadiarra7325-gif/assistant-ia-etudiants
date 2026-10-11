@@ -3520,5 +3520,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L1-05": {
+  "pdf": "pdf/BBA-L1-05.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Comptabilité générale S2 (Les travaux d'inventaire ) : Introduction",
+    "chaine": "Abdellah Ounejjar",
+    "url": "https://www.youtube.com/watch?v=iXxhNcL2KkE",
+    "langue": "Français",
+    "description": "Une introduction claire aux travaux d'inventaire : pourquoi on les fait à la clôture, quelles sont les grandes étapes et ce qui les distingue des opérations courantes. À regarder avant d'attaquer les leçons techniques de ce cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comprendre le Sychoada révisé dans la pratique",
+    "chaine": "Expert Cuexi",
+    "url": "https://www.youtube.com/watch?v=XFzOj4oaeDg",
+    "langue": "Français",
+    "description": "Le SYSCOHADA révisé expliqué de façon pratique : systèmes de présentation, plan comptable et états financiers obligatoires dans l'espace OHADA. Le cadre général dans lequel s'inscrit tout ce cours.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Cours amortissements des immobilisations - comptabilité - GEA",
+    "chaine": "Révizaide",
+    "url": "https://www.youtube.com/watch?v=CE3bYGDy8Ds",
+    "langue": "Français",
+    "description": "Un cours complet sur les amortissements des immobilisations : linéaire, non linéaire, enregistrement comptable et présentation dans les documents de synthèse, par une enseignante universitaire de comptabilité-gestion.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les régularisations des charges et des produits :  les charges à payer et les produits à recevoir",
+    "chaine": "La Prof Carole GRILLET",
+    "url": "https://www.youtube.com/watch?v=2Vru_YtZ7xE",
+    "langue": "Français",
+    "description": "Charges à payer, produits à recevoir, factures non parvenues et factures à établir : le principe de rattachement à l'exercice est expliqué puis appliqué dans des exercices corrigés, avec les contre-passations.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les états financiers (compte de résultat et bilan)",
+    "chaine": "L'instant Compta",
+    "url": "https://www.youtube.com/watch?v=oUkeOAkAiNM",
+    "langue": "Français",
+    "description": "Le compte de résultat décomposé en résultats d'exploitation, financier et exceptionnel, et le bilan en actif/passif : exactement la lecture par étages travaillée dans les leçons 6 et 7.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
