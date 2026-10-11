@@ -3014,5 +3014,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-19": {
+  "pdf": "pdf/INF-L3-19.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "Les bases du RGPD en 5 minutes !",
+    "chaine": "AKE'hA",
+    "url": "https://www.youtube.com/watch?v=HaBVdJbGyP8",
+    "langue": "Français",
+    "description": "Une introduction claire et rapide au RGPD : ce qu'est une donnée personnelle, les grands principes et les droits des personnes. Parfait pour fixer le vocabulaire avant d'appliquer les mêmes principes au cadre malien de la loi de 2013.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "RGPD : Qu'est-ce qu'une donnée personnelle ?",
+    "chaine": "Leto",
+    "url": "https://www.youtube.com/watch?v=muSdwpDrYEY",
+    "langue": "Français",
+    "description": "La vidéo démonte la notion centrale du cours : informations directes et indirectes, pseudonymisation et anonymisation, et pourquoi une adresse IP peut être une donnée personnelle. À regarder en refaisant mentalement l'exercice du formulaire de livraison de la leçon 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "5- Le registre des traitements - RGPD - Protection des données",
+    "chaine": "DPO Manager",
+    "url": "https://www.youtube.com/watch?v=rDExHz_5yBM",
+    "langue": "Français",
+    "description": "Le registre des traitements expliqué pas à pas : finalités, bases légales, durées de conservation, sécurité et validation. Le TD de ce cours te demande exactement ce travail pour une clinique : la vidéo montre sa forme concrète dans un outil dédié.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Qu’est ce que la cybercriminalité",
+    "chaine": "Expert Informatique",
+    "url": "https://www.youtube.com/watch?v=APHQNI1aRJQ",
+    "langue": "Français",
+    "description": "Une présentation des principales formes de cybercriminalité rencontrées par les enquêteurs : intrusions, escroqueries en ligne, atteintes aux systèmes et usurpations d'identité. Elle illustre les familles d'infractions de la leçon 5 du point de vue de l'investigation.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "La preuve numérique au travail (adresse IP, signature électronique...)",
+    "chaine": "HAAS Avocats - Droit IT-IP",
+    "url": "https://www.youtube.com/watch?v=XYF92p0PQAo",
+    "langue": "Français",
+    "description": "Des avocats spécialisés discutent de la valeur des preuves numériques : adresse IP comme donnée personnelle, recevabilité des enregistrements et différence entre signature simple et qualifiée. Un prolongement direct de la leçon 6 pour comprendre comment les juges raisonnent.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
