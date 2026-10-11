@@ -1484,5 +1484,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L2-08": {
+  "pdf": "pdf/INF-L2-08.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Le protocole HTTP pour les débutants - Théorie + démo",
+    "chaine": "IT-Connect - Florian",
+    "url": "https://www.youtube.com/watch?v=gKxKWwikP_c",
+    "langue": "Français",
+    "description": "Une présentation claire du protocole HTTP : requêtes, réponses, versions et ports, suivie d'une démonstration avec un vrai serveur Apache, cURL et Wireshark. Le complément visuel idéal de la leçon 1 pour voir les échanges en texte brut.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Découvrir le JavaScript_chp-19! L'usage de l'API Fetch",
+    "chaine": "Ronasdev",
+    "url": "https://www.youtube.com/watch?v=MvimkeZcwaE",
+    "langue": "Français",
+    "description": "Un chapitre entier consacré à l'API Fetch : effectuer des requêtes HTTP depuis JavaScript, traiter les réponses et comprendre la différence avec l'ancien XMLHttpRequest. À regarder en codant en parallèle l'exemple de la leçon 3.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "XSS et mots de passe : Le danger du remplissage automatique",
+    "chaine": "Secureaks",
+    "url": "https://www.youtube.com/watch?v=Bt9zuKGLlCc",
+    "langue": "Français",
+    "description": "Un pentester montre concrètement comment une faille XSS peut être exploitée pour voler des identifiants enregistrés dans le navigateur. La démonstration rend tangible le danger que l'échappement des sorties, vu en leçon 6, empêche.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "[CS06] Pentesting 1 , démonstration d'attaque Web et sécurisation de l'application Speaky.fr",
+    "chaine": "Julien Code",
+    "url": "https://www.youtube.com/watch?v=y_xTq0AJ2FY",
+    "langue": "Français",
+    "description": "Un test d'intrusion filmé, réalisé avec autorisation sur une vraie petite application web : les failles sont exploitées puis corrigées une à une. Parfait pour voir comment les failles de la leçon 6 s'enchaînent dans la réalité.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Héberger un site web gratuitement avec Netlify",
+    "chaine": "Futura Code",
+    "url": "https://www.youtube.com/watch?v=ZcMp6nJzVA8",
+    "langue": "Français",
+    "description": "La mise en ligne pas à pas d'un site sur une plateforme d'hébergement moderne : préparation des fichiers, déploiement, obtention de l'URL publique. Un premier aperçu concret du geste de déploiement étudié en leçon 7.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
