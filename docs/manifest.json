@@ -488,5 +488,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-11": {
+  "pdf": "pdf/INF-L1-11.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Logique, Raisonnement, Ensembles, Relations & Applications | Cours complet L1",
+    "chaine": "MathAmphi",
+    "url": "https://www.youtube.com/watch?v=INMroQK0zqk",
+    "langue": "Français",
+    "description": "Un cours complet de niveau L1 dont la première partie couvre exactement nos leçons 1 à 3 : propositions, connecteurs, tables de vérité, lois de De Morgan, contraposée et quantificateurs. À regarder en plusieurs fois, en suivant le plan du cours.",
+    "niveau": "Licence 1"
+   },
+   {
+    "titre": "MPSI/PCSI - Cours complet de logique",
+    "chaine": "CPGE MP",
+    "url": "https://www.youtube.com/watch?v=A6pl0_hjla4",
+    "langue": "Français",
+    "description": "Le début de la vidéo construit méthodiquement les tables de vérité de la négation, du et, du ou, de l'implication et de l'équivalence, puis enchaîne sur un exercice de lois de Morgan et sur les quantificateurs. Parfait pour consolider la méthode des tables avant le TD.",
+    "niveau": "Licence 1 / CPGE"
+   },
+   {
+    "titre": "La MÉTHODE pour RÉUSSIR toutes vos DÉMONSTRATIONS en Maths (Logique & Ensembles) | Prépa/Licence #1",
+    "chaine": "saga math",
+    "url": "https://www.youtube.com/watch?v=dwVkzWhkhv4",
+    "langue": "Français",
+    "description": "Une vidéo centrée sur la pratique des démonstrations : implication, contraposée et raisonnement par l'absurde y sont expliqués puis appliqués à des exercices corrigés en détail. C'est le prolongement direct de notre leçon 4, avec la même exigence de rédaction.",
+    "niveau": "Licence 1 / CPGE"
+   },
+   {
+    "titre": "Logique Numérique et Algèbre de Boole – Partie 13 : Simplification Booléenne | Tache-Lik.tn",
+    "chaine": "TacheLik",
+    "url": "https://www.youtube.com/watch?v=D3gJCU97QRQ",
+    "langue": "Français",
+    "description": "Trois simplifications booléennes menées pas à pas avec les théorèmes de l'algèbre de Boole, dans l'esprit de notre leçon 5. Mets la vidéo en pause avant chaque étape pour tenter d'appliquer toi-même la loi suivante.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Algèbre de Boole : simplification d'expressions",
+    "chaine": "Méthode Maths",
+    "url": "https://www.youtube.com/watch?v=jDKNl8G17z0",
+    "langue": "Français",
+    "description": "Des exercices de simplification d'expressions booléennes corrigés de façon détaillée, avec les lois rappelées au fur et à mesure. Un bon entraînement complémentaire après l'exercice de la leçon 5, notamment avant d'aborder les tableaux de Karnaugh en électronique numérique.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
