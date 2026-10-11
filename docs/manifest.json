@@ -4508,5 +4508,51 @@
     "niveau": "Intermédiaire à avancé"
    }
   ]
+ },
+ "BBA-L2-02": {
+  "pdf": "pdf/BBA-L2-02.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Gestion Financière : Choix d’Investissement - Application Pratique - (Partie 1)",
+    "chaine": "Abdellah Ounejjar ",
+    "url": "https://www.youtube.com/watch?v=iEzumtyLP8A",
+    "langue": "Français",
+    "description": "Une application complète de choix d'investissement : calcul du capital investi, des flux de trésorerie, puis de la VAN étape par étape. À travailler en parallèle de la leçon 3, calculatrice à la main.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "30_Analyse financière choix d'investissement exercice corrigé valeur actuelle nette VAN taux interne",
+    "chaine": "Almokawil",
+    "url": "https://www.youtube.com/watch?v=oRBFUD_F17k",
+    "langue": "Français",
+    "description": "Un exercice corrigé qui enchaîne VAN, indice de profitabilité et TIR sur le même cas. Utile pour t'entraîner à passer d'un critère à l'autre sans confondre leurs rôles.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Gestion Financière : Le CMPC devient facile ! Guide complet + Exercice.",
+    "chaine": "Abdellah Ounejjar ",
+    "url": "https://www.youtube.com/watch?v=jvJFR_sbYxw",
+    "langue": "Français",
+    "description": "Le coût moyen pondéré du capital expliqué de la définition à l'application corrigée : le prolongement direct de la leçon 4, avec l'idée clé que le CMPC sert de barre à franchir pour les projets.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Gestion Financière : Comprendre l’emprunt obligataire & Crédit bail",
+    "chaine": "Abdellah Ounejjar ",
+    "url": "https://www.youtube.com/watch?v=iHbw8J-_Pe0",
+    "langue": "Français",
+    "description": "Après l'emprunt obligataire, la vidéo présente le crédit-bail, ses caractéristiques et ses avantages et inconvénients : exactement le mécanisme comparé dans la leçon 6.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Le crédit bail : Calcul du taux d'emprunt implicite",
+    "chaine": "Faculté de Finance, Banque, Comptabilité (FFBC Université Lille 2)",
+    "url": "https://www.youtube.com/watch?v=Z9yi5YjfqFA",
+    "langue": "Français",
+    "description": "Un cours universitaire court qui calcule le taux implicite d'un contrat de crédit-bail : pour aller plus loin que la comparaison de la leçon 6 et comprendre ce que les loyers contiennent réellement.",
+    "niveau": "Avancé"
+   }
+  ]
  }
 }
