@@ -304,5 +304,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-09": {
+  "pdf": "pdf/INF-L1-09.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Créer une TABLE DES MATIÈRES automatique [Cours WORD] + Numérotation des titres + STYLES",
+    "chaine": "Thom Reo",
+    "url": "https://www.youtube.com/watch?v=71645Z8g7rY",
+    "langue": "Français",
+    "description": "Le cours filmé qui correspond exactement à la leçon 2 : appliquer et modifier les styles de titres, les numéroter automatiquement, puis générer et mettre à jour la table des matières d'un mémoire ou d'un rapport. À suivre avec ton propre document ouvert à côté pour refaire chaque étape.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Excel : les Fonctions et Formules les plus UTILES !",
+    "chaine": "Bertrand . Tech",
+    "url": "https://www.youtube.com/watch?v=T6gm5MQ0URc",
+    "langue": "Français",
+    "description": "Un panorama des fonctions qui servent tous les jours : SOMME, MOYENNE, MIN, MAX, NB et NB.SI, la fonction SI avec ET et OU, SOMME.SI et un aperçu de RECHERCHEV. Idéal pour réviser la leçon 3 et découvrir les fonctions qui prolongent le cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Maîtriser la Fonction SI dans Excel & LibreOffice Calc (Guide Débutant à Pro !)",
+    "chaine": "MONA TECHNOLOGY",
+    "url": "https://www.youtube.com/watch?v=C7fIoXK8z64",
+    "langue": "Français",
+    "description": "La fonction SI expliquée pas à pas, dans Excel ET dans LibreOffice Calc : condition, valeur si vrai, valeur si faux, puis des conditions imbriquées pour automatiser mentions et décisions. Parfait pour les étudiants qui travaillent sur la suite gratuite installée en salle informatique.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Résume 300 lignes Excel en 30s : tableau croisé dynamique",
+    "chaine": "Heurenaute",
+    "url": "https://www.youtube.com/watch?v=cKtPAWLxvOc",
+    "langue": "Français",
+    "description": "Une démonstration courte et parlante : une longue liste de ventes devient, en quelques glisser-déposer dans les zones Lignes et Valeurs, un résumé clair par catégorie. Regarde-la avant de refaire l'exercice de la leçon 4 sur les inscriptions du club.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "MEGA TUTO : Les BASES de POWERPOINT - 2H de formation gratuite pour débutant sur Powerpoint français",
+    "chaine": "Bertrand . Tech",
+    "url": "https://www.youtube.com/watch?v=XgrUBYc9ATE",
+    "langue": "Français",
+    "description": "Deux heures pour prendre en main PowerPoint : dispositions, thèmes, images, tableaux, graphiques, transitions et animations, avec des chapitres qui permettent d'aller directement au point qui t'intéresse. Un complément complet à la leçon 5 pour préparer une soutenance.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
