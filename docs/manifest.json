@@ -718,5 +718,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L1-17": {
+  "pdf": "pdf/INF-L1-17.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "DOMINER L'ALGÈBRE LINÉAIRE : LE GUIDE ULTIME",
+    "chaine": "Tekno Math",
+    "url": "https://www.youtube.com/watch?v=jlhlN8FEY1A",
+    "langue": "Français",
+    "description": "Une vue d'ensemble structurée de l'algèbre linéaire : espaces vectoriels, matrices, déterminants et résolution de systèmes par le pivot de Gauss. Parfait pour situer les leçons 1 à 3 dans le paysage général avant de les travailler en détail.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Pivot de Gauss, matrices échelonnées, rang, l’inverse d’une matrice, systèmes linéaires et binôme",
+    "chaine": "Mounia Zaabi",
+    "url": "https://www.youtube.com/watch?v=2LXPR8yPPzc",
+    "langue": "Français",
+    "description": "Le pivot de Gauss expliqué pas à pas : mise sous forme échelonnée, rang, discussion des systèmes linéaires et calcul de l'inverse d'une matrice par la même méthode. Le complément direct de la leçon 3 et du TD 1.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "LE COURS : Notion de limite d'une fonction - Terminale",
+    "chaine": "Yvan Monka",
+    "url": "https://www.youtube.com/watch?v=YPwJyYDsmxM",
+    "langue": "Français",
+    "description": "Le cours complet sur la notion de limite : limite finie ou infinie, à l'infini ou en un réel, limites à gauche et à droite, asymptotes. À regarder avant la leçon 4, puis refaire les exemples du document juste après.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Dérivation d'une fonction en un point —  Interprétation — 2BAC PC/SVT",
+    "chaine": "MIGROUNE Math",
+    "url": "https://www.youtube.com/watch?v=BR8mW0cMOkY",
+    "langue": "Français",
+    "description": "Le nombre dérivé en un point et son interprétation géométrique comme pente de la tangente, expliqués avec soin. C'est le socle de la leçon 5 : bien le comprendre rend ensuite les formules de dérivation évidentes.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les Suites Numériques - Cours et Exercices corrigés - 2Bac – [Partie1]",
+    "chaine": "Math & Phys",
+    "url": "https://www.youtube.com/watch?v=pA2XEI1Uv_s",
+    "langue": "Français",
+    "description": "Cours et exercices corrigés sur les suites numériques : suites bornées, monotonie, suites arithmétiques et géométriques avec leurs sommes. Un entraînement filmé idéal pour prolonger la leçon 6 et tester les formules de sommes.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
