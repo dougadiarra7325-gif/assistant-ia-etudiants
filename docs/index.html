@@ -400,8 +400,19 @@ voiceBtn.addEventListener("click", () => {
 refreshVoiceBtn();
 const micBtn = document.getElementById("mic-btn");
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-if (!SR) micBtn.style.display = "none";
-else micBtn.addEventListener("click", () => {
+window.onDictationResult = function(texte){
+  micBtn.textContent = "🎤 Dicter";
+  const t = (texte || "").trim();
+  if (t) ask(t);
+};
+micBtn.addEventListener("click", () => {
+  if (window.AndroidDictation && typeof window.AndroidDictation.startDictation === "function"){
+    micBtn.textContent = "🎙 Écoute… parle !";
+    try { window.AndroidDictation.startDictation(); }
+    catch(e){ micBtn.textContent = "🎤 Dicter"; alert("Le micro n'a pas marché : vérifie l'autorisation du microphone dans Chrome."); }
+    return;
+  }
+  if (!SR){ alert("Le micro n'a pas marché : vérifie l'autorisation du microphone dans Chrome."); return; }
   const r = new SR(); r.lang = "fr-FR"; r.interimResults = false;
   micBtn.textContent = "🎙 Écoute… parle !";
   r.onresult = e => { micBtn.textContent = "🎤 Dicter"; ask(e.results[0][0].transcript); };
