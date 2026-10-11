@@ -396,5 +396,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-10": {
+  "pdf": "pdf/INF-L1-10.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Logique, Raisonnement, Ensembles, Relations & Applications | Cours complet L1",
+    "chaine": "MathAmphi",
+    "url": "https://www.youtube.com/watch?v=INMroQK0zqk",
+    "langue": "Français",
+    "description": "Un cours complet de niveau L1 qui couvre les ensembles (opérations, complémentaire, produit cartésien) puis les relations et les applications. Parfait pour consolider les leçons 1 et 2 avec un point de vue universitaire.",
+    "niveau": "Licence 1"
+   },
+   {
+    "titre": "🔴 LIVE – Dénombrement Ensembles Union Intersection Diagrammes | Cours & exercices | Terminale Spé",
+    "chaine": "Faire Les 2kpi",
+    "url": "https://www.youtube.com/watch?v=P3SDn9pVO5w",
+    "langue": "Français",
+    "description": "Un cours en direct consacré aux ensembles : appartenance, inclusion, union, intersection, différence et diagrammes de Venn, avec des exercices corrigés au fur et à mesure. Idéal pour s'entraîner sur la lecture des diagrammes de la leçon 1.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Tout ce qu'il faut savoir sur le dénombrement (P-uplets, Permutations, arrangements & combinaisons)",
+    "chaine": "J'ai 20 en maths",
+    "url": "https://www.youtube.com/watch?v=XixjLYTJVho",
+    "langue": "Français",
+    "description": "La synthèse du chapitre de dénombrement : p-uplets, permutations, arrangements et combinaisons, avec des exemples commentés (lancers de dé, photos de groupe, tiercés, mains de cartes). À regarder avant les exercices de la leçon 3 pour fixer le choix du bon régime.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Raisonnement par récurrence 🚀 Comprendre la méthode 💪 Cours + Exemple détaillé 💥 Terminale spé maths",
+    "chaine": "jaicompris Maths",
+    "url": "https://www.youtube.com/watch?v=NXHqtN59wSk",
+    "langue": "Français",
+    "description": "La méthode de récurrence expliquée pas à pas sur l'exemple même du cours : démontrer que 1 + 2 + … + n = n(n + 1)/2. Initialisation, hérédité, conclusion : la rédaction modèle à imiter dans tes copies.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "10 Maîtriser les Graphes",
+    "chaine": "Elisabeth Le Prettre",
+    "url": "https://www.youtube.com/watch?v=ZwY-jk6HTqc",
+    "langue": "Français",
+    "description": "Une révision complète des graphes : sommets, arêtes, degré, chaînes, cycles, connexité, puis les représentations (matrice et listes d'adjacence) et les parcours en largeur et en profondeur. Elle prolonge les leçons 5 et 6 vers l'algorithmique des graphes.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
