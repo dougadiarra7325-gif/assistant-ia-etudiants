@@ -1714,5 +1714,35 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L2-15": {
+  "pdf": "pdf/INF-L2-15.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Introduction Script Bash sur Linux",
+    "chaine": "IT-Connect - Florian",
+    "url": "https://www.youtube.com/watch?v=gBCGeLjYBgQ",
+    "langue": "Français",
+    "description": "Une première prise en main complète du script bash : ce qu'est bash, écrire et lancer son premier script, enchaîner les commandes et utiliser les tubes. Le point de départ idéal avant les leçons 1 et 2 de ce cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Scripting bash : 6 - Tableaux, IFS et substitutions",
+    "chaine": "Ordirepar",
+    "url": "https://www.youtube.com/watch?v=MjaBXSKRv-U",
+    "langue": "Français",
+    "description": "Un épisode avancé de la série Scripting bash d'Ordirepar : tableaux, rôle précis de la variable IFS dans la lecture de fichiers et substitutions de variables et de commandes. À regarder après la leçon 2 pour consolider les lectures ligne par ligne.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "On faisait comment avant Excel ??",
+    "chaine": "Chaine-Archive",
+    "url": "https://www.youtube.com/watch?v=nFVNBBgoTNY",
+    "langue": "Français",
+    "description": "Manipuler des données (journaux, CSV) en ligne de commande avec awk : filtrage, transformation et agrégation en flux, avec des cas concrets où awk surpasse le tableur. Le prolongement direct et motivant de la leçon 4.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
