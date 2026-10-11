@@ -1622,5 +1622,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L2-12": {
+  "pdf": "pdf/INF-L2-12.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Cours 3 – Les principales menaces en cybersécurité",
+    "chaine": "Mr REWINDE JEAN | Cybersécurité",
+    "url": "https://www.youtube.com/watch?v=Sjp996XQMMw",
+    "langue": "Français",
+    "description": "Un cours clair qui passe en revue les menaces les plus courantes — hameçonnage, virus, chevaux de Troie, rançongiciels, mots de passe faibles et systèmes non mis à jour. Parfait pour fixer le vocabulaire de la leçon 1 avant d'entrer dans le détail.",
+    "niveau": "L2 — début du cours"
+   },
+   {
+    "titre": "Tous les virus informatiques expliqués en 11 minutes",
+    "chaine": "RYXACORE",
+    "url": "https://www.youtube.com/watch?v=VBsU2blmK6Y",
+    "langue": "Français",
+    "description": "La grande famille des malwares présentée de façon visuelle : virus, ver, cheval de Troie, rançongiciel, rootkit et réseaux de machines zombies, avec leurs portes d'entrée et les gestes de protection. Un complément idéal à la leçon 2.",
+    "niveau": "L2 — débutant à intermédiaire"
+   },
+   {
+    "titre": "Le chiffrement symétrique - AES expliqué",
+    "chaine": "Mickaël Dupont",
+    "url": "https://www.youtube.com/watch?v=5ZEYKk8BHcE",
+    "langue": "Français",
+    "description": "Comment fonctionne AES, l'algorithme symétrique de référence : ses étapes internes sont expliquées pas à pas avec des schémas. À regarder après la leçon 3 pour voir ce qui se passe réellement derrière le mot « chiffrer ».",
+    "niveau": "L2 — intermédiaire"
+   },
+   {
+    "titre": "Comprendre la cryptographie par la pratique avec OpenSSL",
+    "chaine": "alumbo",
+    "url": "https://www.youtube.com/watch?v=MdVpxNHDXtc",
+    "langue": "Français",
+    "description": "La cryptographie asymétrique en pratique : génération d'une paire de clés RSA avec OpenSSL, chiffrement avec la clé publique et déchiffrement avec la clé privée. Tu y verras concrètement les rôles exacts de chaque clé.",
+    "niveau": "L2 — intermédiaire"
+   },
+   {
+    "titre": "Cryptographie,  chiffrement et hachage : comment ça marche ? | PKI, openssl",
+    "chaine": "Techno",
+    "url": "https://www.youtube.com/watch?v=NJT4g5gu50c",
+    "langue": "Français",
+    "description": "Un tour complet et démonstratif : chiffrement symétrique et asymétrique, fonctions de hachage et infrastructure à clés publiques, avec des manipulations sous OpenSSL. Idéal pour relier les leçons 3 et 4 et ne plus confondre chiffrer et hacher.",
+    "niveau": "L2 — intermédiaire"
+   }
+  ]
  }
 }
