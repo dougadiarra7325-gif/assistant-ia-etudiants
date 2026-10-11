@@ -350,5 +350,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-08": {
+  "pdf": "pdf/INF-L1-08.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "01 - Introduction aux Systèmes d'Exploitation",
+    "chaine": "professeur youssef",
+    "url": "https://www.youtube.com/watch?v=98atyiXNXgk",
+    "langue": "Français",
+    "description": "Une introduction claire au rôle du système d'exploitation comme intermédiaire entre le matériel et les logiciels. Elle pose les notions de gestion des ressources et d'interface utilisateur qui ouvrent ce cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Système d’exploitation : la gestion des processus – ch 1.3",
+    "chaine": "MOOC NSI : Numérique et Sciences Informatiques",
+    "url": "https://www.youtube.com/watch?v=PnHXpUGVWNI",
+    "langue": "Français",
+    "description": "Cette vidéo de MOOC explique comment le système fait fonctionner plusieurs processus en quasi-parallèle sur un même processeur. Elle illustre directement les états et les changements de contexte de la leçon 2.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Gestion des Processus  - Travaux Dirigées TD",
+    "chaine": "Cours.ComputerScience",
+    "url": "https://www.youtube.com/watch?v=8BiLyvbspT4",
+    "langue": "Français",
+    "description": "Un TD filmé qui applique FCFS, SJF, le tourniquet (Round Robin) et les priorités sur des exercices d'ordonnancement. Parfait pour vérifier ta méthode après le TD de ce cours, calculs à l'appui.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Tutoriel Shell: 10 Commandes Bash pour Débutants",
+    "chaine": "AmbreCode",
+    "url": "https://www.youtube.com/watch?v=2RC2ZnXMBPE",
+    "langue": "Français",
+    "description": "Les dix commandes de base du terminal (pwd, ls, cd, mkdir, touch, cp, mv, rm, cat, echo) démontrées une à une. À regarder terminal ouvert pour reproduire chaque commande en même temps.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Installer Linux : les 3 méthodes en 1 vidéo (du débutant au confirmé)",
+    "chaine": "HelloLinux 🐧",
+    "url": "https://www.youtube.com/watch?v=_DzVc12Kzto",
+    "langue": "Français",
+    "description": "Créer une clé USB démarrable, tester Linux dans une machine virtuelle ou l'installer en dual boot à côté de Windows : les trois voies d'installation de la leçon 7, montrées pas à pas. La méthode machine virtuelle est celle recommandée pour le TP associé à ce cours.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
