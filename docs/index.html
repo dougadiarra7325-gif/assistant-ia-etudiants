@@ -7,8 +7,10 @@
 <style>
 :root{--navy:#0b2545;--gold:#c9a227;--ink:#1a1a1a;--mut:#5a6a7f;--line:#dbe2ec;--bg:#f5f7fa}
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}
-.topbar{background:var(--navy);color:#fff;padding:12px 16px;font-weight:800;font-size:20px}
+.topbar{background:var(--navy);color:#fff;padding:12px 16px;font-weight:800;font-size:20px;display:flex;align-items:center;gap:12px}
+.topbar img{height:42px;width:auto}
 .topbar span{color:var(--gold)}
+.wa-btn{display:block;margin-top:10px;background:#25d366;color:#06300f;font-weight:700;text-align:center;padding:10px 12px;border-radius:10px;text-decoration:none;font-size:14px}
 .wrap{max-width:860px;margin:0 auto;padding:16px}
 .hero{background:linear-gradient(135deg,var(--navy),#123a6b);color:#fff;border-radius:14px;padding:22px;margin-bottom:14px}
 .hero h1{margin:0 0 6px;font-size:25px}.hero p{margin:0;color:#cfdaea}
@@ -36,7 +38,7 @@ a{color:var(--navy)}
 </style>
 </head>
 <body>
-<header class="topbar">Assistant<span>·</span>Étudiant IAM</header>
+<header class="topbar"><img src="logo-iam-blanc.png" alt="Groupe IAM — Institut Africain de Management"><div>Assistant<span>·</span>Étudiant IAM</div></header>
 <main class="wrap">
   <section class="hero">
     <h1>Bonjour, je suis ton assistant étudiant 👋</h1>
@@ -82,11 +84,12 @@ a{color:var(--navy)}
 
 <script>
 const STOP = new Set("le la les de des du un une et est je tu il elle on nous vous ils a au aux en dans sur pour avec que qui quoi comment quand ou ce se sa son mes mon ma tes ton ta cette ces pas plus faire".split(" "));
+const ACR = new Set(["cv","ia","rh","ue","sql","php","bba","mba","dba","big","gbba","lmd","web"]);
 let KB = [];
 const norm = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
 function findAnswer(text){
   const n = norm(text);
-  const words = n.split(" ").filter(w => !STOP.has(w) && w.length > 2);
+  const words = n.split(" ").filter(w => !STOP.has(w) && (w.length > 2 || ACR.has(w)));
   let best = null, bestScore = 0; const scored = [];
   for (const row of KB){
     let score = 0;
@@ -95,7 +98,7 @@ function findAnswer(text){
       if (kw.includes(" ")){ if (n.includes(kw)) score += 3 * kw.split(" ").length; }
       else if (words.includes(kw)) score += 2;
     }
-    const qw = norm(row.question).split(" ").filter(w => !STOP.has(w) && w.length > 2);
+    const qw = norm(row.question).split(" ").filter(w => !STOP.has(w) && (w.length > 2 || ACR.has(w)));
     score += qw.filter(w => words.includes(w)).length;
     if (score > 0) scored.push([score, row]);
     if (score > bestScore){ best = row; bestScore = score; }
@@ -212,10 +215,28 @@ function tryCalc(text){
   return "🧮 " + aff + " = " + fmtNum(val) + ".";
 }
 // === FIN CALCULATRICE ===
+let pendingQuestion = null;
+function waLink(question, numero){
+  const a = document.createElement("a");
+  a.className = "wa-btn"; a.target = "_blank"; a.rel = "noopener";
+  let msg = "Bonjour Douga, je suis un étudiant de l'IAM. L'assistant n'a pas su répondre à ma question : « " + question + " ».";
+  if (numero) msg += " Mon numéro : " + numero + ".";
+  msg += " Peux-tu me répondre et m'expliquer le reste ? Merci.";
+  a.href = "https://wa.me/22373255873?text=" + encodeURIComponent(msg);
+  a.textContent = "📲 Envoyer ma question à Douga sur WhatsApp";
+  return a;
+}
 async function ask(text){
   addMsg(text, "user");
   const calc = tryCalc(text);
-  if (calc){ addMsg(calc, "bot", "Calcul intégré — sans IA"); return; }
+  if (calc){ addMsg(calc, "bot", "Calcul intégré"); return; }
+  const digits = text.replace(/\D/g, "");
+  if (pendingQuestion && digits.length >= 8 && digits.length <= 15 && /^[+\d][\d\s.\-]*$/.test(text.trim())){
+    const q = pendingQuestion; pendingQuestion = null;
+    const d = addMsg("Merci ! Ta question est prête. Clique sur le bouton vert pour l'envoyer à Douga sur WhatsApp : il te répondra et t'expliquera le reste.", "bot", "Question à transmettre");
+    d.appendChild(waLink(q, digits));
+    return;
+  }
   const { row, sugg } = findAnswer(text);
   if (row){ addMsg(row.reponse, "bot", row.categorie); return; }
   const wait = addMsg("…", "bot");
@@ -223,11 +244,18 @@ async function ask(text){
   const res = await gemini(text, ctx);
   if (res.text){ wait.textContent = res.text; const s = document.createElement("div"); s.className = "cat"; s.textContent = "Réponse IA — Google Gemini"; wait.appendChild(s); }
   else {
-    let rep = "Je n'ai pas encore la réponse à cette question. En attendant, le secrétariat de l'IAM peut te renseigner directement.";
-    if (!localStorage.getItem("gemini_key")) rep += " Astuce : active la vraie IA ci-dessous avec une clé gratuite pour que je réponde à bien plus de questions.";
-    else if (res.err) rep += "\n\n(Détail IA : " + res.err + " — vérifie ta clé dans la section « Vraie IA » ci-dessous, bouton « Tester ma clé ».)";
-    if (sugg.length) rep += " Peut-être que tu cherches : " + sugg.map(s => "« " + s.question + " »").join(" ; ");
+    pendingQuestion = text;
+    let rep;
+    if (res.err && (res.err.includes("API key not valid") || res.err.includes("INVALID_ARGUMENT"))){
+      localStorage.removeItem("gemini_key"); refreshIa();
+      rep = "La clé enregistrée sur ce navigateur n'est pas une vraie clé Gemini — une vraie clé commence par « AIza ». Je l'ai retirée : la base et la calculatrice continuent de marcher. Pour la vraie IA, colle ta clé d'AI Studio dans la section « Vraie IA » ci-dessous. En attendant, tu peux transmettre ta question à Douga :";
+    } else {
+      rep = "Je n'ai pas encore la réponse à cette question. Écris-moi ton numéro WhatsApp ici, ou clique le bouton vert : ta question sera envoyée à Douga (73 25 58 73), qui te répondra et t'expliquera le reste.";
+      if (!localStorage.getItem("gemini_key")) rep += " Astuce : active aussi la vraie IA ci-dessous pour que je réponde à bien plus de questions.";
+      if (sugg.length) rep += " Peut-être que tu cherches : " + sugg.map(s => "« " + s.question + " »").join(" ; ");
+    }
     wait.textContent = rep;
+    wait.appendChild(waLink(text, ""));
   }
   box.scrollTop = box.scrollHeight;
 }
@@ -255,7 +283,9 @@ document.getElementById("ia-test").addEventListener("click", async () => {
   const out = document.getElementById("ia-test-result");
   out.textContent = "Test en cours…";
   const res = await gemini("Dis bonjour en une phrase à un étudiant de l'IAM.", "");
-  out.textContent = res.text ? ("✅ L'IA répond : « " + res.text + " »") : ("❌ L'IA ne répond pas — détail : " + res.err);
+  if (res.text) out.textContent = "✅ L'IA répond : « " + res.text + " »";
+  else if (res.err && (res.err.includes("API key not valid") || res.err.includes("INVALID_ARGUMENT"))){ localStorage.removeItem("gemini_key"); refreshIa(); out.textContent = "❌ Cette clé n'est pas une vraie clé Gemini (elle doit commencer par « AIza ») : je l'ai retirée. Colle ta clé copiée depuis aistudio.google.com/apikey."; }
+  else out.textContent = "❌ L'IA ne répond pas — détail : " + res.err;
 });
 fetch("kb.json?ts=" + Date.now(), { cache: "no-store" }).then(r => r.json()).then(data => {
   KB = data;

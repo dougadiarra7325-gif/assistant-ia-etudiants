@@ -221,6 +221,25 @@ SEED_QNA = [
     ("Calculs et notes", "Comment convertir des FCFA en euros ?",
      "convertir,fcfa,euros,taux de change,conversion,franc cfa",
      "Le franc CFA (XOF) a un taux fixe avec l'euro : 1 € = 655,957 FCFA, soit environ 656 FCFA. Pour convertir des FCFA en euros, divise par 656 : par exemple 65 600 FCFA ≈ 100 €. Pour les dollars ou d'autres devises, le taux change chaque jour : vérifie le taux du jour."),
+    # ---------------- IAM : frais et diplômes ----------------
+    ("Administration", "Quels sont les frais de scolarité à l'IAM ?",
+     "frais,scolarite,prix,coute,combien coute,tarifs,montant annuel,payer etudes,scolarite iam",
+     "Pour la Licence à l'IAM de Bamako, les frais de scolarité communiqués sont : 1re année : 1 095 000 FCFA ; 2e année : 1 025 000 FCFA ; 3e année : 1 000 000 FCFA. Ces montants peuvent varier selon la filière et l'année : confirme toujours le montant exact et les échéances de paiement au secrétariat ou au service de la scolarité."),
+    ("Études et orientation", "C'est quoi la Licence ?",
+     "licence,c est quoi licence,diplome licence,bac+3",
+     "La Licence est le diplôme universitaire obtenu en 3 ans après le baccalauréat (6 semestres, 180 crédits dans le système LMD). C'est le premier niveau : après la Licence, on peut travailler ou continuer vers le Master."),
+    ("Études et orientation", "C'est quoi le Master ?",
+     "master,c est quoi master,diplome master,bac+5,mastere",
+     "Le Master est le diplôme obtenu en 2 ans après la Licence (4 semestres, 120 crédits), soit un niveau bac+5. Il permet de se spécialiser et d'accéder à des postes à responsabilités, ou de continuer vers le doctorat."),
+    ("Études et orientation", "C'est quoi le système LMD ?",
+     "lmd,systeme lmd,licence master doctorat,reforme lmd",
+     "Le système LMD (Licence – Master – Doctorat) organise les études supérieures en 3 niveaux : Licence en 3 ans, Master en 2 ans, Doctorat en 3 ans. Les cours sont découpés en semestres et en unités d'enseignement (UE) qui rapportent des crédits capitalisables."),
+    ("Vie universitaire", "C'est quoi un semestre ?",
+     "semestre,c est quoi semestre,annee scolaire,semestre 1,semestre 2",
+     "Un semestre est une moitié d'année universitaire, d'environ 5 à 6 mois. Une année compte 2 semestres : par exemple la Licence 1 couvre les semestres 1 et 2, la Licence 2 les semestres 3 et 4. Chaque semestre a ses propres cours (UE) et ses examens."),
+    ("Vie universitaire", "Comment réussir sa première année à l'université ?",
+     "reussir,premiere annee,conseils reussite,debuter universite,l1",
+     "Pour réussir ta première année : 1) va à tous les cours dès le début — les bases ratées se paient toute l'année ; 2) relis tes cours chaque semaine ; 3) pose des questions aux enseignants et aux aînés ; 4) organise ton planning et ton budget dès le premier mois ; 5) forme un petit groupe de travail sérieux. La régularité bat toujours le sprint de dernière minute."),
 ]
 
 app = Flask(__name__)
@@ -277,6 +296,8 @@ STOPWORDS = {"le", "la", "les", "de", "des", "du", "un", "une", "et", "est",
              "aux", "en", "dans", "sur", "pour", "avec", "que", "qui", "quoi",
              "comment", "quand", "ou", "ce", "se", "sa", "son", "mes", "mon",
              "ma", "tes", "ton", "ta", "cette", "ces", "pas", "plus", "faire"}
+ACRONYMES = {"cv", "ia", "rh", "ue", "sql", "php", "bba", "mba", "dba",
+             "big", "gbba", "lmd", "web"}
 
 
 def normalize(text):
@@ -289,7 +310,7 @@ def normalize(text):
 def answer_question(text):
     """Retourne (qna_row | None, suggestions). Recherche par mots-clés pondérés."""
     norm = normalize(text)
-    words = [w for w in norm.split() if w not in STOPWORDS and len(w) > 2]
+    words = [w for w in norm.split() if w not in STOPWORDS and (len(w) > 2 or w in ACRONYMES)]
     rows = get_db().execute("SELECT * FROM qna").fetchall()
     best, best_score = None, 0
     scored = []
@@ -305,7 +326,7 @@ def answer_question(text):
             elif kw in words:
                 score += 2
         q_words = [w for w in normalize(row["question"]).split()
-                   if w not in STOPWORDS and len(w) > 2]
+                   if w not in STOPWORDS and (len(w) > 2 or w in ACRONYMES)]
         score += sum(1 for w in q_words if w in words)
         if score > 0:
             scored.append((score, row))
@@ -432,7 +453,7 @@ def index():
     return render_template("index.html", exemples=[r["question"] for r in exemples])
 
 
-# ---------------- Calculatrice intégrée (sans IA) ----------------
+# ---------------- Calculatrice intégrée ----------------
 def _fmt_num(v):
     if v != v or v in (float("inf"), float("-inf")):
         return "∞"
@@ -563,6 +584,8 @@ def api_chat():
     if suggestions:
         rep += " Peut-être que tu cherches : " + " ; ".join(
             f"« {s['question']} »" for s in suggestions)
+    rep += (" Tu peux aussi transmettre ta question à Douga sur WhatsApp au "
+            "73 25 58 73 : il te répondra et t'expliquera le reste.")
     return jsonify({"reponse": rep, "trouve": False, "ia": False})
 
 
