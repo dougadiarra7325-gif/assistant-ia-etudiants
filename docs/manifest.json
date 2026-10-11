@@ -2080,5 +2080,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L2-23": {
+  "pdf": "pdf/INF-L2-23.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Comment rédiger un cahier de charges",
+    "chaine": "AGLSoft Officiel !",
+    "url": "https://www.youtube.com/watch?v=Y56ZZToiUUI",
+    "langue": "Français",
+    "description": "Les rubriques indispensables d'un cahier des charges et la manière de les rédiger sans oublier les contraintes. À regarder avant d'écrire la première version du cahier des charges de ton équipe.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Partie 1  Comment écrire un cahier de charges PRO (Méthode simple pour freelances  développe #shorts",
+    "chaine": "Konno Fuente",
+    "url": "https://www.youtube.com/watch?v=EJn46Xb3MGI",
+    "langue": "Français",
+    "description": "Une méthode pas à pas pour structurer un cahier des charges professionnel, des fonctionnalités aux scénarios d'utilisation. Utile pour transformer un besoin flou en fonctions numérotées et testables.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "[Gestion de Projet] Leçon 3 : Initiation de projet et définition du contenu",
+    "chaine": "Self Education",
+    "url": "https://www.youtube.com/watch?v=QUeJ0qmN9DA",
+    "langue": "Français",
+    "description": "Le démarrage d'un projet vu côté gestion : charte, définition du contenu et place du cahier des charges fonctionnel. Un bon complément pour construire le planning et les jalons de ton équipe.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comment réussir sa présentation [TP N°2]",
+    "chaine": "Davy Landsi",
+    "url": "https://www.youtube.com/watch?v=aLLMSrYRG_I",
+    "langue": "Français",
+    "description": "Sept conseils concrets pour réussir une présentation orale, académique ou professionnelle : simplicité, visuels, préparation et répétitions. À appliquer directement au plan de soutenance chronométré de la leçon 7.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comment présenter un projet oralement : exercice d'empathie (extrait #1 du séminaire)",
+    "chaine": "Stéphane Edouard",
+    "url": "https://www.youtube.com/watch?v=3uu1H_7XyQM",
+    "langue": "Français",
+    "description": "Un exercice qui démontre pourquoi une bonne présentation se construit du point de vue de l'auditoire, pas de l'orateur. Pertinent pour préparer un exposé de soutenance clair devant un jury qui découvre ton projet.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
