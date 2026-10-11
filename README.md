@@ -4,13 +4,14 @@
 Réalisé par **Douga dit Ibrahim Diarra**, étudiant en Licence 2 informatique.
 
 Chatbot en français qui répond aux questions fréquentes des étudiants : **atelier Code to Career, emplois du temps, examens, procédures administratives, règlements, orientation**.
-Application portable : Python + Flask + **SQLite**.
+Application portable : Python + Flask + **SQLite**, avec **vraie IA gratuite (Google Gemini)** en renfort de la base de connaissances.
 
 ## Comment ça marche
 
 - **Base de connaissances** : 26 questions/réponses documentées (table `qna`), couvrant l'atelier (horaires, 12 projets, livrables, pitch), l'administration (inscription, certificat de scolarité, relevé de notes, carte d'étudiant), les examens, les règlements généraux et l'orientation.
 - **Moteur de réponse** : normalisation du texte (accents, casse), recherche par mots-clés pondérés + recouvrement avec les questions connues. Il comprend les questions écrites sans accents.
-- **Honnêteté** : quand il ne sait pas, l'assistant le dit, **enregistre la question** (table `chatlog`) et propose des questions proches. Aucune réponse inventée.
+- **Moteur hybride** : la base répond d'abord (réponses exactes et documentées) ; **si la base n'a pas la réponse, la vraie IA prend le relais** — Google Gemini (niveau gratuit de Google AI Studio), cadrée par un prompt système : français simple, faits sûrs de l'atelier, **interdiction d'inventer des dates officielles** (examens, inscriptions) — pour cela elle redirige vers le secrétariat. La clé API se colle dans l'espace admin (jamais affichée, jamais publiée, absente du code et de GitHub) ou via la variable `GEMINI_API_KEY`.
+- **Honnêteté** : si ni la base ni l'IA ne répondent, l'assistant le dit, **enregistre la question** (table `chatlog`, avec sa source : base / IA / sans réponse) et propose des questions proches. Aucune réponse inventée.
 - **Espace admin du propriétaire** : voir les statistiques, la liste des **questions sans réponse** à traiter, **ajouter de nouvelles questions/réponses** (l'assistant y répond aussitôt), supprimer, **exporter la base en CSV**.
 - **Documentation publique** : page `/questions` listant toutes les questions/réponses + export JSON — c'est la « documentation des questions/réponses » demandée par le programme.
 - **Piste WhatsApp** (demandée comme « intégration possible » par le programme) : le même moteur peut être branché derrière l'API WhatsApp Business — l'auteur a déjà construit un agent WhatsApp complet (voir le dépôt `bronbah-whatsapp-agent`) ; l'endpoint `/api/chat` (JSON) est prêt pour ce branchement.

@@ -14,6 +14,8 @@ import os
 import re
 import sqlite3
 import unicodedata
+import urllib.error
+import urllib.request
 from functools import wraps
 
 from flask import (Flask, Response, abort, flash, g, jsonify, redirect,
@@ -137,6 +139,9 @@ def init_db():
     db = sqlite3.connect(DB_PATH)
     with open(os.path.join(BASE, "schema.sql"), encoding="utf-8") as f:
         db.executescript(f.read())
+    cols = [r[1] for r in db.execute("PRAGMA table_info(chatlog)").fetchall()]
+    if "source" not in cols:
+        db.execute("ALTER TABLE chatlog ADD COLUMN source TEXT NOT NULL DEFAULT 'kb'")
     n = db.execute("SELECT COUNT(*) FROM qna").fetchone()[0]
     if n == 0:
         db.executemany(
@@ -144,6 +149,18 @@ def init_db():
             SEED_QNA)
     db.commit()
     db.close()
+
+
+def get_setting(key, default=""):
+    row = get_db().execute("SELECT value FROM settings WHERE key=?", (key,)).fetchone()
+    return row["value"] if row else default
+
+
+def set_setting(key, value):
+    db = get_db()
+    db.execute("INSERT INTO settings (key, value) VALUES (?,?) "
+               "ON CONFLICT(key) DO UPDATE SET value=excluded.value", (key, value))
+    db.commit()
 
 
 # ------------------------------------------------------------- moteur de réponse
@@ -190,6 +207,59 @@ def answer_question(text):
         return best, []
     scored.sort(key=lambda x: -x[0])
     return None, [r for _, r in scored[:3]]
+
+
+# ------------------------------------------------------- vraie IA (Gemini, gratuit)
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+GEMINI_URL = ("https://generativelanguage.googleapis.com/v1beta/models/"
+              + GEMINI_MODEL + ":generateContent")
+
+SYSTEME_IA = (
+    "Tu es l'assistant des étudiants de l'Université IAM (Institut Africain de "
+    "Management) de Bamako, au Mali. Tu réponds en français simple et clair, en "
+    "2 à 6 phrases maximum, avec un ton aidant pour des étudiants. "
+    "Faits sûrs à utiliser : l'atelier IAM Code to Career est piloté par "
+    "DataInsights, chef d'atelier Abdoulaye TRAORE ; horaires de l'atelier : "
+    "lundi à vendredi 9h00-15h00 (vendredi 9h00-13h00) ; 12 projets d'équipe ; "
+    "livrables : démonstration, code sur GitHub, présentation, projet intégré au "
+    "CV et au profil en ligne. "
+    "Règles strictes : n'invente JAMAIS de dates officielles (examens, "
+    "inscriptions, résultats) ni de numéros de téléphone : pour ces sujets, dis "
+    "de vérifier auprès du secrétariat ou de l'affichage officiel de l'IAM. "
+    "Tu peux expliquer des notions de cours (programmation, informatique) et "
+    "donner des conseils d'étude. Si la question n'a aucun rapport avec la vie "
+    "étudiante ou les études, recentre poliment sur ton rôle."
+)
+
+
+def gemini_key():
+    return (os.environ.get("GEMINI_API_KEY") or get_setting("gemini_key", "")).strip()
+
+
+def ai_answer(question, contexte):
+    """Appelle l'IA gratuite Google Gemini. Retourne le texte ou None si indisponible."""
+    key = gemini_key()
+    if not key:
+        return None
+    prompt = SYSTEME_IA
+    if contexte:
+        prompt += ("\n\nInformations de la base officielle de l'assistant "
+                   "(à utiliser en priorité si elles répondent) :\n" + contexte)
+    prompt += "\n\nQuestion de l'étudiant : " + question
+    body = json.dumps({
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"temperature": 0.4, "maxOutputTokens": 500},
+    }).encode("utf-8")
+    req = urllib.request.Request(GEMINI_URL, data=body, method="POST", headers={
+        "Content-Type": "application/json", "x-goog-api-key": key})
+    try:
+        with urllib.request.urlopen(req, timeout=25) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        parts = data["candidates"][0]["content"]["parts"]
+        text = "".join(p.get("text", "") for p in parts).strip()
+        return text or None
+    except Exception:
+        return None
 
 
 # -------------------------------------------------------------------- utilitaires
@@ -241,19 +311,30 @@ def api_chat():
         return jsonify({"reponse": "Écris-moi ta question, je t'écoute."})
     row, suggestions = answer_question(text)
     db = get_db()
-    db.execute("INSERT INTO chatlog (question, qna_id) VALUES (?,?)",
-               (text, row["id"] if row else None))
-    db.commit()
     if row:
+        db.execute("INSERT INTO chatlog (question, qna_id, source) VALUES (?,?, 'kb')",
+                   (text, row["id"]))
+        db.commit()
         return jsonify({"reponse": row["reponse"], "categorie": row["categorie"],
-                        "trouve": True})
+                        "trouve": True, "ia": False})
+    contexte = "\n".join(f"- {s['question']} → {s['reponse']}" for s in suggestions)
+    rep_ia = ai_answer(text, contexte)
+    if rep_ia:
+        db.execute("INSERT INTO chatlog (question, qna_id, source) VALUES (?, NULL, 'ai')",
+                   (text,))
+        db.commit()
+        return jsonify({"reponse": rep_ia, "categorie": "Réponse IA — Google Gemini",
+                        "trouve": True, "ia": True})
+    db.execute("INSERT INTO chatlog (question, qna_id, source) VALUES (?, NULL, 'none')",
+               (text,))
+    db.commit()
     rep = ("Je n'ai pas encore la réponse à cette question — je l'ai notée pour que "
            "l'équipe l'ajoute à ma base. En attendant, le secrétariat de l'IAM peut "
            "te renseigner directement.")
     if suggestions:
         rep += " Peut-être que tu cherches : " + " ; ".join(
             f"« {s['question']} »" for s in suggestions)
-    return jsonify({"reponse": rep, "trouve": False})
+    return jsonify({"reponse": rep, "trouve": False, "ia": False})
 
 
 @app.route("/questions")
@@ -330,14 +411,16 @@ def admin_home():
     stats = {
         "qna": db.execute("SELECT COUNT(*) FROM qna").fetchone()[0],
         "questions": db.execute("SELECT COUNT(*) FROM chatlog").fetchone()[0],
+        "ia": db.execute(
+            "SELECT COUNT(*) FROM chatlog WHERE source='ai'").fetchone()[0],
         "sans_reponse": db.execute(
-            "SELECT COUNT(*) FROM chatlog WHERE qna_id IS NULL").fetchone()[0],
+            "SELECT COUNT(*) FROM chatlog WHERE source='none'").fetchone()[0],
     }
     qnas = db.execute("SELECT * FROM qna ORDER BY categorie, id").fetchall()
     unmatched = db.execute(
-        "SELECT * FROM chatlog WHERE qna_id IS NULL ORDER BY id DESC LIMIT 50").fetchall()
+        "SELECT * FROM chatlog WHERE source='none' ORDER BY id DESC LIMIT 50").fetchall()
     return render_template("admin.html", locked=False, stats=stats, qnas=qnas,
-                           unmatched=unmatched)
+                           unmatched=unmatched, ia_active=bool(gemini_key()))
 
 
 @app.route("/admin/activer", methods=["POST"])
@@ -375,6 +458,27 @@ def admin_delete(qna_id):
     db.execute("DELETE FROM qna WHERE id=?", (qna_id,))
     db.commit()
     flash("Question/réponse supprimée.", "info")
+    return redirect(url_for("admin_home"))
+
+
+@app.route("/admin/cle", methods=["POST"])
+@admin_required
+def admin_key_save():
+    key = request.form.get("gemini_key", "").strip()
+    if len(key) < 20:
+        flash("Clé trop courte : copie la clé complète depuis Google AI Studio.", "err")
+    else:
+        set_setting("gemini_key", key)
+        flash("Clé IA enregistrée. L'assistant répond maintenant avec la vraie IA "
+              "quand la base n'a pas la réponse.", "ok")
+    return redirect(url_for("admin_home"))
+
+
+@app.route("/admin/cle/supprimer", methods=["POST"])
+@admin_required
+def admin_key_delete():
+    set_setting("gemini_key", "")
+    flash("Clé IA supprimée : l'assistant repasse en mode base seule.", "info")
     return redirect(url_for("admin_home"))
 
 

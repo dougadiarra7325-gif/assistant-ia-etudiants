@@ -20,5 +20,11 @@ CREATE TABLE IF NOT EXISTS chatlog (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     question TEXT NOT NULL,
     qna_id INTEGER REFERENCES qna(id),
+    source TEXT NOT NULL DEFAULT 'kb',
     created_at TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+CREATE TABLE IF NOT EXISTS settings (
+    key TEXT PRIMARY KEY,
+    value TEXT NOT NULL DEFAULT ''
 );

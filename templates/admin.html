@@ -16,8 +16,28 @@
   <div class="stats">
     <div><b>{{ stats.qna }}</b><span>Questions/réponses</span></div>
     <div><b>{{ stats.questions }}</b><span>Questions posées</span></div>
+    <div><b>{{ stats.ia }}</b><span>Réponses par l'IA</span></div>
     <div><b>{{ stats.sans_reponse }}</b><span>Sans réponse</span></div>
   </div>
+
+  <section class="panel">
+    <h2>Vraie IA — Google Gemini (gratuit)</h2>
+    {% if ia_active %}
+      <p>✅ <b>IA active.</b> Quand la base n'a pas la réponse, l'assistant demande à
+      Google Gemini (la clé n'est jamais affichée).</p>
+      <form method="post" action="{{ url_for('admin_key_delete') }}"
+            onsubmit="return confirm('Supprimer la clé IA ?')">
+        <button type="submit">Supprimer la clé</button></form>
+    {% else %}
+      <p>Colle ici ta clé gratuite Google AI Studio (aistudio.google.com → « Get API key »).
+      Elle reste sur le serveur, n'est jamais affichée ni publiée.</p>
+      <form method="post" action="{{ url_for('admin_key_save') }}" class="stack-form">
+        <label>Clé API Gemini <input type="password" name="gemini_key" autocomplete="off"
+          placeholder="AIza…" required></label>
+        <button class="big" type="submit">Activer la vraie IA</button>
+      </form>
+    {% endif %}
+  </section>
 
   <section class="panel">
     <h2>Ajouter une question/réponse</h2>
