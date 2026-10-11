@@ -104,25 +104,28 @@ function findAnswer(text){
   return { row: bestScore >= 3 ? best : null, sugg: scored.slice(0,3).map(x => x[1]) };
 }
 const SYSTEME = "Tu es l'assistant des étudiants de l'Université IAM (Institut Africain de Management) de Bamako, au Mali. Tu réponds en français simple et clair, en 2 à 6 phrases maximum, avec un ton aidant pour des étudiants. Faits sûrs : l'atelier IAM Code to Career est piloté par DataInsights, chef d'atelier Abdoulaye TRAORE ; horaires : lundi à vendredi 9h00-15h00 (vendredi 9h00-13h00) ; 12 projets d'équipe ; livrables : démonstration, code sur GitHub, présentation, projet intégré au CV et au profil en ligne. Règles strictes : n'invente JAMAIS de dates officielles (examens, inscriptions, résultats) ni de numéros de téléphone : pour ces sujets, dis de vérifier auprès du secrétariat ou de l'affichage officiel de l'IAM. Tu peux expliquer des notions de cours (programmation, informatique) et donner des conseils d'étude.";
+const MODELES_IA = ["gemini-3.8-flash", "gemini-2.5-flash", "gemini-2.0-flash"];
 async function gemini(question, contexte){
   const key = localStorage.getItem("gemini_key");
   if (!key) return { err: "aucune clé" };
   let prompt = SYSTEME;
   if (contexte) prompt += "\n\nInformations de la base officielle (à utiliser en priorité si elles répondent) :\n" + contexte;
   prompt += "\n\nQuestion de l'étudiant : " + question;
-  try {
-    const url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + encodeURIComponent(key);
-    const r = await fetch(url,
-      { method:"POST", headers:{ "Content-Type":"application/json" },
-        body: JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{ temperature:0.4, maxOutputTokens:500 } }) });
-    if (!r.ok){
-      const detail = (await r.text()).slice(0, 220);
-      return { err: "HTTP " + r.status + " — " + detail };
-    }
-    const data = await r.json();
-    const t = (data.candidates?.[0]?.content?.parts || []).map(p => p.text || "").join("").trim();
-    return t ? { text: t } : { err: "réponse vide de Google" };
-  } catch(e){ return { err: "réseau (" + e.message + ")" }; }
+  let lastErr = "inconnu";
+  for (const modele of MODELES_IA){
+    try {
+      const url = "https://generativelanguage.googleapis.com/v1beta/models/" + modele + ":generateContent?key=" + encodeURIComponent(key);
+      const r = await fetch(url,
+        { method:"POST", headers:{ "Content-Type":"application/json" },
+          body: JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{ temperature:0.4, maxOutputTokens:500 } }) });
+      if (!r.ok){ lastErr = "HTTP " + r.status + " (" + modele + ") — " + (await r.text()).slice(0, 180); continue; }
+      const data = await r.json();
+      const t = (data.candidates?.[0]?.content?.parts || []).map(p => p.text || "").join("").trim();
+      if (t) return { text: t };
+      lastErr = "réponse vide de Google (" + modele + ")";
+    } catch(e){ lastErr = "réseau (" + e.message + ")"; }
+  }
+  return { err: lastErr };
 }
 const box = document.getElementById("messages");
 function addMsg(text, who, cat){
