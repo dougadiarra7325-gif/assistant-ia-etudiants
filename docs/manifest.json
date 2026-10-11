@@ -580,5 +580,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-13": {
+  "pdf": "pdf/INF-L1-13.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Cours Modèle Relationnel et MCD",
+    "chaine": "E mds",
+    "url": "https://www.youtube.com/watch?v=VFHVNA8xgK0",
+    "langue": "Français",
+    "description": "Un cours complet qui présente d'abord les règles du modèle relationnel (relations, clés, dépendances fonctionnelles), puis le MCD de Merise avec les cardinalités. Il fait exactement le pont entre les leçons 2, 3 et 4 de ce cours.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Créer un MCD [MODELE CONCEPTUEL DE DONNEES] - Exemple en Ligne Simple | Formation MySQL",
+    "chaine": "Numelion IT",
+    "url": "https://www.youtube.com/watch?v=BMwTb_fPqE4",
+    "langue": "Français",
+    "description": "La construction d'un MCD pas à pas avec l'outil en ligne Mocodo : repérer les entités, placer les associations, les attributs et les cardinalités sur un exemple concret. Parfait pour visualiser la leçon 3 avant de passer au MLD.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Créer un MLD (Modèle Logique de Données) depuis un MCD - Méthode & Exemple - Bases de données",
+    "chaine": "Fabinou",
+    "url": "https://www.youtube.com/watch?v=Ak6eIfzipSQ",
+    "langue": "Français",
+    "description": "La méthode de conversion d'un MCD en MLD expliquée avec un exemple : les entités deviennent des tables, les associations 1,N donnent des clés étrangères et les associations N,N deviennent des tables. Un résumé en images des règles de la leçon 4, avec une vérification sur tableur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Base de données (Part.1): Initiation SQL & algèbre relationnelle",
+    "chaine": "Schraf : Maths-info",
+    "url": "https://www.youtube.com/watch?v=nG65ew-3Oh0",
+    "langue": "Français",
+    "description": "Une initiation au SQL qui met chaque requête en parallèle avec l'opération d'algèbre relationnelle correspondante, en s'exerçant directement dans SQLite en ligne. Idéal pour comprendre ce que fait réellement un SELECT avant d'écrire les tiens.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Apprendre SQL pour Débutant - 01 - Créer une base de données",
+    "chaine": "Ecole Numérique du Génie en Programmation (ENGP)",
+    "url": "https://www.youtube.com/watch?v=YWJ9aLbjJE8",
+    "langue": "Français",
+    "description": "Le premier épisode d'une série pour débutants : ce qu'est SQL, l'installation d'un SGBD (MySQL, SQLite ou PostgreSQL) et la création de ta première base de données, étape par étape. Le compagnon pratique de la leçon 6 et du TP.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
