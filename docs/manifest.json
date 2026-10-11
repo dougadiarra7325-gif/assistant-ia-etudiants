@@ -3152,5 +3152,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L3-21": {
+  "pdf": "pdf/INF-L3-21.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Installer et configurer Active Directory sur Windows Server | Tutoriel complet AD DS",
+    "chaine": "MOG ACADEMY",
+    "url": "https://www.youtube.com/watch?v=2sEvBE_11Uw",
+    "langue": "Français",
+    "description": "Installation du rôle AD DS, promotion du serveur en contrôleur de domaine et création des OU, utilisateurs et groupes, étape par étape. À regarder après la leçon 2 pour voir les manipulations en vrai avant de les refaire en TP.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "CONFIGURER UNE STRATEGIE DE GROUPE (GPO)",
+    "chaine": "TUTOS-info",
+    "url": "https://www.youtube.com/watch?v=O3-GHceghCI",
+    "langue": "Français",
+    "description": "Création et configuration d'une stratégie de groupe sur Windows Server, de l'objet GPO à son lien avec un conteneur. Le complément visuel de la leçon 3 : repère où se règlent les paramètres ordinateur et utilisateur.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Active Directory : comment gérer le groupe \"Administrateurs\" local des machines Windows ?",
+    "chaine": "IT-Connect - Florian",
+    "url": "https://www.youtube.com/watch?v=BY2CGUX8EmA",
+    "langue": "Français",
+    "description": "Utiliser une GPO pour contrôler les membres du groupe Administrateurs local des postes, sans donner les pleins pouvoirs du domaine. Un cas réel de la leçon 3 qui illustre à la fois les stratégies et le principe du moindre privilège.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "DHCP dans Active Directory : comprendre, configurer et tester | Windows Server - Episode 4",
+    "chaine": "Guy Nicolas Bessin YAMEOGO",
+    "url": "https://www.youtube.com/watch?v=9KX-He9QLRg",
+    "langue": "Français",
+    "description": "Installation du rôle DHCP, autorisation du serveur dans l'AD, création d'une étendue avec ses options, puis test d'attribution sur un poste client. C'est exactement la mécanique de la leçon 4, montrée écran par écran.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Sauvegarde Windows, Linux et macOS : découvrez UrBackup (open source)",
+    "chaine": "IT-Connect - Florian",
+    "url": "https://www.youtube.com/watch?v=cFnIi-JqB94",
+    "langue": "Français",
+    "description": "Découverte d'une solution de sauvegarde libre en mode client/serveur : fichiers, images système et restaurations testées à l'écran. Un autre outil que wbadmin, mais la même discipline que celle de la leçon 6 : sauvegarder ne suffit pas, il faut prouver la restauration.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
