@@ -2754,5 +2754,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-13": {
+  "pdf": "pdf/INF-L3-13.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "L'intégration de la sécurité dans les pipelines CI/CD : un guide DevSecOps",
+    "chaine": "Cloud Native Community Group Lomé",
+    "url": "https://www.youtube.com/watch?v=_YaMnoHB5aI",
+    "langue": "Français",
+    "description": "Une session communautaire qui montre comment brancher les contrôles de sécurité dans un pipeline de livraison : analyse de code, recherche de secrets et de vulnérabilités, sans ralentir l'équipe. C'est la version automatisée du cycle sécurisé de cette leçon.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Spring Security Java expliqué de A à Z — Le Cours Complet",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=nCLqewT2Z4E",
+    "langue": "Français",
+    "description": "Un cours complet, en Java, sur ce qu'une revue de code doit vérifier côté serveur : authentification, autorisations, hachage des mots de passe et protections intégrées. Regarde-le en gardant la grille de revue de la leçon sous les yeux.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "TU CRÉES UN SAAS AVEC L'IA ? ATTENTION À CES 5 ERREURS !",
+    "chaine": "Ibrahima Boiro",
+    "url": "https://www.youtube.com/watch?v=pQNF1VAjgIU",
+    "langue": "Français",
+    "description": "Cinq erreurs de sécurité très concrètes dans les jeunes applications : clés d'API exposées, secrets placés côté navigateur, permissions excessives, code accepté sans relecture. Un excellent résumé vivant de la leçon sur les secrets et de la revue de code.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "[PODCAST] Hacking éthique : où est la ligne ? Du bug bounty à la divulgation responsable",
+    "chaine": "ESET France",
+    "url": "https://www.youtube.com/watch?v=XuoGnCVIBPs",
+    "langue": "Français",
+    "description": "Un échange avec un chasseur de failles sur la frontière exacte entre recherche légitime et délit : autorisation, périmètre, signalement. À écouter après la leçon 6 pour entendre ces notions racontées par un praticien.",
+    "niveau": "Tous niveaux"
+   },
+   {
+    "titre": "Faut-il commencer le bug bounty en 2026 ? (IA, argent, solitude)",
+    "chaine": "Fransosiche",
+    "url": "https://www.youtube.com/watch?v=aN1DahbPR4Q",
+    "langue": "Français",
+    "description": "Un retour d'expérience lucide sur les programmes de bug bounty : ce que les règles autorisent, ce que les récompenses représentent vraiment, et la discipline qu'exige la divulgation responsable. Utile pour démystifier le sujet avant de s'y intéresser de près.",
+    "niveau": "Tous niveaux"
+   }
+  ]
  }
 }
