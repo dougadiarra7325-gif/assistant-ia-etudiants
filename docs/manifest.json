@@ -3428,5 +3428,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "BBA-L1-03": {
+  "pdf": "pdf/BBA-L1-03.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "[Macro Part 2] La circuit économique [Les Agents et Marchés économiques]",
+    "chaine": "Z classroom",
+    "url": "https://www.youtube.com/watch?v=2lqJxAPpm1M",
+    "langue": "Français",
+    "description": "Les agents économiques (ménages, entreprises, État, banques, reste du monde) et les marchés où ils se rencontrent, présentés sous forme de cours structuré. Le complément direct de la fin de la leçon 1 sur le circuit économique.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Macroéconomie | Partie 1/3 | PIB, Consommation, Investissement & Multiplicateur Keynésien | SOHZOH",
+    "chaine": "SOH ZOH",
+    "url": "https://www.youtube.com/watch?v=DqH1SSX_qYw",
+    "langue": "Français",
+    "description": "Le PIB et ses composantes (consommation, investissement), puis une première présentation du multiplicateur keynésien que la leçon 6 reprendra en détail. À regarder après les leçons 1 et 2 pour consolider les définitions.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Comment est calculée l'inflation, et qui décide ?",
+    "chaine": "QUIDFR",
+    "url": "https://www.youtube.com/watch?v=3spxCFJlLHc",
+    "langue": "Français",
+    "description": "Comment les statisticiens construisent concrètement l'indice des prix (panier, relevés de prix) et qui utilise ce chiffre pour décider. Le prolongement pratique du calcul d'IPC mené à la main dans la leçon 4.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Qu'est-ce que la politique monétaire ? Avant 2021 | Banque de France",
+    "chaine": "Banque de France",
+    "url": "https://www.youtube.com/watch?v=11e-6CbYOl8",
+    "langue": "Français",
+    "description": "Une banque centrale explique elle-même ses missions et ses instruments (taux directeurs, stabilité des prix). Les institutions décrites sont européennes, mais les mécanismes sont les mêmes que ceux de la BCEAO présentés dans la leçon 6.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Qu'est ce qu'une balance des paiements",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=1THLFLuOrHo",
+    "langue": "Français",
+    "description": "La structure de la balance des paiements et le rôle de chacun de ses comptes, en format cours. À visionner après la leçon 7 pour vérifier que tu sais situer chaque opération (exportation, transfert, investissement) dans le bon compte.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
