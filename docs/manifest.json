@@ -4164,5 +4164,51 @@
     "niveau": "Tous niveaux"
    }
   ]
+ },
+ "BBA-L1-19": {
+  "pdf": "pdf/BBA-L1-19.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "PREMIERE L'industrialisation et l'accélération des transformations économiques et sociales en France",
+    "chaine": "Lionel Lacoux",
+    "url": "https://www.youtube.com/watch?v=fUDbxNxOphI",
+    "langue": "Français",
+    "description": "Un cours filmé qui suit exactement la leçon 2 : industrialisation, révolution des transports et transformations sociales en France au XIXe siècle. Idéal pour revoir la naissance de l'usine et ses effets sur les villes et sur les ouvriers.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "La grande dépression, expliquée comme si vous aviez 5 ans.",
+    "chaine": "L'éco en bâtons",
+    "url": "https://www.youtube.com/watch?v=KgiJDGw_u58",
+    "langue": "Français",
+    "description": "Une explication très progressive du krach de 1929 et de la Grande Dépression : crédit boursier, panique bancaire et rôle de la banque centrale. Parfait complément de la leçon 4, avec les sources citées par la chaîne pour aller plus loin.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "LES 30 GLORIEUSES : et si on arrêtait de rêver ?",
+    "chaine": "ÉLUCID",
+    "url": "https://www.youtube.com/watch?v=uuIB97y8Pik",
+    "langue": "Français",
+    "description": "Un regard volontairement critique sur les Trente Glorieuses, entre croissance bien réelle et mémoire idéalisée de la période. À regarder avec la leçon 5 pour s'exercer à distinguer les faits des interprétations.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Chapitre 7 - Transformations du Commerce Mondial",
+    "chaine": "elprofessordestmg",
+    "url": "https://www.youtube.com/watch?v=kPA1gzS4ZlQ",
+    "langue": "Français",
+    "description": "Le commerce mondial d'aujourd'hui expliqué simplement : échanges, firmes multinationales et investissements à l'étranger. L'exemple du téléphone « qui a fait plus de pays que toi » illustre exactement la lecture guidée de la leçon 6.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Quand l'Europe dépendait de l'or africain  Le véritable Empire du Mali",
+    "chaine": "Afrique Déclassifiée",
+    "url": "https://www.youtube.com/watch?v=17mHxzlLrQ0",
+    "langue": "Français",
+    "description": "Un documentaire sur l'empire du Mali, Mansa Moussa et le commerce transsaharien de l'or et du sel, appuyé sur des travaux d'historiens. Il prolonge la leçon 7 et sa frise, de Soundiata Keïta à Tombouctou.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
