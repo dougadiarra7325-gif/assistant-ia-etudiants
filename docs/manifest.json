@@ -2670,5 +2670,43 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-10": {
+  "pdf": "pdf/INF-L3-10.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Comment bien structurer sa thèse de fin d'étude",
+    "chaine": "OKH ECO",
+    "url": "https://www.youtube.com/watch?v=9TFxZg5CEfY",
+    "langue": "Français",
+    "description": "Un tour d'horizon de la structuration d'un travail de fin d'études, des normes de citation à l'organisation du travail : regarde-la dès le choix du sujet pour visualiser la forme finale que ton mémoire devra prendre.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comment faire une revue de littérature efficacement (testé sur 100 thèses)",
+    "chaine": "Le Décodeur du Doctorat, PhD",
+    "url": "https://www.youtube.com/watch?v=BJwxvZMVlTs",
+    "langue": "Français",
+    "description": "Une analyse de revues de littérature réelles qui montre ce qui distingue un état de l'art solide d'un empilement de résumés : des repères précieux avant de construire le tien, même si l'échelle visée est celle de la licence.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Méthodologie complète de rédaction d'un mémoire",
+    "chaine": "Expertmemoire - Aide à la rédaction de mémoire",
+    "url": "https://www.youtube.com/watch?v=e2eEwI6St1c",
+    "langue": "Français",
+    "description": "La méthodologie complète de rédaction d'un mémoire, de la problématique à la préparation de la soutenance : à regarder au moment de boucler ton plan de rédaction, puis à revoir avant la phase de relecture.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "J'ai analysé 300 soutenances : voici comment réussir la vôtre",
+    "chaine": "Le Décodeur du Doctorat, PhD",
+    "url": "https://www.youtube.com/watch?v=FqM0mk-PxLc",
+    "langue": "Français",
+    "description": "Trois cents soutenances passées au crible : les erreurs qui coûtent cher, la manière de présenter ses travaux et de réussir les échanges avec le jury. Le niveau visé est celui du doctorat, mais les leçons valent directement pour une soutenance de licence.",
+    "niveau": "Intermédiaire à avancé"
+   }
+  ]
  }
 }
