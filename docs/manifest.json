@@ -52,5 +52,43 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-02": {
+  "pdf": "pdf/INF-L1-02.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "APPRENDRE LE C [TUTO PROGRAMMATION COMPLET DÉBUTANT]",
+    "chaine": "Comment Coder",
+    "url": "https://www.youtube.com/watch?v=q6FcVUFM42o",
+    "langue": "Français",
+    "description": "Le langage C de A à Z pour démarrer : installation de l'éditeur et du compilateur, premier programme, variables, scanf, conditions, boucles, fonctions, tableaux, chaînes, pointeurs et structures, avec des mini-projets. La vidéo-compagnon de tout le cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Partie 1 - Langage C – Bases fondamentales bibliothèques, printf scanf, mémoire et premier programme",
+    "chaine": "Souleymane H Maizaboura",
+    "url": "https://www.youtube.com/watch?v=A0XAV9JlZO8",
+    "langue": "Français",
+    "description": "Les bibliothèques standard (stdio.h…), printf en détail avec les séquences d'échappement, scanf et les spécificateurs de format (%d, %f, %c, %s), et la notion de mémoire — exactement la leçon 3, en cours filmé.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Langage  C - Partie 1 - Les Variables, Les Conditions, Les Boucles et Les Fonctions",
+    "chaine": "KinSoft Lab",
+    "url": "https://www.youtube.com/watch?v=M5RIPktv0KU",
+    "langue": "Français",
+    "description": "Les notions de base du C avec l'IDE Code::Blocks : variables, conditions, boucles et fonctions démontrées en direct — parfait pour réviser les leçons 2, 4 et 5 avant un contrôle.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Langage C #2 Exercices complets (4K) scanf printf variables mémoire RAM Débutant à Avancé Souleymane",
+    "chaine": "Souleymane H Maizaboura",
+    "url": "https://www.youtube.com/watch?v=7G3KvWq_sCI",
+    "langue": "Français",
+    "description": "Des exercices complets et corrigés en vidéo : printf et scanf, variables int/float/double, division entière contre division réelle, opérations et modulo, avec l'explication de ce qui se passe dans la mémoire RAM.",
+    "niveau": "Débutant à avancé"
+   }
+  ]
  }
 }
