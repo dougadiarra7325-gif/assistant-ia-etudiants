@@ -626,5 +626,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-15": {
+  "pdf": "pdf/INF-L1-15.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Une étudiante DÉBORDÉE s'organise en 10 minutes",
+    "chaine": "Learnivore",
+    "url": "https://www.youtube.com/watch?v=kLmgkDkV734",
+    "langue": "Français",
+    "description": "Une étudiante débordée reconstruit son organisation en partant de ses obligations fixes, puis en classant ses révisions par priorité. Un bon complément visuel à la leçon 1 : compare sa démarche avec la construction de ta propre semaine réelle.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comment mieux PRENDRE DES NOTES en cours | La méthode Cornell",
+    "chaine": "Études Efficaces",
+    "url": "https://www.youtube.com/watch?v=EiXxnBvo028",
+    "langue": "Français",
+    "description": "Présentation d'une page de notes divisée en zones : notes principales, mots-clés pour s'interroger et résumé en bas de page. À regarder après la leçon 2 pour voir concrètement comment structurer ta page et transformer tes notes en questions de révision.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Chapitre 4 sMOOC Galien - Prise de note",
+    "chaine": "Groupe Galien Officiel",
+    "url": "https://www.youtube.com/watch?v=XWbA84WOtE8",
+    "langue": "Français",
+    "description": "Un chapitre de cours en ligne consacré à la prise de notes : pourquoi noter de façon sélective plutôt que tout transcrire, et comment organiser ses notes pour les réutiliser. Utile pour contraster avec tes propres habitudes et choisir ce que tu changes dès le prochain cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Tu Oublies 80% De Tes Cours (Voici Comment TOUT Retenir)",
+    "chaine": "Mental Étudiant",
+    "url": "https://www.youtube.com/watch?v=I4OimWA5-WQ",
+    "langue": "Français",
+    "description": "La vidéo explique pourquoi on oublie vite un cours et présente trois leviers : revenir sur la notion à intervalles croissants, se tester au lieu de relire, et expliquer avec ses mots. Elle illustre directement la leçon 7 sur les révisions espacées et actives.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Sérieusement, regarde cette vidéo AVANT ton prochain EXAMEN",
+    "chaine": "Learnivore",
+    "url": "https://www.youtube.com/watch?v=5zJLBp5eUaE",
+    "langue": "Français",
+    "description": "Une méthode complète pour préparer un examen : cibler ce qui compte, se tester plutôt que relire, s'entraîner en temps limité et gérer le jour J. À visionner quand tu construis ton planning de révision à rebours, en la confrontant au planning modèle de la leçon 7.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
