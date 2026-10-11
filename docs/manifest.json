@@ -3106,5 +3106,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-22": {
+  "pdf": "pdf/INF-L3-22.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "DOCKER 101. Maîtriser les bases de docker",
+    "chaine": "chillotech",
+    "url": "https://www.youtube.com/watch?v=jXBS9-lvyvY",
+    "langue": "Français",
+    "description": "Un cours complet et pratique sur les fondamentaux de Docker : installation, premières commandes, création d'images et déploiement de conteneurs. Parfait pour remettre à niveau tout ce que la leçon 1 résume avant d'attaquer l'orchestration.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Docker débutant",
+    "chaine": "PlaisirArduino",
+    "url": "https://www.youtube.com/watch?v=uqHG3VaGybU",
+    "langue": "Français",
+    "description": "Une prise en main courte et concrète de Docker pour les grands débutants : images, conteneurs et commandes essentielles démontrées pas à pas. Idéale en toute première approche, avant le cours chillotech plus approfondi.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Kubernetes de A à Z – Formation Complète 7H",
+    "chaine": "Donald Programmeur",
+    "url": "https://www.youtube.com/watch?v=yFp_BxFnIO4",
+    "langue": "Français",
+    "description": "La formation de référence en français pour couvrir tout le cours : architecture du cluster, pods, services, déploiements, ConfigMaps et Secrets, puis monitoring. Travaille-la par chapitres, en parallèle des leçons correspondantes.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Kubernetes E03 - Exposer une application, Service et Ingress",
+    "chaine": "Bitdyne",
+    "url": "https://www.youtube.com/watch?v=x6sRNcyZatY",
+    "langue": "Français",
+    "description": "Épisode entièrement consacré au problème des adresses changeantes des pods et à sa solution : le Service (ClusterIP, NodePort, LoadBalancer) et l'Ingress. Le complément direct de la leçon 2 et de son piège du sélecteur.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Understanding Kubernetes in a visual way - 02 - Deployments | Kubernetes en français",
+    "chaine": "Aurelie Vache",
+    "url": "https://www.youtube.com/watch?v=9dyiSiyET3I",
+    "langue": "Français",
+    "description": "Les Deployments expliqués en sketchnotes animées : ReplicaSets, réplicas et mises à jour dessinés plutôt que seulement décrits. Une façon très visuelle de fixer le mécanisme de la leçon 3 avant de passer aux travaux pratiques.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
