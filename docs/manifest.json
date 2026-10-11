@@ -4424,5 +4424,43 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L1-25": {
+  "pdf": "pdf/BBA-L1-25.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Comment élaborer votre PROJET PROFESSIONNEL (EN 3 ÉTAPES) ?",
+    "chaine": "Parlons Projet by BGDP",
+    "url": "https://www.youtube.com/watch?v=HGCdGfvIuNk",
+    "langue": "Français",
+    "description": "Une méthode en trois étapes — bilan, exploration, choix — qui reprend exactement la démarche de ce cours pour passer d'une idée vague à un projet écrit. À regarder en construisant ton propre plan d'étapes datées.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comment Faire un CV Sans Expérience ? (Modèle Gratuit 2026)",
+    "chaine": "Modeles de CV",
+    "url": "https://www.youtube.com/watch?v=Rhac-RVuMrY",
+    "langue": "Français",
+    "description": "La vidéo montre comment remplir la rubrique « expériences » quand on débute : projets, bénévolat et activités réelles plutôt que cases vides. Compare sa démarche avec le CV modèle d'Aminata et avec la règle d'honnêteté de la leçon.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comment rédiger une lettre de motivation ? (modèle et exemples utilisés IRL à télécharger)",
+    "chaine": "Orientation Tips",
+    "url": "https://www.youtube.com/watch?v=z0BSBpRDxIw",
+    "langue": "Français",
+    "description": "Une lettre construite pas à pas du point de vue d'une étudiante qui cherche son premier stage : repérer les éléments de l'annonce, identifier ses atouts, structurer la lettre. Un bon complément pratique au modèle complet du TD 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le savoir-être en stage",
+    "chaine": "Janique SOULIE",
+    "url": "https://www.youtube.com/watch?v=A_yr0Ng-n5c",
+    "langue": "Français",
+    "description": "Une présentation courte des comportements attendus en entreprise d'accueil : ponctualité, présentation, attitude envers l'équipe et les tâches confiées. À visionner la veille du premier jour de stage, carnet de bord à côté.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
