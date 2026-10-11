@@ -948,5 +948,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L1-23": {
+  "pdf": "pdf/INF-L1-23.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Introduction au terminal Linux",
+    "chaine": "Nahine l'ingénieur",
+    "url": "https://www.youtube.com/watch?v=qyH-DUBn2bo",
+    "langue": "Français",
+    "description": "Une première prise en main du terminal Linux : à quoi sert la ligne de commande dans les métiers de l'informatique et premières commandes de navigation (pwd, ls, cd) présentées pas à pas. Parfait pour accompagner la découverte de l'invite faite dans cette leçon.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "EP06 – Manipulation de base des commandes DOS | CMD Windows (CD, DIR, MKDIR, COPY…)",
+    "chaine": "professeur youssef",
+    "url": "https://www.youtube.com/watch?v=-XNMsbH7a-c",
+    "langue": "Français",
+    "description": "Un épisode de formation entièrement consacré aux manipulations de base dans cmd : se déplacer avec CD, lister avec DIR, créer avec MKDIR, copier et supprimer. Il illustre en vidéo exactement les gestes des leçons 2 et 3, côté Windows.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "INVIT COMMAND (CMD) : Guide COMPLET pour Débutants | Les Bases de Windows",
+    "chaine": "TechOps DZ",
+    "url": "https://www.youtube.com/watch?v=IEkJ_EqBJdM",
+    "langue": "Français",
+    "description": "Un guide complet pour ouvrir et utiliser l'invite de commandes Windows quand on débute : commandes de base, commandes réseau comme ipconfig et ping, et mini travaux pratiques. Un bon résumé filmé de toute la partie Windows de ce cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "DÉBUTER AVEC POWERSHELL",
+    "chaine": "TechOps DZ",
+    "url": "https://www.youtube.com/watch?v=CHstww1eO18",
+    "langue": "Français",
+    "description": "Les bases de PowerShell expliquées aux débutants : ce qu'est une cmdlet, le pipeline, les variables et les premiers scripts, avec la différence entre CMD et PowerShell. Le prolongement naturel de la leçon 4 pour automatiser davantage.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Tutoriel Shell: 10 Commandes Bash pour Débutants",
+    "chaine": "AmbreCode",
+    "url": "https://www.youtube.com/watch?v=2RC2ZnXMBPE",
+    "langue": "Français",
+    "description": "Dix commandes Bash essentielles démontrées dans un terminal Linux : pwd, ls, cd, mkdir, touch, cp, mv, rm, cat et echo. Une révision rapide et visuelle de tout le kit de survie de la leçon 5.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
