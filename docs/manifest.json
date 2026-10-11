@@ -4072,5 +4072,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "BBA-L1-17": {
+  "pdf": "pdf/BBA-L1-17.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Créer une TABLE DES MATIÈRES automatique [Cours WORD] + Numérotation des titres + STYLES",
+    "chaine": "Thom Reo",
+    "url": "https://www.youtube.com/watch?v=71645Z8g7rY",
+    "langue": "Français",
+    "description": "Le pas à pas complet de la leçon 2 : appliquer les styles de titres, les numéroter automatiquement et générer une table des matières qui se met à jour toute seule. À regarder en refaisant chaque étape sur ton propre document.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Excel : les Fonctions et Formules les plus UTILES !",
+    "chaine": "Bertrand . Tech",
+    "url": "https://www.youtube.com/watch?v=T6gm5MQ0URc",
+    "langue": "Français",
+    "description": "Le tour des fonctions qui servent vraiment en gestion : SOMME, MOYENNE, SI, NB.SI, RECHERCHEV et leurs voisines, chacune montrée sur un exemple. Le prolongement direct du tableau de la leçon 3.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "[ TUTO ] LibreOffice Calc : les BASES en 30 minutes !   ( Tutorial / cours en français )",
+    "chaine": "Bertrand . Tech",
+    "url": "https://www.youtube.com/watch?v=2ET0w2BRVME",
+    "langue": "Français",
+    "description": "La prise en main du tableur libre et gratuit : cellules, formules, fonction SI, graphiques et tris. Idéal si ton poste utilise LibreOffice Calc plutôt qu'Excel : les gestes et les fonctions sont les mêmes.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Excel Formation Complète - Partie 1",
+    "chaine": "OfficeEnPratique",
+    "url": "https://www.youtube.com/watch?v=4ivVa1rhl1s",
+    "langue": "Français",
+    "description": "Une formation longue et guidée pour démarrer : interface, cellules, formats, premières formules et fonctions de base (SOMME, MOYENNE, MIN, MAX, SI). Parfaite pour accompagner les leçons 1 et 3 si tu pars de zéro.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Résume 300 lignes Excel en 30s : tableau croisé dynamique",
+    "chaine": "Heurenaute",
+    "url": "https://www.youtube.com/watch?v=cKtPAWLxvOc",
+    "langue": "Français",
+    "description": "La démonstration éclair de la leçon 4 : transformer une longue base de ventes en synthèse par tableau croisé dynamique, en quelques glisser-déposer. Regarde-la, puis reproduis le geste sur le tableau croisé de l'exemple du cours.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
