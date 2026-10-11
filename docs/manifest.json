@@ -1,1 +1,56 @@
-{}
+{
+ "INF-L1-01": {
+  "pdf": "pdf/INF-L1-01.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Algorithmique — série complète (28 vidéos : introduction, variables, conditions, boucles, fonctions, tableaux)",
+    "chaine": "Série de cours YouTube",
+    "url": "http://www.youtube.com/playlist?list=PLRCmz8wMtjVZThZ_jhTvrQxIY4kbIDz3v",
+    "langue": "Français",
+    "description": "Une série entière qui suit exactement le plan de ce cours, leçon par leçon, avec des exercices sur les variables et les structures. Idéale pour revoir tout le cours en vidéo, dans l'ordre.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les bases de l'algorithmique : Variables et opérations (Cours débutant)",
+    "chaine": "Codelia",
+    "url": "https://www.youtube.com/watch?v=8yULZs5FyjE",
+    "langue": "Français",
+    "description": "Ce qu'est un algorithme, le rôle des variables, les types de données et les opérations de base, avec un exemple simple expliqué étape par étape.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Algorithme Pour les débutants - Variable, Condition, Boucle et le Fonction",
+    "chaine": "KinSoft Lab",
+    "url": "https://www.youtube.com/watch?v=--hs-bYRigM",
+    "langue": "Français",
+    "description": "Un cours d'algorithme pour débutants qui enchaîne les quatre piliers du cours : variables, conditions, boucles et fonctions, avec des exemples guidés.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "[Algo] Les Tableaux et Matrices from scratch Part1",
+    "chaine": "GeniusClassrooms",
+    "url": "https://www.youtube.com/watch?v=o5HdQBxq2A4",
+    "langue": "Français",
+    "description": "Les tableaux à une dimension (vecteurs) et à deux dimensions (matrices) depuis zéro, avec les fonctions et procédures appliquées aux tableaux.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Algorithmes de Tri pour Debutants - Cours Complet en Francais",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=DNGv7nJzDMI",
+    "langue": "Français",
+    "description": "Tous les tris classiques visualisés (bulles, sélection, insertion, fusion, rapide) avec la notation Big O pour mesurer leur efficacité : le prolongement direct de la leçon 7.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Exercices d'Algorithmique Débutant | Du \"Bonjour Monde\" au PGCD",
+    "chaine": "kojo-codeur",
+    "url": "https://www.youtube.com/watch?v=wj6QpnaaQpc",
+    "langue": "Français",
+    "description": "Dix exercices progressifs corrigés en vidéo (parité, maximum, somme de 1 à n, factorielle, table de multiplication, PGCD) : mets la vidéo en pause et cherche avant de regarder la solution.",
+    "niveau": "Débutant"
+   }
+  ]
+ }
+}
