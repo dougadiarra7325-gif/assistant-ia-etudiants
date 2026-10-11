@@ -3244,5 +3244,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-23": {
+  "pdf": "pdf/INF-L3-23.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Trouver un job de développeur junior en 2026 : les conseils de notre équipe recrutement !",
+    "chaine": "AXOPEN - Le podcast tech & développement",
+    "url": "https://www.youtube.com/watch?v=XGp1vzJK7C0",
+    "langue": "Français",
+    "description": "Une équipe de recrutement explique comment elle lit réellement les candidatures juniors, avec des chapitres dédiés à la création d'un CV optimisé, à l'entretien RH puis à l'entretien technique. Le complément direct des leçons 1 et 3, du point de vue de ceux qui recrutent.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "GitHub pour débutantes : le portfolio qui rassure",
+    "chaine": "CodingQueen40",
+    "url": "https://www.youtube.com/watch?v=iRCzd_FdBrc",
+    "langue": "Français",
+    "description": "Comment transformer un profil GitHub en vitrine crédible : ce que regarde un recruteur, dépôts propres, README « mini-CV » et lien de démonstration. À regarder avant de faire le TP de constitution du dossier.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "[WEBINAR] SUMMER SCHOOL #4 : Tech & Sens, quels softskills pour être développeur ou développeuse ?",
+    "chaine": "Ada Tech School",
+    "url": "https://www.youtube.com/watch?v=Fyt0ztwvywc",
+    "langue": "Français",
+    "description": "Des professionnels expliquent les qualités humaines évaluées en entretien tech — curiosité, recul critique, rigueur, écoute, esprit d'équipe — et comment les montrer concrètement. Le complément « soft skills » de la leçon 3.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Tu codes seul ? Voici comment construire un portfolio qui impressionne les recruteurs\"",
+    "chaine": "KBNumérique",
+    "url": "https://www.youtube.com/watch?v=dWKsLloRJxc",
+    "langue": "Français",
+    "description": "Une démarche en quatre étapes pour passer des exercices solitaires à des projets à valeur réelle, adaptés au marché africain, puis les présenter pour décrocher un premier emploi ou des clients. Utile avant d'aborder un stage ou un premier poste.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Développeuse Junior → Senior : Les Vérités qu'on ne vous dit JAMAIS (+ IA et Carrière)",
+    "chaine": "Dev Stories by Curious Labs",
+    "url": "https://www.youtube.com/watch?v=gEZ6XOTM91s",
+    "langue": "Français",
+    "description": "Une développeuse expérimentée raconte la progression réelle de junior à senior : curiosité, apprentissage par l'expérience, transformer ses erreurs en progrès. Le recul parfait pour construire ton plan de développement sur 12 mois.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
