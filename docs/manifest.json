@@ -4730,5 +4730,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L2-07": {
+  "pdf": "pdf/BBA-L2-07.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Tout savoir sur les lois de probabilité",
+    "chaine": "El khader",
+    "url": "https://www.youtube.com/watch?v=h9EoqCyKHc4",
+    "langue": "Français",
+    "description": "Un tour complet des lois de probabilité au programme : variables aléatoires, loi binomiale, loi de Poisson et loi normale, avec leurs formules et des exemples calculés. À regarder après la leçon 2 pour consolider les trois lois usuelles d'un seul bloc.",
+    "niveau": "Licence (L2)"
+   },
+   {
+    "titre": "Lois d'échantillonnage de la moyenne et de la proportion (Probabilités)",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=TGDKmL3Lync",
+    "langue": "Français",
+    "description": "La distribution d'échantillonnage expliquée pour la moyenne puis pour la proportion, avec les erreurs-types correspondantes. Le complément direct de la leçon 3, utile avant d'aborder les intervalles de confiance.",
+    "niveau": "Licence (L2)"
+   },
+   {
+    "titre": "Estimateur du moment et Intervalle de confiance: statistiques inférentielles",
+    "chaine": "Z classroom",
+    "url": "https://www.youtube.com/watch?v=D0n4bwV_fow",
+    "langue": "Français",
+    "description": "De l'estimation ponctuelle à l'intervalle de confiance : construction pas à pas pour une moyenne et une proportion. Les exercices traités permettent de vérifier que tu sais appliquer les formules de la leçon 4.",
+    "niveau": "Licence (L2)"
+   },
+   {
+    "titre": "Les tests d'hypothèses (Probabilités et contrôle de gestion)",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=Pk7lA0jGmn0",
+    "langue": "Français",
+    "description": "La démarche complète d'un test d'hypothèse dans un contexte de gestion : hypothèses, région d'acceptabilité, statistique et décision. À visionner crayon en main en refaisant l'exemple de délai de livraison de la leçon 5.",
+    "niveau": "Licence (L2)"
+   },
+   {
+    "titre": "Droite de régression linéaire & corrélation expliquées simplement en 10 minutes",
+    "chaine": "Statistical Models for Social Sciences",
+    "url": "https://www.youtube.com/watch?v=6L4OrlvjZKc",
+    "langue": "Français",
+    "description": "La corrélation et la droite de régression expliquées en dix minutes, de l'interprétation de r au calcul de la droite. Un résumé visuel efficace de la leçon 6 avant de refaire le calcul point par point.",
+    "niveau": "Licence (L2)"
+   }
+  ]
  }
 }
