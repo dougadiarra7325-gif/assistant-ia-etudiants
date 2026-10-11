@@ -3980,5 +3980,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L1-15": {
+  "pdf": "pdf/BBA-L1-15.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "La Société anonyme (cours) - DCG UE2 Droit des sociétés",
+    "chaine": "Ficheben DCG DSCG DEC",
+    "url": "https://www.youtube.com/watch?v=q_xd-9-M2dI",
+    "langue": "Français",
+    "description": "Un cours complet sur la société anonyme : caractéristiques, gouvernance et rôle des organes de direction. Utile pour approfondir la forme SA de la leçon 2, en gardant en tête que les détails chiffrés se vérifient dans l'Acte uniforme OHADA officiel.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les Structures de l'entreprise partie 1",
+    "chaine": "L' Univers du commerce",
+    "url": "https://www.youtube.com/watch?v=jE5A7hiSCa4",
+    "langue": "Français",
+    "description": "La première partie d'un cours sur les structures de l'entreprise : critères de choix d'une structure, structure hiérarchique et structure fonctionnelle. Elle pose les bases avant d'aborder les formes plus complexes dans la partie 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les structures de l'entreprise partie 2",
+    "chaine": "L' Univers du commerce",
+    "url": "https://www.youtube.com/watch?v=847YDOUaGRY",
+    "langue": "Français",
+    "description": "La suite du même cours : structure divisionnelle et structure matricielle, pour comparer avec l'exemple « Sahel Boissons » de la leçon 3. À regarder après la partie 1 pour avoir la comparaison complète.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les structures organisationnelles : Structure simple (Organigrammes des TPE)",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=5bA-eB767Ok",
+    "langue": "Français",
+    "description": "La structure simple des très petites entreprises et son organigramme : exactement la situation des TPE des leçons 4 et 7. La même série propose des vidéos sur les structures fonctionnelle, divisionnelle et matricielle pour prolonger.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comment CRÉER un ORGANIGRAMME sur WORD comme un PRO (Guide Complet 2026)",
+    "chaine": "MARE Informatique",
+    "url": "https://www.youtube.com/watch?v=f-jw56Z81q4",
+    "langue": "Français",
+    "description": "Un tutoriel pratique, pas à pas, pour dessiner un organigramme propre dans Word avec les outils SmartArt. Parfait pour produire l'organigramme demandé dans le TP de ce cours.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
