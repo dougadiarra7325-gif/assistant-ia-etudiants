@@ -104,6 +104,15 @@ a{color:var(--navy2)}
   *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}
   html{scroll-behavior:auto}
 }
+
+.biblio-banner{display:flex;align-items:center;gap:14px;background:linear-gradient(130deg,var(--navy),var(--navy2) 60%,var(--navy3));color:#fff;text-decoration:none;border-radius:20px;padding:18px 20px;margin-bottom:16px;box-shadow:var(--shadow-lg);border:1px solid rgba(201,162,39,.5);transition:transform .25s ease}
+.biblio-banner:hover{transform:translateY(-3px)}
+.bb-ico{font-size:34px}
+.bb-txt{display:flex;flex-direction:column;gap:2px;flex:1}
+.bb-txt b{font-size:17.5px}
+.bb-txt span{font-size:13px;color:#cfdaea;line-height:1.45}
+.bb-go{background:linear-gradient(140deg,var(--gold2),var(--gold));color:#241a02;font-weight:800;padding:10px 15px;border-radius:12px;white-space:nowrap}
+@media (max-width:600px){.bb-go{display:none}.bb-txt b{font-size:16px}}
 </style>
 </head>
 <body>
@@ -119,6 +128,13 @@ a{color:var(--navy2)}
       <div class="stat"><b>Voix</b><span>dicte et écoute les réponses</span></div>
     </div>
   </section>
+
+
+  <a href="bibliotheque.html" class="biblio-banner reveal visible">
+    <span class="bb-ico">📚</span>
+    <span class="bb-txt"><b>Bibliothèque Universitaire — 225 cours</b><span>Informatique · BBA · Droit — L1, L2, L3 : PDF complets, vidéos, exercices corrigés et QCM.</span></span>
+    <span class="bb-go">Ouvrir →</span>
+  </a>
 
   <div class="chatbox reveal">
     <div id="messages" class="messages">
