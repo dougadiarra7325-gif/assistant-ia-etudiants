@@ -2532,5 +2532,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-09": {
+  "pdf": "pdf/INF-L3-09.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Maîtriser le Big Data  Guide Complet pour Ingénieurs et Étudiants",
+    "chaine": "KRIT Academy",
+    "url": "https://www.youtube.com/watch?v=eLkqdrFn5jo",
+    "langue": "Français",
+    "description": "Une vue d'ensemble complète du Big Data : les cinq V, l'architecture générale, puis les technologies essentielles (Hadoop, Spark, NoSQL). Parfait pour situer toutes les notions du chapitre avant de les détailler leçon par leçon.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Utilisez les bases de données NoSQL",
+    "chaine": "OpenClassrooms en Français",
+    "url": "https://www.youtube.com/watch?v=4RztOLH7fGg",
+    "langue": "Français",
+    "description": "La vidéo d'introduction du cours OpenClassrooms consacré au NoSQL : pourquoi ces bases existent, ce qu'elles changent par rapport au relationnel et comment MongoDB sert de point d'entrée. Idéale en premier visionnage de la leçon 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "MongoDB : documents, collections et requêtes expliqués",
+    "chaine": "Bitdyne",
+    "url": "https://www.youtube.com/watch?v=hVukp5N78EY",
+    "langue": "Français",
+    "description": "Documents JSON, collections et requêtes find expliqués pas à pas avec du code réellement exécuté, y compris le dilemme imbriquer ou référencer. Le compagnon direct de la leçon 3 et du TP.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Hadoop c'est quoi - Hadoop Tuto Vidéo",
+    "chaine": "Alphorm",
+    "url": "https://www.youtube.com/watch?v=zJZBXFajnyw",
+    "langue": "Français",
+    "description": "Une présentation claire d'Apache Hadoop et de son système de fichiers distribué HDFS : à quoi ça sert, comment les données sont réparties et pourquoi les pannes y sont considérées comme normales. À regarder avant d'attaquer MapReduce.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Hadoop vs Spark : Quelle Technologie Big Data Choisir ? La Vérité Expliquée Simplement",
+    "chaine": "Houssem Lahiani",
+    "url": "https://www.youtube.com/watch?v=2k8P3MI0MPs",
+    "langue": "Français",
+    "description": "Le comparatif Hadoop/Spark expliqué simplement : rôle de HDFS et de MapReduce, pourquoi le traitement en mémoire de Spark est plus rapide, et dans quels cas les deux se complètent. Une bonne synthèse de fin de leçon 4.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
