@@ -2172,5 +2172,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L2-25": {
+  "pdf": "pdf/INF-L2-25.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "C'est quoi la DATA SCIENCE ? (Expliqué simplement en 5 min)",
+    "chaine": "Data-Junior",
+    "url": "https://www.youtube.com/watch?v=35gtyk1zcX0",
+    "langue": "Français",
+    "description": "Une présentation claire et sans jargon de la science des données : ce que c'est, comment les entreprises s'en servent pour décider, et les étapes d'un projet, de la collecte au modèle. Parfait avant la leçon 1, pour situer le cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Leçon 11 :  Python : supprimer les doublons et corriger les types de données avec Pandas",
+    "chaine": "Wissen corporation",
+    "url": "https://www.youtube.com/watch?v=hpFoNyBhHos",
+    "langue": "Français",
+    "description": "Exactement les gestes de la leçon 2, en vidéo : détecter et supprimer les lignes dupliquées avec drop_duplicates(), puis vérifier et corriger les types des colonnes avec dtypes et info() avant toute analyse.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Apprendre Python, Numpy, Pandas pour la Data Science [Cours complet Niveau Débutant avec Notebooks]",
+    "chaine": "J.A DATATECH CONSULTING",
+    "url": "https://www.youtube.com/watch?v=LwkWwxg10IU",
+    "langue": "Français",
+    "description": "Un cours complet et progressif sur l'usage de pandas pour l'analyse de données : DataFrames, sélections, résumés statistiques et manipulations courantes. À regarder par chapitres, en parallèle des leçons 3 et 6.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "MATPLOTLIB - Les Bases ! (14/30)",
+    "chaine": "Machine Learnia",
+    "url": "https://www.youtube.com/watch?v=O_OeWxpnUc0",
+    "langue": "Français",
+    "description": "Les bases de matplotlib par un data scientist : première figure avec plt.plot(), styles utiles, subplots pour afficher plusieurs graphiques et version orientée objet. Le complément direct de la leçon 4.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "PYTHON SKLEARN: KNN, LinearRegression et SUPERVISED LEARNING (20/30)",
+    "chaine": "Machine Learnia",
+    "url": "https://www.youtube.com/watch?v=P6kSc3qVph0",
+    "langue": "Français",
+    "description": "La prise en main de scikit-learn : le principe de l'apprentissage supervisé, le fonctionnement d'un estimateur (fit, predict, score), un exemple de régression linéaire et un de classification. À voir après la leçon 5 pour consolider.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
