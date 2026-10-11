@@ -3060,5 +3060,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-20": {
+  "pdf": "pdf/INF-L3-20.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Allumer une LED par Arduino",
+    "chaine": "Robotique Site",
+    "url": "https://www.youtube.com/watch?v=GXOHjGLwgbg",
+    "langue": "Français",
+    "description": "Le tout premier montage Arduino : brancher une LED et l'allumer par le programme. Parfait pour valider son installation avant d'attaquer les capteurs de la leçon 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "TUTO ARDUINO : les CAPTEURS et MODULES les plus UTILES ! ( + tutorial branchement et programmation )",
+    "chaine": "Bertrand . Tech",
+    "url": "https://www.youtube.com/watch?v=fyvy0pY8AGc",
+    "langue": "Français",
+    "description": "Tour d'horizon en français des capteurs et modules Arduino les plus courants, avec branchements et programmation pour chacun. Le segment consacré au DHT11 prolonge directement la leçon 2.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Qu'est-ce que l'Internet des Objets (IoT) ? Le Guide Complet",
+    "chaine": "ZoomIATech",
+    "url": "https://www.youtube.com/watch?v=_rnPQoL6Mys",
+    "langue": "Français",
+    "description": "Une vue d'ensemble de l'Internet des objets : architecture en couches, domaines d'application et questions de cybersécurité. À regarder pour replacer les protocoles de la leçon 3 dans le tableau général.",
+    "niveau": "Tous niveaux"
+   },
+   {
+    "titre": "Comment utiliser le protocole MQTT ? Introduction et application pratique",
+    "chaine": "Electronique & Programmation",
+    "url": "https://www.youtube.com/watch?v=_cmBWyYHXmg",
+    "langue": "Français",
+    "description": "Introduction pratique à MQTT avec mise en œuvre concrète du modèle publication/abonnement. Le complément idéal du sketch ESP32 de la leçon 4.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Domotique et sécurité en général.",
+    "chaine": "PlaisirArduino",
+    "url": "https://www.youtube.com/watch?v=ZYoGflYLPXg",
+    "langue": "Français",
+    "description": "Les règles d'or pour sécuriser une installation domotique et des objets connectés : mots de passe, protocoles chiffrés et bonnes pratiques. En écho direct à la fiche de durcissement de la leçon 6.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
