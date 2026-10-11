@@ -672,5 +672,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L1-16": {
+  "pdf": "pdf/INF-L1-16.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "#1. Expériences et événements aléatoires",
+    "chaine": "Maths PlusUn",
+    "url": "https://www.youtube.com/watch?v=8JFN-xWwtPw",
+    "langue": "Français",
+    "description": "Premier épisode d'un cours de théorie des probabilités pensé pour les étudiants de licence : expérience aléatoire, univers des possibles, issues, événements, union, intersection et complémentaire y sont définis proprement à partir de zéro. Idéal pour consolider le vocabulaire de la leçon 1 avant d'attaquer les calculs.",
+    "niveau": "Licence 1 — débutant"
+   },
+   {
+    "titre": "Calculs de probabilités dans les situations d'équiprobabilité",
+    "chaine": "charmuzelle",
+    "url": "https://www.youtube.com/watch?v=4mNUzKUaZcI",
+    "langue": "Français",
+    "description": "La vidéo explique quand on peut utiliser la formule des cas favorables sur cas possibles, avec la notion de cardinal, puis l'applique à trois exemples : des jetons de couleurs, un lancer de dé et un tirage de carte dans un jeu de 32. Elle accompagne directement la leçon 2 et prépare le TD sur les cartes.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Rappel/Révision des STATISTIQUES DESCRIPTIVES (IUT Le Creusot - Université de Bourgogne)",
+    "chaine": "L'Économie-Gestion Simplement",
+    "url": "https://www.youtube.com/watch?v=N4NPLPndE1Q",
+    "langue": "Français",
+    "description": "Une révision complète de niveau universitaire : mode, moyenne, médiane, quartiles, variance et écart-type sont calculés pas à pas sur un exemple continu, avec leur interprétation. Parfaite pour revoir la leçon 4 et aller un peu au-delà avec les quartiles, utiles pour les boîtes à moustaches.",
+    "niveau": "Licence 1 — intermédiaire"
+   },
+   {
+    "titre": "Statistiques descriptives: cours complet et Questions d'examen corrigés",
+    "chaine": "Z classroom",
+    "url": "https://www.youtube.com/watch?v=YYwxSxbYXPo",
+    "langue": "Français",
+    "description": "Ce cours complet couvre le vocabulaire (population, caractère, effectifs, fréquences, effectifs cumulés) et les représentations graphiques comme le diagramme en bâtons et l'histogramme, avant de traiter moyenne et médiane. Il se termine par des questions d'examen corrigées, dans l'esprit des contrôles de L1.",
+    "niveau": "Licence 1 — débutant à intermédiaire"
+   },
+   {
+    "titre": "Probabilités conditionnelles : arbre, probabilités totales, indépendance (Terminale)",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=lhUNrwZSnZ8",
+    "langue": "Français",
+    "description": "Conditionner, c'est changer d'univers : la vidéo construit la probabilité conditionnelle, les arbres pondérés et la formule des probabilités composées, puis définit l'indépendance en la distinguant clairement de l'incompatibilité. Le tableau croisé y montre comment lire les deux conditionnements inverses, comme dans l'exemple de la leçon 6.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
