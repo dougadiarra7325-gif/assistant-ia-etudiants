@@ -3382,5 +3382,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L1-01": {
+  "pdf": "pdf/BBA-L1-01.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Qu'est-ce que le management... simplement ?",
+    "chaine": "L'Économie-Gestion Simplement",
+    "url": "https://www.youtube.com/watch?v=pI0ySvE_WfU",
+    "langue": "Français",
+    "description": "Une introduction courte et claire : ce qu'est le management et comment une organisation mobilise ses ressources pour atteindre ses objectifs. Parfaite pour fixer la définition de la leçon 1 avant d'entrer dans le détail du cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "5M - Chapitre I: L'école classique. (Management)",
+    "chaine": "5M",
+    "url": "https://www.youtube.com/watch?v=qumryUutQRs",
+    "langue": "Français",
+    "description": "Le chapitre fondateur des écoles classiques du management, avec les principes de Fayol expliqués un par un (division du travail, autorité, unité de commandement…). Le complément direct de la leçon 2 sur Taylor et Fayol.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Chapitre 5 - Le management des organisations",
+    "chaine": "elprofessordestmg",
+    "url": "https://www.youtube.com/watch?v=zHRA4DdPnyI",
+    "langue": "Français",
+    "description": "Manager, ce n'est pas seulement donner des ordres : fixer des objectifs, organiser le travail, mobiliser les acteurs, coordonner et contrôler les résultats. Une vidéo de révision qui reprend presque mot pour mot la boucle des quatre fonctions de la leçon 3.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les 10 rôles du manager selon Mintzberg",
+    "chaine": "humbucker1981",
+    "url": "https://www.youtube.com/watch?v=iYdeywFKgw8",
+    "langue": "Français",
+    "description": "Les dix rôles du manager — des rôles interpersonnels aux rôles décisionnels — présentés dans l'ordre de la grille de Mintzberg. À regarder après la leçon 4, puis re-teste-toi avec la grille d'observation de la journée de Mme Diallo.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "PESTEL et chaîne de valeur : clés du management efficace",
+    "chaine": "CurioSphere",
+    "url": "https://www.youtube.com/watch?v=nZzUuvfzQFw",
+    "langue": "Français",
+    "description": "Comment l'environnement externe influence les décisions d'une entreprise, avec le modèle PESTEL appliqué à un cas célèbre de grande entreprise. Compare sa démarche avec l'analyse simplifiée de la boutique Sotel-Plus de la leçon 5.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
