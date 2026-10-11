@@ -257,7 +257,7 @@ document.getElementById("ia-test").addEventListener("click", async () => {
   const res = await gemini("Dis bonjour en une phrase à un étudiant de l'IAM.", "");
   out.textContent = res.text ? ("✅ L'IA répond : « " + res.text + " »") : ("❌ L'IA ne répond pas — détail : " + res.err);
 });
-fetch("kb.json").then(r => r.json()).then(data => {
+fetch("kb.json?ts=" + Date.now(), { cache: "no-store" }).then(r => r.json()).then(data => {
   KB = data;
   const ex = document.getElementById("exemples");
   KB.filter(r => r.categorie === "Atelier Code to Career").slice(0,4).forEach(r => {

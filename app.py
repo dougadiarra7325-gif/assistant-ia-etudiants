@@ -249,11 +249,12 @@ def init_db():
     cols = [r[1] for r in db.execute("PRAGMA table_info(chatlog)").fetchall()]
     if "source" not in cols:
         db.execute("ALTER TABLE chatlog ADD COLUMN source TEXT NOT NULL DEFAULT 'kb'")
-    n = db.execute("SELECT COUNT(*) FROM qna").fetchone()[0]
-    if n == 0:
+    existing = {r[0] for r in db.execute("SELECT question FROM qna").fetchall()}
+    missing = [row for row in SEED_QNA if row[1] not in existing]
+    if missing:
         db.executemany(
             "INSERT INTO qna (categorie, question, keywords, reponse) VALUES (?,?,?,?)",
-            SEED_QNA)
+            missing)
     db.commit()
     db.close()
 
