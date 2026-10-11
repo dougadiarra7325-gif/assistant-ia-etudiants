@@ -442,5 +442,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L1-12": {
+  "pdf": "pdf/INF-L1-12.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Le modèle OSI et TCPIP enfin facile à comprendre !",
+    "chaine": "Formip - Certification IT",
+    "url": "https://www.youtube.com/watch?v=darvsbHcchs",
+    "langue": "Français",
+    "description": "Les sept couches du modèle OSI et les quatre couches TCP/IP décortiquées avec des exemples concrets. Idéal pour visualiser l'encapsulation avant ou après la leçon 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "🧠 Le Modèle OSI expliqué simplement ! (7 couches du réseau) 📶",
+    "chaine": "WayToLearnX",
+    "url": "https://www.youtube.com/watch?v=RUUoRf3v5R0",
+    "langue": "Français",
+    "description": "Une explication visuelle et courte des 7 couches, avec un moyen mnémotechnique pour les retenir. Parfait pour une révision rapide avant un contrôle.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Subnetting IPv4 : Comprendre le découpage en 25 minutes",
+    "chaine": "Formip - Certification IT",
+    "url": "https://www.youtube.com/watch?v=nYPtY-14M88",
+    "langue": "Français",
+    "description": "Un plan d'adressage complet construit pas à pas : calcul des masques, choix du CIDR et erreurs à éviter. À regarder en refaisant les calculs de la leçon 3 et du TD 1.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Tout sur le Masque de Sous-Réseau |  Cisco Packet Tracer (Épisode 6)",
+    "chaine": "VizionIT",
+    "url": "https://www.youtube.com/watch?v=F6CBcMOWkrE",
+    "langue": "Français",
+    "description": "Le rôle du masque expliqué en pratique dans le simulateur Cisco Packet Tracer : /24, /16 et test de connectivité par ping. Un bon complément visuel des calculs en binaire du cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Switch ou Routeur : quelle différence et à quoi ça sert ? | Finger In The Net",
+    "chaine": "Finger In The Net",
+    "url": "https://www.youtube.com/watch?v=-pE3SFetFWk",
+    "langue": "Français",
+    "description": "La différence entre switch et routeur expliquée simplement, avec leurs rôles respectifs dans un réseau local. À visionner après la leçon 4 pour ancrer le comparatif.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
