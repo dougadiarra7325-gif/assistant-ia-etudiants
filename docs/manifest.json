@@ -3566,5 +3566,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L1-06": {
+  "pdf": "pdf/BBA-L1-06.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Math. Financière 1/4 : les intérêts simples et composés  : Introduction",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=yE5VOAHIWmk",
+    "langue": "Français",
+    "description": "La première vidéo d'une série universitaire complète de mathématiques financières : elle pose le vocabulaire (capital, taux, durée) et la logique des intérêts simples et composés. Regarde-la avant la leçon 1, puis avance dans la série au rythme du cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Math. Financière 4/4 : les intérêts composés",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=ljHMv-4VOWM",
+    "langue": "Français",
+    "description": "Le volet de la même série consacré aux intérêts composés : formule de capitalisation, valeur acquise et exercices d'application. Parfait pour vérifier ta compréhension du tableau année par année de la leçon 3.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "MATHÉMATIQUES FINANCIÈRES : Un schéma de révision simple et logique pour tout comprendre.",
+    "chaine": "L'Économie-Gestion Simplement",
+    "url": "https://www.youtube.com/watch?v=ooGyS-rAhOA",
+    "langue": "Français",
+    "description": "Une révision d'ensemble articulée autour d'un schéma unique : intérêts simples, intérêts composés, annuités de placement et annuités de remboursement s'y enchaînent logiquement. Idéale la veille d'un contrôle pour replacer la leçon 5 dans le plan complet du cours.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "L ' emprunt indivi - Partie 1/2",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=_w5ooiGkY6k",
+    "langue": "Français",
+    "description": "Le premier volet du chapitre sur les emprunts indivis de la série Performance Éducation : fonctionnement du remboursement, décomposition de l'annuité et construction du tableau d'amortissement. À regarder en construisant en parallèle le tableau de la leçon 6.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "MathFi | Fonctionnement d'un emprunt indivi  #MathBoufala",
+    "chaine": "Math-Prof.Boufala",
+    "url": "https://www.youtube.com/watch?v=en5kn6eIWiY",
+    "langue": "Français",
+    "description": "Un cours filmé de mathématiques financières (niveau faculté des sciences économiques et de gestion) consacré au fonctionnement d'un emprunt indivis. Une deuxième explication, avec d'autres exemples, pour consolider la leçon 6 et le TP.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
