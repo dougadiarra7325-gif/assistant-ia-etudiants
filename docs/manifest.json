@@ -1132,5 +1132,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L2-03": {
+  "pdf": "pdf/INF-L2-03.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "PHP et MySQL Pour Débutant - Chapitre 05 - Les variables",
+    "chaine": "Ecole Numérique du Génie en Programmation (ENGP)",
+    "url": "https://www.youtube.com/watch?v=aPJ18O_85ec",
+    "langue": "Français",
+    "description": "Cette vidéo présente les variables PHP pas à pas : déclaration avec le symbole dollar, types de valeurs et premiers affichages avec echo. Elle donne une base concrète avant d'aborder les tableaux et les structures de contrôle de la leçon 1.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les tableaux en PHP : indexés, associatifs et multidimensionnels (Débutant)",
+    "chaine": "Formateur  - Thibault Chazottes - Laravel & Vue js",
+    "url": "https://www.youtube.com/watch?v=ICSL35yZRv8",
+    "langue": "Français",
+    "description": "On y découvre les tableaux indexés, associatifs et multidimensionnels à travers des exemples manipulés pas à pas, avec count(), print_r() et var_dump(). Parfait pour consolider la partie tableaux de la leçon 1 et préparer la boucle foreach.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Connexion MySQL en PHP avec PDO 🔐 | Requêtes Préparées & Sécurité (Tutoriel Complet)",
+    "chaine": "SAID GAHI",
+    "url": "https://www.youtube.com/watch?v=1PtcBQbInBo",
+    "langue": "Français",
+    "description": "Connexion à MySQL via PDO, requêtes préparées et protection contre les injections SQL sont démontrées de bout en bout, avec la gestion des erreurs en try/catch. À regarder en parallèle des leçons 4 et 5 pour voir la syntaxe en situation réelle.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Partie-2_Gestion complète d'un compte utilisateur (créer espace membre / Auth complet)",
+    "chaine": "Ronasdev",
+    "url": "https://www.youtube.com/watch?v=mG2Mmz3VSHs",
+    "langue": "Français",
+    "description": "Ce tutoriel construit un système de compte utilisateur complet : inscription, connexion et déconnexion, option « se souvenir de moi » avec les cookies, et mot de passe oublié. Il illustre directement la leçon 3 et prépare le projet final du cours.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "TUTO PHP - Créer un Forum complet de A à Z en PHP & MySQL ! (Formation complète)",
+    "chaine": "FrenchCoder - Développement Web",
+    "url": "https://www.youtube.com/watch?v=nu2m9HaeVV4",
+    "langue": "Français",
+    "description": "Une formation longue qui assemble toutes les briques du cours : inscription et authentification, base de données, publication, modification et suppression de contenus. Idéale comme modèle d'architecture et de découpage pour le projet de site avec espace membre de la leçon 7.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
