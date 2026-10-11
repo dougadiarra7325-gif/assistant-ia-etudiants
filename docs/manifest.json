@@ -1178,5 +1178,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L2-02": {
+  "pdf": "pdf/INF-L2-02.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Apprendre Python - Programmation Python pour Débutant",
+    "chaine": "MaxCode",
+    "url": "https://www.youtube.com/watch?v=_TVrC_HCkTE",
+    "langue": "Français",
+    "description": "Un cours complet qui part de l'installation et couvre variables, types, conditions, boucles, listes, dictionnaires, fonctions et une première approche des objets. Parfait pour accompagner les leçons 1 à 3 en révisant chaque notion en vidéo.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Tuple, Set et Dictionnaire en Python",
+    "chaine": "Comment Coder",
+    "url": "https://www.youtube.com/watch?v=qFiK62vpmUw",
+    "langue": "Français",
+    "description": "Une vidéo courte et ciblée sur les trois collections souvent confondues : tuples immuables, ensembles sans doublons et dictionnaires clé-valeur. Elle montre concrètement quand choisir chacune d'elles, en complément direct de la leçon 3.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "MEGA TUTO Python : 5 HEURES pour APPRENDRE à CODER ! Les BASES de la PROGRAMMATION avec Python !",
+    "chaine": "Bertrand . Tech",
+    "url": "https://www.youtube.com/watch?v=EWtKgJVYQbM",
+    "langue": "Français",
+    "description": "Un tutoriel marathon qui enchaîne les bases du langage puis, dans sa dernière partie, la lecture et l'écriture de fichiers ainsi que la gestion des erreurs avec try/except. Idéal pour revoir la leçon 4 avec d'autres exemples commentés pas à pas.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "APPRENDRE PYTHON : LA PROGRAMMATION ORIENTÉE OBJET [TUTO COMPLET DÉBUTANT]",
+    "chaine": "CodeAvecJonathan",
+    "url": "https://www.youtube.com/watch?v=Y-wXK0Wu5pc",
+    "langue": "Français",
+    "description": "La POO expliquée depuis zéro : classes, constructeur, instances, méthodes, variables de classe et héritage, avec des mises en situation et des exercices guidés. C'est le prolongement vidéo naturel de la leçon 5, à suivre code sous les yeux.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Apprendre Python, Numpy, Pandas pour la Data Science [Cours complet Niveau Débutant avec Notebooks]",
+    "chaine": "J.A DATATECH CONSULTING",
+    "url": "https://www.youtube.com/watch?v=LwkWwxg10IU",
+    "langue": "Français",
+    "description": "Un cours complet qui, après les bases de Python, consacre un long chapitre à pandas : DataFrames, lecture de fichiers et analyses guidées dans des notebooks téléchargeables. À utiliser pour dépasser l'initiation de la leçon 6 et pratiquer sur de vrais jeux de données.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
