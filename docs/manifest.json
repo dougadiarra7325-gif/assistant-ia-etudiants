@@ -3290,5 +3290,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-25": {
+  "pdf": "pdf/INF-L3-25.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Intelligence économique : construire une veille utile à la décision",
+    "chaine": "ACADEMY CARREFOURDUWEB",
+    "url": "https://www.youtube.com/watch?v=DE1xfNRAEPg",
+    "langue": "Français",
+    "description": "Une présentation structurée de la démarche de veille : distinguer donnée, information et décision, choisir ses sources, vérifier par recoupement et organiser sa surveillance. C'est le cadre général dans lequel s'inscrit le plan de veille de la leçon 1.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Optimiser sa veille informationnelle avec Feedly",
+    "chaine": "We Teech",
+    "url": "https://www.youtube.com/watch?v=Lj6t5AOrFqs",
+    "langue": "Français",
+    "description": "Un tutoriel pas à pas sur un lecteur de flux RSS : ajouter des sites, des chaînes et des newsletters, puis organiser ses sources en collections. Le complément pratique idéal pour outiller le plan de veille construit dans la leçon 1.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "L’IA générative, c’est quoi, au fait ? Expliquée en 3 minutes",
+    "chaine": "Bonjour Grok Bot",
+    "url": "https://www.youtube.com/watch?v=MtFlwft-czg",
+    "langue": "Français",
+    "description": "En trois minutes et sans jargon, la différence entre retrouver une information et en produire une, et pourquoi une réponse plausible n'est pas forcément vraie. Une introduction claire à la partie « IA générative » du panorama de la leçon 6, dans l'esprit lucide de ce cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comment aller vers une sobriété numérique ? 3 minutes Top chrono pour la transition !",
+    "chaine": "ademe",
+    "url": "https://www.youtube.com/watch?v=aTfIDgMWbzk",
+    "langue": "Français",
+    "description": "L'agence française de la transition écologique présente les impacts environnementaux de nos équipements et les leviers de la sobriété : durer, réparer, reconditionner. Une source institutionnelle, cohérente avec l'exigence de la leçon 6 de toujours citer l'origine des chiffres.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "5 astuces pour réduire ton impact écologique numérique | Sciences | Alloprof",
+    "chaine": "Alloprof",
+    "url": "https://www.youtube.com/watch?v=9PhZtt7DOv0",
+    "langue": "Français",
+    "description": "Cinq gestes concrets pour réduire l'impact de ses usages numériques, présentés simplement : refuser, réduire, réutiliser, réparer, recycler. Le versant pratique et quotidien de la sobriété numérique abordée dans la leçon 6.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
