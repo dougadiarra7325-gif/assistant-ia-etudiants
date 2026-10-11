@@ -90,5 +90,43 @@
     "niveau": "Débutant à avancé"
    }
   ]
+ },
+ "INF-L1-03": {
+  "pdf": "pdf/INF-L1-03.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Pointeurs | Langage C - EP13",
+    "chaine": "EvoluNoob",
+    "url": "https://www.youtube.com/watch?v=K_FhgzTyBMQ",
+    "langue": "Français",
+    "description": "L'épisode de référence sur les pointeurs : ce qui les différencie des variables classiques, déclaration et initialisation, schémas mémoire, manipulation de données à travers un pointeur, passage à une fonction et fonction qui renvoie un pointeur.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "#25 Langage C -Les Pointeurs - Partie 1 (Définition)",
+    "chaine": "Programming With HAIRIBI",
+    "url": "https://www.youtube.com/watch?v=QTheWic1knw",
+    "langue": "Français",
+    "description": "La définition d'un pointeur expliquée simplement, première partie d'une série en cinq volets (pointeurs et tableaux, structures, passage par adresse, allocation dynamique) : idéal pour démarrer la leçon 1 en douceur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Langage C-8 : Pointeurs, passage par valeur, passage par adresse et arithmétique des pointeurs.",
+    "chaine": "Hassan EL BAHI",
+    "url": "https://www.youtube.com/watch?v=adnyaD1bVR4",
+    "langue": "Français",
+    "description": "Passage par valeur contre passage par adresse, relation entre pointeurs et tableaux et arithmétique des pointeurs, avec cinq exercices pratiques pour ancrer la leçon 2.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Fichiers | Langage C - EP20",
+    "chaine": "EvoluNoob",
+    "url": "https://www.youtube.com/watch?v=lD60NnWPcRA",
+    "langue": "Français",
+    "description": "Tout sur les fichiers en C : le type FILE, ouvrir et fermer, lire et écrire en mode texte puis en mode binaire, déplacer le curseur — avec des exemples tirés du noyau Linux pour voir le vrai code.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
