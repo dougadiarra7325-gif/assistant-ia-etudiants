@@ -3658,5 +3658,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L1-08": {
+  "pdf": "pdf/BBA-L1-08.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Statistiques descriptives: cours complet et Questions d'examen corrigés",
+    "chaine": "Z classroom",
+    "url": "https://www.youtube.com/watch?v=YYwxSxbYXPo",
+    "langue": "Français",
+    "description": "Un cours complet qui reprend tout le vocabulaire de la leçon 1 : population, caractère, effectifs, fréquences, effectifs cumulés, puis enchaîne sur la moyenne et la médiane. Parfait pour réviser le chapitre entier avant un contrôle, questions d'examen corrigées à l'appui.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "LE COURS : Statistiques - Quatrième",
+    "chaine": "Yvan Monka",
+    "url": "https://www.youtube.com/watch?v=DtJAwfouGfY",
+    "langue": "Français",
+    "description": "La chaîne de référence en mathématiques francophones reprend, avec sa clarté habituelle, les séries statistiques, la moyenne et la médiane. Un excellent rappel filmé des définitions et des méthodes de la leçon 4, à regarder avant de refaire les exercices du cours.",
+    "niveau": "Débutant (rappels)"
+   },
+   {
+    "titre": "Rappel/Révision des STATISTIQUES DESCRIPTIVES (IUT Le Creusot - Université de Bourgogne)",
+    "chaine": "L'Économie-Gestion Simplement",
+    "url": "https://www.youtube.com/watch?v=N4NPLPndE1Q",
+    "langue": "Français",
+    "description": "Une révision de niveau universitaire (IUT) qui traite une variable quantitative continue de bout en bout : mode, moyenne, médiane, quartiles, puis variance et écart-type avec leur interprétation. Le prolongement direct et exigeant des leçons 4 et 5.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Statistiques: CALCULER UNE VARIANCE ET UN ÉCART TYPE D'UNE SÉRIE STATISTIQUE",
+    "chaine": "ADN TV",
+    "url": "https://www.youtube.com/watch?v=uaz499gSbUw",
+    "langue": "Français",
+    "description": "La méthode de calcul de la variance et de l'écart-type expliquée étape par étape sur un exercice corrigé : moyenne, écarts à la moyenne, carrés, division par l'effectif, racine carrée. Exactement la démarche terme à terme pratiquée dans la leçon 5.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "SÉRIES CHRONOLOGIQUES ET INDICES SAISONNIERS",
+    "chaine": "Saïd Chermak",
+    "url": "https://www.youtube.com/watch?v=SN2zZoGrxB8",
+    "langue": "Français",
+    "description": "Un cours de statistiques consacré aux séries chronologiques : étude de l'évolution d'un phénomène dans le temps, tendance, représentation graphique et interprétation des courbes. Il prolonge la leçon 6 vers l'analyse des variations saisonnières, fréquentes dans les ventes.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
