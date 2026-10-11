@@ -2876,5 +2876,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-15": {
+  "pdf": "pdf/INF-L3-15.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "[FR] ISTQB Foundation v4 — QCM & Examens Blancs : 2026-Questions (avec explications)",
+    "chaine": "QualityLab Academy",
+    "url": "https://www.youtube.com/watch?v=rUDMAWkSjic",
+    "langue": "Français",
+    "description": "Un entraînement complet aux questions de la certification ISTQB Foundation v4, avec des explications détaillées à chaque réponse. Idéal pour consolider le vocabulaire et les principes de cette première leçon (et réviser avant un examen).",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "2.1. Tester dans le contexte d'un cycle de vie du développement logiciel",
+    "chaine": "Mariem Mili",
+    "url": "https://www.youtube.com/watch?v=tVOzX2teJwY",
+    "langue": "Français",
+    "description": "Comment les activités de test s'articulent avec le cycle de vie du développement (en V, itératif, DevOps) et pourquoi tester tôt — le fameux shift left. Un bon complément sur la place du test dans un projet, avant même les outils.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Construire une Stratégie de Test Efficace",
+    "chaine": "La Guilde ! - Expertise en Quality Engineering",
+    "url": "https://www.youtube.com/watch?v=hdol55mYGZ8",
+    "langue": "Français",
+    "description": "De la définition d'une stratégie de test à sa mise en œuvre : niveaux de test, pyramide, environnements, indicateurs et automatisation. La vidéo à regarder pour relier la pyramide de cette leçon aux décisions concrètes d'une équipe.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "15.09 | Écrire des tests unitaires et d’intégration pour un ERP Moderne avec Spring Boot | LIVE #26",
+    "chaine": "Ismael Loko",
+    "url": "https://www.youtube.com/watch?v=sas3Yk4Mrko",
+    "langue": "Français",
+    "description": "Une session de codage en direct où des tests unitaires et d'intégration sont écrits sur une vraie application métier (un ERP, en Java/Spring). Le framework diffère de pytest, mais la démarche — quoi tester, comment isoler, comment structurer — est exactement celle de la leçon.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Test logiciel : COMMENT CONCEVOIR LES CAS DE TEST",
+    "chaine": "qualite logiciel",
+    "url": "https://www.youtube.com/watch?v=NZDvPYPBMEE",
+    "langue": "Français",
+    "description": "Les techniques de conception des cas de test (classes d'équivalence, valeurs limites, tables de décision) expliquées pas à pas dans la tradition ISTQB. Parfait pour préparer le TD et structurer ensuite des campagnes de test complètes.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
