@@ -1438,5 +1438,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L2-09": {
+  "pdf": "pdf/INF-L2-09.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Ligne de commandes Linux - partie 4 - Gestion des utilisateurs et des groupes",
+    "chaine": "Ordirepar",
+    "url": "https://www.youtube.com/watch?v=Kk8iC9xtvpM",
+    "langue": "Français",
+    "description": "Gestion complète des utilisateurs et des groupes en ligne de commande : /etc/passwd, useradd, usermod, passwd, userdel, puis les droits d'accès avec chmod en octal. C'est exactement le programme de la leçon 2, démontré pas à pas dans un terminal.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "1-Apprendre chmod & chown — 3 exercices Linux pour débutants",
+    "chaine": "Wael Tech School",
+    "url": "https://www.youtube.com/watch?v=ql2SrJf-z3c",
+    "langue": "Français",
+    "description": "Trois exercices pratiques et courts sur les permissions : ajouter le droit d'exécution au propriétaire, retirer tous les droits aux autres, puis changer le propriétaire et le groupe d'un fichier avec chown. Parfait pour s'entraîner juste après la leçon 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Introduction Script Bash sur Linux",
+    "chaine": "IT-Connect - Florian",
+    "url": "https://www.youtube.com/watch?v=gBCGeLjYBgQ",
+    "langue": "Français",
+    "description": "Créer son premier script Bash sur Linux : principe de l'interpréteur, écriture du script, exécution et enchaînements de commandes. La vidéo prolonge la leçon 5 et prépare l'automatisation des tâches d'administration, cron compris.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "SSH - L'outil indispensable que tout utilisateur Linux devrait connaître",
+    "chaine": "Ordirepar",
+    "url": "https://www.youtube.com/watch?v=cNIn5jjtvO0",
+    "langue": "Français",
+    "description": "SSH de A à Z : installer le serveur openssh, s'y connecter depuis Linux, Windows et même un smartphone Android, et transférer des fichiers. La démonstration complète de la leçon 6, à suivre avec ta propre machine virtuelle.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "SSH : comprendre l'essentiel en 3 minutes",
+    "chaine": "Cookie connecté",
+    "url": "https://www.youtube.com/watch?v=gn3vLuxl-Y8",
+    "langue": "Français",
+    "description": "L'essentiel de SSH en trois minutes : à quoi sert le protocole, les trois piliers de sa sécurité, le chiffrement et les cas d'usage. Idéal pour réviser la théorie de la leçon 6 avant un contrôle ou un TP.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
