@@ -856,5 +856,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-20": {
+  "pdf": "pdf/INF-L1-20.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Informatique de gestion : Les Fonctions Clés d’un Système d’Information Expliquées",
+    "chaine": "Abdellah Ounejjar",
+    "url": "https://www.youtube.com/watch?v=VlXLaXIzT8k",
+    "langue": "Français",
+    "description": "Une présentation claire des grandes fonctions d'un système d'information : collecter, mémoriser, traiter et diffuser. À regarder après la leçon 1 pour vérifier que tu sais expliquer chaque fonction avec un exemple.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "1STMG- MANAGEMENT- Le système d'information",
+    "chaine": "Hors les murs: sorties et apprentissage",
+    "url": "https://www.youtube.com/watch?v=npVp1rperiE",
+    "langue": "Français",
+    "description": "Un cours de management qui présente le système d'information, ses composantes et son rôle dans la prise de décision. Il illustre bien la leçon 2 sur les flux et les décisions, avec des exemples d'entreprise simples.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Système d'information (SI) / la conception et la modélisation Merise/UML (informatique de gestion)",
+    "chaine": "InfoTawjih",
+    "url": "https://www.youtube.com/watch?v=NrO2JtKyFh8",
+    "langue": "Français",
+    "description": "De la définition du SI à sa conception : l'entreprise et ses sous-systèmes, puis l'introduction à la modélisation avec Merise. C'est le complément vidéo direct de la leçon 4 et de la démarche de conception.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Cours Modèle Relationnel et MCD",
+    "chaine": "E mds",
+    "url": "https://www.youtube.com/watch?v=VFHVNA8xgK0",
+    "langue": "Français",
+    "description": "Un cours complet sur le MCD de Merise : entités, associations, cardinalités, dépendances fonctionnelles et passage au modèle relationnel, avec un exemple filé. À utiliser pour réviser la leçon 4 et préparer le TD n°2.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "TP Merise part02 _ MCD_MLD_SQL",
+    "chaine": "Code.with.ease13",
+    "url": "https://www.youtube.com/watch?v=4ivguVu1TP4",
+    "langue": "Français",
+    "description": "Un travail pratique guidé : dictionnaire de données, construction d'un MCD puis transformation en modèle logique. Idéal pour t'entraîner avant le TP du cours et vérifier ta méthode sur un cas nouveau.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
