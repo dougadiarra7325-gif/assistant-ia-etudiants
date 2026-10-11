@@ -2218,5 +2218,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-02": {
+  "pdf": "pdf/INF-L3-02.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Inter-VLAN Routing: Avec Un Switch De Niveau 3",
+    "chaine": "XYS PROD Networking",
+    "url": "https://www.youtube.com/watch?v=YEY35gBvYO8",
+    "langue": "Français",
+    "description": "Configuration complète du routage inter-VLAN sur un commutateur de couche 3 dans Cisco Packet Tracer : création des VLAN, attribution des ports et activation des SVI. C'est la mise en pratique exacte de la configuration présentée dans la leçon 2.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "#10 : Cisco Packet Tracer : VLAN Configuration + Router-on-a-Stick (Inter-VLAN Routing) (Partie 3)",
+    "chaine": "DymoDigital",
+    "url": "https://www.youtube.com/watch?v=hxnEfcqiG-o",
+    "langue": "Français",
+    "description": "L'autre architecture de routage inter-VLAN : le router-on-a-stick, avec ses sous-interfaces sur un trunk unique. À comparer point par point avec la solution par commutateur L3 pour savoir choisir selon la taille du site.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Réseaux | 59 - Le Protocole SNMP [1/2]",
+    "chaine": "Mohamed Herak - محمد هراك",
+    "url": "https://www.youtube.com/watch?v=Algoi-YsgsU",
+    "langue": "Français",
+    "description": "Le rôle de SNMP, l'architecture d'un système de supervision et la notion d'agent SNMP, expliqués comme dans un cours magistral. Idéal pour consolider les notions de gestionnaire, de MIB et d'OID de la leçon 4 avant de passer aux outils.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Supervision d'un réseau informatique ( SNMP - Syslog - NetFlow - NAGIOS )",
+    "chaine": "aji tafham informatique",
+    "url": "https://www.youtube.com/watch?v=FL5Is3AnMrI",
+    "langue": "Français",
+    "description": "Une vue d'ensemble de la supervision d'entreprise : SNMP pour les compteurs, syslog pour les journaux, NetFlow pour les flux, et la plateforme Nagios pour centraliser le tout. Elle relie entre elles toutes les sources de mesures citées dans la leçon 4.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "EP04 : Configurer les zones de sécurités et politiques IPV4 LAN/DMZ/WAN",
+    "chaine": "HCE Academy",
+    "url": "https://www.youtube.com/watch?v=rSfSdZ19L_4",
+    "langue": "Français",
+    "description": "La logique des zones LAN, DMZ et WAN appliquée sur un pare-feu FortiGate : comment la séparation en zones structure les politiques de sécurité et évite les erreurs de règles. Le prolongement pratique de la matrice de flux de la leçon 5.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
