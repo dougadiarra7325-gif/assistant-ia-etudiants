@@ -2708,5 +2708,51 @@
     "niveau": "Intermédiaire à avancé"
    }
   ]
+ },
+ "INF-L3-12": {
+  "pdf": "pdf/INF-L3-12.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "GitLab CI/CD expliqué simplement (Pour développeurs et DevOps)",
+    "chaine": "chillotech",
+    "url": "https://www.youtube.com/watch?v=mxucWhlawCo",
+    "langue": "Français",
+    "description": "Un long tutoriel qui construit un pipeline complet sous GitLab : étapes, jobs, artefacts, variables et passage de la CI à la CD. Parfait pour voir, en vrai, le fichier YAML de la leçon 2 prendre vie sur une plateforme réelle.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Bonnes pratiques (6/6) — Couverture & intégration continue",
+    "chaine": "Bitdyne",
+    "url": "https://www.youtube.com/watch?v=ulB13cyoKwc",
+    "langue": "Français",
+    "description": "Pourquoi un pipeline doit pouvoir bloquer une fusion quand un contrôle échoue, et ce que la couverture de tests dit (et ne dit pas) de la qualité. Le complément direct de la leçon 2 sur le rôle de garde-fou de la CI.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Introduction à Dockerfile et docker compose",
+    "chaine": "Ordirepar",
+    "url": "https://www.youtube.com/watch?v=8bRPzDVN4ds",
+    "langue": "Français",
+    "description": "La différence entre Dockerfile (la recette d'une image) et Docker Compose (l'orchestration de plusieurs conteneurs), expliquée simplement avant de pratiquer. Idéal avant de refaire à la main les deux fichiers de la leçon 4.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Docker & conteneurs : images, Dockerfile, volumes, réseau et Compose – Guide complet",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=YN_nQH6_R-g",
+    "langue": "Français",
+    "description": "Le guide complet : images et couches, écriture d'un Dockerfile efficace, volumes persistants, réseaux entre conteneurs et fichier Compose. Il couvre exactement le vocabulaire et les gestes de la leçon 4, avec des démonstrations.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Superviser ses conteneurs Docker avec Prometheus/Grafana",
+    "chaine": "YoanDev",
+    "url": "https://www.youtube.com/watch?v=_UD181Kf4E0",
+    "langue": "Français",
+    "description": "Mise en place réelle d'une supervision de conteneurs : Prometheus collecte les métriques, Grafana les affiche en tableaux de bord. La mise en pratique des métriques et des tableaux de bord de la leçon 5.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
