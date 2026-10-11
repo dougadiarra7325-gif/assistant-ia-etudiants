@@ -4210,5 +4210,43 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "BBA-L1-20": {
+  "pdf": "pdf/BBA-L1-20.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Rôle des Bureaux de Représentation de la Commission de l'UEMOA dans le processus d’intégration",
+    "chaine": "UEMOA Officiel",
+    "url": "https://www.youtube.com/watch?v=wClNJGqvR4Y",
+    "langue": "Français",
+    "description": "Sur la chaîne officielle de l'UEMOA, cette vidéo explique comment les bureaux de représentation de la Commission relaient l'action de l'Union dans les États membres. Un contact direct avec le langage et les missions réelles de l'institution étudiée dans cette leçon.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "LE FRANC CFA EN DANGER : LA FIN EST - ELLE PROCHE ?",
+    "chaine": "Le Média Africain",
+    "url": "https://www.youtube.com/watch?v=t832AXiIffg",
+    "langue": "Français",
+    "description": "Cette vidéo expose le débat public sur l'avenir du franc CFA : origines, fonctionnement, arguments des défenseurs de la stabilité et de ceux qui réclament un changement. À regarder avec l'esprit critique travaillé dans la leçon : repérer quels arguments relèvent des mécanismes et lesquels relèvent des opinions.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "La Chambre de Commerce fait de la formalisation du secteur informel son nouveau cheval de bataille",
+    "chaine": "AFRICALEADNEWS TV",
+    "url": "https://www.youtube.com/watch?v=Z8dw92LYDhQ",
+    "langue": "Français",
+    "description": "Reportage consacré aux efforts d'une chambre de commerce ouest-africaine pour accompagner les acteurs informels vers la formalisation, avec l'accès au financement comme enjeu central. La situation décrite concerne le Sénégal, mais la problématique est très comparable à celle du Mali étudiée dans cette leçon.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "L'Invité de l'Intégration sur la conjoncture économique au sein de l’UEMOA",
+    "chaine": "UEMOA Officiel",
+    "url": "https://www.youtube.com/watch?v=jfNujJF8Cco",
+    "langue": "Français",
+    "description": "Un responsable de la Commission de l'UEMOA y présente la lecture de la conjoncture économique de l'Union et le travail de surveillance des économies des États membres. Utile pour comprendre à quoi servent concrètement les données et critères de convergence évoqués dans les leçons 1 et 6.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
