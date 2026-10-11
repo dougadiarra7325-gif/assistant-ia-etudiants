@@ -2034,5 +2034,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L2-22": {
+  "pdf": "pdf/INF-L2-22.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "How to Write a CV That Gets You Hired",
+    "chaine": "Uday Explore UK",
+    "url": "https://www.youtube.com/watch?v=m0epX7h8TdI",
+    "langue": "Anglais",
+    "description": "Le format de CV attendu par les recruteurs anglophones, rubrique par rubrique : profil personnel, résultats chiffrés, compétences et formation. Le complément direct de la leçon 1 pour construire un CV qui donne des entretiens.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Tell Me About Yourself - The PERFECT ANSWER to This Interview Question",
+    "chaine": "Learn English Lab (Free English Lessons)",
+    "url": "https://www.youtube.com/watch?v=kVZwON5jbRo",
+    "langue": "Anglais",
+    "description": "La méthode complète pour répondre à « Tell me about yourself » : trois à cinq points forts, puis une conclusion qui explique pourquoi tu veux ce poste. À regarder en préparant ton pitch de la leçon 2.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Speak So People Listen: 5 Meeting Phrases That Work | Business English #eclub",
+    "chaine": "e-Club | English with Reena Makhijani",
+    "url": "https://www.youtube.com/watch?v=4VdtHEy8MtE",
+    "langue": "Anglais",
+    "description": "Cinq phrases toutes prêtes pour peser dans une réunion : enchaîner sur l'idée d'un collègue, poser une bonne question, donner son point de vue et résumer la discussion. Le prolongement oral de la leçon 3.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "10 Important Practice Interview Questions and Answers",
+    "chaine": "Knowledge Topper",
+    "url": "https://www.youtube.com/watch?v=CYVHAnLO7z0",
+    "langue": "Anglais",
+    "description": "Dix questions d'entretien très fréquentes avec des modèles de réponses courtes et claires : points forts, point faible, motivation, gestion des délais. Idéal pour répéter à voix haute avant un vrai entretien.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Speak like a Pro! 25 Business English Phrases",
+    "chaine": "English with Alex · engVid",
+    "url": "https://www.youtube.com/watch?v=bhO6D-i4RDA",
+    "langue": "Anglais",
+    "description": "Vingt-cinq expressions professionnelles à pratiquer en répétant après le professeur : « follow up », « get back to you », « keep you posted »… Exactement les formules utilisées au téléphone, en visioconférence et par e-mail.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
