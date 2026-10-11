@@ -1262,5 +1262,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L2-04": {
+  "pdf": "pdf/INF-L2-04.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "FORMATION SQL COMPLÈTE 6H : Débutant → Avancé + Projet RH de A à Z | PostgreSQL",
+    "chaine": "Ceemtic Analytics",
+    "url": "https://www.youtube.com/watch?v=Lp9R5PlZeRg",
+    "langue": "Français",
+    "description": "Une formation complète qui couvre dans l'ordre le programme de ce cours : filtres, fonctions d'agrégation, GROUP BY et HAVING, jointures, vues et index, avec des exercices pratiques. À regarder en plusieurs séances, en t'arrêtant pour refaire chaque requête sur la base boutique.",
+    "niveau": "Débutant à avancé"
+   },
+   {
+    "titre": "Apprendre SQL pour Débutant  - Tutoriel SQL COMPLET",
+    "chaine": "Dataseito",
+    "url": "https://www.youtube.com/watch?v=eL80VI4QGTg",
+    "langue": "Français",
+    "description": "Un tutoriel complet qui repart des fondations (SELECT, WHERE, ORDER BY) avant d'enchaîner sur GROUP BY, HAVING et toutes les jointures. Parfait pour consolider les leçons 1, 2 et 4 si certains réflexes de L1 sont lointains.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Utiliser INNER JOIN & LEFT OUTER JOIN dans une requête SQL",
+    "chaine": "Antoine Moulin",
+    "url": "https://www.youtube.com/watch?v=s5hXALXyv1I",
+    "langue": "Français",
+    "description": "Le complément direct de la leçon 3 : quand utiliser INNER JOIN, quand passer en LEFT OUTER JOIN, et ce que deviennent les lignes sans correspondance. Regarde-la juste après avoir fait l'exercice sur les clients sans commande.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Requêtes SQL : WHERE (jointures) - Explications & Exemples - Bases de données",
+    "chaine": "Fabinou",
+    "url": "https://www.youtube.com/watch?v=ZqFco3CBMSM",
+    "langue": "Français",
+    "description": "Des exemples progressifs de jointures réalisées avec WHERE, avec les questions de préfixage des colonnes quand deux tables ont des champs de même nom. Utile pour reconnaître l'ancienne syntaxe que tu croiseras dans des codes existants.",
+    "niveau": "Débutant (niveau Licence/BTS)"
+   },
+   {
+    "titre": "Langage SQL - Vidéo 23: Les Sous-Requêtes (1/4) - Introduction",
+    "chaine": "KLN Technology",
+    "url": "https://www.youtube.com/watch?v=U86eaxkXs2M",
+    "langue": "Français",
+    "description": "La première vidéo d'une série dédiée aux sous-requêtes : définition, sous-requêtes internes et externes, indépendantes et corrélées, et les emplacements possibles dans une requête. Le prolongement naturel de la leçon 5, à suivre avec les parties suivantes de la série.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
