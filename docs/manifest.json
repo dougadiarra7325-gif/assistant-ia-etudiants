@@ -3842,5 +3842,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L1-12": {
+  "pdf": "pdf/BBA-L1-12.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Introduce yourself and make some friends - 04 - English at Work",
+    "chaine": "BBC Learning English",
+    "url": "https://www.youtube.com/watch?v=1AmS9h8g3E4",
+    "langue": "Anglais",
+    "description": "Un épisode court de la série English at Work de la BBC : Anna, nouvelle employée, se présente à ses collègues dès son premier jour. Idéal pour entendre les formules de la leçon 1 (« I have just joined the team », « Nice to meet you ») dans une vraie scène de bureau, avec un anglais clair et lent.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Business English | Introductions: 10 Essential Phrases for Professionals | Vocabulary Builder",
+    "chaine": "The English Effect",
+    "url": "https://www.youtube.com/watch?v=o5zHiI_tDsc",
+    "langue": "Anglais",
+    "description": "Dix phrases essentielles pour se présenter en contexte professionnel, expliquées une à une avec des exemples d'usage et un conseil de prononciation. Un complément direct à la leçon 1 : choisis trois phrases et répète-les à voix haute jusqu'à les dire sans hésiter.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Professional English On The Telephone - 38 Useful Phrases",
+    "chaine": "Derek Callan - English for Professionals",
+    "url": "https://www.youtube.com/watch?v=8az2C76BQ5Q",
+    "langue": "Anglais",
+    "description": "Trente-huit phrases utiles pour téléphoner en anglais professionnel : répondre, se présenter, demander quelqu'un, mettre en attente et prendre un message. Couvre exactement les situations de la leçon 4 ; écoute une première fois, puis répète chaque phrase après le professeur.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Emails in English - How to Write an Email in English - Business English Writing",
+    "chaine": "Oxford Online English",
+    "url": "https://www.youtube.com/watch?v=xay5TeJVSC0",
+    "langue": "Anglais",
+    "description": "Une leçon complète qui construit un courriel anglais du début à la fin : salutation, raison du message, détails, demande d'action et formule de clôture. À regarder avec le courriel modèle de la leçon 5 sous les yeux pour comparer les deux structures, presque identiques.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "How to Lead a Meeting in English: What to Say from Start to Finish | Business English",
+    "chaine": "Business English Speaking Practice",
+    "url": "https://www.youtube.com/watch?v=lnuG8bXH1dw",
+    "langue": "Anglais",
+    "description": "Que dire pour conduire une réunion en anglais, phase par phase : ouvrir et annoncer l'objectif, suivre l'ordre du jour, donner la parole, recentrer la discussion et conclure avec des points d'action. Prolonge la leçon 6 : repère les phrases que tu connais déjà, puis apprends-en deux nouvelles.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
