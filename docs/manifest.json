@@ -4600,5 +4600,51 @@
     "niveau": "Licence 2 (approfondissement)"
    }
   ]
+ },
+ "BBA-L2-04": {
+  "pdf": "pdf/BBA-L2-04.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "COMMENT COMPTABILISER LE CAPITAL SOCIAL DE PLUSIEURS ASSOCIÉS ? (LIBÉRATION PARTIELLE DE 25 % )",
+    "chaine": "DEV&SOTA",
+    "url": "https://www.youtube.com/watch?v=PCtOBWWPCRY",
+    "langue": "Français",
+    "description": "Un cas complet de constitution entre plusieurs associés dans le cadre du SYSCOHADA révisé : souscription, libération partielle du capital et écritures étape par étape. Parfait pour revoir la leçon 1 avec d'autres chiffres que ceux du cours.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "La répartition du résultat - mise en réserve et distribution de dividendes",
+    "chaine": "La Prof Carole GRILLET",
+    "url": "https://www.youtube.com/watch?v=8Tm7WH5JHUM",
+    "langue": "Français",
+    "description": "Le mécanisme complet de la répartition du bénéfice : calcul des réserves, distribution des dividendes et écritures comptables, avec un exercice d'application corrigé. À regarder après la leçon 2 pour consolider le tableau d'affectation.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "2. AUGMENTATION DU CAPITAL PAR APPORTS EN NUMÉRAIRE AVEC DROIT PRÉFÉRENTIEL DE SOUSCRIPTION – OHADA",
+    "chaine": "CRC CONSULTING AND ADVISORY",
+    "url": "https://www.youtube.com/watch?v=z3CHq2u_w7I",
+    "langue": "Français",
+    "description": "Le traitement comptable, dans l'espace OHADA, d'une augmentation de capital en numéraire : rôle du droit préférentiel de souscription, calculs et écritures. Le prolongement direct de la première partie de la leçon 3.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "L'Augmentation de Capital par Incorporation de Réserves | Comptabilité des Sociétés",
+    "chaine": "5 minutes pour réussir",
+    "url": "https://www.youtube.com/watch?v=c3THRhoyJ1I",
+    "langue": "Français",
+    "description": "Un format court et clair pour enregistrer une augmentation de capital par incorporation de réserves et mesurer son incidence sur le bilan. Idéal en révision rapide de la deuxième partie de la leçon 3.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Les emprunts obligataires",
+    "chaine": "La Prof Carole GRILLET",
+    "url": "https://www.youtube.com/watch?v=QQrfJcs7Wd0",
+    "langue": "Français",
+    "description": "Le fonctionnement des emprunts obligataires en comptabilité approfondie : caractéristiques financières, comptabilisation de l'émission et du service de la dette, opérations d'inventaire. À mobiliser après la leçon 4 pour aller plus loin que le cas au pair du cours.",
+    "niveau": "Intermédiaire à avancé"
+   }
+  ]
  }
 }
