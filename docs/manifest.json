@@ -3198,5 +3198,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-24": {
+  "pdf": "pdf/INF-L3-24.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "ISO/IEC 27001 – la sécurité de l'information expliquée simplement",
+    "chaine": "BALTUM",
+    "url": "https://www.youtube.com/watch?v=GHI8Ce04a-Q",
+    "langue": "Français",
+    "description": "Une présentation claire du système de management de la sécurité de l'information (SMSI) et de la place de l'audit dans sa démarche. Parfait pour comprendre, avant de commencer, le référentiel auquel les audits de conformité se comparent.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "L'analyse des risques",
+    "chaine": "HAXXOM",
+    "url": "https://www.youtube.com/watch?v=Qpv-_s4GaQM",
+    "langue": "Français",
+    "description": "Les étapes d'une analyse de risques et la construction d'une matrice de criticité croisant probabilité d'occurrence et gravité. Le prolongement direct de la leçon 3 : compare leurs échelles à celles utilisées dans notre matrice de Sahel Négoce.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "[Webinar] EBIOS RM × GRC : connecter analyse de risque et conformité (Make IT Safe × ALL4TEC)",
+    "chaine": "Make IT Safe - Logiciel Cybersécurité & Conformité",
+    "url": "https://www.youtube.com/watch?v=9BKCDQCAo3w",
+    "langue": "Français",
+    "description": "Un webinaire professionnel qui relie la méthode d'analyse de risque EBIOS Risk Manager (ANSSI) au pilotage de la conformité. Il montre comment les risques évalués alimentent concrètement les plans de traitement suivis dans le temps.",
+    "niveau": "Avancé"
+   },
+   {
+    "titre": "Formation ISO/IEC 27001:2022 — Management de la sécurité de l'information",
+    "chaine": "Management Qualité",
+    "url": "https://www.youtube.com/watch?v=KVOOIXJn6jw",
+    "langue": "Français",
+    "description": "Une formation structurée en modules sur les exigences du SMSI et les familles de mesures de sécurité, y compris les preuves attendues en audit. Utile pour situer les contrôles testés dans la leçon 4 dans le paysage complet d'un référentiel.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Sauvegardes informatiques : l’erreur qui peut ruiner un audit ?",
+    "chaine": "Audit et Contrôle interne",
+    "url": "https://www.youtube.com/watch?v=Fcss2XE9vbQ",
+    "langue": "Français",
+    "description": "Le point de vue d'auditeurs sur le contrôle des sauvegardes et de la reprise : ce qui est attendu, ce qui est testé, et les erreurs qui font échouer un audit. À regarder en pensant au contrôle C-05 de notre cas fil rouge.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
