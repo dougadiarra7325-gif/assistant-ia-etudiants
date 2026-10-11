@@ -2348,5 +2348,51 @@
     "niveau": "Intermédiaire à avancé"
    }
   ]
+ },
+ "INF-L3-03": {
+  "pdf": "pdf/INF-L3-03.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Les API REST — Ce que tout dev junior doit absolument comprendre",
+    "chaine": "Kaly Labs",
+    "url": "https://www.youtube.com/watch?v=rVEW9Kbj9ig",
+    "langue": "Français",
+    "description": "Une synthèse claire des fondamentaux REST : méthodes HTTP, URLs sans verbes, codes de statut et pattern CRUD, illustrés par une vraie API en Node.js. Parfait pour consolider la leçon 2 avant de concevoir tes propres routes.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "L'ATELIER DU CODE #3 : TOUT COMPRENDRE À LA REST API (avec @llcenlive )",
+    "chaine": "Titom NCL",
+    "url": "https://www.youtube.com/watch?v=9iElJFKdltg",
+    "langue": "Français",
+    "description": "Un cours en mode atelier qui reprend les principes et contraintes de REST, les verbes HTTP et la structure des endpoints, puis passe à la pratique. L'exercice d'inventaire proposé à la fin prolonge bien le TD de ce cours.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Spring Security — Comment ca marche ? JWT, BCrypt, Filter Chain | Java Spring Boot",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=C3ByHBBXCi4",
+    "langue": "Français",
+    "description": "En quelques minutes, le flux complet d'authentification d'une API Java : génération et validation du jeton JWT, hachage BCrypt des mots de passe et autorisation par rôles. Idéal pour voir la leçon 3 appliquée dans un framework réel.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Spring Framework — C'est quoi ? Cours Complet en Français",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=tCPy11Nf-8w",
+    "langue": "Français",
+    "description": "Un cours complet sur le framework serveur le plus utilisé en Java : organisation du code, contrôleurs REST, couche données et sécurité. Il montre concrètement les conventions et le découpage en rôles décrits dans la leçon 4.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Node JS Tutorial Français pour Débutant - Cours complet 8h [2022]",
+    "chaine": "Codeur Senior",
+    "url": "https://www.youtube.com/watch?v=NRxzvpdduvQ",
+    "langue": "Français",
+    "description": "Un projet fil rouge complet en Node.js : construction d'une API REST, liaison à une base SQL, authentification JWT puis déploiement. C'est le compagnon pratique idéal du projet de la leçon 7, à suivre avec ton éditeur ouvert.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
