@@ -11,7 +11,7 @@ export DATABASE_PATH="$HOME/workspace/assistant-ia-etudiants/assistant.db"
 (
   while true; do
     echo "=== gunicorn start $(date -u +%FT%TZ) ===" >> logs/app.log
-    .venv/bin/gunicorn app:app --bind 127.0.0.1:5001 --workers 2 >> logs/app.log 2>&1
+    .venv/bin/gunicorn app:app --bind 127.0.0.1:5001 --workers 2 --timeout 120 >> logs/app.log 2>&1
     echo "=== gunicorn exit $? $(date -u +%FT%TZ), restart in 3s ===" >> logs/app.log
     sleep 3
   done

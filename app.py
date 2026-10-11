@@ -15,6 +15,7 @@ import re
 import sqlite3
 import unicodedata
 import urllib.error
+import urllib.parse
 import urllib.request
 from functools import wraps
 
@@ -210,7 +211,7 @@ def answer_question(text):
 
 
 # ------------------------------------------------------- vraie IA (Gemini, gratuit)
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 GEMINI_URL = ("https://generativelanguage.googleapis.com/v1beta/models/"
               + GEMINI_MODEL + ":generateContent")
 
@@ -237,15 +238,30 @@ def gemini_key():
 
 
 def ai_answer(question, contexte):
-    """Appelle l'IA gratuite Google Gemini. Retourne le texte ou None si indisponible."""
-    key = gemini_key()
-    if not key:
-        return None
-    prompt = SYSTEME_IA
+    """Vraie IA, deux chemins :
+    1) le relais IA (GET, déployé sur Netlify — contourne les réseaux qui bloquent
+       les appels POST sortants) ; 2) l'API Gemini directe si une vraie clé est
+       configurée. Retourne le texte ou None si l'IA est indisponible."""
+    systeme = SYSTEME_IA
     if contexte:
-        prompt += ("\n\nInformations de la base officielle de l'assistant "
-                   "(à utiliser en priorité si elles répondent) :\n" + contexte)
-    prompt += "\n\nQuestion de l'étudiant : " + question
+        systeme += ("\n\nInformations de la base officielle de l'assistant "
+                    "(à utiliser en priorité si elles répondent) :\n" + contexte)
+    relay = get_setting("relay_url", "").rstrip("/")
+    token = get_setting("relay_token", "")
+    if relay and token:
+        qs = urllib.parse.urlencode(
+            {"q": question, "system": systeme, "token": token})
+        try:
+            with urllib.request.urlopen(relay + "/ia?" + qs, timeout=25) as resp:
+                text = resp.read().decode("utf-8").strip()
+            if text and text != "empty":
+                return text
+        except Exception:
+            pass
+    key = gemini_key()
+    if not (key.startswith("AIza") and len(key) >= 30):
+        return None
+    prompt = systeme + "\n\nQuestion de l'étudiant : " + question
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.4, "maxOutputTokens": 500},
@@ -420,7 +436,9 @@ def admin_home():
     unmatched = db.execute(
         "SELECT * FROM chatlog WHERE source='none' ORDER BY id DESC LIMIT 50").fetchall()
     return render_template("admin.html", locked=False, stats=stats, qnas=qnas,
-                           unmatched=unmatched, ia_active=bool(gemini_key()))
+                           unmatched=unmatched,
+                           ia_active=bool(get_setting("relay_url")) or
+                           (gemini_key().startswith("AIza") and len(gemini_key()) >= 30))
 
 
 @app.route("/admin/activer", methods=["POST"])
