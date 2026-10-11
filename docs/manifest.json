@@ -4692,5 +4692,43 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L2-06": {
+  "pdf": "pdf/BBA-L2-06.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "TOUT le droit du travail en 1h26 (relations individuelles et relations collectives)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=fNq8aEy9YbA",
+    "langue": "Français",
+    "description": "Un cours panoramique qui couvre les sources, le contrat, les pouvoirs de l'employeur, la rupture et les relations collectives : parfait pour situer chaque leçon dans l'ensemble. Il présente le droit français : retiens-en les principes et la méthode, puis vérifie chaque règle précise dans le Code du travail du Mali.",
+    "niveau": "Licence (L2 et +)"
+   },
+   {
+    "titre": "Le contrat de travail : les formes du contrat de travail - STMG Droit - digiSchool",
+    "chaine": "digiSchool Orientation",
+    "url": "https://www.youtube.com/watch?v=J2JAIbMneMc",
+    "langue": "Français",
+    "description": "Les formes du contrat — CDI, CDD, travail temporaire — expliquées simplement, en écho direct à la leçon 2. Les exemples relèvent du droit français : la distinction des formes et la logique d'encadrement du CDD sont les points à transposer avec prudence vers le contexte malien.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Le Contrat de Travail : Conditions, Formation, Droits et Obligations",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=WpnFJJ1YlQo",
+    "langue": "Français",
+    "description": "Formation du contrat, prestation, rémunération et lien de subordination : la vidéo insiste sur le critère décisif de qualification et sur les obligations réciproques des parties. Là encore, le droit français sert d'appui pédagogique : confronte toujours ce que tu retiens aux textes maliens en vigueur.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Entretien préalable au licenciement : convocation, déroulement ... 10 infos pour se défendre !",
+    "chaine": "Juritravail - Votre service juridique en ligne",
+    "url": "https://www.youtube.com/watch?v=XpvHa1RVSMU",
+    "langue": "Français",
+    "description": "Convocation, déroulement et suites de l'entretien préalable, présentés du point de vue de la procédure et de la défense du salarié. Les délais précis cités sont ceux du droit français : au Mali, retiens les étapes et le sens de la procédure, et vérifie les délais dans le Code du travail en vigueur.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
