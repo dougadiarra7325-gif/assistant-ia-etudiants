@@ -3750,5 +3750,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "BBA-L1-10": {
+  "pdf": "pdf/BBA-L1-10.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Comment faire un résumé de texte ? Méthode simple pour élèves de Terminale, concours et examens",
+    "chaine": "Kacou Vivien A",
+    "url": "https://www.youtube.com/watch?v=NTh6_aqMCE8",
+    "langue": "Français",
+    "description": "La méthode du résumé pas à pas : repérer le thème et les idées essentielles, respecter le nombre de mots, éviter les erreurs courantes. Le prolongement direct de la leçon 2, avec un exemple corrigé.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Apprendre à rédiger une synthèse",
+    "chaine": "Français Cool",
+    "url": "https://www.youtube.com/watch?v=_etYo79NIAs",
+    "langue": "Français",
+    "description": "Construire une synthèse en étapes : lecture et prise de notes, thème commun, problématique, organisation des idées, rédaction. À regarder après avoir fait la fiche de synthèse du TD 2.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Comment faire une prise de notes efficace?",
+    "chaine": "Centre de services scolaire de Laval",
+    "url": "https://www.youtube.com/watch?v=OMQV9pCt1Ks",
+    "langue": "Français",
+    "description": "Une capsule courte et concrète sur la prise de notes efficace : sélectionner l'essentiel, abréger, organiser sa page pour gagner du temps en révision. Le complément visuel de la leçon 3.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Méthode de PHILOSOPHIE - Le développement de dissertation (La BASE)",
+    "chaine": "Mr B",
+    "url": "https://www.youtube.com/watch?v=s0YxTa3jsGw",
+    "langue": "Français",
+    "description": "Comment bâtir un développement argumenté : idée, reformulation, définition, exemple, lien au sujet, puis transition. C'est exactement le squelette de l'argument complet de la leçon 5, appliqué à la dissertation.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Comment se présenter devant un jury lors d'une soutenance?",
+    "chaine": "Expertmemoire - Aide à la rédaction de mémoire",
+    "url": "https://www.youtube.com/watch?v=xlNqHC-L1qM",
+    "langue": "Français",
+    "description": "Posture, entrée en matière et attitude face au jury le jour d'une soutenance : ce que les examinateurs observent avant même la première question. À visionner avant de préparer l'exercice de la leçon 7.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
