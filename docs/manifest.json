@@ -2440,5 +2440,51 @@
     "niveau": "Intermédiaire à avancé"
    }
   ]
+ },
+ "INF-L3-06": {
+  "pdf": "pdf/INF-L3-06.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Formation GRATUITE à la gestion de projet",
+    "chaine": "La gestion de projet facile",
+    "url": "https://www.youtube.com/watch?v=Q00H6xrYTOw",
+    "langue": "Français",
+    "description": "Une formation complète et gratuite qui parcourt tout le cycle d'un projet : charte, Gantt, budget, matrice RACI, risques et communication. Parfaite en introduction du cours ou en révision générale avant l'examen.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Le diagramme de Gantt : Méthode d'ordonnancement | Gestion de projet",
+    "chaine": "5 minutes pour réussir",
+    "url": "https://www.youtube.com/watch?v=T4u-Fw3uAbc",
+    "langue": "Français",
+    "description": "La construction d'un diagramme de Gantt pas à pas, avec un exercice suivi : dépendances entre tâches, durée totale et chemin critique. À regarder avant de refaire le planning du TD 1.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Vous pouvez faire un Kanban sur Freeform ?",
+    "chaine": "Elephorm",
+    "url": "https://www.youtube.com/watch?v=J_CZIfm6EXs",
+    "langue": "Français",
+    "description": "La création concrète d'un tableau Kanban, colonnes et cartes, dans un outil visuel simple. Utile pour passer du principe des en-cours limités à un tableau que ton équipe utilisera vraiment.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les bases de scrum : Masterclass Complète pour Débutants",
+    "chaine": "Agitips",
+    "url": "https://www.youtube.com/watch?v=GOMf0DRcIK0",
+    "langue": "Français",
+    "description": "Une masterclass française complète animée par une formatrice Scrum certifiée : rôles, artefacts et les quatre événements du Sprint, avec les pièges classiques des débutants. Le complément vidéo direct de la leçon 3.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Gérez vos risques projet facilement (TUTO sur ProjectChef)",
+    "chaine": "Parlons Projet by BGDP",
+    "url": "https://www.youtube.com/watch?v=6vgPG7wRcFg",
+    "langue": "Français",
+    "description": "Un tutoriel pratique pour identifier, coter et suivre les risques d'un projet dans un outil dédié : registre des risques, probabilité, impact et plans d'action. À comparer avec le registre de DjiguiStock de la leçon 4.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
