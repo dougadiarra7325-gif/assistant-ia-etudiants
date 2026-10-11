@@ -1866,5 +1866,35 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L2-17": {
+  "pdf": "pdf/INF-L2-17.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Algorithmes de remplacement de pages dans les systèmes d'exploitation: FIFO, LRU, MFU et Opt",
+    "chaine": "B2A Tech",
+    "url": "https://www.youtube.com/watch?v=xYCmKxepHOg",
+    "langue": "Français",
+    "description": "Les algorithmes de remplacement de pages expliqués et démontrés : FIFO, LRU, MFU et l'optimal. Parfait pour revoir la leçon 4 en refaisant les simulations en parallèle de la vidéo.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comprendre la mémoire paginée, compressée, validée, etc",
+    "chaine": "Ptits trucs & astuces PC",
+    "url": "https://www.youtube.com/watch?v=GjtX3gG1KVk",
+    "langue": "Français",
+    "description": "Une vulgarisation en français du vocabulaire de la mémoire sous Windows : mémoire paginée, validée, en veille… Utile pour relier les notions de pagination de la leçon 4 à ce que montre le gestionnaire des tâches.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Machine Virtuelle vs Conteneur Docker : Comprendre la Différence",
+    "chaine": "Fabrice Chrzanowski – Passionate IT Training",
+    "url": "https://www.youtube.com/watch?v=ctwvADb9aek",
+    "langue": "Français",
+    "description": "Hyperviseur et système invité d'un côté, conteneurs et noyau partagé de l'autre : la vidéo compare fonctionnement, avantages et cas d'usage des deux approches de la leçon 6, avec des exemples concrets d'entreprise.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
