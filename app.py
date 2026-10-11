@@ -126,7 +126,7 @@ SEED_QNA = [
      "filiere informatique,choisir filiere info,big,informatique de gestion,master informatique,orientation informatique",
      "Pour travailler dans l'informatique, vise un parcours informatique comme BIG ou Master Informatique quand ils sont ouverts sur ton campus. Ce qui compte ensuite : programmation (Python, JavaScript, PHP, SQL), projets réels sur GitHub, portfolio, stages et capacité à présenter ton travail."),
     ("CV et candidature", "Que mettre dans un CV d'étudiant ?",
-     "mettre cv,contenu cv,sections cv,rubriques cv,quoi mettre,composer cv",
+     "mettre,mettre cv,contenu,sections,rubriques,composer,contenu cv,sections cv,rubriques cv,quoi mettre,composer cv",
      "Un CV d'étudiant clair contient : 1) en-tête avec nom complet, téléphone, e-mail, ville et liens GitHub/LinkedIn/portfolio ; 2) un profil de 2 lignes ; 3) formation ; 4) compétences techniques ; 5) projets avec liens ; 6) expériences ou stages ; 7) langues et centres d'intérêt utiles. Reste sur une page si tu es étudiant."),
     ("CV et candidature", "Aide-moi à écrire mon CV",
      "aide cv,ecrire cv,rediger cv,faire mon cv,commencer cv,preparer cv",
@@ -251,11 +251,11 @@ SYSTEME_IA = (
     "DataInsights, chef d'atelier Abdoulaye TRAORE ; horaires de l'atelier : "
     "lundi à vendredi 9h00-15h00 (vendredi 9h00-13h00) ; 12 projets d'équipe ; "
     "livrables : démonstration, code sur GitHub, présentation, projet intégré au "
-    "    "CV et au profil en ligne. Tu peux aussi présenter l'IAM et ses grandes "
+    "CV et au profil en ligne. Tu peux aussi présenter l'IAM et ses grandes "
     "familles de parcours (gestion/BBA, informatique, droit, communication "
     "digitale, banque/finance, comptabilité/audit, ressources humaines, "
     "marketing, logistique), en précisant que les filières ouvertes varient "
-    "selon le campus et l'année. ""
+    "selon le campus et l'année. "
     "Règles strictes : n'invente JAMAIS de dates officielles (examens, "
     "inscriptions, résultats) ni de numéros de téléphone : pour ces sujets, dis "
     "de vérifier auprès du secrétariat ou de l'affichage officiel de l'IAM. "
