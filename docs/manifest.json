@@ -2968,5 +2968,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L3-17": {
+  "pdf": "pdf/INF-L3-17.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Random Forest",
+    "chaine": "Clémence Audrey",
+    "url": "https://www.youtube.com/watch?v=QzPmJuYxOmg",
+    "langue": "Français",
+    "description": "Le principe des forêts aléatoires expliqué simplement : combiner de nombreux arbres de décision pour obtenir une prédiction plus robuste qu'un arbre seul. À regarder après la leçon 2 pour consolider la notion de vote d'ensemble.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "La sagesse des forêts | Intelligence Artificielle 17",
+    "chaine": "Science4All",
+    "url": "https://www.youtube.com/watch?v=D2IazsNG9_g",
+    "langue": "Français",
+    "description": "Une vulgarisation soignée des forêts aléatoires et de la lutte contre la sur-interprétation des données. Elle éclaire le surapprentissage observé dans l'exemple du cours (train 1,00, test 0,60).",
+    "niveau": "Tous niveaux"
+   },
+   {
+    "titre": "Prédiction de Séries Temporelles Avec Python et ARIMA : Guide Pratique Pour Débutants",
+    "chaine": "LeCoinStat",
+    "url": "https://www.youtube.com/watch?v=cwqdcNqRkyw",
+    "langue": "Français",
+    "description": "La modélisation ARIMA pas à pas en Python : stationnarité, choix des paramètres, validation des résidus et prévision. C'est l'étape suivante naturelle après les méthodes de référence de la leçon 4.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Exposer un modèle IA avec FastAPI : endpoints, Pydantic, le piège async",
+    "chaine": "OUJOOD",
+    "url": "https://www.youtube.com/watch?v=9uqaiLHPqGM",
+    "langue": "Français",
+    "description": "Créer une API de prédiction avec FastAPI : points d'accès, validation des entrées par Pydantic et documentation automatique. La vidéo mesure en direct un piège de performance lié à async, utile avant de déployer le modèle de la leçon 6.",
+    "niveau": "Avancé"
+   },
+   {
+    "titre": "Flask vs FastAPI : Lequel Choisir pour Exposer ton Modèle IA en API ? (Tuto Complet 2026)",
+    "chaine": "DatascienceMLopsClub",
+    "url": "https://www.youtube.com/watch?v=jnpR9ajYnoM",
+    "langue": "Français",
+    "description": "Un comparatif complet des deux frameworks Python pour exposer un modèle en API REST : création d'endpoints, consommation par requêtes, bonnes pratiques et sécurité. Il aide à choisir l'outil de déploiement de la leçon 6 en connaissance de cause.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
