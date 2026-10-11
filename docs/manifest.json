@@ -1744,5 +1744,43 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L2-14": {
+  "pdf": "pdf/INF-L2-14.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Introduction | JavaFX - EP1",
+    "chaine": "EvoluNoob",
+    "url": "https://www.youtube.com/watch?v=s-Dt5FluAFw",
+    "langue": "Français",
+    "description": "Premier épisode d'une série complète sur JavaFX : présentation de la bibliothèque, structure habituelle d'un projet et découverte des composants d'interface. Idéal avant la leçon 2 pour installer l'environnement et voir à quoi ressemblera le résultat.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "JavaFX #8 - évènements",
+    "chaine": "EvoluNoob",
+    "url": "https://www.youtube.com/watch?v=GDGB1z-Co5U",
+    "langue": "Français",
+    "description": "Le fonctionnement complet des événements JavaFX : filtres et gestionnaires, classes anonymes, méthodes pratiques et exemples au clavier et à la souris. Le prolongement direct de la leçon 3, pour dépasser le simple setOnAction.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Fragments JavaFX",
+    "chaine": "Professeur Cot",
+    "url": "https://www.youtube.com/watch?v=g18AZZIglRI",
+    "langue": "Français",
+    "description": "Comment découper une interface en fragments réutilisables pour garder un code d'affichage lisible quand les formulaires grandissent. À regarder après la leçon 4 pour structurer les fenêtres plus riches que de simples listes.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "JDBC Java Connexion Base de données MySQL",
+    "chaine": "Masseka Academy",
+    "url": "https://www.youtube.com/watch?v=p4_S0z0doOs",
+    "langue": "Français",
+    "description": "La connexion d'une application Java à une base MySQL pas à pas : pilote JDBC, ouverture de la connexion, exécution de requêtes et lecture des résultats. À suivre en codant en parallèle de la leçon 5.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
