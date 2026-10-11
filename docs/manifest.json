@@ -1530,5 +1530,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L2-10": {
+  "pdf": "pdf/INF-L2-10.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "LES MÉTHODOLOGIES DE GESTION DE PROJET À CONNAÎTRE",
+    "chaine": "Le chef de projet",
+    "url": "https://www.youtube.com/watch?v=5MQcmJvJUlk",
+    "langue": "Français",
+    "description": "Un panorama clair des grandes méthodologies de gestion de projet : méthodes agiles, cascade (Waterfall), cycle en V et approches hybrides. Idéal pour situer les modèles de la leçon 2 les uns par rapport aux autres avant de les comparer en détail.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "63 - Les tests version longue",
+    "chaine": "Frédéric BAURAND (Frédéric BAURAND)",
+    "url": "https://www.youtube.com/watch?v=rcPXs3TkrxE",
+    "langue": "Français",
+    "description": "Un cours complet sur les différents types de tests qu'un projet doit intégrer : unitaires, d'intégration et fonctionnels. À regarder pour consolider la leçon 5 et savoir expliquer, exemples à l'appui, à quoi sert chaque niveau de test.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "TEST LOGICIEL #4/? - Mise en place des tests unitaires",
+    "chaine": "Faisons Le Point",
+    "url": "https://www.youtube.com/watch?v=jAYekAz5E9M",
+    "langue": "Français",
+    "description": "La mise en place concrète de tests unitaires dans un projet, avec des outils d'automatisation modernes. Le prolongement pratique de l'exemple unittest de la leçon 5 : de la théorie du cas de test à son exécution automatique.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les bases de scrum : Masterclass Complète pour Débutants",
+    "chaine": "Agitips",
+    "url": "https://www.youtube.com/watch?v=GOMf0DRcIK0",
+    "langue": "Français",
+    "description": "Scrum expliqué de A à Z en français : pourquoi les plans traditionnels échouent, les trois rôles, les artefacts (backlogs, incrément) et le déroulement complet d'un sprint. La vidéo à voir pour ancrer toute la leçon 7.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "SCRUM La méthode agile en 10 minutes (Projet agile)",
+    "chaine": "StrategeMarketing",
+    "url": "https://www.youtube.com/watch?v=anZcEIQlpoY",
+    "langue": "Français",
+    "description": "Dix minutes pour comprendre l'essentiel de Scrum : sprint, Product Owner, Scrum Master, user stories et burndown chart. Parfait en révision express avant un contrôle sur la leçon 7.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
