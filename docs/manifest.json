@@ -2624,5 +2624,51 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "INF-L3-11": {
+  "pdf": "pdf/INF-L3-11.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "Cours complet : Maîtrisez le Développement Android Moderne avec Jetpack Compose | 2025",
+    "chaine": "Malakisi",
+    "url": "https://www.youtube.com/watch?v=56l2yPRE32I",
+    "langue": "Français",
+    "description": "Un cours complet et récent, en français, qui construit des applications Android modernes en Kotlin de la première Activity aux données : parfait pour voir en vrai l'architecture et l'enchaînement des écrans de la leçon. Avance ensuite jusqu'aux parties sur les données pour préparer les leçons 4 et 5.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "TP1 Developpement Application Mobile sous Android",
+    "chaine": "Aly FOFANA",
+    "url": "https://www.youtube.com/watch?v=z3PKUwA_vIE",
+    "langue": "Français",
+    "description": "Un travaux pratique guidé en français : environnement Android Studio, structure d'un projet, création d'un layout et chargement de ce layout depuis une Activity. C'est exactement le geste de la leçon 2 — regarde la vidéo en refaisant chaque étape sur ton propre projet.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "TUTO Android : Manipulation d'une base de données SQLite via l'API SQLiteOpenHelper",
+    "chaine": "Dominique Liard",
+    "url": "https://www.youtube.com/watch?v=BX_0RItiwcc",
+    "langue": "Français",
+    "description": "Le tutoriel de référence de Koor.fr sur SQLiteOpenHelper : création de la base, insertion, lecture et mise à jour des données depuis une application Android. Il montre en code réel tout ce que la leçon 4 explique — compare sa classe d'aide avec notre BiblioDbHelper et repère où passent les paramètres des requêtes.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "API REST JSON - Explication et exemples",
+    "chaine": "Arthur Janssens",
+    "url": "https://www.youtube.com/watch?v=UQwjytQzoqE",
+    "langue": "Français",
+    "description": "Une explication claire, en français, de ce qu'est une API REST et de pourquoi les applications natives — Android compris — s'y connectent pour lire leurs données en JSON. À regarder avant de manipuler Retrofit : tu comprendras ce que le client de la leçon 5 consomme réellement, côté serveur comme côté téléphone.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Publier son app : build, signature, stores | Développement mobile #8",
+    "chaine": "Bitdyne",
+    "url": "https://www.youtube.com/watch?v=Qooh442N-V0",
+    "langue": "Français",
+    "description": "L'épisode de la formation mobile de Bitdyne consacré à la sortie d'une application : le build, la numérotation des versions, la signature qui prouve l'origine, puis le chemin vers les boutiques Google Play et App Store. Il illustre point par point la leçon 6, avec un contexte francophone proche du tien.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
