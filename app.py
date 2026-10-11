@@ -240,6 +240,116 @@ SEED_QNA = [
     ("Vie universitaire", "Comment réussir sa première année à l'université ?",
      "reussir,premiere annee,conseils reussite,debuter universite,l1",
      "Pour réussir ta première année : 1) va à tous les cours dès le début — les bases ratées se paient toute l'année ; 2) relis tes cours chaque semaine ; 3) pose des questions aux enseignants et aux aînés ; 4) organise ton planning et ton budget dès le premier mois ; 5) forme un petit groupe de travail sérieux. La régularité bat toujours le sprint de dernière minute."),
+    # ---------------- Cours d'informatique ----------------
+    ("Cours d'informatique", "C'est quoi une variable ?",
+     "variable,c est quoi variable,programmer variable",
+     "Une variable est un nom donné à une boîte qui stocke une valeur dans un programme : un nombre, un texte, un résultat. Exemple en Python : age = 20. On peut lire la valeur, la modifier et l'utiliser dans des calculs."),
+    ("Cours d'informatique", "C'est quoi une boucle ?",
+     "boucle,c est quoi boucle,for,while,repetition programmation",
+     "Une boucle permet de répéter des instructions sans les réécrire : par exemple afficher 100 fois la même ligne ou parcourir une liste. Les plus connues sont « for » (nombre de répétitions connu) et « while » (répéter tant qu'une condition est vraie). Attention aux boucles infinies : la condition doit finir par devenir fausse."),
+    ("Cours d'informatique", "C'est quoi une fonction en programmation ?",
+     "fonction,c est quoi fonction,procedure,methode programmation",
+     "Une fonction est un bloc de code nommé, réutilisable, qui accomplit une tâche précise. Elle peut recevoir des paramètres (des entrées) et renvoyer un résultat. Exemple : une fonction calculer_moyenne(notes) que tu appelles chaque fois que tu en as besoin, au lieu de recopier le calcul."),
+    ("Cours d'informatique", "C'est quoi Python ?",
+     "python,c est quoi python,langage python",
+     "Python est un langage de programmation réputé simple à lire et à apprendre. Il sert à tout : sites web, automatisation, analyse de données, intelligence artificielle. C'est un excellent premier langage pour un étudiant en informatique."),
+    ("Cours d'informatique", "C'est quoi HTML ?",
+     "html,c est quoi html,balises,page web",
+     "HTML est le langage de structure des pages web : avec des balises, il définit les titres, paragraphes, images, liens et formulaires. Ce n'est pas un langage de programmation : il décrit le contenu, CSS le met en forme et JavaScript le rend interactif."),
+    ("Cours d'informatique", "C'est quoi CSS ?",
+     "css,c est quoi css,style page web,feuille de style",
+     "CSS est le langage qui met en forme les pages web : couleurs, tailles, espacements, disposition, adaptation aux téléphones. HTML donne la structure, CSS donne l'apparence — comme le squelette et les vêtements d'une page."),
+    ("Cours d'informatique", "C'est quoi JavaScript ?",
+     "javascript,js,c est quoi javascript,langage javascript",
+     "JavaScript est le langage qui rend les pages web interactives : menus, formulaires qui réagissent, animations, applications dans le navigateur. Il fonctionne aussi côté serveur avec Node.js. Avec HTML et CSS, c'est le trio de base du développement web."),
+    ("Cours d'informatique", "C'est quoi PHP ?",
+     "php,c est quoi php,langage serveur",
+     "PHP est un langage de programmation côté serveur, très utilisé pour les sites dynamiques : formulaires, comptes utilisateurs, boutiques, blogs (WordPress par exemple). Le serveur exécute le code PHP et envoie au navigateur une page HTML prête à afficher."),
+    ("Cours d'informatique", "C'est quoi SQL ?",
+     "sql,c est quoi sql,requete,select,base donnees langage",
+     "SQL est le langage pour interroger et manipuler les bases de données : SELECT pour lire, INSERT pour ajouter, UPDATE pour modifier, DELETE pour supprimer. Presque toutes les applications qui stockent des informations utilisent SQL, avec des systèmes comme MySQL, PostgreSQL ou SQLite."),
+    ("Cours d'informatique", "C'est quoi un réseau informatique ?",
+     "reseau,c est quoi reseau,lan,wan,routeur,switch",
+     "Un réseau informatique relie plusieurs appareils (ordinateurs, téléphones, imprimantes) pour partager des données et des ressources. Un petit réseau local s'appelle LAN (maison, bureau) ; Internet est le plus grand des réseaux, qui relie des réseaux entre eux (WAN)."),
+    ("Cours d'informatique", "C'est quoi une adresse IP ?",
+     "adresse ip,ip,c est quoi ip,ipv4",
+     "Une adresse IP est le numéro qui identifie un appareil sur un réseau, un peu comme une adresse postale. Exemple IPv4 : 192.168.1.10. Sans adresse IP, les appareils ne pourraient pas se retrouver ni échanger de données."),
+    ("Cours d'informatique", "C'est quoi un système d'exploitation ?",
+     "systeme exploitation,os,c est quoi systeme exploitation,windows linux android",
+     "Le système d'exploitation est le logiciel de base d'un appareil (Windows, Linux, Android, iOS) : il fait le lien entre le matériel et tes applications, gère les fichiers, la mémoire et les écrans. Sans lui, l'ordinateur ne peut rien lancer."),
+    ("Cours d'informatique", "C'est quoi la RAM ?",
+     "ram,memoire vive,c est quoi ram,memoire ram",
+     "La RAM (mémoire vive) est la mémoire rapide et temporaire où l'ordinateur place ce qu'il utilise en ce moment : applications ouvertes, documents en cours. Elle se vide quand l'appareil s'éteint. À ne pas confondre avec le stockage (disque, SSD) qui conserve les fichiers durablement."),
+    ("Cours d'informatique", "C'est quoi un processeur ?",
+     "processeur,cpu,c est quoi processeur,calculateur",
+     "Le processeur (CPU) est le « cerveau » de l'ordinateur : il exécute les instructions des programmes, fait les calculs et coordonne le reste. Sa vitesse se mesure en gigahertz (GHz) et il peut avoir plusieurs cœurs pour traiter plusieurs tâches en parallèle."),
+    ("Cours d'informatique", "C'est quoi un fichier et un dossier ?",
+     "fichier,dossier,c est quoi fichier,extension,document numerique",
+     "Un fichier est un contenu enregistré : un texte, une photo, une vidéo, un programme. Son nom se termine souvent par une extension qui indique son type (.pdf, .jpg, .docx). Un dossier est un conteneur qui sert à ranger et organiser les fichiers."),
+    ("Cours d'informatique", "C'est quoi un navigateur web ?",
+     "navigateur,c est quoi navigateur,chrome,firefox,moteur recherche difference",
+     "Un navigateur web est le logiciel qui affiche les sites internet : Chrome, Firefox, Edge, Safari. À ne pas confondre avec le moteur de recherche (Google, Bing) qui, lui, aide à trouver les sites. Le navigateur est la fenêtre, le moteur de recherche est l'annuaire."),
+    ("Cours d'informatique", "C'est quoi le cloud ?",
+     "cloud,nuage,c est quoi cloud,stockage en ligne",
+     "Le cloud (« nuage ») signifie que tes fichiers et services sont hébergés sur des serveurs distants, accessibles par internet depuis n'importe quel appareil : Google Drive, iCloud, OneDrive. Pratique pour sauvegarder et partager, mais tes données dépendent alors de la connexion et du fournisseur."),
+    ("Cours d'informatique", "C'est quoi la cybersécurité ?",
+     "cybersecurite,securite informatique,c est quoi cybersecurite,piratage protection",
+     "La cybersécurité regroupe les moyens de protéger les systèmes et les données contre les attaques : vols de comptes, virus, arnaques. Les réflexes de base : mots de passe forts et uniques, double authentification, mises à jour, et méfiance envers les messages qui demandent des codes ou de l'argent."),
+    ("Cours d'informatique", "Comment créer un mot de passe fort ?",
+     "mot de passe fort,securiser compte,password,proteger compte",
+     "Un mot de passe fort est long (12 caractères et plus), unique pour chaque compte, et mélange lettres, chiffres et symboles. Astuce : une phrase facile à retenir pour toi mais dure à deviner, par exemple « Bamako-soleil-2026! ». Ajoute la double authentification quand elle existe, et ne partage jamais tes codes."),
+    ("Cours d'informatique", "C'est quoi le phishing ?",
+     "phishing,hameconnage,c est quoi phishing,arnaque message,faux site",
+     "Le phishing (hameçonnage) est une arnaque : un faux message ou un faux site imite un organisme connu (banque, opérateur, réseau social) pour te voler tes identifiants ou ton argent. Réflexes : vérifier l'adresse de l'expéditeur et du site, ne jamais cliquer sur un lien qui presse, et ne jamais donner ses codes — aucun service sérieux ne les demande par message."),
+    # ---------------- Matières et outils ----------------
+    ("Matières et outils", "C'est quoi l'économie ?",
+     "economie,c est quoi economie,science economique",
+     "L'économie étudie comment les personnes, les entreprises et les États produisent, échangent et utilisent les ressources et l'argent. On distingue la microéconomie (les choix des individus et des entreprises) et la macroéconomie (le pays entier : croissance, chômage, prix)."),
+    ("Matières et outils", "C'est quoi la gestion de projet ?",
+     "gestion de projet,c est quoi gestion projet,management projet,planifier projet",
+     "La gestion de projet consiste à organiser un travail pour atteindre un objectif dans un délai et un budget donnés : définir les tâches, les répartir, suivre l'avancement et gérer les problèmes. C'est exactement ce que tu fais dans un projet d'équipe à l'atelier : rôles, échéances et livrables clairs."),
+    ("Matières et outils", "C'est quoi l'entrepreneuriat ?",
+     "entrepreneuriat,entrepreneur,c est quoi entrepreneuriat,creer entreprise",
+     "L'entrepreneuriat, c'est créer et développer sa propre activité : trouver une idée utile, étudier le marché, trouver des clients et faire grandir l'entreprise. Cela demande de la créativité, de la persévérance et une bonne organisation — des qualités qui s'apprennent."),
+    ("Matières et outils", "C'est quoi un business plan ?",
+     "business plan,plan affaires,c est quoi business plan,projet entreprise document",
+     "Un business plan est le document qui présente un projet d'entreprise : l'offre, les clients visés, la concurrence, l'organisation et les chiffres prévisionnels (coûts, prix, bénéfices espérés). Il sert à clarifier le projet et à convaincre des partenaires ou des financeurs."),
+    ("Matières et outils", "C'est quoi la trésorerie ?",
+     "tresorerie,c est quoi tresorerie,liquidites,encaisse",
+     "La trésorerie est l'argent réellement disponible à court terme dans une entreprise ou une association : ce qui est en caisse et sur les comptes, après les entrées et les sorties. Une entreprise peut vendre beaucoup et manquer de trésorerie si les clients paient en retard — c'est un point de vigilance permanent."),
+    ("Matières et outils", "C'est quoi Excel ?",
+     "excel,tableur,c est quoi excel,formule somme",
+     "Excel est un tableur : il organise les données en lignes et colonnes et fait des calculs automatiques grâce aux formules (SOMME, MOYENNE, etc.), des tris et des graphiques. Il sert partout : budgets, notes, stocks, listes de clients. Savoir l'utiliser est une compétence demandée dans presque tous les métiers de gestion."),
+    ("Matières et outils", "C'est quoi Word ?",
+     "word,traitement de texte,c est quoi word,rediger document",
+     "Word est un logiciel de traitement de texte : il sert à rédiger et mettre en forme des documents (rapports, lettres, CV, mémoires) avec titres, listes, tableaux et images. Bien l'utiliser fait gagner un temps énorme sur les travaux universitaires."),
+    ("Matières et outils", "C'est quoi PowerPoint ?",
+     "powerpoint,presentation diapositives,c est quoi powerpoint,slides",
+     "PowerPoint sert à créer des présentations en diapositives pour les cours, les exposés et les soutenances. Une bonne présentation : peu de texte par diapositive, de gros titres lisibles, des images utiles — et c'est toi qui expliques, pas les diapositives."),
+    ("Matières et outils", "Comment faire un bon exposé ?",
+     "expose,faire expose,presenter expose,conseils expose oral",
+     "Un bon exposé : 1) un plan clair (introduction, 2 ou 3 parties, conclusion) ; 2) des diapositives simples, peu de texte ; 3) des exemples concrets ; 4) un entraînement à voix haute en te chronométrant ; 5) un regard vers le public, pas vers l'écran. Prépare aussi 2 ou 3 questions que le jury pourrait poser."),
+    ("Matières et outils", "Pourquoi apprendre l'anglais ?",
+     "anglais,apprendre anglais,pourquoi anglais,langue anglaise",
+     "L'anglais ouvre des portes : la documentation technique, les tutoriels et beaucoup d'offres d'emploi et de bourses sont en anglais, surtout en informatique. Méthode simple : un peu chaque jour (applications, vidéos sous-titrées, vocabulaire technique de ta filière) vaut mieux qu'une grosse session rare."),
+    ("Matières et outils", "C'est quoi la statistique ?",
+     "statistique,c est quoi statistique,donnees,moyenne mediane",
+     "La statistique est la science qui collecte, organise et interprète des données chiffrées pour décider : moyennes, pourcentages, graphiques, enquêtes. Elle sert partout : notes d'une classe, ventes d'une boutique, résultats d'un sondage. Attention : un chiffre seul ne prouve rien sans comprendre comment il a été obtenu."),
+    ("Matières et outils", "C'est quoi une probabilité ?",
+     "probabilite,c est quoi probabilite,hasard,chance",
+     "Une probabilité mesure la chance qu'un événement se produise, entre 0 (impossible) et 1 (certain), ou en pourcentage. Exemple : en lançant une pièce équilibrée, la probabilité d'obtenir pile est de 1/2, soit 50 %. C'est la base des jeux de hasard, des assurances et d'une partie des statistiques."),
+    ("Matières et outils", "Comment prendre des notes en cours ?",
+     "prendre notes,notes cours,methode notes,ecouter cours",
+     "Pour bien prendre des notes : écoute d'abord, écris l'essentiel avec tes mots (pas tout mot à mot), utilise des abréviations et de la place pour compléter, note les exemples donnés par le professeur. Le soir même, relis et souligne les points clés : 10 minutes qui valent une heure de révision plus tard."),
+    ("Matières et outils", "Comment faire une recherche documentaire ?",
+     "recherche documentaire,sources,c est quoi recherche documentaire,trouver informations fiables",
+     "Une bonne recherche documentaire : 1) définis précisément ton sujet et tes mots-clés ; 2) cherche dans des sources fiables (livres, sites officiels, articles) plutôt que le premier résultat venu ; 3) vérifie l'auteur et la date ; 4) croise au moins deux sources ; 5) cite tes sources dans ton travail. C'est la différence entre un devoir solide et un copier-coller."),
+    ("Matières et outils", "Comment préparer un examen oral ?",
+     "examen oral,preparer oral,soutenance orale,conseils oral",
+     "Pour un oral : maîtrise ton plan par cœur (pas le texte mot à mot), prépare des exemples concrets pour chaque partie, entraîne-toi à voix haute devant quelqu'un, et prépare les questions probables du jury. Le jour J : arrive en avance, respire, parle lentement et regarde le jury. Ne pas savoir répondre à tout n'est pas grave : explique ton raisonnement."),
+    ("Matières et outils", "C'est quoi un graphique ?",
+     "graphique,diagramme,c est quoi graphique,representer donnees,courbe barres",
+     "Un graphique représente des données en image pour les comprendre d'un coup d'œil : barres pour comparer, courbe pour montrer une évolution, camembert pour des parts d'un tout. Le bon graphique dépend du message : comparer, suivre dans le temps ou répartir."),
 ]
 
 app = Flask(__name__)
@@ -545,12 +655,130 @@ def try_calc(text):
     return f"🧮 {aff} = {_fmt_num(val)}."
 
 
+# ---------------- Quiz entraînement + planning de révisions ----------------
+QUIZ = [
+    ("Que signifie IAM ?", ["Institut Africain de Management", "Institut d'Art Moderne", "International Academy of Music"], 0, "IAM = Institut Africain de Management."),
+    ("Lequel de ces langages est un vrai langage de programmation ?", ["HTML", "CSS", "Python"], 2, "HTML structure et CSS met en forme ; Python est un langage de programmation complet."),
+    ("Combien font 15 % de 20 000 ?", ["300", "3 000", "30 000"], 1, "20 000 × 15 / 100 = 3 000."),
+    ("Que veut dire BBA ?", ["Bachelor of Business Administration", "Brevet de Banque Africaine", "Bachelor of Biology and Arts"], 0, "Le BBA est une licence en administration des affaires."),
+    ("Dans le système LMD, la Licence dure…", ["2 ans", "3 ans", "5 ans"], 1, "Licence 3 ans, Master 2 ans, Doctorat 3 ans."),
+    ("Quel langage sert à interroger une base de données ?", ["SQL", "HTML", "CSS"], 0, "SQL : SELECT, INSERT, UPDATE, DELETE."),
+    ("Un mot de passe fort doit être…", ["Court et facile", "Ton prénom + 123", "Long, unique et mélangé"], 2, "Longueur + unicité + mélange de caractères, et double authentification si possible."),
+    ("Comment demander ta moyenne à l'assistant ?", ["Écrire « moyenne de 12, 14, 9 »", "Écrire « raconte une histoire »", "Impossible"], 0, "La calculatrice intégrée comprend « moyenne de … » et toutes les opérations."),
+]
+
+
+def _quiz_message(i):
+    q, opts, _good, _expl = QUIZ[i]
+    lignes = "\n".join(f"{'ABC'[j]}) {o}" for j, o in enumerate(opts))
+    return (f"Question {i + 1}/{len(QUIZ)} — {q}\n{lignes}\n"
+            "(Réponds par A, B ou C — ou écris « stop » pour arrêter.)")
+
+
+def quiz_step(text):
+    n = normalize(text)
+    if "quiz_i" not in session:
+        if n in ("quiz", "lancer un quiz", "mode quiz", "je veux un quiz",
+                 "quiz entrainement", "entrainement"):
+            session["quiz_i"] = 0
+            session["quiz_score"] = 0
+            return ("📝 C'est parti pour un quiz d'entraînement "
+                    f"({len(QUIZ)} questions) !\n\n" + _quiz_message(0))
+        return None
+    if n in ("stop", "arreter", "quitter", "abandonner"):
+        session.pop("quiz_i", None)
+        session.pop("quiz_score", None)
+        return "Quiz arrêté. Écris « quiz » quand tu veux recommencer."
+    i = session["quiz_i"]
+    q, opts, good, expl = QUIZ[i]
+    m = re.fullmatch(r"([abc123])[.)]?", n)
+    idx = -1
+    if m:
+        idx = "abc123".index(m.group(1)) % 3
+    else:
+        for j, o in enumerate(opts):
+            if normalize(o) == n:
+                idx = j
+                break
+    if idx < 0:
+        return "Réponds par A, B ou C.\n\n" + _quiz_message(i)
+    ok = idx == good
+    if ok:
+        session["quiz_score"] = session.get("quiz_score", 0) + 1
+    out = ("✅ Bonne réponse ! " if ok else
+           f"❌ Non — la bonne réponse était {'ABC'[good]}) {opts[good]}. ") + expl
+    i += 1
+    if i >= len(QUIZ):
+        score = session.get("quiz_score", 0)
+        session.pop("quiz_i", None)
+        session.pop("quiz_score", None)
+        out += (f"\n\n🏁 Quiz terminé : {score}/{len(QUIZ)}"
+                + (" — excellent, tu es prêt !" if score >= 6 else
+                   " — bien, continue à réviser." if score >= 4 else
+                   " — courage, relis les réponses de la base et réessaie.")
+                + "\n(Écris « quiz » pour recommencer.)")
+    else:
+        session["quiz_i"] = i
+        out += "\n\n" + _quiz_message(i)
+    return out
+
+
+def try_planning(text):
+    import datetime as _dt
+    t = text.lower()
+    if "planning" not in t and "plan de revision" not in t and "plan de révision" not in t:
+        return None
+    m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})", t) or re.search(r"(\d{4})-(\d{1,2})-(\d{1,2})", t)
+    if not m:
+        return ("Pour te construire un planning, dis-moi la matière et la date de "
+                "l'examen. Exemple : « planning Python 20/10/2026 ».")
+    if "/" in m.group(0):
+        exam = _dt.date(int(m.group(3)), int(m.group(2)), int(m.group(1)))
+    else:
+        exam = _dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    today = _dt.date.today()
+    days = (exam - today).days
+    if days <= 0:
+        return ("Cette date est déjà passée. Donne-moi une date d'examen future, "
+                "par exemple : « planning Python 20/10/2026 ».")
+    if days > 120:
+        return (f"L'examen est dans {days} jours : c'est tôt pour un planning "
+                "détaillé. Reviens me voir à 30 jours de l'examen ; en attendant, "
+                "révise un peu chaque semaine.")
+    sujet = re.sub(r"planning|plan de r[ée]visions?|r[ée]visions?|examen|pour|le|la|les|de|du|des",
+                   " ", t)
+    sujet = re.sub(r"\s+", " ", sujet.replace(m.group(0), " ")).strip()
+    sujet = (sujet[:1].upper() + sujet[1:]) if sujet else "La matière"
+    j_appr = max(1, int(days * 0.5))
+    j_ex = max(1, int(days * 0.3))
+
+    def fmt(d):
+        return d.strftime("%d/%m")
+
+    def dj(n):
+        return today + _dt.timedelta(days=n)
+
+    return (f"📅 Planning de révisions — {sujet} (examen le {fmt(exam)}, dans {days} jours) :\n"
+            f"• Du {fmt(dj(0))} au {fmt(dj(j_appr - 1))} : apprendre le cours — relis chaque chapitre et fais des fiches courtes.\n"
+            f"• Du {fmt(dj(j_appr))} au {fmt(dj(j_appr + j_ex - 1))} : exercices et anciens sujets, sans regarder les corrections avant d'avoir essayé.\n"
+            "• Les derniers jours : révisions générales + un test en conditions réelles ; la veille, relis tes fiches et dors tôt.\n"
+            "Chaque jour : 2 sessions de 45 minutes concentrées valent mieux que 4 heures distrait. Bon courage !")
+
+
 @app.route("/api/chat", methods=["POST"])
 def api_chat():
     data = request.get_json(force=True, silent=True) or {}
     text = (data.get("message") or "").strip()
     if not text:
         return jsonify({"reponse": "Écris-moi ta question, je t'écoute."})
+    qz = quiz_step(text)
+    if qz is not None:
+        return jsonify({"reponse": qz, "categorie": "Quiz entraînement",
+                        "trouve": True, "ia": False})
+    plan = try_planning(text)
+    if plan:
+        return jsonify({"reponse": plan, "categorie": "Planning de révisions",
+                        "trouve": True, "ia": False})
     calc = try_calc(text)
     if calc:
         db = get_db()

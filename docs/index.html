@@ -11,6 +11,8 @@
 .topbar img{height:42px;width:auto}
 .topbar span{color:var(--gold)}
 .wa-btn{display:block;margin-top:10px;background:#25d366;color:#06300f;font-weight:700;text-align:center;padding:10px 12px;border-radius:10px;text-decoration:none;font-size:14px}
+.toolbar{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 2px}
+.tool{background:#eef2f8;border:1px solid var(--line);color:var(--navy);border-radius:16px;padding:6px 11px;font-size:13px;cursor:pointer;font-weight:600}
 .wrap{max-width:860px;margin:0 auto;padding:16px}
 .hero{background:linear-gradient(135deg,var(--navy),#123a6b);color:#fff;border-radius:14px;padding:22px;margin-bottom:14px}
 .hero h1{margin:0 0 6px;font-size:25px}.hero p{margin:0;color:#cfdaea}
@@ -42,7 +44,7 @@ a{color:var(--navy)}
 <main class="wrap">
   <section class="hero">
     <h1>Bonjour, je suis ton assistant étudiant 👋</h1>
-    <p>Pose-moi tes questions sur l'atelier IAM Code to Career, les emplois du temps, les examens et les démarches administratives.</p>
+    <p>Pose-moi tes questions sur l'atelier IAM Code to Career, les emplois du temps, les examens et les démarches administratives. Tu peux aussi me dicter ta question au micro (bouton 🎤), lancer un « quiz » d'entraînement ou me demander un « planning » de révisions.</p>
   </section>
 
   <div class="chatbox">
@@ -50,6 +52,13 @@ a{color:var(--navy)}
       <div class="msg bot">Bonjour ! Je réponds aux questions fréquentes des étudiants de l'IAM grâce à ma base documentée. Essaie une question d'exemple, ou écris la tienne.</div>
     </div>
     <div class="exemples" id="exemples"></div>
+    <div class="exemples" id="suggestions"></div>
+    <div class="toolbar">
+      <button type="button" id="mic-btn" class="tool">🎤 Dicter</button>
+      <button type="button" id="voice-btn" class="tool">🔇 Écouter : non</button>
+      <button type="button" id="share-btn" class="tool">📲 Partager</button>
+      <button type="button" id="clear-btn" class="tool">🗑 Effacer</button>
+    </div>
     <form id="chatform" class="chatinput">
       <input id="msg" type="text" placeholder="Écris ta question…" autocomplete="off" required>
       <button type="submit">Envoyer</button>
@@ -136,11 +145,42 @@ async function gemini(question, contexte){
   return { err: lastErr };
 }
 const box = document.getElementById("messages");
+const HIST_KEY = "assistant_chat_history";
+let restoring = false;
+function saveHist(text, who, cat){
+  if (restoring || text === "…") return;
+  try {
+    const h = JSON.parse(localStorage.getItem(HIST_KEY) || "[]");
+    h.push({ text, who, cat: cat || "" });
+    while (h.length > 60) h.shift();
+    localStorage.setItem(HIST_KEY, JSON.stringify(h));
+  } catch(e){}
+}
+function speakText(t){
+  try {
+    if (localStorage.getItem("voice_on") !== "1" || !("speechSynthesis" in window)) return;
+    const u = new SpeechSynthesisUtterance(String(t).slice(0, 350));
+    u.lang = "fr-FR"; u.rate = 1;
+    speechSynthesis.cancel(); speechSynthesis.speak(u);
+  } catch(e){}
+}
+function showSuggestions(list){
+  const c = document.getElementById("suggestions");
+  if (!c) return;
+  c.innerHTML = "";
+  const qs = [...new Set(list)].filter(q => q && q.length > 3).slice(0, 3);
+  if (!qs.length) return;
+  const lab = document.createElement("span"); lab.className = "note"; lab.textContent = "Tu veux aussi savoir : "; c.appendChild(lab);
+  qs.forEach(q => { const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = q; b.addEventListener("click", () => ask(q)); c.appendChild(b); });
+}
 function addMsg(text, who, cat){
   const d = document.createElement("div");
   d.className = "msg " + who; d.textContent = text;
   if (cat){ const s = document.createElement("div"); s.className = "cat"; s.textContent = cat; d.appendChild(s); }
-  box.appendChild(d); box.scrollTop = box.scrollHeight; return d;
+  box.appendChild(d); box.scrollTop = box.scrollHeight;
+  saveHist(text, who, cat);
+  if (who === "bot" && text !== "…" && !restoring) speakText(text);
+  return d;
 }
 // === CALCULATRICE ===
 function fmtNum(v){
@@ -228,8 +268,12 @@ function waLink(question, numero){
 }
 async function ask(text){
   addMsg(text, "user");
+  const qz = quizStep(text);
+  if (qz !== null){ addMsg(qz, "bot", "Quiz entraînement"); return; }
+  const plan = tryPlanning(text);
+  if (plan){ addMsg(plan, "bot", "Planning de révisions"); return; }
   const calc = tryCalc(text);
-  if (calc){ addMsg(calc, "bot", "Calcul intégré"); return; }
+  if (calc){ addMsg(calc, "bot", "Calcul intégré"); showSuggestions(["Comment calculer sa moyenne ?", "Quels sont les frais de scolarité à l'IAM ?", "C'est quoi le BBA ?"]); return; }
   const digits = text.replace(/\D/g, "");
   if (pendingQuestion && digits.length >= 8 && digits.length <= 15 && /^[+\d][\d\s.\-]*$/.test(text.trim())){
     const q = pendingQuestion; pendingQuestion = null;
@@ -238,11 +282,11 @@ async function ask(text){
     return;
   }
   const { row, sugg } = findAnswer(text);
-  if (row){ addMsg(row.reponse, "bot", row.categorie); return; }
+  if (row){ addMsg(row.reponse, "bot", row.categorie); showSuggestions(KB.filter(r => r.categorie === row.categorie && r.question !== row.question).slice(0, 3).map(r => r.question)); return; }
   const wait = addMsg("…", "bot");
   const ctx = sugg.map(s => "- " + s.question + " → " + s.reponse).join("\n");
   const res = await gemini(text, ctx);
-  if (res.text){ wait.textContent = res.text; const s = document.createElement("div"); s.className = "cat"; s.textContent = "Réponse IA — Google Gemini"; wait.appendChild(s); }
+  if (res.text){ wait.textContent = res.text; const s = document.createElement("div"); s.className = "cat"; s.textContent = "Réponse IA — Google Gemini"; wait.appendChild(s); saveHist(res.text, "bot", "Réponse IA — Google Gemini"); speakText(res.text); showSuggestions(sugg.map(s2 => s2.question)); }
   else {
     pendingQuestion = text;
     let rep;
@@ -256,8 +300,120 @@ async function ask(text){
     }
     wait.textContent = rep;
     wait.appendChild(waLink(text, ""));
+    saveHist(rep, "bot", "");
+    speakText(rep);
+    showSuggestions(sugg.map(s2 => s2.question));
   }
   box.scrollTop = box.scrollHeight;
+}
+// === QUIZ ===
+const QUIZ = [
+  { q: "Que signifie IAM ?", opts: ["Institut Africain de Management", "Institut d'Art Moderne", "International Academy of Music"], good: 0, expl: "IAM = Institut Africain de Management." },
+  { q: "Lequel de ces langages est un vrai langage de programmation ?", opts: ["HTML", "CSS", "Python"], good: 2, expl: "HTML structure et CSS met en forme ; Python est un langage de programmation complet." },
+  { q: "Combien font 15 % de 20 000 ?", opts: ["300", "3 000", "30 000"], good: 1, expl: "20 000 × 15 / 100 = 3 000." },
+  { q: "Que veut dire BBA ?", opts: ["Bachelor of Business Administration", "Brevet de Banque Africaine", "Bachelor of Biology and Arts"], good: 0, expl: "Le BBA est une licence en administration des affaires." },
+  { q: "Dans le système LMD, la Licence dure…", opts: ["2 ans", "3 ans", "5 ans"], good: 1, expl: "Licence 3 ans, Master 2 ans, Doctorat 3 ans." },
+  { q: "Quel langage sert à interroger une base de données ?", opts: ["SQL", "HTML", "CSS"], good: 0, expl: "SQL : SELECT, INSERT, UPDATE, DELETE." },
+  { q: "Un mot de passe fort doit être…", opts: ["Court et facile", "Ton prénom + 123", "Long, unique et mélangé"], good: 2, expl: "Longueur + unicité + mélange de caractères, et double authentification si possible." },
+  { q: "Comment demander ta moyenne à l'assistant ?", opts: ["Écrire « moyenne de 12, 14, 9 »", "Écrire « raconte une histoire »", "Impossible"], good: 0, expl: "La calculatrice intégrée comprend « moyenne de … » et toutes les opérations." }
+];
+let quiz = null;
+function quizMessage(){
+  const it = QUIZ[quiz.i];
+  return "Question " + (quiz.i + 1) + "/" + QUIZ.length + " — " + it.q + "\n" + it.opts.map((o, j) => "ABC"[j] + ") " + o).join("\n") + "\n(Réponds par A, B ou C — ou écris « stop » pour arrêter.)";
+}
+function quizStep(text){
+  const n = norm(text);
+  if (!quiz){
+    if (["quiz", "lancer un quiz", "mode quiz", "je veux un quiz", "quiz entrainement", "entrainement"].includes(n)){
+      quiz = { i: 0, score: 0 };
+      return "📝 C'est parti pour un quiz d'entraînement (" + QUIZ.length + " questions) !\n\n" + quizMessage();
+    }
+    return null;
+  }
+  if (["stop", "arreter", "quitter", "abandonner"].includes(n)){ quiz = null; return "Quiz arrêté. Écris « quiz » quand tu veux recommencer."; }
+  const it = QUIZ[quiz.i];
+  let idx = -1;
+  const m = n.match(/^([abc123])[.)]?$/);
+  if (m) idx = "abc123".indexOf(m[1]) % 3;
+  else { const j = it.opts.findIndex(o => norm(o) === n); if (j >= 0) idx = j; }
+  if (idx < 0) return "Réponds par A, B ou C.\n\n" + quizMessage();
+  const okAns = idx === it.good;
+  if (okAns) quiz.score++;
+  let out = (okAns ? "✅ Bonne réponse ! " : "❌ Non — la bonne réponse était " + "ABC"[it.good] + ") " + it.opts[it.good] + ". ") + it.expl;
+  quiz.i++;
+  if (quiz.i >= QUIZ.length){
+    out += "\n\n🏁 Quiz terminé : " + quiz.score + "/" + QUIZ.length + (quiz.score >= 6 ? " — excellent, tu es prêt !" : quiz.score >= 4 ? " — bien, continue à réviser." : " — courage, relis les réponses de la base et réessaie.");
+    quiz = null;
+    out += "\n(Écris « quiz » pour recommencer.)";
+  } else out += "\n\n" + quizMessage();
+  return out;
+}
+// === PLANNING DE RÉVISIONS ===
+function tryPlanning(text){
+  const t = text.toLowerCase();
+  if (!t.includes("planning") && !t.includes("plan de revision") && !t.includes("plan de révision")) return null;
+  const m = t.match(/(\d{1,2})[\/](\d{1,2})[\/](\d{4})/) || t.match(/(\d{4})-(\d{1,2})-(\d{1,2})/);
+  if (!m) return "Pour te construire un planning, dis-moi la matière et la date de l'examen. Exemple : « planning Python 20/10/2026 ».";
+  let exam;
+  if (m[0].includes("/")) exam = new Date(+m[3], +m[2] - 1, +m[1]); else exam = new Date(+m[1], +m[2] - 1, +m[3]);
+  const today = new Date(); today.setHours(0, 0, 0, 0); exam.setHours(0, 0, 0, 0);
+  const days = Math.round((exam - today) / 86400000);
+  if (days <= 0) return "Cette date est déjà passée. Donne-moi une date d'examen future, par exemple : « planning Python 20/10/2026 ».";
+  if (days > 120) return "L'examen est dans " + days + " jours : c'est tôt pour un planning détaillé. Reviens me voir à 30 jours de l'examen ; en attendant, révise un peu chaque semaine.";
+  let sujet = t.replace(/planning|plan de r[ée]visions?|r[ée]visions?|examen|pour|le|la|les|de|du|des/g, " ").replace(m[0], " ").replace(/\s+/g, " ").trim();
+  sujet = sujet ? sujet.charAt(0).toUpperCase() + sujet.slice(1) : "La matière";
+  const jAppr = Math.max(1, Math.floor(days * 0.5));
+  const jEx = Math.max(1, Math.floor(days * 0.3));
+  const fmt = d => d.toLocaleDateString("fr-FR", { weekday: "short", day: "numeric", month: "short" });
+  const dj = n => { const d = new Date(today); d.setDate(d.getDate() + n); return d; };
+  let out = "📅 Planning de révisions — " + sujet + " (examen le " + fmt(exam) + ", dans " + days + " jours) :\n";
+  out += "• Du " + fmt(dj(0)) + " au " + fmt(dj(jAppr - 1)) + " : apprendre le cours — relis chaque chapitre et fais des fiches courtes.\n";
+  out += "• Du " + fmt(dj(jAppr)) + " au " + fmt(dj(jAppr + jEx - 1)) + " : exercices et anciens sujets, sans regarder les corrections avant d'avoir essayé.\n";
+  out += "• Les derniers jours : révisions générales + un test en conditions réelles ; la veille, relis tes fiches et dors tôt.\n";
+  out += "Chaque jour : 2 sessions de 45 minutes concentrées valent mieux que 4 heures distrait. Bon courage !";
+  return out;
+}
+// === BARRE D'OUTILS ===
+const voiceBtn = document.getElementById("voice-btn");
+function refreshVoiceBtn(){ voiceBtn.textContent = localStorage.getItem("voice_on") === "1" ? "🔊 Écouter : oui" : "🔇 Écouter : non"; }
+voiceBtn.addEventListener("click", () => {
+  const on = localStorage.getItem("voice_on") === "1";
+  localStorage.setItem("voice_on", on ? "0" : "1");
+  if (on && "speechSynthesis" in window) speechSynthesis.cancel();
+  refreshVoiceBtn();
+  if (!on) speakText("Écoute activée. Je lirai mes réponses à voix haute.");
+});
+refreshVoiceBtn();
+const micBtn = document.getElementById("mic-btn");
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+if (!SR) micBtn.style.display = "none";
+else micBtn.addEventListener("click", () => {
+  const r = new SR(); r.lang = "fr-FR"; r.interimResults = false;
+  micBtn.textContent = "🎙 Écoute… parle !";
+  r.onresult = e => { micBtn.textContent = "🎤 Dicter"; ask(e.results[0][0].transcript); };
+  r.onerror = () => { micBtn.textContent = "🎤 Dicter"; alert("Le micro n'a pas marché : vérifie l'autorisation du microphone dans Chrome."); };
+  r.onend = () => { micBtn.textContent = "🎤 Dicter"; };
+  try { r.start(); } catch(e){}
+});
+document.getElementById("share-btn").addEventListener("click", async () => {
+  const url = "https://dougadiarra7325-gif.github.io/assistant-ia-etudiants/";
+  const data = { title: "Assistant Étudiant IAM", text: "Je te partage l'assistant des étudiants de l'IAM : réponses sur l'IAM, les filières, les CV, calculatrice, quiz et vraie IA.", url };
+  if (navigator.share){ try { await navigator.share(data); } catch(e){} }
+  else window.open("https://wa.me/?text=" + encodeURIComponent(data.text + " " + url), "_blank");
+});
+document.getElementById("clear-btn").addEventListener("click", () => {
+  localStorage.removeItem(HIST_KEY); box.innerHTML = "";
+  addMsg("Conversation effacée. Pose-moi une nouvelle question !", "bot");
+});
+function restoreHistory(){
+  let h = [];
+  try { h = JSON.parse(localStorage.getItem(HIST_KEY) || "[]"); } catch(e){}
+  if (!h.length) return;
+  box.innerHTML = "";
+  restoring = true;
+  h.forEach(m => addMsg(m.text, m.who, m.cat || undefined));
+  restoring = false;
 }
 document.getElementById("chatform").addEventListener("submit", e => {
   e.preventDefault();
@@ -294,7 +450,7 @@ fetch("kb.json?ts=" + Date.now(), { cache: "no-store" }).then(r => r.json()).the
     const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = r.question;
     b.addEventListener("click", () => ask(r.question)); ex.appendChild(b);
   });
-  [["🧮 Calcule 125 × 48", "Calcule 125 × 48"], ["C'est quoi le BBA ?", "C'est quoi le BBA ?"]].forEach(([label, q]) => {
+  [["🧮 Calcule 125 × 48", "Calcule 125 × 48"], ["C'est quoi le BBA ?", "C'est quoi le BBA ?"], ["📝 Quiz entraînement", "quiz"], ["📅 Planning Python (exemple)", "planning Python 20/10/2026"]].forEach(([label, q]) => {
     const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = label;
     b.addEventListener("click", () => ask(q)); ex.appendChild(b);
   });
@@ -310,6 +466,7 @@ fetch("kb.json?ts=" + Date.now(), { cache: "no-store" }).then(r => r.json()).the
     });
   }
 }).catch(() => { document.getElementById("doc").innerHTML = "<p class='note'>Base introuvable (kb.json).</p>"; });
+restoreHistory();
 refreshIa();
 </script>
 </body>
