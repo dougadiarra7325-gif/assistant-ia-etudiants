@@ -266,5 +266,43 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L1-07": {
+  "pdf": "pdf/INF-L1-07.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "🔥 100 QCM Architecture des Ordinateurs 🖥️ – Prépare tes exams !",
+    "chaine": "WayToLearnX",
+    "url": "https://www.youtube.com/watch?v=FAIvXqeWyQ0",
+    "langue": "Français",
+    "description": "Un entraînement en 100 questions couvrant l'ensemble du chapitre : processeur, mémoires, bus et organisation générale de la machine. Utilise-la comme un examen blanc après avoir terminé les sept leçons, en mettant la vidéo en pause pour répondre avant chaque correction.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Architecture Des Ordinateurs S1 et S3 | Étapes d'exécution d'une instruction par le Processeur 💻📚",
+    "chaine": "MEHDI.ma20",
+    "url": "https://www.youtube.com/watch?v=NxqS44Op1YU",
+    "langue": "Français",
+    "description": "Cette vidéo de cours universitaire détaille les étapes d'exécution d'une instruction par le processeur, avec le compteur de programme et le registre d'instruction. Elle prolonge directement la leçon 2 et aide à visualiser le cycle recherche, décodage, exécution.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "📱On  se fait un microprocesseur en LIVE :)  si si ;)",
+    "chaine": "Dr JVTek",
+    "url": "https://www.youtube.com/watch?v=Pdej0obLIQ8",
+    "langue": "Français",
+    "description": "Un format long et vivant qui reconstruit un microprocesseur à partir du transistor : portes logiques, additionneurs, puis les fondations d'une UAL. Parfait pour voir en action les portes ET, OU et NON de la leçon 6 et comprendre comment naît un calcul.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Tous les composants PC expliqués en 12 minutes",
+    "chaine": "RYXACORE",
+    "url": "https://www.youtube.com/watch?v=Fz11pYzRjJA",
+    "langue": "Français",
+    "description": "Un tour complet et accessible des composants d'un PC — alimentation, carte mère, processeur, RAM, SSD, carte graphique — avec des conseils pour bien choisir son matériel. C'est le complément idéal de la leçon 7 avant de composer ta première configuration.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
