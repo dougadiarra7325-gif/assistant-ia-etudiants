@@ -1668,5 +1668,51 @@
     "niveau": "L2 — intermédiaire"
    }
   ]
+ },
+ "INF-L2-13": {
+  "pdf": "pdf/INF-L2-13.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "15. Le coefficient de corrélation de Pearson",
+    "chaine": "Eric Lombardot",
+    "url": "https://www.youtube.com/watch?v=ciqcsWqIHIQ",
+    "langue": "Français",
+    "description": "Principe, calcul pas à pas et interprétation du coefficient de corrélation de Pearson et du coefficient de détermination r², avec un exercice d'application complet. Le prolongement direct de la leçon 3, au niveau universitaire.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "08 Cours de Statistique : Ajustement affine par la méthode des moindres carrés.",
+    "chaine": "Je vise mon bac",
+    "url": "https://www.youtube.com/watch?v=vTVc1FneSp4",
+    "langue": "Français",
+    "description": "L'ajustement affine expliqué simplement : nuage de points, droite de régression par les moindres carrés et coefficient de corrélation, avec la méthode de calcul du tableau des sommes utilisée dans ce cours.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Loi normale : calculer le pourcentage de vis défectueuses | Exercice corrigé",
+    "chaine": "PVegnrt159",
+    "url": "https://www.youtube.com/watch?v=UyRMqP7L2CY",
+    "langue": "Français",
+    "description": "Un exercice corrigé de contrôle qualité : identifier μ et σ, centrer-réduire les valeurs, lire la table de la loi normale et interpréter le pourcentage obtenu, exactement la démarche de la leçon 4.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Proba-stats : Chapitre 10 Statistiques inférentielles - Partie 1 Estimation et échantillonnage",
+    "chaine": "Maths DUT info Bourg-en-Bresse",
+    "url": "https://www.youtube.com/watch?v=GBwIpt27S-M",
+    "langue": "Français",
+    "description": "Cours de DUT Informatique sur l'échantillonnage et l'estimation : estimateurs, biais et intervalles de confiance, qui prépare exactement les leçons 5 et 6 de ce cours.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "PANDAS PYTHON Français - Introduction + Analyse du Titanic (17/30)",
+    "chaine": "Machine Learnia",
+    "url": "https://www.youtube.com/watch?v=zZkNOdBWgFQ",
+    "langue": "Français",
+    "description": "Introduction à pandas en français : charger un DataFrame, l'inspecter, obtenir ses statistiques descriptives avec describe() et produire des graphiques, sur un jeu de données réel.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
