@@ -2394,5 +2394,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L3-05": {
+  "pdf": "pdf/INF-L3-05.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Le cloud computing expliqué en 7 minutes",
+    "chaine": "Cookie connecté",
+    "url": "https://www.youtube.com/watch?v=RwbIMBSr8o8",
+    "langue": "Français",
+    "description": "Une synthèse claire des fondamentaux : définition du cloud, services à la demande, modèles IaaS, PaaS et SaaS, puis modes d'hébergement public, privé et hybride. Parfaite pour réviser la leçon 1 avant de passer aux travaux pratiques.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "DOCKER 101. Maîtriser les bases de docker",
+    "chaine": "chillotech",
+    "url": "https://www.youtube.com/watch?v=jXBS9-lvyvY",
+    "langue": "Français",
+    "description": "Un cours complet sur Docker : concepts, installation, premières commandes et création d'une image. Regarde en priorité les parties sur la création d'images pour relier la vidéo au Dockerfile de la leçon 4.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Applications multi-conteneurs | Docker - EP8",
+    "chaine": "EvoluNoob",
+    "url": "https://www.youtube.com/watch?v=VaeMMfz0oAU",
+    "langue": "Français",
+    "description": "Comment faire communiquer plusieurs conteneurs d'une même application avec Docker Compose : exactement la situation d'une application web et de sa base en production. À visionner après la leçon 4 pour voir l'orchestration simple en action.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "C’est Quoi le Cloud Computing ? Public, Private, Hybrid, RPO, RTO, SLA – Formation Azure Jour 1",
+    "chaine": "Donald Programmeur",
+    "url": "https://www.youtube.com/watch?v=ILKTyH3Ya18",
+    "langue": "Français",
+    "description": "Le premier jour d'une formation Azure qui pose les concepts : modèles de cloud, régions et zones de disponibilité, haute disponibilité, reprise d'activité, et surtout RPO, RTO et SLA expliqués. Le complément direct de la leçon 5 sur les sauvegardes.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Hosting, Cloud, Docker, Kubernetes : tout comprendre de zéro",
+    "chaine": "Romain Lanz",
+    "url": "https://www.youtube.com/watch?v=Kol8ymACLU8",
+    "langue": "Français",
+    "description": "Une longue masterclass qui relie tout le cours : hébergement, DNS, Docker, Compose, Swarm puis Kubernetes, stockage et déploiements de production. À regarder en plusieurs fois après le projet de la leçon 7, pour consolider l'ensemble.",
+    "niveau": "Intermédiaire à avancé"
+   }
+  ]
  }
 }
