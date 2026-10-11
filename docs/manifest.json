@@ -1040,5 +1040,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-25": {
+  "pdf": "pdf/INF-L1-25.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Réussir son rapport de stage",
+    "chaine": "Le repère des CIP",
+    "url": "https://www.youtube.com/watch?v=oSPCuhgprEI",
+    "langue": "Français",
+    "description": "La structure complète d'un rapport de stage expliquée étape par étape : page de garde, introduction, développement et conclusion, avec les sections obligatoires et les erreurs à éviter. À regarder avant de commencer ta propre rédaction.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Rapport de Stage - Comment faire un beau rapport de stage ?",
+    "chaine": "digiSchool Orientation",
+    "url": "https://www.youtube.com/watch?v=8LLZy1Qwf4A",
+    "langue": "Français",
+    "description": "Une présentation claire de la mise en forme d'un rapport soigné, avec un zoom sur l'introduction, la partie que le correcteur lit en premier. Utile pour transformer un contenu correct en document professionnel.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Dictée : distinguer a/à, et/est, on/ont, son/sont CM1 - CM2 - Français - Orthographe - Grammaire",
+    "chaine": "Maître Lucas",
+    "url": "https://www.youtube.com/watch?v=KIJ4JO8f3TE",
+    "langue": "Français",
+    "description": "Les règles de base des quatre paires d'homophones de la leçon 3, expliquées très simplement, avec une dictée d'entraînement à faire en mettant la vidéo en pause. Parfait pour réviser les fondamentaux sans honte : ce sont ces fautes-là que les correcteurs voient partout.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comment gérer son stress pour parler en public ?",
+    "chaine": "Nicolas Mel | Art oratoire",
+    "url": "https://www.youtube.com/watch?v=Ee8MyV1BnNo",
+    "langue": "Français",
+    "description": "Un regard déculpabilisant sur le trac : pourquoi vouloir le cacher aggrave le problème, et comment commencer sa prise de parole de manière à se mettre à l'aise. En complément direct de la leçon 4.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Peur de parler en public : 7 solutions contre cette phobie (prise de parole sans stress)",
+    "chaine": "Y.GAUTIER, Coach Emploi, oral de concours et +",
+    "url": "https://www.youtube.com/watch?v=9z3gFZmohiA",
+    "langue": "Français",
+    "description": "Sept solutions concrètes contre la peur de l'oral : distinguer mémorisation et gestion des émotions, partir des attentes du public, s'appuyer sur un plan simple. Particulièrement utile avant une soutenance ou un oral d'examen.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
