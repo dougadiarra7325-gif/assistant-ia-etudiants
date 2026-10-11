@@ -4646,5 +4646,51 @@
     "niveau": "Intermédiaire à avancé"
    }
   ]
+ },
+ "BBA-L2-05": {
+  "pdf": "pdf/BBA-L2-05.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "ASSISTANT RESSOURCES HUMAINES : tout savoir sur le métier (rôle, salaire)",
+    "chaine": "Hellowork",
+    "url": "https://www.youtube.com/watch?v=VT-Bx6dq1OU",
+    "langue": "Français",
+    "description": "Le quotidien d'une assistante ressources humaines : gestion administrative du personnel, recrutement, paie et relations avec les salariés. Un bon miroir des missions du service RH décrites dans la leçon 1, vues depuis un poste réel.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "GRH - La Gestion Prévisionnelle des Emplois et des Compétences (GPEC)",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=doP0Jt-Igds",
+    "langue": "Français",
+    "description": "Un cours complet sur la démarche GPEC : définition, étapes et outils d'anticipation des emplois et des compétences. À regarder après la leçon 2 pour consolider la méthode avant de refaire le tableau d'écarts de la SND.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Prévisions en termes Ressources Humaines (GPEC) - La Minute RH Épisode 42 avec Parfait A. GBENADO",
+    "chaine": "DJANGO TV",
+    "url": "https://www.youtube.com/watch?v=MMUaOGK1m6Q",
+    "langue": "Français",
+    "description": "Format court d'un praticien RH africain sur la prévision en ressources humaines : pourquoi prévoir fait gagner du temps et de l'argent. Un complément concret et rapide à la leçon 2, dans un contexte proche de celui des PME de la région.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Recrutement RH - étape 1 - Le processus de recrutement",
+    "chaine": "Dgboost",
+    "url": "https://www.youtube.com/watch?v=h59sCU_HQps",
+    "langue": "Français",
+    "description": "La première vidéo d'une série qui découpe le processus de recrutement en étapes, de la stratégie à l'intégration du collaborateur. Elle prolonge la leçon 3 et donne des exemples de politique de recrutement et d'attractivité de l'employeur.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Fiche de paie décryptée : les pièges à éviter",
+    "chaine": "JeComprendsEnfin",
+    "url": "https://www.youtube.com/watch?v=KooDg2InR_g",
+    "langue": "Français",
+    "description": "Une lecture ligne par ligne d'un bulletin de paie : identification, cotisations, passage du brut au net et erreurs fréquentes à repérer. Parfait en résonance avec les leçons 5 et 7 — garde en tête que les taux montrés sont ceux du pays de la vidéo, pas ceux de ton entreprise.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
