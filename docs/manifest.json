@@ -810,5 +810,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-19": {
+  "pdf": "pdf/INF-L1-19.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Le Binaire pour Debutants - Cours Complet en Francais",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=TCuz0pR8Si0",
+    "langue": "Français",
+    "description": "Un cours complet et progressif sur le binaire : bits et puissances de 2, conversions dans les deux sens, octets et unités, addition et soustraction binaires, puis l'hexadécimal comme raccourci du binaire. Il couvre les leçons 1 et 2 et se termine par un récapitulatif à garder sous la main.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le codage - Le décodage - Le transcodage (Les systèmes de numération)",
+    "chaine": "Technologie en poche",
+    "url": "https://www.youtube.com/watch?v=m-5ot0WWg5I",
+    "langue": "Français",
+    "description": "Codage, décodage, transcodage : la vidéo enchaîne les conversions décimal vers binaire et hexadécimal, le retour vers le décimal, et la conversion directe entre binaire et hexadécimal. Un tableau d'équivalence entre bases sert de fil conducteur, parfait en complément de la leçon 1.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Addition & Soustraction en Binaire, Octal, Décimal, Hexa | Exercices Corrigés | LCS",
+    "chaine": "Dr Telecom",
+    "url": "https://www.youtube.com/watch?v=IV7zSewaUFs",
+    "langue": "Français",
+    "description": "Des additions et soustractions corrigées étape par étape, en binaire mais aussi en octal et en hexadécimal. À regarder après la leçon 2, exercice personnel à la main avant de dévoiler chaque correction.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Entiers négatifs (complément à 2)",
+    "chaine": "Vretrocomputing",
+    "url": "https://www.youtube.com/watch?v=WX3XLJBSADk",
+    "langue": "Français",
+    "description": "Comment les entiers négatifs sont représentés en binaire : du complément décimal à l'idée générale jusqu'au complément à deux, avec ses limites de plage et les opérations. Une visualisation utile de la leçon 3, notamment pour le dépassement de capacité.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Comment un ordinateur stocke les lettres ? (ASCII expliqué simplement)",
+    "chaine": "Decode Dev",
+    "url": "https://www.youtube.com/watch?v=U8y3Wx2zpuE",
+    "langue": "Français",
+    "description": "Chaque lettre reçoit un numéro dans la table ASCII — A vaut 65 — et ce numéro est converti en binaire comme n'importe quel entier, avant le décodage inverse à l'affichage. La vidéo annonce aussi la suite : Unicode, les accents et les émojis, au cœur de la leçon 4.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
