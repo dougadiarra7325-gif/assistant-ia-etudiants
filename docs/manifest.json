@@ -1086,5 +1086,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L1-24": {
+  "pdf": "pdf/INF-L1-24.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "repérez l'hameçon avant de cliquer",
+    "chaine": "CyberCuriosity | Léo Isidore",
+    "url": "https://www.youtube.com/watch?v=eY2NRz0ugYg",
+    "langue": "Français",
+    "description": "Une vidéo courte et claire qui explique comment fonctionne une attaque de phishing, étape par étape, et présente ses variantes par SMS, appel et QR code. Elle donne quatre signaux simples pour repérer le piège avant de cliquer, en écho direct à la première leçon.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Créer un mot de passe FACILE À RETENIR et ULTRA SÉCURISÉ en 6 MINUTES",
+    "chaine": "Lomb Cybersecurity",
+    "url": "https://www.youtube.com/watch?v=j9TSpTdlrhs",
+    "langue": "Français",
+    "description": "Trois méthodes concrètes pour construire un mot de passe long, unique et robuste sans avoir une mémoire d'éléphant. La vidéo démonte aussi les erreurs classiques commises par la plupart des utilisateurs, ce qui prolonge parfaitement la leçon sur les phrases secrètes.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Active la double authentification (sans le piège du SMS ni tout perdre)",
+    "chaine": "PrivLab",
+    "url": "https://www.youtube.com/watch?v=v9X1tDuSkCM",
+    "langue": "Français",
+    "description": "Pourquoi la double authentification bloque l'écrasante majorité des piratages, et pourquoi le SMS est son maillon faible face à l'échange de carte SIM. La démonstration complète d'activation par application, avec le kit de secours (codes de récupération) pour ne jamais rester bloqué dehors.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Qu'est-ce que la double authentification ?",
+    "chaine": "Cybermalveillance-gouv-fr",
+    "url": "https://www.youtube.com/watch?v=4GQxevlvFG8",
+    "langue": "Français",
+    "description": "La plateforme publique française d'assistance aux victimes de cyberattaques explique, simplement, le principe de la validation en deux étapes. Un bon complément institutionnel pour comprendre à quoi sert le second facteur avant de l'activer sur tes comptes.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Leçon 1_Partie_4_Eviter les pertes de données - Sauvegarde - Mon Prof d'Info",
+    "chaine": "Mon Prof D'Info",
+    "url": "https://www.youtube.com/watch?v=EDYgmYD6HPk",
+    "langue": "Français",
+    "description": "Un cours filmé qui passe en revue les causes de perte de données et les parades : stratégie régulière, multiplication des supports et règle du 3-2-1 explicitement présentée. Il insiste aussi sur le point trop souvent oublié : tester ses sauvegardes par des restaurations réelles.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
