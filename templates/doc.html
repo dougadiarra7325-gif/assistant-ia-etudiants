@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Questions fréquentes{% endblock %}
+{% block content %}
+<h1>Documentation — les {{ total }} questions/réponses de l'assistant</h1>
+<p>Cette page est la documentation officielle de la base de connaissances du projet n°11.
+<a href="{{ url_for('documentation_json') }}">Télécharger en JSON</a>.</p>
+{% for cat, rows in par_cat.items() %}
+<section class="panel">
+  <h2>{{ cat }}</h2>
+  {% for r in rows %}
+    <p class="q"><b>Q. {{ r['question'] }}</b></p>
+    <p class="r">{{ r['reponse'] }}</p>
+  {% endfor %}
+</section>
+{% endfor %}
+{% endblock %}

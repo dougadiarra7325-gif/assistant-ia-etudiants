@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Connexion admin{% endblock %}
+{% block content %}
+<div class="formbox">
+  <h1>Connexion</h1>
+  <form method="post">
+    <label>E-mail <input type="email" name="email" required></label>
+    <label>Mot de passe <input type="password" name="password" required></label>
+    <button class="big" type="submit">Connexion</button>
+  </form>
+  <p>Pas de compte ? <a href="{{ url_for('register') }}">Créer un compte</a> (seul le propriétaire peut activer l'admin).</p>
+</div>
+{% endblock %}

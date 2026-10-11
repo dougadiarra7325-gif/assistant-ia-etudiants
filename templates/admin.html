@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}Admin — base de connaissances{% endblock %}
+{% block content %}
+<h1>Espace Admin</h1>
+{% if locked %}
+  {% if can_claim %}
+    <div class="panel">
+      <p>Ce compte ({{ me['email'] }}) est celui du propriétaire du projet.</p>
+      <form method="post" action="{{ url_for('admin_claim') }}">
+        <button class="big" type="submit">Activer l'espace admin pour mon compte</button></form>
+    </div>
+  {% else %}
+    <div class="panel"><p>Accès réservé au propriétaire du projet.</p></div>
+  {% endif %}
+{% else %}
+  <div class="stats">
+    <div><b>{{ stats.qna }}</b><span>Questions/réponses</span></div>
+    <div><b>{{ stats.questions }}</b><span>Questions posées</span></div>
+    <div><b>{{ stats.sans_reponse }}</b><span>Sans réponse</span></div>
+  </div>
+
+  <section class="panel">
+    <h2>Ajouter une question/réponse</h2>
+    <form method="post" action="{{ url_for('admin_add') }}" class="stack-form">
+      <label>Catégorie
+        <select name="categorie">{% for c in CATEGORIES %}<option>{{ c }}</option>{% endfor %}</select></label>
+      <label>Question <input type="text" name="question" required placeholder="Ex. Quand finit l'atelier ?"></label>
+      <label>Mots-clés (séparés par des virgules) <input type="text" name="keywords" placeholder="horaire, finit, fin atelier"></label>
+      <label>Réponse <textarea name="reponse" rows="3" required></textarea></label>
+      <button class="big" type="submit">Ajouter à la base</button>
+    </form>
+    <p><a class="btn-small" href="{{ url_for('admin_export') }}">Exporter la base (CSV)</a>
+       <a class="btn-small" href="{{ url_for('documentation') }}">Voir la documentation publique</a></p>
+  </section>
+
+  <section class="panel">
+    <h2>Questions sans réponse (à traiter)</h2>
+    {% for u in unmatched %}
+      <p class="row">« {{ u['question'] }} » <span class="meta">{{ u['created_at'] }}</span></p>
+    {% else %}<p>Aucune question en attente. 🎉</p>{% endfor %}
+  </section>
+
+  <section class="panel">
+    <h2>Base actuelle ({{ qnas|length }})</h2>
+    {% for q in qnas %}
+      <p class="row"><b>[{{ q['categorie'] }}]</b> {{ q['question'] }}
+        <form method="post" action="{{ url_for('admin_delete', qna_id=q['id']) }}" class="del"
+              onsubmit="return confirm('Supprimer cette question/réponse ?')">
+          <button type="submit">Supprimer</button></form></p>
+    {% endfor %}
+  </section>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Assistant Étudiant IAM{% endblock %}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="{{ url_for('index') }}">Assistant<span>·</span>Étudiant IAM</a>
+  <nav>
+    <a href="{{ url_for('index') }}">Discuter</a>
+    <a href="{{ url_for('documentation') }}">Questions fréquentes</a>
+    {% if me %}
+      <a href="{{ url_for('admin_home') }}">Admin</a>
+      <a class="btn-small" href="{{ url_for('logout') }}">Déconnexion ({{ me['name'] }})</a>
+    {% else %}
+      <a href="{{ url_for('login') }}">Admin</a>
+    {% endif %}
+  </nav>
+</header>
+<main class="wrap">
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for cat, msg in messages %}<div class="flash {{ cat }}">{{ msg }}</div>{% endfor %}
+  {% endwith %}
+  {% block content %}{% endblock %}
+</main>
+<footer class="foot">
+  Projet n°11 « Assistant IA pour étudiants » — IAM Code to Career • Douga dit Ibrahim Diarra • Université IAM, Bamako
+</footer>
+</body>
+</html>

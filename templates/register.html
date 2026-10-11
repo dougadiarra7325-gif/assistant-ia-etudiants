@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Inscription{% endblock %}
+{% block content %}
+<div class="formbox">
+  <h1>Créer un compte</h1>
+  <form method="post">
+    <label>Nom complet <input type="text" name="name" required></label>
+    <label>E-mail <input type="email" name="email" required></label>
+    <label>Mot de passe (6 caractères minimum) <input type="password" name="password" required minlength="6"></label>
+    <button class="big" type="submit">Créer mon compte</button>
+  </form>
+  <p>Déjà un compte ? <a href="{{ url_for('login') }}">Connecte-toi</a>.</p>
+</div>
+{% endblock %}

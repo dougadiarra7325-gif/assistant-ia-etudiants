@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>Bonjour, je suis ton assistant étudiant 👋</h1>
+  <p>Pose-moi tes questions sur l'atelier IAM Code to Career, les emplois du temps, les examens et les démarches administratives.</p>
+</section>
+<div class="chatbox">
+  <div id="messages" class="messages">
+    <div class="msg bot">Bonjour ! Je réponds aux questions fréquentes des étudiants de l'IAM. Essaie une des questions d'exemple ci-dessous, ou écris la tienne.</div>
+  </div>
+  <div class="exemples">
+    {% for q in exemples %}<button type="button" class="chip" onclick="askExample(this)">{{ q }}</button>{% endfor %}
+  </div>
+  <form id="chatform" class="chatinput">
+    <input id="msg" type="text" placeholder="Écris ta question…" autocomplete="off" required>
+    <button type="submit">Envoyer</button>
+  </form>
+</div>
+<script>
+const box = document.getElementById('messages');
+function addMsg(text, who){
+  const d = document.createElement('div');
+  d.className = 'msg ' + who; d.textContent = text;
+  box.appendChild(d); box.scrollTop = box.scrollHeight;
+}
+async function ask(text){
+  addMsg(text, 'user');
+  const wait = document.createElement('div');
+  wait.className = 'msg bot'; wait.textContent = '…';
+  box.appendChild(wait); box.scrollTop = box.scrollHeight;
+  try {
+    const r = await fetch('{{ url_for("api_chat") }}', {method:'POST',
+      headers:{'Content-Type':'application/json'}, body: JSON.stringify({message:text})});
+    const j = await r.json();
+    wait.textContent = j.reponse;
+    if (j.categorie){ const s=document.createElement('div'); s.className='cat'; s.textContent=j.categorie; wait.appendChild(s); }
+  } catch(e){ wait.textContent = "Problème de connexion, réessaie."; }
+  box.scrollTop = box.scrollHeight;
+}
+function askExample(btn){ ask(btn.textContent.trim()); }
+document.getElementById('chatform').addEventListener('submit', e => {
+  e.preventDefault();
+  const inp = document.getElementById('msg');
+  const t = inp.value.trim(); if(!t) return;
+  inp.value = ''; ask(t);
+});
+</script>
+{% endblock %}
