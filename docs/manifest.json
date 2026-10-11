@@ -3796,5 +3796,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L1-11": {
+  "pdf": "pdf/BBA-L1-11.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "[Cours 1] Marketing  - DÉFINITIONS ET ÉVOLUTION DU MARKETING",
+    "chaine": "Pr. Ahmed BENJELLOUN",
+    "url": "https://www.youtube.com/watch?v=XGUs6xS1AGk",
+    "langue": "Français",
+    "description": "Premier cours d'une série universitaire : définition du marketing, son évolution historique et ses grandes formes (fonctionnel, stratégique, relationnel, digital). Le compagnon vidéo direct de la leçon 1.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Démystifier le Marketing",
+    "chaine": "Onyfour",
+    "url": "https://www.youtube.com/watch?v=A086YPLxgjE",
+    "langue": "Français",
+    "description": "Une vue d'ensemble des fondamentaux, de l'évolution du marketing à la démarche segmentation-ciblage-positionnement et aux 4P, avec un exemple de structure de prix. Idéal pour réviser les leçons 1, 4 et 5 en une seule séance.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le marketing stratégique",
+    "chaine": "Pr. Ahmed BENJELLOUN",
+    "url": "https://www.youtube.com/watch?v=Mw7aGWbKg3c",
+    "langue": "Français",
+    "description": "Les concepts clés du marketing stratégique et le processus SCP (segmentation, ciblage, positionnement) expliqués pas à pas : exactement la mécanique de la leçon 4.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Marketing Express I Les 4P du Marketing ( Le Marketing Mix )",
+    "chaine": "FNITIZ Yassine",
+    "url": "https://www.youtube.com/watch?v=7yoXKpCXc7E",
+    "langue": "Français",
+    "description": "Format court et clair sur le marketing mix : politique produit, politique de prix, communication et distribution, présentés comme un ensemble de décisions cohérentes.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "La courbe de cycle de vie d'un produit",
+    "chaine": "Dgboost",
+    "url": "https://www.youtube.com/watch?v=NMKy-Rzmvjs",
+    "langue": "Français",
+    "description": "La courbe du cycle de vie expliquée simplement : investissement de départ, lancement, croissance, maturité et déclin, avec le rôle des profits à chaque phase — à regarder après le tableau de ventes de la leçon 6.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
