@@ -1782,5 +1782,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L2-16": {
+  "pdf": "pdf/INF-L2-16.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Les Fondamentaux de l'IA : Recherche Non Informée (BFS vs DFS) - Résoudre Puzzles et Labyrinthes",
+    "chaine": "Coding with Iannaki",
+    "url": "https://www.youtube.com/watch?v=nnSus1UD_zo",
+    "langue": "Français",
+    "description": "Une présentation claire des deux parcours fondamentaux, comparés pas à pas sur des puzzles et des labyrinthes. Idéal pour visualiser la différence entre la file du BFS et la pile du DFS avant de les coder en TP.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Dijkstra, le plus court chemin dans un graphe",
+    "chaine": "PhysAlgo",
+    "url": "https://www.youtube.com/watch?v=J8AntuTp1K4",
+    "langue": "Français",
+    "description": "L'algorithme de Dijkstra expliqué de façon visuelle sur un graphe simple, avec le remplissage progressif du tableau des distances. Un bon complément à l'exécution manuelle de la leçon 4 sur les quartiers de Bamako.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Utiliser l'algorithme de Dijkstra - PostBac",
+    "chaine": "Yvan Monka",
+    "url": "https://www.youtube.com/watch?v=rHylCtXtdNs",
+    "langue": "Français",
+    "description": "Un exercice complet traité avec la méthode du tableau, dans le style méthodique des vidéos d'Yvan Monka. Parfait pour s'entraîner à dérouler Dijkstra sans sauter d'étape, comme dans le TD 1.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Algorithme de Dijkstra : théorie des graphes",
+    "chaine": "Méthode Maths",
+    "url": "https://www.youtube.com/watch?v=XGmpZJOGSPc",
+    "langue": "Français",
+    "description": "Une présentation plus théorique de Dijkstra dans le cadre de la théorie des graphes, avec le vocabulaire complet (chaînes, poids, ordre). Utile pour consolider les définitions des leçons 1 et 4.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Algorithme de Kruskal pour construire un arbre couvrant de poids minimal",
+    "chaine": "À la découverte des graphes",
+    "url": "https://www.youtube.com/watch?v=U_itW96NnQ0",
+    "langue": "Français",
+    "description": "La construction d'un arbre couvrant minimal par l'algorithme de Kruskal, arête après arête, avec le rejet des arêtes qui fermeraient un cycle. La même chaîne propose aussi une vidéo sur l'algorithme de Prim pour comparer les deux approches.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
