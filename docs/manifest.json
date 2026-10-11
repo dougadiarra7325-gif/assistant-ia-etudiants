@@ -902,5 +902,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L1-21": {
+  "pdf": "pdf/INF-L1-21.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "LA GENESE D'INTERNET",
+    "chaine": "Kaya Maga",
+    "url": "https://www.youtube.com/watch?v=MH-43U8RK8o",
+    "langue": "Français",
+    "description": "Un récit clair des origines : ARPANET en 1969, les protocoles TCP/IP puis le World Wide Web de Tim Berners-Lee en 1989. Parfait pour fixer les dates de la frise chronologique de la leçon 1.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "comprendre le web partie 1",
+    "chaine": "Yassine Digi Tech",
+    "url": "https://www.youtube.com/watch?v=ebmslOevNG4",
+    "langue": "Français",
+    "description": "Premier épisode d'une série qui explique ce qu'est le Web, ses origines et l'invention de Tim Berners-Lee au CERN. Idéal pour bien distinguer Internet et Web avant d'aller plus loin.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Ne plus se faire manipuler (Méthode SIFT) #ia #chatgpt",
+    "chaine": "Synthèse",
+    "url": "https://www.youtube.com/watch?v=G5wkKSRPl8U",
+    "langue": "Français",
+    "description": "La méthode SIFT en quatre gestes pour vérifier une information en quelques dizaines de secondes, avec les pièges psychologiques qui nous font croire trop vite. Un complément direct et pratique de la grille de vérification de la leçon 2.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "L'identité numérique",
+    "chaine": "COM'ON NUM",
+    "url": "https://www.youtube.com/watch?v=43RoqdcUp6g",
+    "langue": "Français",
+    "description": "Une vidéo d'étudiants en communication qui définit l'identité numérique, les traces que nous laissons et leurs effets sur la réputation. Un bon point de départ pour mener ton propre audit, comme dans le TP du cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comprendre les licences creative commons",
+    "chaine": "Magazine Archimag",
+    "url": "https://www.youtube.com/watch?v=ntxJhUKTPII",
+    "langue": "Français",
+    "description": "En cinq minutes, une journaliste spécialisée explique ce que sont les licences Creative Commons et comment un auteur cède à l'avance une partie de ses droits. À regarder avant de choisir ta première licence, ou ta première ressource libre.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
