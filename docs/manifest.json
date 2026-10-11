@@ -1988,5 +1988,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L2-21": {
+  "pdf": "pdf/INF-L2-21.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Chapitre 2 (RO) : Méthode graphique (PARTIE 1)",
+    "chaine": "LES ECONOMISTES | دروس الاقتصاد",
+    "url": "https://www.youtube.com/watch?v=21xr03_f0T8",
+    "langue": "Français",
+    "description": "Premier épisode d'un chapitre complet de recherche opérationnelle : construction du domaine des solutions réalisables à partir des contraintes d'un programme linéaire. À regarder après la leçon 2 pour préparer la résolution graphique de la leçon 3.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Recherche opérationnelle :  Résolution graphique d'un programme linéaire",
+    "chaine": "Comprendre l'informatique",
+    "url": "https://www.youtube.com/watch?v=ZO0FvbLaoZI",
+    "langue": "Français",
+    "description": "Résolution graphique complète d'un programme linéaire : tracé de la région admissible, recensement des sommets et cas particuliers comme les solutions multiples ou le domaine non borné. C'est le prolongement direct de la première partie de la leçon 3.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "#6 La Recherche Opérationnelle (RO) | Programmation Linéaire | Méthode Graphique",
+    "chaine": "Salim Bro",
+    "url": "https://www.youtube.com/watch?v=5Lb366XP4Bw",
+    "langue": "Français",
+    "description": "Un autre exemple de méthode graphique traité de bout en bout, avec une présentation claire des droites de contraintes et du déplacement de la droite d'objectif. Utile pour comparer les deux façons de repérer le sommet optimal : énumération ou droite mobile.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "RO : Les PL et le Simplexe partie 2",
+    "chaine": "amtb85",
+    "url": "https://www.youtube.com/watch?v=rz7ft04TWUs",
+    "langue": "Français",
+    "description": "Deuxième partie d'un cours filmé sur les programmes linéaires, consacrée à la mise en œuvre de l'algorithme du simplexe par tableaux. À visionner après avoir déroulé à la main les deux pivots de la leçon 3 pour consolider le mécanisme.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "CM 10  _  #Problème de transport",
+    "chaine": "Recherche opérationnelle _ Prof. Gadhi",
+    "url": "https://www.youtube.com/watch?v=UQwAv8w2MrA",
+    "langue": "Français",
+    "description": "Cours magistral consacré au problème de transport : solutions de base initiales (coin nord-ouest, moindres coûts, pénalités) puis algorithme de transport et test d'optimalité. Il couvre exactement la démarche appliquée dans la leçon 4.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
