@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistant Étudiant IAM — Projet n°11</title>
+<style>
+:root{--navy:#0b2545;--gold:#c9a227;--ink:#1a1a1a;--mut:#5a6a7f;--line:#dbe2ec;--bg:#f5f7fa}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+.topbar{background:var(--navy);color:#fff;padding:12px 16px;font-weight:800;font-size:20px}
+.topbar span{color:var(--gold)}
+.wrap{max-width:860px;margin:0 auto;padding:16px}
+.hero{background:linear-gradient(135deg,var(--navy),#123a6b);color:#fff;border-radius:14px;padding:22px;margin-bottom:14px}
+.hero h1{margin:0 0 6px;font-size:25px}.hero p{margin:0;color:#cfdaea}
+.chatbox,.panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:14px}
+.messages{display:flex;flex-direction:column;gap:8px;max-height:52vh;overflow-y:auto;padding:4px}
+.msg{max-width:85%;padding:10px 13px;border-radius:14px;font-size:15px;line-height:1.45;white-space:pre-wrap}
+.msg.bot{background:#eef2f8;align-self:flex-start;border-bottom-left-radius:4px}
+.msg.user{background:var(--navy);color:#fff;align-self:flex-end;border-bottom-right-radius:4px}
+.msg .cat{margin-top:6px;font-size:11px;color:var(--mut);font-weight:700;text-transform:uppercase;letter-spacing:.4px}
+.exemples{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.chip{background:#f7ecd0;border:1px solid var(--gold);color:#4a3805;border-radius:16px;padding:6px 11px;font-size:13px;cursor:pointer}
+.chatinput{display:flex;gap:8px}
+.chatinput input{flex:1;padding:12px;border:1px solid var(--line);border-radius:10px;font-size:15px}
+.chatinput button{background:var(--gold);border:0;border-radius:10px;padding:12px 18px;font-weight:700;cursor:pointer}
+.panel h2{margin-top:0;font-size:18px}
+.panel input[type=password]{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font-size:14px;margin:6px 0}
+.btn{background:var(--navy);color:#fff;border:0;border-radius:8px;padding:10px 14px;font-weight:600;cursor:pointer}
+.btn.gold{background:var(--gold);color:#14100a}
+.note{font-size:13px;color:var(--mut)}
+.ok{color:#177245;font-weight:700}
+.q{margin:12px 0 2px}.r{margin:0 0 8px;color:#33455c}
+.foot{text-align:center;color:var(--mut);font-size:13px;padding:18px}
+a{color:var(--navy)}
+@media (max-width:600px){.hero h1{font-size:21px}.msg{max-width:92%}}
+</style>
+</head>
+<body>
+<header class="topbar">Assistant<span>·</span>Étudiant IAM</header>
+<main class="wrap">
+  <section class="hero">
+    <h1>Bonjour, je suis ton assistant étudiant 👋</h1>
+    <p>Pose-moi tes questions sur l'atelier IAM Code to Career, les emplois du temps, les examens et les démarches administratives.</p>
+  </section>
+
+  <div class="chatbox">
+    <div id="messages" class="messages">
+      <div class="msg bot">Bonjour ! Je réponds aux questions fréquentes des étudiants de l'IAM grâce à ma base documentée. Essaie une question d'exemple, ou écris la tienne.</div>
+    </div>
+    <div class="exemples" id="exemples"></div>
+    <form id="chatform" class="chatinput">
+      <input id="msg" type="text" placeholder="Écris ta question…" autocomplete="off" required>
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+
+  <section class="panel">
+    <h2>🤖 Vraie IA — Google Gemini (gratuit)</h2>
+    <p id="ia-status" class="note">Vérification…</p>
+    <div id="ia-form">
+      <label>Colle ta clé gratuite Google AI Studio (aistudio.google.com → « Get API key ») :
+        <input type="password" id="ia-key" placeholder="AIza…" autocomplete="off"></label>
+      <button class="btn gold" id="ia-save" type="button">Activer la vraie IA</button>
+      <p class="note">Ta clé reste <b>dans ton navigateur uniquement</b> (jamais publiée, jamais dans le code du site). Quand ma base n'a pas la réponse, ton navigateur demande directement à Google Gemini.</p>
+    </div>
+    <div id="ia-on" style="display:none">
+      <button class="btn" id="ia-del" type="button">Retirer la clé de ce navigateur</button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Documentation — questions fréquentes</h2>
+    <div id="doc"><p class="note">Chargement de la base…</p></div>
+  </section>
+</main>
+<footer class="foot">
+  Projet n°11 « Assistant IA pour étudiants » — IAM Code to Career • Douga dit Ibrahim Diarra • Université IAM, Bamako •
+  <a href="https://github.com/dougadiarra7325-gif/assistant-ia-etudiants">Code source sur GitHub</a>
+</footer>
+
+<script>
+const STOP = new Set("le la les de des du un une et est je tu il elle on nous vous ils a au aux en dans sur pour avec que qui quoi comment quand ou ce se sa son mes mon ma tes ton ta cette ces pas plus faire".split(" "));
+let KB = [];
+const norm = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
+function findAnswer(text){
+  const n = norm(text);
+  const words = n.split(" ").filter(w => !STOP.has(w) && w.length > 2);
+  let best = null, bestScore = 0; const scored = [];
+  for (const row of KB){
+    let score = 0;
+    for (const kw0 of row.keywords.split(",")){
+      const kw = norm(kw0.trim()); if (!kw) continue;
+      if (kw.includes(" ")){ if (n.includes(kw)) score += 3 * kw.split(" ").length; }
+      else if (words.includes(kw)) score += 2;
+    }
+    const qw = norm(row.question).split(" ").filter(w => !STOP.has(w) && w.length > 2);
+    score += qw.filter(w => words.includes(w)).length;
+    if (score > 0) scored.push([score, row]);
+    if (score > bestScore){ best = row; bestScore = score; }
+  }
+  scored.sort((a,b) => b[0]-a[0]);
+  return { row: bestScore >= 3 ? best : null, sugg: scored.slice(0,3).map(x => x[1]) };
+}
+const SYSTEME = "Tu es l'assistant des étudiants de l'Université IAM (Institut Africain de Management) de Bamako, au Mali. Tu réponds en français simple et clair, en 2 à 6 phrases maximum, avec un ton aidant pour des étudiants. Faits sûrs : l'atelier IAM Code to Career est piloté par DataInsights, chef d'atelier Abdoulaye TRAORE ; horaires : lundi à vendredi 9h00-15h00 (vendredi 9h00-13h00) ; 12 projets d'équipe ; livrables : démonstration, code sur GitHub, présentation, projet intégré au CV et au profil en ligne. Règles strictes : n'invente JAMAIS de dates officielles (examens, inscriptions, résultats) ni de numéros de téléphone : pour ces sujets, dis de vérifier auprès du secrétariat ou de l'affichage officiel de l'IAM. Tu peux expliquer des notions de cours (programmation, informatique) et donner des conseils d'étude.";
+async function gemini(question, contexte){
+  const key = localStorage.getItem("gemini_key");
+  if (!key) return null;
+  let prompt = SYSTEME;
+  if (contexte) prompt += "\n\nInformations de la base officielle (à utiliser en priorité si elles répondent) :\n" + contexte;
+  prompt += "\n\nQuestion de l'étudiant : " + question;
+  try {
+    const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
+      { method:"POST", headers:{ "Content-Type":"application/json", "x-goog-api-key": key },
+        body: JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{ temperature:0.4, maxOutputTokens:500 } }) });
+    if (!r.ok) return null;
+    const data = await r.json();
+    const t = (data.candidates?.[0]?.content?.parts || []).map(p => p.text || "").join("").trim();
+    return t || null;
+  } catch(e){ return null; }
+}
+const box = document.getElementById("messages");
+function addMsg(text, who, cat){
+  const d = document.createElement("div");
+  d.className = "msg " + who; d.textContent = text;
+  if (cat){ const s = document.createElement("div"); s.className = "cat"; s.textContent = cat; d.appendChild(s); }
+  box.appendChild(d); box.scrollTop = box.scrollHeight; return d;
+}
+async function ask(text){
+  addMsg(text, "user");
+  const { row, sugg } = findAnswer(text);
+  if (row){ addMsg(row.reponse, "bot", row.categorie); return; }
+  const wait = addMsg("…", "bot");
+  const ctx = sugg.map(s => "- " + s.question + " → " + s.reponse).join("\n");
+  const ia = await gemini(text, ctx);
+  if (ia){ wait.textContent = ia; const s = document.createElement("div"); s.className = "cat"; s.textContent = "Réponse IA — Google Gemini"; wait.appendChild(s); }
+  else {
+    let rep = "Je n'ai pas encore la réponse à cette question. En attendant, le secrétariat de l'IAM peut te renseigner directement.";
+    if (!localStorage.getItem("gemini_key")) rep += " Astuce : active la vraie IA ci-dessous avec une clé gratuite pour que je réponde à bien plus de questions.";
+    if (sugg.length) rep += " Peut-être que tu cherches : " + sugg.map(s => "« " + s.question + " »").join(" ; ");
+    wait.textContent = rep;
+  }
+  box.scrollTop = box.scrollHeight;
+}
+document.getElementById("chatform").addEventListener("submit", e => {
+  e.preventDefault();
+  const inp = document.getElementById("msg");
+  const t = inp.value.trim(); if (!t) return;
+  inp.value = ""; ask(t);
+});
+function refreshIa(){
+  const has = !!localStorage.getItem("gemini_key");
+  document.getElementById("ia-status").innerHTML = has
+    ? "<span class='ok'>✅ IA active sur ce navigateur.</span> Quand la base n'a pas la réponse, je demande à Google Gemini."
+    : "L'IA n'est pas encore activée sur ce navigateur : colle ta clé ci-dessous pour l'activer.";
+  document.getElementById("ia-form").style.display = has ? "none" : "block";
+  document.getElementById("ia-on").style.display = has ? "block" : "none";
+}
+document.getElementById("ia-save").addEventListener("click", () => {
+  const v = document.getElementById("ia-key").value.trim();
+  if (v.length < 20){ alert("Clé trop courte : copie la clé complète depuis Google AI Studio."); return; }
+  localStorage.setItem("gemini_key", v); refreshIa();
+});
+document.getElementById("ia-del").addEventListener("click", () => { localStorage.removeItem("gemini_key"); refreshIa(); });
+fetch("kb.json").then(r => r.json()).then(data => {
+  KB = data;
+  const ex = document.getElementById("exemples");
+  KB.filter(r => r.categorie === "Atelier Code to Career").slice(0,4).forEach(r => {
+    const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = r.question;
+    b.addEventListener("click", () => ask(r.question)); ex.appendChild(b);
+  });
+  const doc = document.getElementById("doc");
+  const cats = {};
+  data.forEach(r => { (cats[r.categorie] = cats[r.categorie] || []).push(r); });
+  doc.innerHTML = "";
+  for (const [c, rows] of Object.entries(cats)){
+    const h = document.createElement("h3"); h.textContent = c; doc.appendChild(h);
+    rows.forEach(r => {
+      const q = document.createElement("p"); q.className = "q"; q.innerHTML = "<b>Q. </b>"; q.appendChild(document.createTextNode(r.question)); doc.appendChild(q);
+      const a = document.createElement("p"); a.className = "r"; a.textContent = r.reponse; doc.appendChild(a);
+    });
+  }
+}).catch(() => { document.getElementById("doc").innerHTML = "<p class='note'>Base introuvable (kb.json).</p>"; });
+refreshIa();
+</script>
+</body>
+</html>
