@@ -350,6 +350,9 @@ SEED_QNA = [
     ("Matières et outils", "C'est quoi un graphique ?",
      "graphique,diagramme,c est quoi graphique,representer donnees,courbe barres",
      "Un graphique représente des données en image pour les comprendre d'un coup d'œil : barres pour comparer, courbe pour montrer une évolution, camembert pour des parts d'un tout. Le bon graphique dépend du message : comparer, suivre dans le temps ou répartir."),
+    ("Études et orientation", "Où trouver les leçons en PDF ?",
+     "lecons pdf,pdf lecons,telecharger lecons,livrets,cours pdf,documents revision,supports cours",
+     "Les livrets de révision gratuits sont dans la section « Leçons PDF » de cette page : Licence 1, Licence 2 et Licence 3, toutes séries confondues, en téléchargement direct. Pour les formations complètes d'Adrian (Bronbah Tech), la commande se fait sur WhatsApp au 73 25 58 73 : le PDF complet est envoyé après l'inscription de 13 000 FCFA."),
 ]
 
 app = Flask(__name__)
