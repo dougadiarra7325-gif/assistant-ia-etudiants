@@ -534,5 +534,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L1-14": {
+  "pdf": "pdf/INF-L1-14.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Laptop Components and Parts in English",
+    "chaine": "Vocabucy - visual English vocabulary",
+    "url": "https://www.youtube.com/watch?v=ft0SEQykSWE",
+    "langue": "Anglais",
+    "description": "Une vidéo visuelle qui présente les composants d'un ordinateur portable en anglais, images à l'appui, avec la prononciation de chaque mot. Parfaite pour mémoriser le vocabulaire de la leçon 1 en entendant la prononciation correcte.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Parts of the Computer System",
+    "chaine": "A & A EDUCATIONAL VIDEO CHANNEL",
+    "url": "https://www.youtube.com/watch?v=bFk9t8fdGKQ",
+    "langue": "Anglais",
+    "description": "Une présentation simple des éléments d'un système informatique (écran, unité centrale, clavier, souris, imprimante) et du rôle de chacun. Utile pour réviser le vocabulaire de la leçon 1 dans des phrases complètes.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Emails in English - How to Write an Email in English - Business English Writing",
+    "chaine": "Oxford Online English",
+    "url": "https://www.youtube.com/watch?v=xay5TeJVSC0",
+    "langue": "Anglais",
+    "description": "Une leçon complète et claire sur la rédaction d'un e-mail en anglais : comment commencer, expliquer la raison du message, ajouter des détails et conclure poliment. C'est le complément idéal de la leçon 4, avec un e-mail entier construit sous tes yeux.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "How to Write Professional Emails in English (5-Part Formula) | Business English Ep. 3",
+    "chaine": "English with Mia",
+    "url": "https://www.youtube.com/watch?v=zR6WYTbihUs",
+    "langue": "Anglais",
+    "description": "Une formule en cinq parties pour écrire des e-mails professionnels qui sonnent polis et naturels. La vidéo montre aussi les expressions à éviter parce qu'elles peuvent paraître impolies, avec des exemples avant/après.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "15 Essential Vocabulary Words for Daily Device Use & Software",
+    "chaine": "English Level Up Academy",
+    "url": "https://www.youtube.com/watch?v=syvDEhlI3KM",
+    "langue": "Anglais",
+    "description": "Quinze mots essentiels du quotidien numérique (boot up, crash, freeze, log in, update, browser…) expliqués simplement avec des exemples. Un bon entraînement pour consolider le vocabulaire d'Internet et des logiciels de la leçon 5.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
