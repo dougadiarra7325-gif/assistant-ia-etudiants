@@ -1576,5 +1576,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "INF-L2-11": {
+  "pdf": "pdf/INF-L2-11.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Algorithme 22: Complexité d'un algorithme O(1), O(log n), O(n), O(n log n), O(2^n), O(n!).",
+    "chaine": "Hassan EL BAHI",
+    "url": "https://www.youtube.com/watch?v=IHdf13wRhO0",
+    "langue": "Français",
+    "description": "Un cours complet sur la complexité : définition, notation grand O et représentation graphique de chaque famille, des exemples concrets et des exercices corrigés pour chaque ordre de croissance. Le prolongement direct de la leçon 1.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Maîtriser les Listes Chaînées",
+    "chaine": "Mon Prof IA",
+    "url": "https://www.youtube.com/watch?v=Jkku6ELRRS4",
+    "langue": "Français",
+    "description": "Les listes chaînées en profondeur : cellules et maillons, attributs valeur et suivant, calcul de la longueur et accès au n-ième élément en Python. Idéal pour revoir l'implémentation de la leçon 2 en vidéo.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Python Avancé (1/3) | Leçon 5 : La Boîte à Outils du Spécialiste - Maîtriser le Module collections",
+    "chaine": "TeachSmart AI Academy",
+    "url": "https://www.youtube.com/watch?v=Iw1sjOiT8-s",
+    "langue": "Français",
+    "description": "Le module collections de Python passé au crible, avec la deque au premier plan : l'outil qui implémente files et piles avec des ajouts et retraits en O(1) aux deux extrémités, exactement ce qu'utilise la leçon 3.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Arbres Binaires pour Debutants - Cours Complet en Francais",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=w2dukxTDzSs",
+    "langue": "Français",
+    "description": "Les arbres binaires de A à Z : terminologie, types d'arbres, arbre binaire de recherche, insertions et parcours en profondeur et en largeur, jusqu'aux arbres AVL. Couvre les leçons 4 et 5 avec des visualisations claires.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "10 Maîtriser les Graphes",
+    "chaine": "Elisabeth Le Prettre",
+    "url": "https://www.youtube.com/watch?v=ZwY-jk6HTqc",
+    "langue": "Français",
+    "description": "Une révision complète des graphes : vocabulaire, représentations par matrice et listes d'adjacence avec leurs complexités, puis les parcours BFS et DFS et leurs applications comme les plus courts chemins. Parfait pour consolider la leçon 7.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
