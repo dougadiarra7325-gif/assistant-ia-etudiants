@@ -4294,5 +4294,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L1-22": {
+  "pdf": "pdf/BBA-L1-22.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Fonction Production – Séance 1 | Cours de Management expliqué simplement | FR & Darija",
+    "chaine": "Luminéa Académie",
+    "url": "https://www.youtube.com/watch?v=kNUOhO6k09E",
+    "langue": "Français",
+    "description": "Une première séance claire sur la fonction production : ce qu'est la production en entreprise, la gestion de production et la notion de productivité. Les explications sont données en français (avec un récapitulatif en darija en fin de vidéo). À regarder avant ou après la leçon 1.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "La gestion de la production - DCG UE11 CONTROLE DE GESTION",
+    "chaine": "Ficheben DCG DSCG DEC",
+    "url": "https://www.youtube.com/watch?v=blmYlQHZgu4",
+    "langue": "Français",
+    "description": "La gestion de production optimisée et la notion de facteur rare : identifier le goulot d'étranglement et raisonner sur le poste qui limite toute la production. C'est le prolongement direct de la leçon 3, avec des applications chiffrées.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Qu'est-ce que la Théorie des Contraintes ?",
+    "chaine": "Marris Consulting",
+    "url": "https://www.youtube.com/watch?v=A5ZJX6KWRgI",
+    "langue": "Français",
+    "description": "Les principes de base de la théorie des contraintes présentés par un consultant : il existe toujours un goulot, il faut l'aider à produire plus, et faire travailler tous les autres postes à son rythme plutôt qu'au maximum. À relier aux cinq pas de la leçon 3.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Video 11 Coûts d'obtention de la qualité",
+    "chaine": "about you sprl",
+    "url": "https://www.youtube.com/watch?v=y3TQKt8qQfg",
+    "langue": "Français",
+    "description": "Le coût d'obtention de la qualité décomposé en prévention, évaluation, défaillances internes et défaillances externes, exactement les quatre familles de la leçon 5, avec la discussion sur la place des contrôles.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "LES 3 PROCESSUS DE MAINTENANCE À MAÎTRISER POUR BOOSTER TES PERFORMANCES",
+    "chaine": "OUISSYKA Denis Love | Maintenance & Performance",
+    "url": "https://www.youtube.com/watch?v=wUwLYH0yJfo",
+    "langue": "Français",
+    "description": "Les processus de la maintenance industrielle : management, support (planification, GMAO) et processus opérationnels (correctif, préventif, conditionnel). Pour comprendre comment la maintenance de la leçon 6 s'organise concrètement dans une entreprise.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
