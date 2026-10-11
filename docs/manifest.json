@@ -2578,5 +2578,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L3-08": {
+  "pdf": "pdf/INF-L3-08.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Management stratégique et système d'information",
+    "chaine": "Mahmoudi Cours & Formation",
+    "url": "https://www.youtube.com/watch?v=RCqv-dN6O9g",
+    "langue": "Français",
+    "description": "Un cours en vidéo qui relie management stratégique et système d'information : comment les choix d'organisation et les choix informatiques se conditionnent mutuellement. À regarder avant la leçon 1 pour situer la notion d'alignement dans la stratégie globale de l'entreprise.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Informatique de gestion : Maîtrisez l'impact du SI pour vos examens",
+    "chaine": "Abdellah Ounejjar",
+    "url": "https://www.youtube.com/watch?v=mCvD8obj8KU",
+    "langue": "Français",
+    "description": "Cette vidéo passe en revue l'impact du système d'information sur la performance, la productivité et la collaboration dans l'entreprise. Elle donne des arguments concrets pour défendre, devant une direction, l'idée que le SI est un outil stratégique et pas seulement un centre de coûts.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Leçon 2 : Créer un processus BPMN",
+    "chaine": "Nous Sommes HEFLO",
+    "url": "https://www.youtube.com/watch?v=cTudtb66YTk",
+    "langue": "Français",
+    "description": "Une leçon pratique de création d'un premier diagramme de processus au format BPMN 2.0, pas à pas dans un éditeur. Elle prolonge la leçon 2 du cours : après la cartographie en tableau texte, voici la représentation graphique normalisée, avec ses couloirs d'acteurs.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "ITIL & gestion des services : par où commencer ? (1/6)",
+    "chaine": "Bitdyne",
+    "url": "https://www.youtube.com/watch?v=ZrjH1fBJkis",
+    "langue": "Français",
+    "description": "Premier épisode d'une série sur ITIL et la gestion des services, construit sur le cas d'une DSI de PME : ce qu'est un service, d'où vient sa valeur, et ce qu'ITIL apporte réellement. Un excellent complément vivant aux leçons 3 et 4, avec un contexte d'entreprise proche de celui de Sankore.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Comment Vaincre la Résistance au Changement : 5 étapes à suivre et modèles à télécharger",
+    "chaine": "Parlons Projet by BGDP",
+    "url": "https://www.youtube.com/watch?v=CMpRYQVxDPE",
+    "langue": "Français",
+    "description": "Ce tutoriel explique les stades psychologiques traversés face à un changement, puis propose une démarche en cinq étapes : analyse d'impact, cartographie des acteurs, stratégie des alliés et plan d'accompagnement. À mettre en regard du plan d'accompagnement de la leçon 5 pour comparer les méthodes.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
