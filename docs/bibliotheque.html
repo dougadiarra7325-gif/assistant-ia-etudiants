@@ -83,6 +83,24 @@ body::before{content:"";position:fixed;inset:0;z-index:-1;background:
 .empty{color:var(--mut);font-style:italic;font-size:14px}
 .foot{text-align:center;color:var(--mut);font-size:13px;padding:22px 16px 30px;line-height:1.7}
 @media (max-width:600px){.hero h1{font-size:23px}.hero{padding:21px 17px}.reader{height:64vh}}
+
+.filters{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 14px}
+.filters button{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font-weight:700;cursor:pointer;font-size:13px;transition:all .2s}
+.filters button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.lvlmeta{font-size:13.5px;color:var(--mut);font-weight:600;margin:-4px 0 12px}
+html[data-theme="dark"] body{background:#070d18;color:#e8eef7}
+html[data-theme="dark"] .fcard,html[data-theme="dark"] .scard,html[data-theme="dark"] .panel{background:#101b30;border-color:#24344f;color:#e8eef7}
+html[data-theme="dark"] .fcard p,html[data-theme="dark"] .scard p{color:#9db1cc}
+html[data-theme="dark"] .note,html[data-theme="dark"] .lvlmeta{color:#93a5c0}
+html[data-theme="dark"] .vid{background:#0c1626;border-color:#24344f}
+html[data-theme="dark"] .vid p{color:#b9c8de}
+html[data-theme="dark"] .searchbar input{background:#0d1729;color:#e8eef7;border-color:#24344f}
+html[data-theme="dark"] .lvl button,html[data-theme="dark"] .filters button{background:#101b30;color:#e8eef7;border-color:#24344f}
+html[data-theme="dark"] .lvl button.on{background:var(--blue2);border-color:var(--blue2)}
+html[data-theme="dark"] .filters button.on{background:#e8eef7;color:#0a0f1a;border-color:#e8eef7}
+html[data-theme="dark"] .bar{background:#24344f}
+html[data-theme="dark"] .foot{color:#7e90ad}
+html[data-theme="dark"] .reader{background:#101b30}
 </style>
 </head>
 <body>
@@ -90,6 +108,7 @@ body::before{content:"";position:fixed;inset:0;z-index:-1;background:
   <img src="logo-iam-blanc.png" alt="Groupe IAM — Institut Africain de Management" style="height:42px;width:auto">
   <div><div class="logo">Assistant <b>IAM</b></div><div class="tag">Bibliothèque Universitaire</div></div>
   <a href="index.html" style="margin-left:auto;color:#fff;text-decoration:none;font-size:13px;font-weight:700;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);padding:7px 12px;border-radius:999px">💬 Retour au chat</a>
+  <button type="button" id="theme-btn" title="Mode sombre / clair" style="background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);color:#fff;border-radius:999px;padding:7px 11px;cursor:pointer;font-size:14px">🌙</button>
   <div class="badge-live" style="margin-left:0"><i></i> En ligne</div>
 </header>
 <main class="wrap">
@@ -126,6 +145,9 @@ function majStats(){
   document.getElementById("st-pdf").textContent = dispo();
   document.getElementById("st-prog").textContent = Math.round(DONE.size / totalCours() * 100) + " %";
 }
+function dispoFiliere(f){
+  return ["L1","L2","L3"].flatMap(n => f.niveaux[n].map(m => m.code)).filter(c => MAN[c] && MAN[c].pdf).length;
+}
 function progFiliere(f){
   const codes = ["L1","L2","L3"].flatMap(n => f.niveaux[n].map(m => m.code));
   const d = codes.filter(c => DONE.has(c)).length;
@@ -145,19 +167,22 @@ function vueAccueil(){
       <h3>${esc(f.filiere.replace(" — Business Administration",""))}</h3>
       <p>${desc[f.filiere] || ""}</p>
       <div class="bar"><i style="width:${p.pct}%"></i></div>
-      <div class="barlbl">${p.d}/${p.t} cours terminés · 75 cours (L1, L2, L3)</div>
+      <div class="barlbl">${p.d}/${p.t} cours terminés · 75 cours (L1, L2, L3) · 📄 ${dispoFiliere(f)} PDF disponibles</div>
     </div>`; }).join("")}</div>`;
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-let curF = 0, curN = "L1";
+let curF = 0, curN = "L1", curFilter = "tous";
+function setFilter(k){ curFilter = k; vueFiliere(curF); }
 function vueFiliere(i, niv){
   curF = i; if (niv) curN = niv;
   const f = CAT.filieres[i];
   app.innerHTML = `
     <div class="crumbs"><button onclick="vueAccueil()">Accueil</button><span>›</span><b>${esc(f.filiere)}</b></div>
     <div class="lvl">${["L1","L2","L3"].map(n => `<button class="${n===curN?"on":""}" onclick="vueFiliere(${i},'${n}')">${n === "L1" ? "Licence 1" : n === "L2" ? "Licence 2" : "Licence 3"}</button>`).join("")}</div>
-    <div class="grid">${f.niveaux[curN].map((m,j) => cardMatiere(m, j)).join("")}</div>`;
+    <div class="lvlmeta">${f.niveaux[curN].filter(m => DONE.has(m.code)).length}/25 cours terminés · ${f.niveaux[curN].filter(m => MAN[m.code] && MAN[m.code].pdf).length} PDF disponibles dans ce niveau</div>
+    <div class="filters">${[["tous","Tous"],["dispo","📄 PDF disponibles"],["done","✓ Terminés"],["wait","⏳ En préparation"]].map(([k,l]) => `<button class="${curFilter===k?"on":""}" onclick="setFilter('${k}')">${l}</button>`).join("")}</div>
+    <div class="grid">${f.niveaux[curN].filter(m => curFilter==="tous" || (curFilter==="dispo" && MAN[m.code] && MAN[m.code].pdf) || (curFilter==="done" && DONE.has(m.code)) || (curFilter==="wait" && !(MAN[m.code] && MAN[m.code].pdf))).map((m,j) => cardMatiere(m, j)).join("") || '<p class="empty">Aucun cours dans cette catégorie pour le moment.</p>'}</div>`;
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 function cardMatiere(m, j){
@@ -193,6 +218,7 @@ function vueMatiere(code){
       <div class="btnrow">
         ${a.pdf ? `<a class="btn gold" href="${a.pdf}" download>⬇ Télécharger le PDF (${a.pages || "25+"} pages)</a>` : `<span class="pill wait">⏳ PDF en préparation — les leçons ci-dessous sont déjà consultables</span>`}
         <button class="btn ${done ? "ghost" : ""}" onclick="toggleDone('${code}')">${done ? "↩ Marquer comme non terminé" : "✓ Marquer comme terminé"}</button>
+        <button class="btn ghost" onclick="shareCours('${code}')">📲 Partager ce cours</button>
       </div>
       <h3>📖 Leçons du cours</h3>
       <ol class="lessons">${m.lecons.map(l => `<li>${esc(l)}</li>`).join("")}</ol>
@@ -203,6 +229,12 @@ function vueMatiere(code){
     </section>
     ${a.pdf ? `<section class="panel"><h3 style="margin-top:0">📄 Lire le cours ici</h3><iframe class="reader" src="${a.pdf}" title="Lecteur PDF — ${esc(m.titre)}"></iframe></section>` : ""}`;
   window.scrollTo({ top: 0, behavior: "smooth" });
+}
+function shareCours(code){
+  const r = findMatiere(code); const url = location.href.split("#")[0] + "#" + code;
+  const data = { title: "Assistant IAM — Bibliothèque", text: "📚 Cours " + code + " — " + (r ? r.m.titre : code) + " (Assistant IAM, Bibliothèque Universitaire)", url };
+  if (navigator.share){ navigator.share(data).catch(() => {}); }
+  else if (navigator.clipboard){ navigator.clipboard.writeText(url).then(() => alert("Lien du cours copié !")); }
 }
 function toggleDone(code){ DONE.has(code) ? DONE.delete(code) : DONE.add(code); saveDone(); vueMatiere(code); }
 
@@ -224,6 +256,14 @@ Promise.all([
   fetch("manifest.json", { cache: "no-store" }).then(r => r.json()).catch(() => ({}))
 ]).then(([cat, man]) => { CAT = cat; MAN = man || {}; majStats(); vueAccueil(); })
  .catch(() => { app.innerHTML = `<p class="empty">Le catalogue n'a pas pu être chargé. Vérifie ta connexion puis recharge la page.</p>`; });
+</script>
+<script>
+(function(){
+  const root = document.documentElement; const btn = document.getElementById("theme-btn");
+  function apply(t){ root.dataset.theme = t; if (btn) btn.textContent = t === "dark" ? "☀️" : "🌙"; }
+  apply(localStorage.getItem("iam_theme") || "light");
+  if (btn) btn.addEventListener("click", () => { const t = root.dataset.theme === "dark" ? "light" : "dark"; localStorage.setItem("iam_theme", t); apply(t); });
+})();
 </script>
 </body>
 </html>

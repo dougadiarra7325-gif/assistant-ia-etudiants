@@ -113,10 +113,37 @@ a{color:var(--navy2)}
 .bb-txt span{font-size:13px;color:#cfdaea;line-height:1.45}
 .bb-go{background:linear-gradient(140deg,var(--gold2),var(--gold));color:#241a02;font-weight:800;padding:10px 15px;border-radius:12px;white-space:nowrap}
 @media (max-width:600px){.bb-go{display:none}.bb-txt b{font-size:16px}}
+
+.quicknav{display:flex;gap:7px;overflow-x:auto;padding:2px 2px 10px;scrollbar-width:none}
+.quicknav::-webkit-scrollbar{display:none}
+.quicknav a{white-space:nowrap;background:rgba(255,255,255,.85);border:1px solid var(--line);color:var(--navy);font-weight:700;font-size:13px;padding:8px 13px;border-radius:999px;text-decoration:none;transition:transform .2s,box-shadow .2s}
+.quicknav a:hover{transform:translateY(-2px);box-shadow:0 6px 14px rgba(11,37,69,.15)}
+.biblio-banner{animation:glowPulse 3.2s ease-in-out infinite}
+@keyframes glowPulse{0%,100%{box-shadow:0 18px 42px rgba(11,37,69,.16),0 0 0 0 rgba(201,162,39,.0)}50%{box-shadow:0 18px 42px rgba(11,37,69,.16),0 0 0 5px rgba(201,162,39,.22)}}
+section.panel,.chatbox{scroll-margin-top:86px}
+#top-btn{position:fixed;right:16px;bottom:18px;z-index:60;width:46px;height:46px;border-radius:50%;border:0;background:linear-gradient(140deg,var(--gold2),var(--gold));color:#241a02;font-size:19px;font-weight:900;box-shadow:0 10px 24px rgba(201,162,39,.45);cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s,transform .2s}
+#top-btn.show{opacity:1;pointer-events:auto}
+#top-btn:hover{transform:translateY(-3px)}
+html[data-theme="dark"] body{background:#0a1120;color:#e8eef7}
+html[data-theme="dark"] .chatbox,html[data-theme="dark"] .panel{background:rgba(15,25,44,.94);border-color:#24344f;color:#e8eef7}
+html[data-theme="dark"] .msg.bot{background:linear-gradient(160deg,#17263f,#101c31);border-color:#263650;color:#e8eef7}
+html[data-theme="dark"] .r{color:#b9c8de}
+html[data-theme="dark"] .note{color:#93a5c0}
+html[data-theme="dark"] .q{color:#a9c6ff}
+html[data-theme="dark"] .tool{background:#13203a;color:#cfe0f5;border-color:#263650}
+html[data-theme="dark"] .tool:hover{background:#1a2c4c}
+html[data-theme="dark"] .quicknav a{background:rgba(19,32,58,.9);color:#cfe0f5;border-color:#263650}
+html[data-theme="dark"] .chatinput input{background:#0d1729;color:#e8eef7;border-color:#263650}
+html[data-theme="dark"] .chatinput input:focus{background:#0d1729}
+html[data-theme="dark"] .panel input[type=password]{background:#0d1729;color:#e8eef7;border-color:#263650}
+html[data-theme="dark"] .foot{color:#7e90ad}
+html[data-theme="dark"] .messages{scrollbar-color:#33465f transparent}
+html[data-theme="dark"] .messages::-webkit-scrollbar-thumb{background:#33465f}
 </style>
 </head>
 <body>
-<header class="topbar"><img src="logo-iam-blanc.png" alt="Groupe IAM — Institut Africain de Management"><div>Assistant<span>·</span>Étudiant IAM</div><div class="live-badge"><span class="dot"></span><span class="lbl">En ligne</span></div></header>
+<header class="topbar"><img src="logo-iam-blanc.png" alt="Groupe IAM — Institut Africain de Management"><div>Assistant<span>·</span>Étudiant IAM</div><button type="button" id="theme-btn" class="tool" style="margin-left:auto" title="Mode sombre / clair">🌙</button>
+  <div class="live-badge" style="margin-left:0"><span class="dot"></span><span class="lbl">En ligne</span></div></header>
 <main class="wrap">
   <section class="hero reveal">
     <h1>Bonjour, je suis ton <span class="grad">assistant étudiant</span> 👋</h1>
@@ -130,13 +157,21 @@ a{color:var(--navy2)}
   </section>
 
 
+
+  <nav class="quicknav">
+    <a href="#chat">💬 Chat</a>
+    <a href="bibliotheque.html">📚 Bibliothèque · 225 cours</a>
+    <a href="#lecons">📄 Leçons PDF</a>
+    <a href="#ia">🤖 Vraie IA</a>
+    <a href="#docpanel">❓ Documentation</a>
+  </nav>
   <a href="bibliotheque.html" class="biblio-banner reveal visible">
     <span class="bb-ico">📚</span>
     <span class="bb-txt"><b>Bibliothèque Universitaire — 225 cours</b><span>Informatique · BBA · Droit — L1, L2, L3 : PDF complets, vidéos, exercices corrigés et QCM.</span></span>
     <span class="bb-go">Ouvrir →</span>
   </a>
 
-  <div class="chatbox reveal">
+  <div class="chatbox reveal" id="chat">
     <div id="messages" class="messages">
       <div class="msg bot">Bonjour ! Je réponds aux questions fréquentes des étudiants de l'IAM grâce à ma base documentée. Essaie une question d'exemple, ou écris la tienne.</div>
     </div>
@@ -154,7 +189,7 @@ a{color:var(--navy2)}
     </form>
   </div>
 
-  <section class="panel reveal">
+  <section class="panel reveal" id="lecons">
     <h2>📚 Leçons PDF — L1, L2, L3 · 25 pages par niveau</h2>
     <p class="note">Des livrets de révision gratuits de <b>25 pages chacun</b>, rédigés pour les étudiants de l'IAM et <b>organisés par filière</b> (tronc commun, informatique, gestion-BBA, droit, comptabilité, marketing, RH, logistique) : leçons résumées, exemples, QCM corrigés, glossaire, sujets d'entraînement et fiches de révision.</p>
     <div class="toolbar">
@@ -167,7 +202,7 @@ a{color:var(--navy2)}
     <a class="wa-btn" href="https://wa.me/22373255873?text=Bonjour%20Adrian%2C%20je%20veux%20des%20informations%20sur%20les%20formations%20Bronbah%20Tech" target="_blank" rel="noopener">📲 Commander une formation sur WhatsApp</a>
   </section>
 
-  <section class="panel reveal">
+  <section class="panel reveal" id="ia">
     <h2>🤖 Vraie IA — Google Gemini (gratuit)</h2>
     <p id="ia-status" class="note">Vérification…</p>
     <div id="ia-form">
@@ -183,7 +218,7 @@ a{color:var(--navy2)}
     </div>
   </section>
 
-  <section class="panel reveal">
+  <section class="panel reveal" id="docpanel">
     <h2>Documentation — questions fréquentes</h2>
     <div id="doc"><p class="note">Chargement de la base…</p></div>
   </section>
@@ -586,6 +621,19 @@ refreshIa();
 <script>
 const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add("visible"); io.unobserve(e.target); } }), { threshold: 0.06 });
 document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+</script>
+<button type="button" id="top-btn" title="Revenir en haut">↑</button>
+<script>
+(function(){
+  const root = document.documentElement;
+  const btn = document.getElementById("theme-btn");
+  function apply(t){ root.dataset.theme = t; if (btn) btn.textContent = t === "dark" ? "☀️" : "🌙"; }
+  apply(localStorage.getItem("iam_theme") || "light");
+  if (btn) btn.addEventListener("click", () => { const t = root.dataset.theme === "dark" ? "light" : "dark"; localStorage.setItem("iam_theme", t); apply(t); });
+  const top = document.getElementById("top-btn");
+  addEventListener("scroll", () => top.classList.toggle("show", scrollY > 500), { passive: true });
+  top.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
+})();
 </script>
 </body>
 </html>
