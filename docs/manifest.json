@@ -1828,5 +1828,43 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L2-18": {
+  "pdf": "pdf/INF-L2-18.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Git & GitHub Workshop 2025 - Part 1: Fondamentaux de Git | Zero to Hero en Français",
+    "chaine": "Elias W. BA",
+    "url": "https://www.youtube.com/watch?v=cGyc_wv-ekA",
+    "langue": "Français",
+    "description": "Un atelier complet qui part de zéro : ce qu'est Git et pourquoi l'utiliser, initialiser un dépôt, faire ses premiers commits et inspecter l'historique avec git log. Il se termine par la connexion du projet à GitHub et les premiers push et pull : le compagnon idéal des deux premières leçons.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "LES BASES DE GIT (tuto débutant)",
+    "chaine": "Graven - Développement",
+    "url": "https://www.youtube.com/watch?v=gp_k0UVOYMw",
+    "langue": "Français",
+    "description": "Les bases de Git en une vidéo claire : création du dépôt, clone, ajout de fichiers et commits, puis le travail à plusieurs et le fonctionnement des branches. Parfait pour revoir la leçon 2 et entrevoir la leçon 3 avant de la commencer.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Maîtriser Git Bash et les Commandes Git pour Débutants 1H (Tutoriel complet Très Facile)",
+    "chaine": "Âme du Dev Consulting",
+    "url": "https://www.youtube.com/watch?v=YPeadnyI450",
+    "langue": "Français",
+    "description": "Une heure de pratique dans le terminal : git init, add, commit, log, status, clone, branch, merge, puis la connexion à GitHub avec push, fetch et pull, jusqu'à la résolution d'un conflit de fusion. À suivre en tapant les commandes en même temps que la vidéo.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "GIT - Versionnez vos projets, en équipe et à distance avec Git et Github",
+    "chaine": "Aziz DAAIF",
+    "url": "https://www.youtube.com/watch?v=ajQpILOuqcw",
+    "langue": "Français",
+    "description": "Versionner en local (init, status, add, commit), puis travailler en équipe à distance grâce à GitHub : branches, merge, remote, pull et push, avec la résolution des conflits lors des fusions. Une bonne synthèse vidéo du projet collaboratif de la leçon 7.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
