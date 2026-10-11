@@ -4340,5 +4340,43 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "BBA-L1-23": {
+  "pdf": "pdf/BBA-L1-23.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "Comment comprendre le comportement du consommateur ?",
+    "chaine": "HubSpot France",
+    "url": "https://www.youtube.com/watch?v=T4JkgViJOac",
+    "langue": "Français",
+    "description": "La chaîne française d'un grand éditeur de logiciels marketing présente ce qu'est le comportement du consommateur et les grandes familles de facteurs qui influencent ses décisions. Regarde-la après la leçon 1, puis compare leur déroulé au parcours d'achat de Mariam et aux facteurs des leçons 2 à 4.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Pyramide de Maslow (ou pyramide des besoins)",
+    "chaine": "StrategeMarketing",
+    "url": "https://www.youtube.com/watch?v=wvaviPQyPQc",
+    "langue": "Français",
+    "description": "Une présentation claire, en français, des cinq niveaux de besoins de la pyramide de Maslow et de leur usage pour comprendre les motivations d'achat. À regarder en gardant en tête les limites discutées dans la leçon 4 : la hiérarchie est un repère pédagogique, pas une loi démontrée.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "La pyramide Maslow : les 5 besoins fondamentaux",
+    "chaine": "Aysseline de Lardemelle (AFTHONIOS)",
+    "url": "https://www.youtube.com/watch?v=r5-EO2q6F5g",
+    "langue": "Français",
+    "description": "Un cours filmé qui détaille les cinq besoins fondamentaux de Maslow avec des exemples de la vie quotidienne, dans un format plus scolaire que la vidéo précédente. Utile pour réviser avant un examen et pour refaire, avec tes propres exemples maliens, l'exercice d'application de la leçon 4.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Étude qualitative & entretien semi-directif : méthode complète pour réussir ton mémoire",
+    "chaine": "Safaa Makati | Carrière & Éducation",
+    "url": "https://www.youtube.com/watch?v=iC9i0dBFt9M",
+    "langue": "Français",
+    "description": "Une méthode complète, en français, pour préparer et conduire une étude qualitative par entretien semi-directif : construction du guide, conduite de l'entretien, analyse. C'est le prolongement direct de la leçon 7 et du TP de ce cours : compare son guide au modèle proposé dans l'exemple de la leçon.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
