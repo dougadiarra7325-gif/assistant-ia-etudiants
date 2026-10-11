@@ -1346,5 +1346,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L2-06": {
+  "pdf": "pdf/INF-L2-06.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "Modéliser avec UML",
+    "chaine": "Comprendre le Code",
+    "url": "https://www.youtube.com/watch?v=R5qq-sHaiz8",
+    "langue": "Français",
+    "description": "Une présentation claire de l'intérêt d'UML : pourquoi modéliser, en quoi le langage est un standard, et un tour d'horizon des diagrammes structurels et comportementaux les plus utilisés. Parfaite pour replacer ce cours dans une démarche de conception complète avant d'attaquer les diagrammes un par un.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Diagramme des Cas d'Utilisation : Cours Complet et Exercice Corrigé sur Astah UML",
+    "chaine": "Prof. Fatimazahra BARRAMOU",
+    "url": "https://www.youtube.com/watch?v=NeYSBDMlVvY",
+    "langue": "Français",
+    "description": "Le cours complet sur les cas d'utilisation : définition des acteurs, relations d'inclusion, d'extension et de généralisation, puis un exercice corrigé construit pas à pas dans l'outil Astah. À regarder en parallèle de la leçon 2 pour vérifier le sens de chaque flèche.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Cours UML #1 | Diagramme de Cas D'utilisation | Avec Des Exercices",
+    "chaine": "Yassine ENNAJEM",
+    "url": "https://www.youtube.com/watch?v=aIbzcH_ItQo",
+    "langue": "Français",
+    "description": "Un premier cours UML entièrement consacré au diagramme de cas d'utilisation, avec des exercices d'application. Utile en révision rapide avant le TD de ce cours, notamment pour distinguer les acteurs des éléments internes du système.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Diagramme de Classe UML - Exercice Corrigé sur Astah UML",
+    "chaine": "Prof. Fatimazahra BARRAMOU",
+    "url": "https://www.youtube.com/watch?v=y1oThKZb7vc",
+    "langue": "Français",
+    "description": "Un exercice complet de diagramme de classes corrigé en vidéo, construit dans Astah UML à partir d'un cahier des charges. Observe surtout comment les multiplicités sont choisies et justifiées, puis compare avec le diagramme de classes de BiblioIAM de la leçon 3.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Diagramme de Séquence UML : Cours complet et Exercice sur Astah UML",
+    "chaine": "Prof. Fatimazahra BARRAMOU",
+    "url": "https://www.youtube.com/watch?v=fKUn5f-kSAg",
+    "langue": "Français",
+    "description": "Le diagramme de séquence de A à Z : lignes de vie, messages synchrones et asynchrones, messages de création et de destruction, fragments alt, loop, opt et par. Le complément idéal de la leçon 4, avec une démonstration complète dans l'outil.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
