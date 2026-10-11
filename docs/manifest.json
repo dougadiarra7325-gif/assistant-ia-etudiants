@@ -4462,5 +4462,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L2-01": {
+  "pdf": "pdf/BBA-L2-01.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Les Soldes Intermédiaires de Gestion expliqués en 10 Minutes I Exercice Corrigé + Commentaire",
+    "chaine": "Dernière Minute",
+    "url": "https://www.youtube.com/watch?v=JmfnLuplIxU",
+    "langue": "Français",
+    "description": "La cascade complète des SIG expliquée en dix minutes, solde par solde, avec un exercice corrigé et commenté. Parfait pour revoir la leçon 1 et vérifier ta méthode de calcul avant de refaire l'exemple de Sahel Distribution.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "TOUT sur les SIG (Soldes intermédiaires de gestion), la CAF, la Valeur ajoutée...",
+    "chaine": "L'Économie-Gestion Simplement",
+    "url": "https://www.youtube.com/watch?v=6yQXF82MXso",
+    "langue": "Français",
+    "description": "Un cours complet qui enchaîne SIG, valeur ajoutée et CAF, avec l'interprétation de chaque solde et un sujet corrigé à télécharger. Il couvre les leçons 1 et 2 et montre comment les deux tableaux s'articulent.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Capacité d’Autofinancement CAF   Méthodes, Calculs et Cas Pratique SOMAR",
+    "chaine": "Formateur Hicham AIT ITTO",
+    "url": "https://www.youtube.com/watch?v=F6wxQPnykg0",
+    "langue": "Français",
+    "description": "Les deux méthodes de calcul de la CAF (additive depuis le résultat net, soustractive depuis l'EBE) présentées pas à pas, puis appliquées à un cas pratique complet. Le complément direct de la leçon 2, avec le passage de la CAF à l'autofinancement.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Du bilan comptable au bilan fonctionnel + FRNG, BFR & Trésorerie nette",
+    "chaine": "Finance is easy",
+    "url": "https://www.youtube.com/watch?v=9WSQ6oUid6M",
+    "langue": "Français",
+    "description": "Le reclassement du bilan comptable en bilan fonctionnel, puis le calcul du FRNG, du BFR et de la trésorerie nette sur un exemple chiffré. Idéal pour visualiser les grandes masses avant de refaire le bilan fonctionnel de la leçon 3.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Application Analyse Financière de A à Z | Bilan Fonctionnel | FRNG BFR TN | CAF | SIG | Ratios",
+    "chaine": "5 minutes pour réussir",
+    "url": "https://www.youtube.com/watch?v=oed_-5I20Wo",
+    "langue": "Français",
+    "description": "Une application complète d'analyse financière qui enchaîne bilan fonctionnel, FRNG, BFR, trésorerie nette, SIG, CAF et ratios, avec commentaires. C'est la démarche exacte de la leçon 7 : un excellent entraînement avant l'évaluation.",
+    "niveau": "Intermédiaire à avancé"
+   }
+  ]
  }
 }
