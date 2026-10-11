@@ -2264,5 +2264,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-01": {
+  "pdf": "pdf/INF-L3-01.pdf",
+  "pages": 32,
+  "videos": [
+   {
+    "titre": "Le chiffrement symétrique - AES expliqué",
+    "chaine": "Mickaël Dupont",
+    "url": "https://www.youtube.com/watch?v=5ZEYKk8BHcE",
+    "langue": "Français",
+    "description": "Le fonctionnement interne d'AES expliqué pas à pas : blocs, substitutions, permutations et tours de chiffrement. Le complément visuel idéal de la première partie de la leçon 1, pour comprendre ce que fait réellement l'algorithme derrière la démonstration Python.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comprendre la cryptographie par la pratique avec OpenSSL",
+    "chaine": "alumbo",
+    "url": "https://www.youtube.com/watch?v=MdVpxNHDXtc",
+    "langue": "Français",
+    "description": "La cryptographie asymétrique en pratique : génération d'une paire de clés RSA, chiffrement avec la clé publique et déchiffrement avec la clé privée, en ligne de commande. Elle prolonge la démonstration de chiffrement hybride de la leçon 1 et prépare la leçon 2 sur les certificats.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comprendre le chiffrement SSL / TLS avec des emojis (et le HTTPS)",
+    "chaine": "Cookie connecté",
+    "url": "https://www.youtube.com/watch?v=7W7WPMX7arI",
+    "langue": "Français",
+    "description": "Une explication très visuelle de ce qui se passe derrière une connexion HTTPS : rôle du certificat, échange de clés et passage au chiffrement symétrique. Parfaite pour fixer la poignée de main TLS et la chaîne de confiance de la leçon 2 avant d'entrer dans les détails.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "NIS2 : notification d'incident, fiche réflexe et qualification (ReCyF 12/20)",
+    "chaine": "SECURI GEEK",
+    "url": "https://www.youtube.com/watch?v=zxxzmkdCBGY",
+    "langue": "Français",
+    "description": "Comment détecter, qualifier et notifier un incident de sécurité sans perdre de temps, avec une fiche réflexe d'une page pensée pour être lue sous stress. Un prolongement très concret de la leçon 5, côté obligations et organisation de la réponse.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Cybersécurité en zone OHADA : maîtriser la gestion des incidents de sécurité du SI",
+    "chaine": "MICHEL MARC MATIP",
+    "url": "https://www.youtube.com/watch?v=eo9DlGQFKcs",
+    "langue": "Français",
+    "description": "La gestion des incidents de sécurité adaptée au contexte juridique et organisationnel de l'espace OHADA, dont fait partie le Mali : étapes clés, bonnes pratiques et erreurs à éviter. Le regard « terrain » qui complète la méthode NIST de la leçon 5.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
