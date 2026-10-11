@@ -1308,5 +1308,43 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L2-05": {
+  "pdf": "pdf/INF-L2-05.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Base de données #12:  Cours intensif en conception de base de données",
+    "chaine": "coursaline - Rachid Saad",
+    "url": "https://www.youtube.com/watch?v=3w27DwqYMKk",
+    "langue": "Français",
+    "description": "Un cours intensif de conception qui fait la part belle aux dépendances fonctionnelles pour construire le modèle conceptuel. À regarder pour consolider la leçon 1 avant d'attaquer les décompositions.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Coursaline.com: Exercice 2 sur la modélisation des données (MCD)",
+    "chaine": "coursaline - Rachid Saad",
+    "url": "https://www.youtube.com/watch?v=_nV4hno9NqE",
+    "langue": "Français",
+    "description": "Un exercice complet de modélisation corrigé pas à pas, où les dépendances fonctionnelles servent à justifier chaque choix du modèle. Parfait pour s'entraîner à repérer les DF dans un énoncé métier.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Normalisation des Bases de Données Relationnelles : Deuxième Forme Normale (2FN)",
+    "chaine": "KLN Technology",
+    "url": "https://www.youtube.com/watch?v=nzD-cXS3bcM",
+    "langue": "Français",
+    "description": "La vidéo se concentre sur la deuxième forme normale et le traitement des dépendances partielles, dans une série consacrée à la normalisation. Elle complète directement les décompositions de la leçon 2.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "🔥 100 QCM pour Réviser les Bases de Données Relationnelles ! 🎓",
+    "chaine": "WayToLearnX",
+    "url": "https://www.youtube.com/watch?v=MrKZIl2ttgc",
+    "langue": "Français",
+    "description": "Cent questions de révision corrigées sur le modèle relationnel, les clés, la redondance, les dépendances fonctionnelles et les formes normales 1FN à 3FN. Idéale en auto-évaluation après les leçons 1 et 2 et avant les TD.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
