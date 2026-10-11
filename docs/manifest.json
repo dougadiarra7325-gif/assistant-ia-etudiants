@@ -3888,5 +3888,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L1-13": {
+  "pdf": "pdf/BBA-L1-13.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Qu'est-ce que l'OHADA (Droit des affaires)",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=pCJIX6UNF0I",
+    "langue": "Français",
+    "description": "Une présentation claire de l'OHADA : sa création, ses objectifs d'harmonisation du droit des affaires et son rôle pour les entreprises des États membres. Parfaite en introduction de la leçon 2, avant d'entrer dans le détail des actes uniformes.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le droit commercial (introduction, définition, Code de commerce, fonds de commerce...) - Droit / DCG",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=U04Ufv6CvDE",
+    "langue": "Français",
+    "description": "Un cours vidéo d'introduction au droit commercial : définition, actes de commerce, commerçants et fonds de commerce sont présentés de manière structurée. Il prolonge directement les leçons 3 et 4 de ce cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Reprendre un fonds de commerce ou des parts sociales ?",
+    "chaine": "Reprenariat",
+    "url": "https://www.youtube.com/watch?v=1ctd8_O8RJU",
+    "langue": "Français",
+    "description": "Une comparaison concrète entre racheter un fonds de commerce — c'est-à-dire ses éléments corporels et incorporels — et racheter des parts sociales. Idéale pour comprendre ce qui se transmet, et ce qui ne se transmet pas, quand on reprend une activité.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Le registre du commerce et du crédit mobilier",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=YNCnscKQ8xw",
+    "langue": "Français",
+    "description": "La structure du RCCM dans l'espace OHADA, les personnes concernées par l'immatriculation, ses effets et la publicité des sûretés mobilières. Le complément vidéo direct de la leçon 5 de ce cours.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "La médiation dans l'espace OHADA",
+    "chaine": "S@voir",
+    "url": "https://www.youtube.com/watch?v=WFSRCxMYoZQ",
+    "langue": "Français",
+    "description": "Les contours de la médiation comme mode de règlement des conflits dans l'espace OHADA : son principe, son déroulement et sa place à côté de l'arbitrage. À regarder après la leçon 7 pour consolider la comparaison des voies de règlement.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
