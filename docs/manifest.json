@@ -3934,5 +3934,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "BBA-L1-14": {
+  "pdf": "pdf/BBA-L1-14.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Les PERSONNES JURIDIQUES | Cours & explications |  DCG UE1 / L1 Droit",
+    "chaine": "MNEMOTACTIQUES | Culture JURIDIQUE & ÉCONOMIQUE",
+    "url": "https://www.youtube.com/watch?v=iTTfiA8-MRw",
+    "langue": "Français",
+    "description": "Un cours structuré sur les personnes juridiques : distinction personnes physiques et morales, identification, puis capacité et régimes de protection. Il illustre directement la leçon 1, avec des explications adaptées au niveau L1.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les personnes / Le patrimoine / La propriété - DCG UE 1 FONDAMENTAUX DU DROIT",
+    "chaine": "Ficheben DCG DSCG DEC",
+    "url": "https://www.youtube.com/watch?v=50ZTCJ5DZ0E",
+    "langue": "Français",
+    "description": "Personnes, patrimoine et droit de propriété (usus, fructus, abusus), avec la classification des biens meubles et immeubles : le complément vidéo des leçons 1 et 2, présenté sous forme de révision méthodique.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "La FORMATION DU CONTRAT (partie 2) | Cours complet & explications | DCG UE1 / L1, L2 Droit",
+    "chaine": "MNEMOTACTIQUES | Culture JURIDIQUE & ÉCONOMIQUE",
+    "url": "https://www.youtube.com/watch?v=Sm35DAdVPPM",
+    "langue": "Français",
+    "description": "La deuxième partie du cours sur la formation du contrat : conditions de validité, vices du consentement et sanctions. À regarder après la leçon 4 pour consolider la méthode des cas pratiques.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Les fondements de la responsabilité délictuelle",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=J-xivk_ycRw",
+    "langue": "Français",
+    "description": "Les fondements de la responsabilité civile extracontractuelle expliqués clairement : quand un dommage causé à autrui oblige à réparer, et selon quelles logiques. Le prolongement naturel de la leçon 6.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Le gage: Définition (Droit des sûretés)",
+    "chaine": "Cabinet D'affaires En Ligne (OHADA)",
+    "url": "https://www.youtube.com/watch?v=T_kGiQsrgcQ",
+    "langue": "Français",
+    "description": "Une définition du gage replacée dans le contexte de l'OHADA : utile pour ancrer la leçon 7 dans l'espace juridique auquel appartient le Mali et voir comment la notion a évolué dans les textes applicables.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
