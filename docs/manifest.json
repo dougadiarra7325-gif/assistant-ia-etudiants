@@ -2922,5 +2922,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L3-18": {
+  "pdf": "pdf/INF-L3-18.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "La Méthode Lean Startup",
+    "chaine": "El Gigante de los Negocios",
+    "url": "https://www.youtube.com/watch?v=WHAnx_CJQW8",
+    "langue": "Français",
+    "description": "Présentation en français des idées d'Eric Ries : tester vite une hypothèse au lieu de construire pendant des mois dans son coin. À regarder dès la leçon 1 pour comprendre l'esprit de tout le cours : créer, mesurer, apprendre.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Faire un Business Model : Comment se démarquer ?",
+    "chaine": "CCI Entreprendre",
+    "url": "https://www.youtube.com/watch?v=VgWdyYAiX08",
+    "langue": "Français",
+    "description": "Une vidéo des Chambres de Commerce et d'Industrie sur la construction d'un modèle économique et la différenciation face à la concurrence. Elle complète la leçon 2 : savoir ce qui te distingue des alternatives du client.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Business Model Canvas avec exemple, en 10 minutes (modèle d'affaire)",
+    "chaine": "StrategeMarketing",
+    "url": "https://www.youtube.com/watch?v=GW8lbW1E-U8",
+    "langue": "Français",
+    "description": "Le canevas de modèle économique expliqué bloc par bloc, avec un exemple complet en une dizaine de minutes. Idéal pour remplir ton propre canevas en suivant la leçon 3, feuille et crayon à la main.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "MVP : comment valider ton idée avant de construire (Lean Startup)",
+    "chaine": "Mathias Pouliot Chaîne Secondaire",
+    "url": "https://www.youtube.com/watch?v=xBqllxH6TlA",
+    "langue": "Français",
+    "description": "Pourquoi construire « tout » avant de tester fait échouer tant de projets, et comment calibrer un produit minimum viable ni trop simple ni trop ambitieux. Le complément direct de la leçon 4 et de son exercice.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Quelle méthode de prospection commerciale choisir pour trouver des clients ?",
+    "chaine": "Mireille Fontaine | Prospection Intelligente",
+    "url": "https://www.youtube.com/watch?v=pNulu8Vi2C0",
+    "langue": "Français",
+    "description": "Cinq méthodes de prospection comparées (e-mail, téléphone, réseau, contenu…) pour choisir le canal adapté à ta cible et à tes moyens. À mettre en regard du lancement terrain de la leçon 5 et de son coût d'acquisition.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
