@@ -1942,5 +1942,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "INF-L2-20": {
+  "pdf": "pdf/INF-L2-20.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Le cloud computing expliqué en 7 minutes",
+    "chaine": "Cookie connecté",
+    "url": "https://www.youtube.com/watch?v=RwbIMBSr8o8",
+    "langue": "Français",
+    "description": "Une présentation claire des caractéristiques d'un service cloud, puis des modèles IaaS, PaaS et SaaS et des modes d'hébergement public, privé et hybride. Parfait pour fixer le vocabulaire de la leçon 1 avant d'étudier la grille des responsabilités.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le Cloud & AWS expliqués de zéro — Le cours complet pour débutants ☁️",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=0Sz2T_2k-6Q",
+    "langue": "Français",
+    "description": "Un cours complet qui enchaîne modèles de service, responsabilité partagée, stockage, sécurité des accès et modèle de coûts à l'usage. Il illustre le cœur de la leçon 5 sur une grande plateforme, sans changer les principes généraux valables partout.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Virtualisation part1",
+    "chaine": "metricnetworking",
+    "url": "https://www.youtube.com/watch?v=Ln8SIOpJ9Zg",
+    "langue": "Français",
+    "description": "Une première partie pratique consacrée au matériel nécessaire et à l'installation d'un hyperviseur de type 1 (Proxmox) sur un serveur. Elle rend concrète la distinction entre hyperviseur natif et hyperviseur hébergé vue dans la leçon 2.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Machine Virtuelle vs Conteneur Docker : Comprendre la Différence",
+    "chaine": "Fabrice Chrzanowski – Passionate IT Training",
+    "url": "https://www.youtube.com/watch?v=ctwvADb9aek",
+    "langue": "Français",
+    "description": "La comparaison directe entre machines virtuelles et conteneurs : hyperviseur et système invité d'un côté, noyau partagé de l'autre, avec les cas d'usage de chaque technologie. C'est le résumé vidéo du tableau comparatif de la leçon 3.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Docker débutant",
+    "chaine": "PlaisirArduino",
+    "url": "https://www.youtube.com/watch?v=uqHG3VaGybU",
+    "langue": "Français",
+    "description": "Les bases de Docker : image, conteneur et moteur, avec les premières commandes et un serveur web déployé en démonstration. Idéal pour manipuler juste après la leçon 3 et préparer la découverte pratique de la leçon 6.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
