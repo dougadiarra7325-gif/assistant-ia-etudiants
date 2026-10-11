@@ -2310,5 +2310,43 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "INF-L3-04": {
+  "pdf": "pdf/INF-L3-04.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Les Secrets des Design Patterns : 23 Solutions pour Améliorer et Optimiser Votre Code",
+    "chaine": "Solid Code App",
+    "url": "https://www.youtube.com/watch?v=LmVCsM_Yg1M",
+    "langue": "Français",
+    "description": "Le panorama complet des 23 patrons du « Gang of Four », classés en patrons de création, structurels et comportementaux : exactement les trois familles traversées par ce cours. Regarde-la en ouverture pour situer chaque patron étudié ensuite un par un.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les patrons de conception en Java — l'histoire complète, de 1977 à aujourd'hui",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=w1cVuooJmEs",
+    "langue": "Français",
+    "description": "D'où viennent les patrons, puis leur traversée en code Java : Singleton, Fabrique, Adaptateur, Décorateur, Stratégie et Observateur y ont chacun leur chapitre. Un complément idéal des leçons 2 à 4, avec des exemples Java proches de ceux du cours INF-L2-01.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Le Design Pattern COMMAND en Java — Cours Complet (comment marche vraiment Ctrl+Z)",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=Yfihp-TqErI",
+    "langue": "Français",
+    "description": "Un patron comportemental de plus, cousin de Stratégie et d'Observateur : transformer chaque action en objet pour pouvoir l'annuler, la journaliser ou la mettre en file. Le prolongement naturel de la leçon 4, avec l'implémentation Java complète et la pile d'annulation déroulée pas à pas.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Progresser en conception avec les Design Patterns (Benjamin Yvernault & Mathilde Lorrain) #MiXiT2023",
+    "chaine": "MiXiT",
+    "url": "https://www.youtube.com/watch?v=K1wT13mnyBI",
+    "langue": "Français",
+    "description": "Deux développeurs expérimentés montrent, en programmation en direct, les patrons qu'ils utilisent réellement au quotidien dans leurs bases de code professionnelles. Parfait pour clore le cours : tu y verras le passage du code « qui marche » au code bien conçu, comme dans le projet de la leçon 7.",
+    "niveau": "Intermédiaire à avancé"
+   }
+  ]
  }
 }
