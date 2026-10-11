@@ -3336,5 +3336,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L1-02": {
+  "pdf": "pdf/BBA-L1-02.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Cours HyperComplet de Microéconomie avec des exercices corrigés (V2 - améliorée)",
+    "chaine": "El khader",
+    "url": "https://www.youtube.com/watch?v=1fDD3zkcyTw",
+    "langue": "Français",
+    "description": "Un cours complet de microéconomie qui couvre tout le programme de ce module : offre et demande, comportement du consommateur et du producteur, structures de marché. À utiliser comme révision générale avant les évaluations, en commençant par les chapitres des leçons 1 à 3.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Flash économie | 3ème E-G : Section 2 — L'équilibre du marché en CPP | P* et Q*",
+    "chaine": "Pour réussir en économie",
+    "url": "https://www.youtube.com/watch?v=ZoAlh6UMIrA",
+    "langue": "Français",
+    "description": "La détermination du prix d'équilibre P* et de la quantité d'équilibre Q*, graphiquement et par le calcul, avec les situations de déséquilibre et le mécanisme d'ajustement des prix : le déroulé exact de la leçon 3.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "3ème E-G | Intégrons ensemble -  Page 47 : Équilibre du marché en CPP |",
+    "chaine": "Pour réussir en économie",
+    "url": "https://www.youtube.com/watch?v=4yE7cDRQqZM",
+    "langue": "Français",
+    "description": "La correction guidée d'un exercice complet d'équilibre de marché en concurrence pure et parfaite : détermination analytique et graphique, interprétation de P* et Q*, analyse des déséquilibres. Idéal pour s'entraîner après le TD 1.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "La notion d'élasticité",
+    "chaine": "EcoDico",
+    "url": "https://www.youtube.com/watch?v=bJYMgHtrEZY",
+    "langue": "Français",
+    "description": "Une courte vidéo de la série pédagogique EcoDico qui définit l'élasticité comme mesure de la sensibilité d'une variable à une autre, et présente les élasticités prix et revenu : la synthèse parfaite avant d'attaquer les calculs de la leçon 4.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "L'équilibre du monopole",
+    "chaine": "Laura Elko",
+    "url": "https://www.youtube.com/watch?v=pzhp4tG9nyQ",
+    "langue": "Français",
+    "description": "Recettes et coûts du monopole, détermination de son équilibre et démonstration de son inefficacité par rapport à la concurrence, dans le cadre du Campus de l'Innovation pour les Lycées (Collège de France) : le prolongement direct de la leçon 7.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
