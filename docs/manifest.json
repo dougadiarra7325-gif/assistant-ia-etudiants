@@ -2800,5 +2800,43 @@
     "niveau": "Tous niveaux"
    }
   ]
+ },
+ "INF-L3-14": {
+  "pdf": "pdf/INF-L3-14.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Ouvrir pgAdmin et se connecter à la base sur Mac | SQL sur PostgreSQL, leçon 0b",
+    "chaine": "Diallo Géo",
+    "url": "https://www.youtube.com/watch?v=-ywvAF2Vku4",
+    "langue": "Français",
+    "description": "Premiers pas d'administration concrète : ouvrir pgAdmin, se connecter au serveur PostgreSQL et retrouver ses bases. Un bon complément visuel à la leçon 1 avant de travailler en ligne de commande avec psql.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Leçon 1_Partie_4_Eviter les pertes de données - Sauvegarde - Mon Prof d'Info",
+    "chaine": "Mon Prof D'Info",
+    "url": "https://www.youtube.com/watch?v=EDYgmYD6HPk",
+    "langue": "Français",
+    "description": "Pourquoi sauvegarder, quelles sont les causes de perte de données, et comment bâtir une stratégie : types de sauvegardes, multiplication des supports et règle 3-2-1. À regarder en écho direct à la leçon 2 de ce cours.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "SQL avec PostgreSQL : le cours complet (2 h 29, 34 chapitres, 99 exercices)",
+    "chaine": "lioncode",
+    "url": "https://www.youtube.com/watch?v=rpVy7sIM9BY",
+    "langue": "Français",
+    "description": "Un cours complet en français dont les chapitres « Les index », « L'optimiseur, les statistiques et VACUUM », « Rôles, droits et sécurité » et « Exploiter un serveur PostgreSQL » prolongent directement les leçons 4, 5 et 7 de ce cours.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Cet outil open source change la vie pour la sauvegarde des bases de données",
+    "chaine": "IT-Connect - Florian",
+    "url": "https://www.youtube.com/watch?v=nWsnwDjyCg8",
+    "langue": "Français",
+    "description": "Présentation d'un outil libre qui centralise sauvegarde et restauration de bases PostgreSQL, MySQL et MariaDB : une illustration concrète de l'automatisation traitée dans la leçon 6, au-delà du simple script cron.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
