@@ -5044,5 +5044,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L2-14": {
+  "pdf": "pdf/BBA-L2-14.pdf",
+  "pages": 31,
+  "videos": [
+   {
+    "titre": "Avez-vous déjà négocié avec la méthode raisonnée ?",
+    "chaine": "Grenelle, la chaine du dialogue social",
+    "url": "https://www.youtube.com/watch?v=wea0bWXoUS4",
+    "langue": "Français",
+    "description": "Une présentation claire de la négociation raisonnée de Fisher et Ury : ses quatre principes et le concept de BATNA. C'est le socle théorique de ce cours, à regarder avant la leçon 2 pour bien comprendre la préparation.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Comment obtenir davantage sans forcer : 5 techniques de négociation",
+    "chaine": "Mohamed Nimaga",
+    "url": "https://www.youtube.com/watch?v=xAiFMru9Ejo",
+    "langue": "Français",
+    "description": "Cinq techniques simples et honnêtes : préparer sa demande, poser des questions ouvertes, définir ses limites, utiliser le silence et chercher un terrain d'entente. Un bon complément pratique aux styles de négociation de la leçon 1.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Négociation commerciale : la méthode pour conclure sans forcer",
+    "chaine": "Maxime Picardo – Marketing, Vente, IA & Business",
+    "url": "https://www.youtube.com/watch?v=CE4lMzDKJFE",
+    "langue": "Français",
+    "description": "La négociation se joue avant la réunion : préparation, méthode Harvard, BATNA et seuil de rupture y sont expliqués pas à pas. À mettre en regard de la grille de préparation et des fiches MESORE de notre dossier fictif.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Négociation commerciale : les méthodes Harvard, BATNA et CRAC",
+    "chaine": "Maxime Picardo – Marketing, Vente, IA & Business",
+    "url": "https://www.youtube.com/watch?v=L40tI3JNi90",
+    "langue": "Français",
+    "description": "Comment répondre aux objections sans se braquer, avec les méthodes Harvard et CRAC, appliquées à un cas concret de hausse de prix. Utile pour comparer avec nos réponses aux tactiques de la leçon 3 et noter ce qui relève de la pression ou de l'argumentation.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Négocier sans céder avec la méthode Harvard (négociation raisonnée)",
+    "chaine": "Katana - Quentin Despas",
+    "url": "https://www.youtube.com/watch?v=YFb-_rhe3Us",
+    "langue": "Français",
+    "description": "Pourquoi la discussion de prix positionnelle érode les marges et la relation, et comment la négociation raisonnée construit des accords gagnant-gagnant en B2B. Le prolongement direct de notre dialogue de négociation du prix (leçon 5).",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
