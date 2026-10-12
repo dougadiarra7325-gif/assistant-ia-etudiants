@@ -7802,5 +7802,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L1-25": {
+  "pdf": "pdf/DRO-L1-25.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Recherche juridique : méthodes, sources et documentation des résultats",
+    "chaine": "AdServ Formation",
+    "url": "https://www.youtube.com/watch?v=p3-TS62XJHU",
+    "langue": "Français",
+    "description": "Une présentation complète de la recherche juridique : sources du droit, formulation de la question et des mots-clés, puis documentation organisée des résultats. À regarder en ouverture du cours, puis à relire à la lumière des leçons 1 et 4 pour comparer la méthode proposée avec la typologie des documents et la grille de fiabilité.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "[DECRIPT 7/14] Utiliser le catalogue des bibliothèques",
+    "chaine": "Bibliothèques de l'Université Paris Cité",
+    "url": "https://www.youtube.com/watch?v=DcINkb65f8M",
+    "langue": "Français",
+    "description": "Un tutoriel produit par des bibliothèques universitaires pour apprendre à interroger un catalogue : types de recherche, filtres et lecture des résultats. Il illustre concrètement la leçon 3 — notices, entrées multiples, localisation — et se transpose à n'importe quel catalogue de bibliothèque universitaire.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Questionner la fiabilité d'une source",
+    "chaine": "Marc André",
+    "url": "https://www.youtube.com/watch?v=oT5TKKnCO5M",
+    "langue": "Français",
+    "description": "Une capsule qui apprend à interroger une information avant de l'utiliser : identifier l'auteur, examiner le contenu et ne pas confondre nombre de reprises et vérité. Elle prolonge directement la grille de fiabilité de la leçon 4 — qui publie, quand, d'où vient l'information.",
+    "niveau": "Tous niveaux"
+   },
+   {
+    "titre": "Méthodologie de recherche en pratique (Partie 1)",
+    "chaine": "Pr. AAZZAB ABDELKARIM",
+    "url": "https://www.youtube.com/watch?v=c016VH1M3c4",
+    "langue": "Français",
+    "description": "Un enseignant montre comment trouver des bases de données scientifiques et organiser ses références bibliographiques avec un gestionnaire de références. À regarder avec la leçon 6 pour passer des formats de notices à leur gestion quotidienne pendant toute la recherche.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les outils dans le travail de recherche / mémoire / thèse",
+    "chaine": "Geo",
+    "url": "https://www.youtube.com/watch?v=t1WCMb2HZJE",
+    "langue": "Français",
+    "description": "Une présentation d'outils concrets pour structurer un travail universitaire, dont la gestion des références bibliographiques. Elle complète la leçon 6 et le cours d'outils numériques (DRO-L1-19) : la bibliographie se construit pendant la recherche, avec des outils, et non de mémoire à la fin.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
