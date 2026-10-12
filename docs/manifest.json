@@ -5136,5 +5136,51 @@
     "niveau": "Tous niveaux"
    }
   ]
+ },
+ "BBA-L2-16": {
+  "pdf": "pdf/BBA-L2-16.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Logistique d'Approvisionnement (Supply Chain) : Tout Comprendre en 25 Minutes »",
+    "chaine": "ACADEMIE DES LOGISTICIENS Didi chance AMBIA",
+    "url": "https://www.youtube.com/watch?v=rbmKNEzCzEA",
+    "langue": "Français",
+    "description": "Un cours complet qui déroule le fonctionnement d'une chaîne d'approvisionnement, de la commande fournisseur à la gestion des stocks. Il donne le vocabulaire et la vue d'ensemble utiles avant d'entrer dans les calculs des leçons suivantes.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Dis-moi, c'est quoi la Supply Chain ? [FR]",
+    "chaine": "FM Logistic",
+    "url": "https://www.youtube.com/watch?v=AqiK-nYJebQ",
+    "langue": "Français",
+    "description": "Un film court et accessible qui explique, à partir d'un rayon de supermarché, pourquoi les produits sont toujours là quand le client arrive. Une bonne porte d'entrée visuelle pour comprendre les acteurs et les métiers de la chaîne logistique.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Les différents niveaux de  stocks : stock d'alerte, stock de sécurité, stock minimum, stock maximum",
+    "chaine": "5 minutes pour réussir",
+    "url": "https://www.youtube.com/watch?v=dDUHhqOT9hY",
+    "langue": "Français",
+    "description": "La vidéo distingue clairement stock d'alerte (le point de commande de notre cours), stock de sécurité, stock minimum et stock maximum, avec une application chiffrée. Elle aide à ne plus confondre ces niveaux qui se calculent à partir des mêmes données.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Wilson et la gestion des stocks - Contrôle de gestion",
+    "chaine": "Ficheben DCG DSCG DEC",
+    "url": "https://www.youtube.com/watch?v=vTAPExQerXo",
+    "langue": "Français",
+    "description": "Un cours filmé qui présente la formule de Wilson, décompose le coût total en passation et possession, et montre l'égalité des deux coûts à l'optimum. Il prolonge directement l'exemple de l'huile végétale de la leçon 4, avec un autre jeu de chiffres pour s'entraîner.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Méthode d'analyse ABC pour les achats : définition et cas concret",
+    "chaine": "Techni-Contact : la marketplace B2B",
+    "url": "https://www.youtube.com/watch?v=6JF6Axt08Xg",
+    "langue": "Français",
+    "description": "La vidéo explique l'analyse ABC comme déclinaison du principe de Pareto et la démontre pas à pas sur un cas concret. Elle montre comment passer du tableau de classement à des politiques de gestion différentes selon les classes.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
