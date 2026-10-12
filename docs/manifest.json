@@ -9868,5 +9868,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "DRO-L3-22": {
+  "pdf": "pdf/DRO-L3-22.pdf",
+  "pages": 34,
+  "videos": [
+   {
+    "titre": "Méthodologie de la consultation juridique et du cas pratique (CRFPA)",
+    "chaine": "Rémy Dandan - Avocat et enseignant",
+    "url": "https://www.youtube.com/watch?v=ZqGxuu8E2Fc",
+    "langue": "Français",
+    "description": "Un avocat enseignant présente la méthode de la consultation juridique : partir des faits exposés par le client, dégager les questions de droit et structurer le conseil. C'est le prolongement direct de la leçon 3, avec une grille de travail applicable à l'entretien comme au cas pratique.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "La plaidoirie vue par un avocat pénaliste - Christian Saint-Palais",
+    "chaine": "Bycome",
+    "url": "https://www.youtube.com/watch?v=xbVoc3ncI1c",
+    "langue": "Français",
+    "description": "Une conférence donnée devant des étudiants en droit sur l'art de plaider : comment préparer, capter l'attention du juge et convaincre sans lire ses conclusions. Elle illustre concrètement la construction et l'entraînement étudiés à la leçon 4.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "La conciliation de Justice - Place des droits 2021",
+    "chaine": "Place des droits",
+    "url": "https://www.youtube.com/watch?v=UE1W9PObsRg",
+    "langue": "Français",
+    "description": "Un conciliateur de justice explique le fonctionnement de la conciliation : quels litiges elle règle, comment se déroule la rencontre et ce que vaut le constat d'accord. Un éclairage institutionnel sur le règlement amiable négocié à la leçon 5.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Procès Fictif pénal ELSA Orléans",
+    "chaine": "ELSA Orléans",
+    "url": "https://www.youtube.com/watch?v=-Bne4mr_JHA",
+    "langue": "Français",
+    "description": "Des étudiants en droit d'une association européenne d'étudiants en droit jouent un procès fictif complet, chacun dans un rôle de la procédure, devant une formation reconstituée. C'est le modèle grandeur nature du procès simulé organisé à la leçon 6.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les services de la clinique juridique TRIJEUD-Mali",
+    "chaine": "TRIJEUD-MALI Tribune jeunes pour le droit au mali",
+    "url": "https://www.youtube.com/watch?v=l9-Zf7An6-M",
+    "langue": "Français",
+    "description": "Présentation des services d'assistance et d'information juridiques offerts par une clinique juridique malienne animée par des jeunes juristes. Elle donne un visage concret, dans le contexte malien, aux permanences d'accès au droit de la leçon 7.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
