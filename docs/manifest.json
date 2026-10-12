@@ -6768,5 +6768,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L1-02": {
+  "pdf": "pdf/DRO-L1-02.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Cours de Droit constitutionnel (Introduction générale)",
+    "chaine": "Aide aux TD - Vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=_BSiNEREBec",
+    "langue": "Français",
+    "description": "Une introduction générale au droit constitutionnel qui présente la matière, ses grands thèmes et le cadre du pouvoir politique, à commencer par l'État. Parfaite pour situer la leçon 1 dans l'ensemble du cours avant d'entrer dans le détail.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Contrôle de constitutionnalité par voie d'action / par voie d'exception",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=9wM65RPE8tQ",
+    "langue": "Français",
+    "description": "La distinction entre le contrôle par voie d'action, qui attaque directement la loi, et le contrôle par voie d'exception, qui naît dans un procès en cours. Le complément direct de la leçon 4, avec les exemples donnés par l'enseignant.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "La séparation des pouvoirs (Droit constitutionnel)",
+    "chaine": "Aide aux TD - Vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=juhh4vHXfBc",
+    "langue": "Français",
+    "description": "L'origine de la théorie chez Montesquieu, la distinction des trois pouvoirs et les risques de leur confusion, expliqués simplement. À regarder après la leçon 5 pour ancrer le vocabulaire et les distinctions stricte/souple.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "DROIT CONSTITUTIONNEL #1 (niveau L1) - @Elisatrck",
+    "chaine": "Etudiants en Confinement",
+    "url": "https://www.youtube.com/watch?v=JeLDizchQck",
+    "langue": "Français",
+    "description": "Un cours filmé de niveau L1 qui enchaîne hiérarchie des normes, Constitution souple ou rigide, formes d'État et régimes parlementaire, présidentiel et mixte. Idéal pour réviser les leçons 2, 3 et 6 en une seule session.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Mode de scrutin : comprendre le débat sur la proportionnelle",
+    "chaine": "Vie publique",
+    "url": "https://www.youtube.com/watch?v=zXIJm6pbmx8",
+    "langue": "Français",
+    "description": "Ce qu'est le scrutin proportionnel, en quoi il diffère du majoritaire, et ses effets sur la représentation et la stabilité des gouvernements. Prolonge le dépouillement comparé de la leçon 7 en montrant le débat réel sur ces choix techniques.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
