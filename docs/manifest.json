@@ -5228,5 +5228,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "BBA-L2-18": {
+  "pdf": "pdf/BBA-L2-18.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Video 11 Coûts d'obtention de la qualité",
+    "chaine": "about you sprl",
+    "url": "https://www.youtube.com/watch?v=y3TQKt8qQfg",
+    "langue": "Français",
+    "description": "Une vidéo de cours qui décompose les coûts d'obtention de la qualité en prévention, évaluation et défaillances, exactement les quatre familles de la leçon 2. Elle insiste aussi sur la différence entre contrôler davantage et prévenir mieux, avec les arguments de Deming sur l'inspection.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Construire un diagramme de Pareto",
+    "chaine": "HohmannChristian",
+    "url": "https://www.youtube.com/watch?v=b-ZpSiuH_WA",
+    "langue": "Français",
+    "description": "La construction pas à pas d'un diagramme de Pareto : classement des catégories, barres décroissantes et lecture de la courbe des cumuls. Regarde-la en refaisant en parallèle le tableau de la leçon 3 avec les 530 défauts de Sahel Conserve.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "ISHIKAWA Le diagramme Causes-Effet",
+    "chaine": "Jean-Paul GOURDANT",
+    "url": "https://www.youtube.com/watch?v=u8nKpA7ntEs",
+    "langue": "Français",
+    "description": "Présentation claire du diagramme causes-effet : les familles des 5 M, la façon de dessiner l'arête de poisson et de s'en servir pour argumenter en réunion qualité. Un bon complément à l'analyse des « bouchons mal sertis » menée dans la leçon 3.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Méthode PDCA et principe de la roue de Deming",
+    "chaine": "7-SHAPES",
+    "url": "https://www.youtube.com/watch?v=rpoQY8ZcWVI",
+    "langue": "Français",
+    "description": "Les quatre temps du cycle PDCA expliqués simplement, avec l'idée que la roue ne s'arrête jamais : chaque tour verrouille un progrès et prépare le suivant. À rapprocher du tour de roue complet sur les bouteilles sous-remplies dans la leçon 4.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les 7 Principes de la Qualité : Ne lancez rien sans connaître ça.",
+    "chaine": "ISO Standards",
+    "url": "https://www.youtube.com/watch?v=rkL6G52FYBE",
+    "langue": "Français",
+    "description": "Les sept principes du management de la qualité qui sous-tendent la norme ISO 9001, présentés un par un avec des images concrètes d'entreprise. Compare avec la reformulation de la leçon 5 : ce sont les idées qui comptent, le texte officiel de la norme restant à consulter directement.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
