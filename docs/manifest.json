@@ -8070,5 +8070,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-06": {
+  "pdf": "pdf/DRO-L2-06.pdf",
+  "pages": 36,
+  "videos": [
+   {
+    "titre": "Droit pénal général et droit pénal spécial",
+    "chaine": "CRIMINOCORPUS | Histoire de la justice",
+    "url": "https://www.youtube.com/watch?v=xWOKSJ9T7B8",
+    "langue": "Français",
+    "description": "Une présentation universitaire de la distinction entre droit pénal général et droit pénal spécial, et de la place de chaque incrimination dans l'ensemble. Les définitions précises et les peines applicables se lisent dans le Code pénal malien en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Les 3 éléments de l'infraction en Droit Pénal",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=wXy63tYrcPg",
+    "langue": "Français",
+    "description": "Le rappel méthodique des trois éléments de l'infraction — légal, matériel, moral — qui sert de grille de lecture à toutes les définitions de ce cours. Rappelle-toi que l'élément légal renvoie, pour toi, au Code pénal malien en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Cours de Droit Pénal Spécial - Le Vol",
+    "chaine": "academie juridique",
+    "url": "https://www.youtube.com/watch?v=g1Dz_94i_CM",
+    "langue": "Français",
+    "description": "Un cours complet sur le vol : définition, éléments constitutifs et distinctions avec les infractions voisines, en écho direct à la leçon 4. Les incriminations précises et les peines se lisent dans le Code pénal malien en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Cours de Droit Pénal Spécial - Escroquerie",
+    "chaine": "academie juridique",
+    "url": "https://www.youtube.com/watch?v=4-0uoryEnSY",
+    "langue": "Français",
+    "description": "Un cours complet sur l'escroquerie : moyens frauduleux, remise et préjudice, qui prolonge la première moitié de la leçon 5. Les incriminations précises et les peines se lisent dans le Code pénal malien en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Comprendre l'abus de confiance en 5 minutes (Droit Pénal Spécial / Général)",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=gOhm7Kp0uUE",
+    "langue": "Français",
+    "description": "L'abus de confiance expliqué en quelques minutes : remise précaire, détournement et frontières avec le vol et l'escroquerie. Les incriminations précises et les peines se lisent dans le Code pénal malien en vigueur.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
