@@ -9050,5 +9050,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L3-03": {
+  "pdf": "pdf/DRO-L3-03.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "Découvrir les procédures collectives en 2 minutes",
+    "chaine": "IFPPC Association",
+    "url": "https://www.youtube.com/watch?v=T2oelMRM2mI",
+    "langue": "Français",
+    "description": "Une présentation très courte et claire de la logique des procédures collectives par l'institut français des praticiens de la matière : parfaite pour fixer, avant la leçon 1, l'idée du traitement collectif des créanciers. Le cadre présenté est celui du droit français : seuls les mécanismes généraux se transposent au droit OHADA étudié dans ce cours.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "La cessation de paiement",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=j5JOSTbvX9s",
+    "langue": "Français",
+    "description": "La chaîne de référence en droit OHADA explique la notion de cessation des paiements, clé d'ouverture du redressement et de la liquidation : passif exigible contre actif disponible. C'est le complément vidéo direct de la leçon 2 et de son test de liquidité.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Difficultés d'Entreprise : Comment anticiper et sauver votre activité ? (Prévention & Sauvegarde)",
+    "chaine": "JurisTis",
+    "url": "https://www.youtube.com/watch?v=h_eG2eKWbYA",
+    "langue": "Français",
+    "description": "Une vidéo sur la prévention des difficultés et la logique de la sauvegarde : anticiper, alerter, négocier avant la rupture de trésorerie. Elle présente le droit français de la sauvegarde ; on la regardera comme l'analogie qui éclaire le règlement préventif OHADA de la leçon 3, non comme son exposé.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Entreprises en difficulté : la consultation des créanciers",
+    "chaine": "Deloitte Société d'Avocats",
+    "url": "https://www.youtube.com/watch?v=JNQxFPelYTc",
+    "langue": "Français",
+    "description": "Deux avocates spécialistes expliquent comment les créanciers sont consultés sur un projet de plan, individuellement ou collectivement : le pendant pratique de la construction du concordat de redressement de la leçon 4. Le cadre est français ; les questions de méthode — crédibilité du plan, adhésion des créanciers — valent pour le raisonnement OHADA.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "La liquidation judiciaire, déroulement et conséquences",
+    "chaine": "Ketty Leroux",
+    "url": "https://www.youtube.com/watch?v=rGaR_tOkuLY",
+    "langue": "Français",
+    "description": "Une avocate en droit des affaires décrit le déroulement concret d'une liquidation : ouverture, rôle des organes, déclaration des créances, réalisation des actifs. À regarder avec la leçon 5 pour visualiser la cascade — en gardant à l'esprit que le droit applicable au cours est l'Acte uniforme OHADA, et que les mécanismes seuls se comparent.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
