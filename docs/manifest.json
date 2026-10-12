@@ -7320,5 +7320,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "DRO-L1-14": {
+  "pdf": "pdf/DRO-L1-14.pdf",
+  "pages": 33,
+  "videos": [
+   {
+    "titre": "Séance 1 - les Définitions des \"Droits de l'Homme\"",
+    "chaine": "Droit-Facile",
+    "url": "https://www.youtube.com/watch?v=lHDCi5fgIAc",
+    "langue": "Français",
+    "description": "La première séance d'un cours universitaire de droits de l'homme et libertés publiques (section francophone) : définir la matière, ses contours et ses rapports avec les libertés publiques. Le point de départ idéal avant la leçon 1 : écoute comment un enseignant pose les définitions, puis compare avec les fondements présentés dans le cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les fondements des libertés fondamentales (droit naturel, contrat social...)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=krza4bp4a1c",
+    "langue": "Français",
+    "description": "D'où viennent les libertés fondamentales ? Cette vidéo déroule leurs fondements philosophiques — droit naturel, contrat social — puis leurs traductions juridiques. Le prolongement direct du premier volet de la leçon 1 : les idées avant les textes, exactement l'ordre de la frise du cours.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "La classification des libertés fondamentales",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=1wTEMktz9FQ",
+    "langue": "Français",
+    "description": "Le classement des libertés fondamentales présenté de façon structurée, génération par génération, jusqu'à la question des générations nouvelles. À regarder avec la grille de la leçon 2 sous les yeux : repère ce qui relève du classement, puis ce qui relève du débat sur l'indivisibilité.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "M. Rémy Ngoy Lumbu présente à Rabat les grandes lignes de la Charte africaine des droits de l'homme",
+    "chaine": "Article19 Ma",
+    "url": "https://www.youtube.com/watch?v=pOYUNK84r0Y",
+    "langue": "Français",
+    "description": "Un membre de la Commission africaine présente les grandes lignes de la Charte africaine des droits de l'homme et des peuples : son esprit, sa place dans le système africain et le rôle de l'organe qui veille sur elle. Le complément naturel de la leçon 5, par une voix du mécanisme régional lui-même.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "MOOC en Introduction aux droits de l'homme",
+    "chaine": "UNIGE MOOCs",
+    "url": "https://www.youtube.com/watch?v=lnQUz51MmEw",
+    "langue": "Français",
+    "description": "La présentation du cours en ligne de l'Université de Genève consacré aux droits de l'homme : définitions, mécanismes de mise en œuvre, avantages et inconvénients de chaque voie de protection. Une vue d'ensemble universitaire qui recoupe la cartographie de la leçon 6 — et une ressource pour aller plus loin gratuitement.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
