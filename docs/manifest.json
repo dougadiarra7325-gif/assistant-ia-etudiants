@@ -8698,5 +8698,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-20": {
+  "pdf": "pdf/DRO-L2-20.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "DCG UE 1 FONDAMENTAUX DU DROIT - Contrats de vente, droit de la consommation et sûretés",
+    "chaine": "Ficheben DCG DSCG DEC",
+    "url": "https://www.youtube.com/watch?v=zAilS3fHFC4",
+    "langue": "Français",
+    "description": "Une séance de révision qui traverse les contrats de vente et la protection du consommateur — clauses abusives et mécanismes de retour sur un achat y figurent. Elle montre un cadre étranger détaillé : retiens les notions et la méthode, car seul le cadre malien en vigueur fait foi pour les règles applicables.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Les clauses abusives - Présentation générale (1)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=AxBgBv-wkjI",
+    "langue": "Français",
+    "description": "La présentation générale de la notion de clause abusive et de son contrôle, dans le prolongement direct de la leçon 4. Les illustrations relèvent d'un autre système de textes : la notion de déséquilibre significatif et la méthode d'analyse se retiennent, les listes et dispositions précises se vérifient dans les textes maliens en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "FORMATION du CONTRAT : Comment ANALYSER la VALIDITÉ d'une CLAUSE ? | DCG UE1 / L1, L2 Droit",
+    "chaine": "MNEMOTACTIQUES | Culture JURIDIQUE & ÉCONOMIQUE",
+    "url": "https://www.youtube.com/watch?v=_CpFlcJMtWw",
+    "langue": "Français",
+    "description": "Une méthodologie pas à pas pour analyser une clause : opposabilité, licéité, caractère abusif et sanction. Elle outille le geste central de la leçon 4 — repérer, qualifier, sanctionner — que le TD 1 met ensuite en pratique sur le contrat fictif de l'opérateur SankaNet.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Consommateurs : quels sont vos droits et recours? (1re partie)",
+    "chaine": "Bibliothèque et Archives nationales du Québec",
+    "url": "https://www.youtube.com/watch?v=0MGH2Vi4bmw",
+    "langue": "Français",
+    "description": "Une conférence d'inspecteurs d'un office de protection du consommateur sur les droits et les recours, de la réclamation aux garanties. Le cadre montré est celui d'un autre pays francophone : la gradation des recours et les réflexes de dossier se transposent, les organes et règles précis se vérifient dans le cadre malien en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Régler un problème avec un commerçant",
+    "chaine": "Option consommateurs",
+    "url": "https://www.youtube.com/watch?v=vw3D4RBat94",
+    "langue": "Français",
+    "description": "Un webinaire pratique sur la négociation entre un consommateur et un commerçant pour régler un différend à l'amiable. Il illustre la première étape du parcours de la leçon 7 — la réclamation argumentée — dans un contexte québécois ; les voies et organes maliens, eux, se lisent dans les textes en vigueur.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
