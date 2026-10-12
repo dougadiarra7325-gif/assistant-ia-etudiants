@@ -8614,5 +8614,43 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-18": {
+  "pdf": "pdf/DRO-L2-18.pdf",
+  "pages": 34,
+  "videos": [
+   {
+    "titre": "Les droits et obligations des fonctionnaires",
+    "chaine": "Dessine-moi l'essentiel Objectif concours",
+    "url": "https://www.youtube.com/watch?v=pLlUjN2SBDU",
+    "langue": "Français",
+    "description": "Un panorama dessiné et structuré des droits et des obligations des fonctionnaires, utile pour visualiser l'équilibre général du statut avant les leçons 4 et 5. Les mécanismes généraux se retiennent ; pour toute situation réelle au Mali, c'est le Statut général de la fonction publique en vigueur qui fait foi.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Tout savoir sur les droits et obligations des agents publics !",
+    "chaine": "LaTerrito",
+    "url": "https://www.youtube.com/watch?v=S53ELQB95Ig",
+    "langue": "Français",
+    "description": "Un tour complet des droits des agents — opinion, protection fonctionnelle, rémunération — et de leurs obligations — réserve, secret, obéissance — présentés en miroir, dans l'esprit des leçons 4 et 5. Les règles précises applicables au Mali se vérifient dans le Statut général en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Droits et devoirs du fonctionnaire territorial : maîtriser l'équilibre fondamental du statut",
+    "chaine": "Flash FPT",
+    "url": "https://www.youtube.com/watch?v=XHKk4LLovGI",
+    "langue": "Français",
+    "description": "Une synthèse claire de l'équilibre du statut : devoirs stricts — neutralité, discrétion, obéissance et sa limite de l'ordre manifestement illégal — contre droits solides, dont la protection fonctionnelle. Pour le Mali, seul le Statut général de la fonction publique en vigueur fait foi.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Les sanctions disciplinaires au sein de la fonction publique territoriale",
+    "chaine": "Feu de connaissances",
+    "url": "https://www.youtube.com/watch?v=yRXmk0O0bxM",
+    "langue": "Français",
+    "description": "Les sanctions disciplinaires présentées en gradation, avec le rôle du conseil de discipline et les droits de l'agent mis en cause : le complément direct de la leçon 6. La gradation malienne et sa procédure exacte se lisent dans le Statut général en vigueur.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
