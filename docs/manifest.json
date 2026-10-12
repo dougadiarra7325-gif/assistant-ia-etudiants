@@ -8652,5 +8652,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-19": {
+  "pdf": "pdf/DRO-L2-19.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Les modes alternatifs de règlement des différends (Les MARD) - Cours de procédure civile",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=kuO6pP6L-Rw",
+    "langue": "Français",
+    "description": "Un cours de procédure civile qui présente l'ensemble des modes alternatifs — transaction, procédure participative, médiation, conciliation, arbitrage — et la manière d'y recourir. Il fournit la carte générale et le vocabulaire que la leçon 1 déploie ensuite en enjeux, avantages et limites.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Conciliation et médiation (modes alternatifs de règlement des différends - procédure civile)",
+    "chaine": "Rémy Dandan - Avocat et enseignant",
+    "url": "https://www.youtube.com/watch?v=ouOAFM73NcU",
+    "langue": "Français",
+    "description": "Un cours centré sur la conciliation et la médiation dans la procédure civile : rôle du tiers, déroulement des processus et différences entre les deux figures. Il illustre directement la distinction par le rôle du tiers étudiée dans la leçon 3.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "L'arbitrage (définition, clause compromissoire, compromis d'arbitrage)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=D1e1IWNyCR0",
+    "langue": "Français",
+    "description": "Les réponses aux questions de base de l'arbitrage : définition, tribunal arbitral, convention d'arbitrage, clause compromissoire, compromis et sentence. Un support direct pour la leçon 5, à mettre en regard de la présentation de l'arbitrage OHADA faite dans le cours.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "L'incompétence du juge étatique en présence d'une clause compromissoire",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=5j9WR27Dcn0",
+    "langue": "Français",
+    "description": "Une vidéo de la série consacrée à l'essentiel du droit OHADA : l'effet principal de la convention d'arbitrage, qui rend les juridictions étatiques incompétentes sur le fond couvert, et les cas où le juge étatique peut malgré tout être saisi. Elle ancre la leçon 5 dans l'espace OHADA.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "La sentence arbitrale et les voies de recours",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=B-YapVucMSE",
+    "langue": "Français",
+    "description": "La suite du parcours arbitral dans l'espace OHADA : élaboration et contenu de la sentence, ses effets, sa reconnaissance et son exequatur, ainsi que les recours ouverts contre elle. Elle prolonge la leçon 6 sur la force juridique des décisions issues des MARC.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
