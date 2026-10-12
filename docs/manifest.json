@@ -6860,5 +6860,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L1-04": {
+  "pdf": "pdf/DRO-L1-04.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "[Droit / DGEMC] Organisation de la justice en France",
+    "chaine": "Vincent Pauthier",
+    "url": "https://www.youtube.com/watch?v=-RRvxzNk-3k",
+    "langue": "Français",
+    "description": "Une présentation claire de l'organisation d'un ordre judiciaire de même famille que celui du Mali : degrés de juridiction, juridictions civiles et pénales, juridictions spécialisées. Les mécanismes généraux illustrés ici (premier degré, appel, sommet de l'ordre) se transposent dans leur logique, mais l'organisation exacte des juridictions maliennes se vérifie toujours dans les textes en vigueur au Journal officiel.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Dessine-moi l'éco - Par qui sommes-nous jugé(e)s ?",
+    "chaine": "Dessine-moi l'éco",
+    "url": "https://www.youtube.com/watch?v=HCHNaRkCcLI",
+    "langue": "Français",
+    "description": "En quelques minutes dessinées, la vidéo présente qui juge quoi : juridictions du premier degré, cour d'appel et juridiction du sommet, avec la distinction entre appel et pourvoi. C'est une illustration des mécanismes généraux dans un système comparable ; pour le Mali, retiens la logique des degrés et vérifie les juridictions exactes dans les textes en vigueur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le fonctionnement de la justice française expliqué en quatre minutes",
+    "chaine": "Le Monde",
+    "url": "https://www.youtube.com/watch?v=jqEsqJ73Ef8",
+    "langue": "Français",
+    "description": "Le journal Le Monde résume le parcours type d'une affaire : premier jugement, appel, puis pourvoi devant la juridiction suprême, avec les rôles des principaux acteurs. Les mécanismes généraux présentés correspondent à ceux de cette leçon ; les formes propres au système montré ne se transposent pas telles quelles et doivent être vérifiées dans les textes maliens en vigueur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Justice : La différence entre avocat, juge et procureur expliquée simplement",
+    "chaine": "juridixion1",
+    "url": "https://www.youtube.com/watch?v=T_UMORRh8Eo",
+    "langue": "Français",
+    "description": "Une comparaison simple des trois rôles que les débutants confondent le plus : l'avocat défend son client, le juge tranche en toute neutralité, le procureur représente la société. Ce sont des mécanismes généraux communs aux systèmes de cette famille ; le statut précis de chacun, au Mali, se vérifie dans les textes en vigueur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Qu'est-ce que l'aide juridictionnelle et comment la demander ? #ConsoMag",
+    "chaine": "ConsoMag",
+    "url": "https://www.youtube.com/watch?v=BnYMHiHim64",
+    "langue": "Français",
+    "description": "Le magazine ConsoMag explique le principe de l'aide juridictionnelle : une prise en charge publique des frais de justice pour les personnes aux ressources modestes, avec possibilité de choisir son avocat. Le mécanisme général est celui de cette leçon ; les conditions et les démarches exactes applicables au Mali relèvent des textes en vigueur, à consulter avant toute demande.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
