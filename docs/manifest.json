@@ -5182,5 +5182,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "BBA-L2-17": {
+  "pdf": "pdf/BBA-L2-17.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Pourquoi une entreprise achète ? Les 3 raisons que tout acheteur doit connaître",
+    "chaine": "Devenir Acheteur Professionnel",
+    "url": "https://www.youtube.com/watch?v=VVZHR7BH8m8",
+    "langue": "Français",
+    "description": "Avant de parler prix, cette vidéo rappelle pourquoi une entreprise achète : consommation interne, achats intégrés à la production et achats pour revendre. Elle cadre exactement la mission de la fonction achats de la leçon 1 et aide à classer les achats de SHN par famille.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Les Achats comme un levier de performance financière | Romain Prévost",
+    "chaine": "Radio Achats",
+    "url": "https://www.youtube.com/watch?v=IijFk420lmg",
+    "langue": "Français",
+    "description": "Un directeur achats de grand groupe explique comment les achats deviennent un levier de résultat quand ils sont alignés avec la finance. À relier à l'effet de levier chiffré de la note d'enjeux de la leçon 1 : mêmes idées, à une autre échelle.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "ACHETEUR : tout savoir sur ce métier stratégique (missions, salaire...)",
+    "chaine": "Hellowork",
+    "url": "https://www.youtube.com/watch?v=iAjHjqwrls4",
+    "langue": "Français",
+    "description": "Le portrait du métier d'acheteur : analyse des besoins, prospection et sélection des fournisseurs, appels d'offres, évaluation des propositions. Une bonne synthèse en images des leçons 3 et 4, utile aussi pour ton projet professionnel.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Construire un appel d'offres, tout ce qu'il faut savoir",
+    "chaine": "Swott",
+    "url": "https://www.youtube.com/watch?v=jYEd2oUdavU",
+    "langue": "Français",
+    "description": "La construction complète d'un appel d'offres : cahier des charges détaillé ou fonctionnel, consultation électronique, écrémage puis analyse multicritères des offres, transition et contractualisation. C'est le déroulé exact de la leçon 4, vu côté praticien.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Chapitre 3 Fonction Achats Approvisionnement",
+    "chaine": "Abdelouahed MESSAOUDI",
+    "url": "https://www.youtube.com/watch?v=1pphW4iXUxE",
+    "langue": "Français",
+    "description": "Un chapitre de cours complet sur la fonction achats-approvisionnement : politique d'achat, processus d'achat et rôle de l'acheteur, puis articulation avec la gestion des stocks. Idéal pour réviser ensemble les leçons 1 et 5 et le lien avec le cours BBA-L2-16.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
