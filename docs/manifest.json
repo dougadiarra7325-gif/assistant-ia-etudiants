@@ -6546,5 +6546,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-22": {
+  "pdf": "pdf/BBA-L3-22.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Le gage: Définition (Droit des sûretés)",
+    "chaine": "Cabinet D'affaires En Ligne (OHADA)",
+    "url": "https://www.youtube.com/watch?v=T_kGiQsrgcQ",
+    "langue": "Français",
+    "description": "Une présentation du gage dans le droit des sûretés de l'espace OHADA, qui replace cette garantie mobilière dans l'évolution des textes uniformes. Elle complète la leçon 1 et prépare la comparaison de la leçon 2 entre les différentes sûretés réelles.",
+    "niveau": "Licence 3 (L3)"
+   },
+   {
+    "titre": "La saisie conservatoire convertie en saisie exécutoire",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=q64v2SdA01A",
+    "langue": "Français",
+    "description": "Cette vidéo explique comment une saisie conservatoire, qui bloque un bien à titre préventif, se convertit en mesure d'exécution destinée au paiement du créancier. C'est l'illustration directe de la gradation étudiée dans la leçon 3.",
+    "niveau": "Licence 3 (L3)"
+   },
+   {
+    "titre": "L'incompétence du juge étatique en présence d'une clause compromissoire",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=5j9WR27Dcn0",
+    "langue": "Français",
+    "description": "Un éclairage précis sur l'effet principal de la clause compromissoire étudiée dans la leçon 4 : les juridictions étatiques doivent en principe s'effacer au profit du tribunal arbitral choisi par les parties. La vidéo précise quand et comment cette incompétence se soulève.",
+    "niveau": "Licence 3 (L3)"
+   },
+   {
+    "titre": "La sentence arbitrale et les voies de recours",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=B-YapVucMSE",
+    "langue": "Français",
+    "description": "Contenu, effets et reconnaissance de la sentence arbitrale, puis présentation des recours possibles contre elle dans l'espace OHADA. Elle prolonge la leçon 5 sur le rôle de la CCJA, notamment en matière d'annulation des sentences.",
+    "niveau": "Licence 3 (L3)"
+   },
+   {
+    "titre": "La cessation de paiement",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=j5JOSTbvX9s",
+    "langue": "Français",
+    "description": "Une analyse de la notion centrale de la leçon 6 : la cessation des paiements, c'est-à-dire l'impossibilité pour le débiteur de faire face à son passif exigible avec son actif disponible. La vidéo aide à distinguer cette situation des simples tensions passagères de trésorerie.",
+    "niveau": "Licence 3 (L3)"
+   }
+  ]
  }
 }
