@@ -4952,5 +4952,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L2-12": {
+  "pdf": "pdf/BBA-L2-12.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Le calcul de l’IS - DCG UE4 Droit Fiscal",
+    "chaine": "Ficheben DCG DSCG DEC",
+    "url": "https://www.youtube.com/watch?v=VrGkoN_y1qk",
+    "langue": "Français",
+    "description": "Un cas complet de calcul de l'impôt sur les sociétés dans le système français : détermination du résultat fiscal par réintégrations et déductions. La méthode de passage du résultat comptable au résultat fiscal se transpose ; les règles, taux et seuils français, eux, ne s'appliquent pas au Mali.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Comment calculer l’impôt sur les sociétés (IS) ? Démonstration SIMPLE d'un expert-comptable",
+    "chaine": "Dougs Compta",
+    "url": "https://www.youtube.com/watch?v=Pz4mlC20sJs",
+    "langue": "Français",
+    "description": "Une démonstration pas à pas du calcul de l'IS par un expert-comptable, dans le contexte français. Retiens la démarche (base, taux, acomptes, solde) : seuls ces mécanismes généraux se transposent au Mali, dont les règles propres se vérifient dans le Code général des impôts en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Comment fonctionne la TVA ? Explication de la TVA en Belgique #TVA #indépendant #Belgique",
+    "chaine": "independant tv",
+    "url": "https://www.youtube.com/watch?v=3mak8sf_lTQ",
+    "langue": "Français",
+    "description": "Le mécanisme de la TVA expliqué sur un circuit de ventes, dans le contexte belge : qui paie réellement la taxe et pourquoi l'entreprise ne reverse que la différence entre collectée et déductible. Le mécanisme est le même en principe ; les taux et règles belges ne s'appliquent pas au Mali.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Épisode 02 : TVA Facturée OU TVA Déductible ?",
+    "chaine": "COMPTA PRATIQUE",
+    "url": "https://www.youtube.com/watch?v=F77ZKJ3rUpI",
+    "langue": "Français",
+    "description": "La distinction entre TVA facturée (collectée) et TVA déductible, avec les conditions de déduction, dans un contexte marocain (montants en dirhams). Utile pour ancrer la soustraction de la leçon ; les règles marocaines ne s'appliquent pas au Mali.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Contrôle fiscal (2/2) : vos droits après la notification (le mois de plus, les recours)",
+    "chaine": "Stratégies — François Muller",
+    "url": "https://www.youtube.com/watch?v=JcEBZ7_2Udo",
+    "langue": "Français",
+    "description": "Les droits du contribuable après la notification d'une proposition de rectification, dans le système français : répondre dans le délai, discuter les motifs, exercer les recours. Les principes (contradictoire, réponse motivée, recours gradués) sont généraux ; les délais et procédures français ne s'appliquent pas au Mali.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
