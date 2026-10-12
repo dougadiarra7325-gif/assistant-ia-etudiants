@@ -8522,5 +8522,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "DRO-L2-16": {
+  "pdf": "pdf/DRO-L2-16.pdf",
+  "pages": 37,
+  "videos": [
+   {
+    "titre": "Usus, fructus, abusus : les attributs du droit de propriété",
+    "chaine": "Maxime Bizeau - Fiches-droit․com",
+    "url": "https://www.youtube.com/watch?v=hEiN4CxIUZ0",
+    "langue": "Français",
+    "description": "Les trois attributs de la propriété sont distingués et illustrés un à un : user de la chose, en percevoir les fruits, en disposer. À regarder en ouvrant la leçon 1, puis à croiser avec les limites — abus de droit et règles de voisinage — car la plénitude des attributs ne dit pas tout de leur exercice.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "Vos droits : tout comprendre sur l'indivision",
+    "chaine": "France 3 Hauts-de-France",
+    "url": "https://www.youtube.com/watch?v=nEdpNEAmHSg",
+    "langue": "Français",
+    "description": "Une émission de service public qui explique, exemples concrets à l'appui, ce qu'être indivisaire veut dire : quotes-parts, décisions à prendre ensemble et chemins de sortie du partage. Les mécanismes généraux éclairent la grille des actes de la leçon 3 ; leurs modalités précises se vérifient dans les textes en vigueur.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "L'usufruit",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=f_KJQo39fwM",
+    "langue": "Français",
+    "description": "Le démembrement majeur est présenté dans son ensemble : droits de l'usufruitier, place du nu-propriétaire et logique de la conservation de la substance. Cette vidéo prolonge directement la leçon 4 ; les répartitions chiffrées du cours, elles, restent des hypothèses d'école, aucun barème n'étant énoncé.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "LA SERVITUDE-AYEZ LE REFLEXE NOTAIRE",
+    "chaine": "LE REFLEXE NOTAIRE 59-62",
+    "url": "https://www.youtube.com/watch?v=77BgrfVL41o",
+    "langue": "Français",
+    "description": "Des praticiens du notariat expliquent la servitude entre voisins — passage, écoulement des eaux — et son trait essentiel : elle s'attache aux fonds et se transmet aux propriétaires successifs. À transposer avec la prudence habituelle : seuls les mécanismes de la leçon 5 se retiennent, les règles précises se lisant dans les textes en vigueur.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "L’usucapion (ou prescription acquisitive) : définition, conditions et effets",
+    "chaine": "Maxime Bizeau - Fiches-droit․com",
+    "url": "https://www.youtube.com/watch?v=8om4f0FZ8Dw",
+    "langue": "Français",
+    "description": "La prescription acquisitive y est exposée dans ses conditions et ses effets : possession, temps, acquisition et rôle en justice. Retiens la grille et le mécanisme — ce cours, lui, n'énonce aucune durée, et seules comptent celles du Code civil malien en vigueur, à vérifier dans le texte officiel.",
+    "niveau": "Licence 2 (L2)"
+   }
+  ]
  }
 }
