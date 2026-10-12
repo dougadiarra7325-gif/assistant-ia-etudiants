@@ -10006,5 +10006,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "DRO-L3-25": {
+  "pdf": "pdf/DRO-L3-25.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "Legal English Vocabulary VV 27 - Contract Law (Lesson 2) | Business English Vocabulary",
+    "chaine": "Business English - Learn with Business English Pod",
+    "url": "https://www.youtube.com/watch?v=sh20zQCwE9Y",
+    "langue": "Anglais",
+    "description": "Une leçon de vocabulaire consacrée au langage précis des contrats en anglais : termes des clauses et expressions de la rédaction. À regarder après la leçon 1 pour entendre, en contexte, les mots que ce cours commente par écrit.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Top 20 Must Know Legal Terms | The Language of Law Explained",
+    "chaine": "Legal English",
+    "url": "https://www.youtube.com/watch?v=Ja5zfg3oKMs",
+    "langue": "Anglais",
+    "description": "Vingt termes fondamentaux de l'anglais juridique expliqués un à un, du système de droit aux obligations et à la responsabilité. Un répertoire oral qui consolide le glossaire des sociétés de la leçon 2 et le vocabulaire général du cours.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Arbitration Explained | What is International Commercial arbitration | Lex Animata by Hesham Elrafei",
+    "chaine": "Lex Animata Law Visualized | Hesham Elrafei",
+    "url": "https://www.youtube.com/watch?v=9dUi_phYXrY",
+    "langue": "Anglais",
+    "description": "Une explication animée de l'arbitrage commercial international : convention d'arbitrage, déroulement et sentence y sont visualisés étape par étape. Elle donne à entendre, en anglais simple, le canevas de procédure de la leçon 3.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "12 Common Commercial Contracts in English | Legal English Vocabulary",
+    "chaine": "Study Legal English",
+    "url": "https://www.youtube.com/watch?v=lOzC445hHNA",
+    "langue": "Anglais",
+    "description": "Douze types de contrats commerciaux présentés en anglais, avec le nom des parties propres à chacun (seller, buyer, supplier, landlord, tenant...). Un complément direct de l'étude de cas de la leçon 6 pour situer le contrat de vente parmi les autres figures.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "MasterClass | Introduction to the International Commercial Arbitration for African Lawyers",
+    "chaine": "ALN Academy",
+    "url": "https://www.youtube.com/watch?v=uDj6jo3rlEw",
+    "langue": "Anglais",
+    "description": "Une masterclass d'introduction à l'arbitrage commercial international pensée pour les juristes africains, organisée dans l'orbite de la préparation au concours de plaidoirie Willem C. Vis. Elle prolonge la leçon 7 en montrant l'arbitrage et l'oral advocacy en pratique professionnelle.",
+    "niveau": "Avancé"
+   }
+  ]
  }
 }
