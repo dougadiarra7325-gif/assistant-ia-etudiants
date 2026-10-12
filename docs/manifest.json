@@ -6362,5 +6362,51 @@
     "niveau": "Intermédiaire à avancé"
    }
   ]
+ },
+ "BBA-L3-18": {
+  "pdf": "pdf/BBA-L3-18.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Le marché financier : là où l’argent change de main",
+    "chaine": "Place des Investisseurs",
+    "url": "https://www.youtube.com/watch?v=wbJ-5Zf8TyQ",
+    "langue": "Français",
+    "description": "Une présentation claire du rôle du marché financier : comment les entreprises y lèvent des fonds, comment les États y empruntent et comment les prix s'y forment. Parfaite pour fixer les idées de la leçon 1 avant de passer au marché régional.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "La BRVM pour les nuls",
+    "chaine": "Ma Retraite Jeune",
+    "url": "https://www.youtube.com/watch?v=4lOiVFjqhFY",
+    "langue": "Français",
+    "description": "Une découverte pas à pas de la bourse régionale de l'UEMOA : ce qu'elle est, ce qu'on peut y acheter (actions, obligations, FCP) et le rôle du compte-titres et des intermédiaires. À regarder en gardant l'esprit critique enseigné dans ce cours : aucun rendement n'y est garanti.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Valorisation boursière : Découvrez le fonctionnement des actions",
+    "chaine": "Bull Investment",
+    "url": "https://www.youtube.com/watch?v=zZVdx7d-J9Q",
+    "langue": "Français",
+    "description": "Comment se forme le cours d'une action cotée à la BRVM, d'où viennent les revenus de l'actionnaire (dividendes et plus-values) et pourquoi le cours réagit à la santé financière des sociétés. Le complément direct de la leçon sur la lecture d'une cote.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "C'est quoi une obligation ?",
+    "chaine": "La finance pour tous",
+    "url": "https://www.youtube.com/watch?v=aDHyhLkkMv0",
+    "langue": "Français",
+    "description": "Une explication courte et rigoureuse des obligations par un site d'éducation financière : coupon, remboursement à l'échéance, revente avant le terme et grandes catégories d'obligations. Idéale pour réviser avant l'exercice d'évaluation de la leçon 4.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Tout savoir sur les OPCVM en 5 minutes!",
+    "chaine": "Edu-economy",
+    "url": "https://www.youtube.com/watch?v=st-WfNPAIz0",
+    "langue": "Français",
+    "description": "Ce qu'est un OPCVM, comment il mutualise l'épargne de nombreux investisseurs, ses avantages et ses risques. À compléter par l'exemple chiffré de la leçon 5, qui montre comment les frais transforment la performance brute en performance nette.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
