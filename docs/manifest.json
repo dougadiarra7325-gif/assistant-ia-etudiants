@@ -9394,5 +9394,51 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "DRO-L3-11": {
+  "pdf": "pdf/DRO-L3-11.pdf",
+  "pages": 35,
+  "videos": [
+   {
+    "titre": "Droit pénal (Mini cas) - DCG UE2 Droit des sociétés",
+    "chaine": "Ficheben DCG DSCG DEC",
+    "url": "https://www.youtube.com/watch?v=-VUTQIRUD-0",
+    "langue": "Français",
+    "description": "Un mini-cas de méthode pénale appliqué à un abus de biens sociaux de dirigeant : identification du texte, éléments légal, matériel et intentionnel, puis qualification. Le cadre est celui d'un autre système national : retiens la méthode d'analyse par éléments, qui est exactement celle de la leçon 2, les textes maliens et OHADA en vigueur faisant foi.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Cap intégrité ép 8 - Les paiements de facilitation : comprendre et prévenir ce risque de corruption",
+    "chaine": "AFA - Agence française anticorruption",
+    "url": "https://www.youtube.com/watch?v=YyBfr7oT3bA",
+    "langue": "Français",
+    "description": "L'agence publique française anticorruption explique, sous l'angle de la prévention, une forme limite d'avantage indu lié aux démarches administratives et les bonnes pratiques d'entreprise pour y répondre. À regarder comme un document institutionnel de prévention, en prolongement de l'aperçu de principe de la leçon 4.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "L'élément moral en droit pénal : imputabilité et culpabilité - Pénal #5",
+    "chaine": "Juris Internetus",
+    "url": "https://www.youtube.com/watch?v=-LhQCpsY_tk",
+    "langue": "Français",
+    "description": "Un cours de droit pénal général sur l'élément moral — imputabilité et culpabilité — qui aborde également la responsabilité pénale des personnes morales. Il fournit le socle théorique de la leçon 6 : comment un comportement de personne physique se rattache juridiquement à une entité.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Les contrôles comptables anticorruption - épisode 4",
+    "chaine": "AFA - Agence française anticorruption",
+    "url": "https://www.youtube.com/watch?v=N1iuCplklO4",
+    "langue": "Français",
+    "description": "Un responsable de l'agence anticorruption présente les contrôles comptables comme outil de prévention et de détection interne des faits de corruption. C'est le versant pratique de la leçon 8 : des procédures écrites, des contrôles tracés, une conformité qui se démontre.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Lutte anti-corruption : corruption, trafic d'influence... les bonnes pratiques",
+    "chaine": "LE DROIT POUR MOI",
+    "url": "https://www.youtube.com/watch?v=B70hfAGyHqk",
+    "langue": "Français",
+    "description": "Une présentation pédagogique des notions de corruption et de trafic d'influence et des bonnes pratiques de conformité attendues des entreprises dans le cadre français. À articuler avec la leçon 4 pour les principes et avec la leçon 8 pour la prévention, les cadres maliens et OHADA restant les références pour un dossier réel.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
