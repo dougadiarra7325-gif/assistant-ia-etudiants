@@ -6676,5 +6676,51 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "BBA-L3-25": {
+  "pdf": "pdf/BBA-L3-25.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "5 erreurs à éviter dans votre CV | Conseils Talentris Canada",
+    "chaine": "Talentris Canada inc",
+    "url": "https://www.youtube.com/watch?v=j2RrrLllNQ8",
+    "langue": "Français",
+    "description": "Cinq erreurs fréquentes qui affaiblissent un CV — longueur, fautes, expériences vagues, document identique pour tous les postes, coordonnées incomplètes — sont passées en revue avec des exemples. Un bon complément à la leçon 1 pour contrôler ton propre CV avant envoi.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "LETTRE DE MOTIVATION Conseils pour vous démarquer !",
+    "chaine": "Embauchez Moi",
+    "url": "https://www.youtube.com/watch?v=zMrAnOk7UQ8",
+    "langue": "Français",
+    "description": "La vidéo explique comment construire une lettre convaincante paragraphe par paragraphe : format, accroche, preuves et conclusion. Elle illustre bien la méthode de la leçon 2 : partir des besoins de l'entreprise plutôt que d'un texte générique.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comment écrire une lettre de motivation pour un emploi (exemple)",
+    "chaine": "Evolution Africaine",
+    "url": "https://www.youtube.com/watch?v=RgcwEX10kXM",
+    "langue": "Français",
+    "description": "Un exemple complet de lettre de motivation pour un emploi est construit pas à pas, dans un contexte africain proche de celui du cours. Utile pour comparer la structure proposée avec la correspondance offre-preuves travaillée dans la leçon 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "COMMENT RÉUSSIR SON ENTRETIEN D'EMBAUCHE",
+    "chaine": "Kourouam GRH",
+    "url": "https://www.youtube.com/watch?v=EuqpzEI4_vI",
+    "langue": "Français",
+    "description": "Les étapes d'une bonne préparation d'entretien sont détaillées : connaître l'entreprise, préparer sa présentation, soigner son attitude et appuyer ses réponses sur des exemples. À regarder avant de refaire la simulation de la leçon 3 à voix haute.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "5 conseils pour assurer sur LinkedIn - Career Center Efrei Paris",
+    "chaine": "Efrei",
+    "url": "https://www.youtube.com/watch?v=ZsEuFY78HF0",
+    "langue": "Français",
+    "description": "Un centre de carrières présente cinq réflexes pour un profil LinkedIn efficace : profil complet, réseau à faire grandir, veille, activité régulière et publications. Un prolongement direct de la leçon 6 pour transformer un profil créé en outil de recherche vivant.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
