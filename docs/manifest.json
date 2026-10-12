@@ -6408,5 +6408,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L3-19": {
+  "pdf": "pdf/BBA-L3-19.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Comment valoriser une entreprise ?",
+    "chaine": "Olivier Levyne",
+    "url": "https://www.youtube.com/watch?v=VkLUU9P4WNw",
+    "langue": "Français",
+    "description": "Une synthèse des grandes familles de méthodes de valorisation : approches par comparaison (multiples), approches intrinsèques (DCF) et approches patrimoniales par l'actif net réévalué. C'est la carte d'ensemble du présent cours, utile à regarder avant la leçon 3.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Méthode des DCF : Modéliser une valorisation avec Excel",
+    "chaine": "Philippe Campos Formation",
+    "url": "https://www.youtube.com/watch?v=MOzipgBc3qA",
+    "langue": "Français",
+    "description": "La modélisation complète d'un DCF sous tableur : projection des flux, calcul du taux d'actualisation, valeur terminale et table de sensibilité. Le prolongement pratique direct de la leçon 5, pour refaire le calcul du cours dans un tableur.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Valorisation - Dans le DCF, quel taux utiliser pour le taux de croissance ?",
+    "chaine": "Training You",
+    "url": "https://www.youtube.com/watch?v=FvvL3Jm5Ovc",
+    "langue": "Français",
+    "description": "Un point précis et souvent négligé : comment choisir le taux de croissance à l'infini g de la valeur terminale, et pourquoi un g trop optimiste gonfle artificiellement la valeur. À voir après avoir refait l'analyse de sensibilité de la leçon 5.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les méthodes de valorisation en corporate finance : DCF, multiples, comparables... Le guide complet",
+    "chaine": "The Big Win",
+    "url": "https://www.youtube.com/watch?v=J1hZxdevTPk",
+    "langue": "Français",
+    "description": "Un panorama argumenté des méthodes utilisées en finance d'entreprise — DCF, multiples de comparables boursiers et de transactions — avec leurs forces et leurs limites respectives. Il éclaire exactement le travail de comparaison et de pondération de la leçon 6.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "L'étude de valorisation avant la cession",
+    "chaine": "Ekkofin",
+    "url": "https://www.youtube.com/watch?v=KAnTiXWpc4Q",
+    "langue": "Français",
+    "description": "Un cabinet spécialisé explique pourquoi une étude de valorisation préalable est décisive avant de céder son entreprise, et comment les leviers de valeur se préparent plusieurs années à l'avance. Le point de vue du praticien, en complément de la négociation étudiée en leçon 7.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
