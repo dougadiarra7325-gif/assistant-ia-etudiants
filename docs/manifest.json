@@ -9730,5 +9730,51 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "DRO-L3-19": {
+  "pdf": "pdf/DRO-L3-19.pdf",
+  "pages": 32,
+  "videos": [
+   {
+    "titre": "La propriété intellectuelle",
+    "chaine": "KoalaME Officiel",
+    "url": "https://www.youtube.com/watch?v=uiFrzxKcCcg",
+    "langue": "Français",
+    "description": "Une présentation générale de la propriété intellectuelle et de ses deux grandes branches, pensée pour les petites entreprises. Elle sert de point de départ à la leçon 1 : un droit identifié et compris est la condition première pour pouvoir le valoriser, le céder ou le licencier.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Tout savoir sur les différents labels alimentaires : AOP, IGP, STG, LABEL Rouge, AB",
+    "chaine": "Ministère Agriculture et Souveraineté alimentaire",
+    "url": "https://www.youtube.com/watch?v=dxyPJVm38KY",
+    "langue": "Français",
+    "description": "Cette vidéo institutionnelle distingue les signes officiels de qualité et d'origine, dont l'appellation d'origine protégée et l'indication géographique protégée. Elle illustre la leçon 3 : derrière chaque nom protégé, un cahier des charges et des contrôles garantissent le lien entre le produit et son origine.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comprendre les licences creative commons",
+    "chaine": "Magazine Archimag",
+    "url": "https://www.youtube.com/watch?v=ntxJhUKTPII",
+    "langue": "Français",
+    "description": "Une explication claire des licences libres standardisées, qui permettent à un auteur d'autoriser par avance certains usages de ses œuvres, sous conditions. Elle prolonge la leçon 5 : choisir une licence libre est une stratégie d'exploitation en ligne, pas un abandon des droits.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Nos rapports en 180 secondes (ou presque) - La lutte contre les contrefaçons",
+    "chaine": "Cour des comptes",
+    "url": "https://www.youtube.com/watch?v=JIaxcoMJRno",
+    "langue": "Français",
+    "description": "Un résumé institutionnel des enjeux de la lutte contre les contrefaçons et de la mobilisation des acteurs publics. Elle éclaire la leçon 6 sous l'angle des politiques de lutte : filtrage, coordination et prévention, en complément des mécanismes procéduraux étudiés dans le cours.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comment protéger et valoriser vos créations",
+    "chaine": "CAPA Cameroon Productivity Association",
+    "url": "https://www.youtube.com/watch?v=b3aOR-qX93U",
+    "langue": "Français",
+    "description": "Une présentation africaine des catégories de la création protégée et des démarches de protection dans l'espace OAPI. Elle accompagne la leçon 7 : comprendre le rôle de l'organisation régionale et de ses relais nationaux pour protéger puis valoriser ses créations.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
