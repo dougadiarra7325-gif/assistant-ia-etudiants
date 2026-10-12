@@ -7044,5 +7044,51 @@
     "niveau": "Licence 1 à Licence 3"
    }
   ]
+ },
+ "DRO-L1-08": {
+  "pdf": "pdf/DRO-L1-08.pdf",
+  "pages": 34,
+  "videos": [
+   {
+    "titre": "La méthodologie de la fiche d'arrêt (2026) - La méthode complète",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=K5yPYQrJ-Ck",
+    "langue": "Français",
+    "description": "La fiche d'arrêt pas à pas : accroche, faits, procédure, thèses en présence, problème de droit et solution, avec les attentes des correcteurs. À regarder après la leçon 2, puis à appliquer aussitôt à l'arrêt d'exercice du cours en suivant la même grille.",
+    "niveau": "Licence 1 (L1)"
+   },
+   {
+    "titre": "Comment AVOIR UNE BONNE NOTE : #DISSERTATION juridique, #COMMENTAIRE d’arrêt, cas pratique",
+    "chaine": "Juriswin",
+    "url": "https://www.youtube.com/watch?v=CgW6s42b61w",
+    "langue": "Français",
+    "description": "Ce que les correcteurs attendent réellement des trois grands exercices — dissertation, commentaire d'arrêt et cas pratique — et les pièges qui coûtent des points. Utile en leçon 3 pour situer le commentaire d'arrêt parmi les autres exercices et comprendre en quoi il ne se confond ni avec la fiche ni avec le cours récité.",
+    "niveau": "Licence 1 (L1)"
+   },
+   {
+    "titre": "La Méthode du Cas Pratique (pour sauver tes partiels)",
+    "chaine": "Aide aux TD - Vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=hPomh2LLENs",
+    "langue": "Français",
+    "description": "La résolution du cas pratique en étapes : tri des faits, problème de droit, règles applicables, application à l'espèce et conclusion. Le compagnon direct de la leçon 4 : compare sa démarche avec la résolution en syllogisme du cas pratique d'exercice.",
+    "niveau": "Licence 1 (L1)"
+   },
+   {
+    "titre": "Le Plan de la Dissertation Juridique : Tout savoir !",
+    "chaine": "Aide aux TD - Vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=_Iqy0ePYC_4",
+    "langue": "Français",
+    "description": "Comment passer des idées du brouillon à un plan de dissertation en deux parties et deux sous-parties, apparent et équilibré. À confronter avec le plan détaillé de la leçon 5, construit sur le sujet d'école « Le juge ne fait-il qu'appliquer la loi ? ».",
+    "niveau": "Licence 1 (L1)"
+   },
+   {
+    "titre": "Le Syllogisme Juridique : méthode essentielle pour réussir en droit",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=snG8EA8ob-0",
+    "langue": "Français",
+    "description": "Majeure, mineure, conclusion : le raisonnement qui structure le cas pratique, le commentaire et la dissertation. La leçon 6 s'appuie sur ce squelette logique pour travailler l'autre face de la rigueur : la précision du vocabulaire et des connecteurs qui rendent le raisonnement visible.",
+    "niveau": "Licence 1 (L1)"
+   }
+  ]
  }
 }
