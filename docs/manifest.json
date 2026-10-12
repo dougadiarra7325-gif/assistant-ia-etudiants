@@ -7366,5 +7366,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "DRO-L1-15": {
+  "pdf": "pdf/DRO-L1-15.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Le service public (définition, critères, distinction SPA/SPIC, gestion)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=qVMu5QavXhc",
+    "langue": "Français",
+    "description": "Cette vidéo présente la notion de service public, ses critères d'identification et la distinction entre services publics administratifs et services publics industriels et commerciaux. Elle expose aussi les principes de fonctionnement du service public — les lois de Rolland — que la leçon 1 reformule et applique à un cas fictif.",
+    "niveau": "Licence 1-2"
+   },
+   {
+    "titre": "Comprendre le droit administratif en 4 minutes",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=veUrYRfc0TI",
+    "langue": "Français",
+    "description": "En quelques minutes, cette vidéo survole l'organisation administrative : administration centrale, déconcentration et décentralisation, puis le service public et ses principes. Elle donne une vue d'ensemble utile avant d'étudier, dans la leçon 2, l'administration centrale décrite par ses fonctions.",
+    "niveau": "Licence 1"
+   },
+   {
+    "titre": "Cours de droit Déconcentration vs Décentralisation",
+    "chaine": "Éditions Pamplemousse (Magazine)",
+    "url": "https://www.youtube.com/watch?v=ZZm95MAoudI",
+    "langue": "Français",
+    "description": "Cette vidéo explique clairement la différence entre déconcentration et décentralisation, deux notions que les étudiants confondent souvent. Elle complète les leçons 3 et 4 : retiens les critères décisifs — personnalité juridique, nomination ou élection des autorités locales, hiérarchie ou tutelle.",
+    "niveau": "Licence 1"
+   },
+   {
+    "titre": "Les droits et obligations des fonctionnaires",
+    "chaine": "Dessine-moi l'essentiel Objectif concours",
+    "url": "https://www.youtube.com/watch?v=pLlUjN2SBDU",
+    "langue": "Français",
+    "description": "Cette vidéo présente les principaux droits et les principales obligations des fonctionnaires, tels que les organise le statut général dans la tradition administrative française. Elle illustre l'équilibre entre garanties et devoirs que la leçon 6 présente en principes — à vérifier, pour le Mali, dans les textes en vigueur.",
+    "niveau": "Licence 1-2"
+   },
+   {
+    "titre": "Droits et devoirs du fonctionnaire territorial : maîtriser l'équilibre fondamental du statut",
+    "chaine": "Flash FPT",
+    "url": "https://www.youtube.com/watch?v=XHKk4LLovGI",
+    "langue": "Français",
+    "description": "Cette vidéo est centrée sur l'équilibre du statut : des devoirs stricts — neutralité, discrétion, obéissance encadrée — contre des garanties protectrices pour l'agent. Elle aide à mémoriser la logique droits et obligations avant de refaire l'exercice de la leçon 6.",
+    "niveau": "Licence 1-2"
+   }
+  ]
  }
 }
