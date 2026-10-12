@@ -9356,5 +9356,43 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "DRO-L3-10": {
+  "pdf": "pdf/DRO-L3-10.pdf",
+  "pages": 34,
+  "videos": [
+   {
+    "titre": "Le Droit du Commerce International : Notions Essentielles & Explications Simples",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=VTV9lAtAEfo",
+    "langue": "Français",
+    "description": "Vue d'ensemble du droit du commerce international : ses acteurs, ses sources et ses mécanismes, dont l'OMC et le règlement des différends. Elle sert de socle aux leçons 1 et 2 : regarde-la en repérant, pour chaque notion, le principe reformulé dans ce cours plutôt que le texte des accords.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Tout savoir sur les incoterms en 2026 | Les bases à connaître pour exporter | Episode 1/2",
+    "chaine": "Wallonia Export & Investment Agency (AWEX)",
+    "url": "https://www.youtube.com/watch?v=zRUTnZKmtx8",
+    "langue": "Français",
+    "description": "Une agence publique d'appui à l'exportation explique les bases des Incoterms : leur rôle d'outil contractuel, la répartition des risques et des coûts, et les erreurs fréquentes des exportateurs. Complète-la par la lecture de la leçon 6, qui raisonne les familles en substance sans reproduire les définitions officielles de la CCI.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Incoterms 2020 expliqués simplement | Comprendre EXW, FOB, CIF, DDP",
+    "chaine": "Formagua – Formation & Accompagnement",
+    "url": "https://www.youtube.com/watch?v=e_SlLCWfRfA",
+    "langue": "Français",
+    "description": "Approche pratique et progressive des principaux sigles, de qui paie quoi et des confusions coûteuses entre frais et risques. À regarder après la vidéo de l'AWEX, en vérifiant chaque affirmation à la grille des deux curseurs de la leçon 6 — la version officielle des règles, publiée par la CCI, reste la référence.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Episode 3: Tout savoir sur le crédit documentaire",
+    "chaine": "Olivier Mouradian",
+    "url": "https://www.youtube.com/watch?v=OOgAqh-GcNg",
+    "langue": "Français",
+    "description": "Un praticien des financements internationaux explique ce qu'est un crédit documentaire, comment il fonctionne et ses avantages et limites pour l'exportateur et l'importateur. Elle illustre la leçon 8 : suis la chaîne documentaire étape par étape et repère le moment où la banque examine les documents sans jamais voir la marchandise.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
