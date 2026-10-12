@@ -8820,5 +8820,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-23": {
+  "pdf": "pdf/DRO-L2-23.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "1  Introduction   Le crime, la criminologie et les méthodes",
+    "chaine": "Emmanuelle Letellier",
+    "url": "https://www.youtube.com/watch?v=77uTDHJ2udk",
+    "langue": "Français",
+    "description": "Séance d'ouverture d'un cours de criminologie en français : elle pose l'objet de la discipline — le crime comme phénomène à étudier — et présente ses méthodes. C'est le compagnon direct de cette leçon 1, à regarder en gardant la grille des limites de chaque méthode.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Qu'est-ce que la criminologie ? La réponse en 2 minutes",
+    "chaine": "Déclic Social",
+    "url": "https://www.youtube.com/watch?v=0HISY4g7B4E",
+    "langue": "Français",
+    "description": "Format très court qui définit la criminologie et la distingue des disciplines voisines. Utile en révision express avant l'exercice de la leçon : l'étudiant vérifiera que la définition donnée rejoint la distinction criminologie / droit pénal / criminalistique du cours.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Criminologie S5 Séance 1",
+    "chaine": "LangAdvance",
+    "url": "https://www.youtube.com/watch?v=3X7l8L39dOs",
+    "langue": "Français",
+    "description": "Première séance d'un cours universitaire semestriel de criminologie en français, consacrée à la présentation de la discipline et de son histoire. Elle accompagne le panorama des grandes écoles de la leçon 2, où chaque théorie doit être attribuée puis critiquée.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Sur Fun Mooc - Victimes : Introduction à la victimologie (jusqu'en juin 2022)",
+    "chaine": "Focus Tv",
+    "url": "https://www.youtube.com/watch?v=EsuU1kCC7gM",
+    "langue": "Français",
+    "description": "Présentation d'un cours en ligne académique d'introduction à la victimologie, centré sur la victime et son parcours. À relier aux notions de victimisation primaire et secondaire et aux trois mécanismes de réponse de la leçon 4.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Au-delà des barreaux - Épisode 3 – Métier : agent de probation en communauté",
+    "chaine": "Ministère de la Sécurité intérieure - MSI",
+    "url": "https://www.youtube.com/watch?v=tpAsZybKYNk",
+    "langue": "Français",
+    "description": "Un épisode institutionnel québécois qui présente le métier d'agent de probation travaillant en milieu ouvert, dans la communauté. Cadre étranger signalé : il illustre concrètement la logique d'exécution en milieu ouvert étudiée dans la leçon 6, ses obligations et son accompagnement.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
