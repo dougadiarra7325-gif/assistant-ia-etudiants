@@ -4868,5 +4868,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L2-10": {
+  "pdf": "pdf/BBA-L2-10.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Comment faire une étude de marche efficace ?",
+    "chaine": "Bpifrance",
+    "url": "https://www.youtube.com/watch?v=F6ebFcYhDwk",
+    "langue": "Français",
+    "description": "Un webinaire complet qui déroule la démarche d'une étude de marché : définir le problème, exploiter les sources existantes, étudier la concurrence et la cible, puis construire le questionnaire. Le pendant vidéo de la note de cadrage de la leçon 1.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Méthodologie d'une Enquête par Questionnaire",
+    "chaine": "KNOWLEDGE FOR FREE",
+    "url": "https://www.youtube.com/watch?v=WXCdngjaDts",
+    "langue": "Français",
+    "description": "Les étapes de l'enquête par questionnaire, de la préparation à la conception des questions, puis à la collecte et au traitement des réponses. Utile pour vérifier ta propre construction de questionnaire point par point.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les sondages sont-ils fiables ? Tout comprendre en 10 minutes - Blabla #18 - Osons Causer",
+    "chaine": "Osons Causer",
+    "url": "https://www.youtube.com/watch?v=MUJFKcr4bFY",
+    "langue": "Français",
+    "description": "Pourquoi les sondages reposent sur des échantillons d'environ 1 000 personnes choisis par quotas, et quelles sont les limites de cette représentativité : exactement les questions de la leçon 3, traitées avec esprit critique.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comment analyser un questionnaire",
+    "chaine": "Valérie Séguin",
+    "url": "https://www.youtube.com/watch?v=PEgm0axeiyw",
+    "langue": "Français",
+    "description": "La démarche d'analyse d'un questionnaire une fois les réponses collectées : organisation des données, lectures des résultats et interprétation. À regarder avant de refaire le dépouillement complet de la leçon 5.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Le marketing en 50 minutes (tutoriel ultime)",
+    "chaine": "StrategeMarketing",
+    "url": "https://www.youtube.com/watch?v=cCRK3g9KpUc",
+    "langue": "Français",
+    "description": "Un tutoriel dense dont le premier chapitre est consacré à la mesure d'un marché (marché total, marché adressable, part visée) : la logique descendante de la leçon 6, avant les parties segmentation et ciblage utiles en révision.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
