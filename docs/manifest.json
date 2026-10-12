@@ -7764,5 +7764,43 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L1-24": {
+  "pdf": "pdf/DRO-L1-24.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "Intégration économique sous-régionale en Afrique",
+    "chaine": "MODIBO Mao Makalou",
+    "url": "https://www.youtube.com/watch?v=h6NvU9IJThc",
+    "langue": "Français",
+    "description": "Un économiste explique, dans un entretien télévisé, ce que recouvre l'intégration économique sous-régionale en Afrique, à partir de l'exemple de la CEDEAO. À regarder après la leçon 1 pour entendre la distinction entre coopération et intégration formulée par un praticien, puis à relier à l'échelle des étapes de Balassa.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "L'Invité de l'Intégration sur la conjoncture économique au sein de l'UEMOA",
+    "chaine": "UEMOA Officiel",
+    "url": "https://www.youtube.com/watch?v=jfNujJF8Cco",
+    "langue": "Français",
+    "description": "Sur la chaîne officielle de l'UEMOA, un responsable du département des politiques économiques de la Commission présente le travail de suivi de la conjoncture et de surveillance multilatérale entre États membres. C'est l'illustration institutionnelle directe de la leçon 4 : la convergence en pratique, expliquée par l'institution qui l'organise.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "CEDEAO, CEMAC, UEMOA... Qui vote VRAIMENT vos lois ? (Ce qu'on vous cache)",
+    "chaine": "Le Génie du droit congolais | Hermann MBIKA",
+    "url": "https://www.youtube.com/watch?v=4oSAug2pXIw",
+    "langue": "Français",
+    "description": "Un podcast de juristes reçoit un spécialiste du droit communautaire africain : qu'est-ce que le droit communautaire, comment fonctionnent les cours communautaires, et comment un citoyen peut s'en prévaloir devant son juge national. Malgré un titre accrocheur, l'échange est un cours dialogué qui prolonge la leçon 5 et prépare la leçon 7 sur le poids des règles communes dans le droit interne.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Parole d'intégration : libre circulation des personnes et des biens dans l' espace CEDEAO.",
+    "chaine": "BIPIA TV",
+    "url": "https://www.youtube.com/watch?v=Q-50QmE4jlI",
+    "langue": "Français",
+    "description": "Une émission consacrée à l'intégration qui explique, dans un langage accessible, ce que signifient la libre circulation des personnes et des biens dans l'espace CEDEAO pour les citoyens. Le compagnon idéal de la leçon 6 : la gradation entrée, séjour, établissement y est racontée à hauteur d'usage.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
