@@ -8744,5 +8744,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-21": {
+  "pdf": "pdf/DRO-L2-21.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Les 4 grands droits de propriété intellectuelle",
+    "chaine": "HEC Paris",
+    "url": "https://www.youtube.com/watch?v=t8d_QotGXSY",
+    "langue": "Français",
+    "description": "Une professeure de droit présente les quatre grands droits — droit d'auteur, brevet, marque, dessins et modèles — dans l'esprit exact de la cartographie de la leçon 1. C'est un cadre général : dans l'espace OAPI, ce sont l'Accord de Bangui et les textes en vigueur qui font foi.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Comment protéger votre marque ?",
+    "chaine": "LE DROIT POUR MOI",
+    "url": "https://www.youtube.com/watch?v=HC22OPBKs3A",
+    "langue": "Français",
+    "description": "Le parcours pratique d'une marque : choisir le signe, vérifier sa disponibilité par la recherche d'antériorités, déposer. Les gestes sont transposables ; les offices et textes cités dans la vidéo relèvent de son propre cadre, et le dépôt malien se fait dans le système unifié de l'OAPI (leçon 2).",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Comprendre le Droit de la Propriété Industrielle : (Marques, Brevets & Dessins)",
+    "chaine": "JurisTis",
+    "url": "https://www.youtube.com/watch?v=m1_HpyWEuT0",
+    "langue": "Français",
+    "description": "Un cours complet sur la propriété industrielle — monopole d'exploitation, marque, brevet, dessin et modèle — qui sert aussi la leçon 5. Il présente ces mécanismes dans un cadre national voisin : les conditions et les raisonnements sont ceux du cours, le cadre de Bangui gouverne au Mali.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "LES DROITS D'AUTEUR D'UNE OEUVRE AUDIOVISUELLE",
+    "chaine": "ApprendreLeCinema",
+    "url": "https://www.youtube.com/watch?v=2Un0e7QUII0",
+    "langue": "Français",
+    "description": "Les droits d'auteur illustrés par le secteur audiovisuel : droits patrimoniaux — reproduction et représentation — et droit moral y sont distingués comme dans la leçon 6. Réserve : la vidéo raisonne dans son propre cadre et peut y mentionner des mesures que ce cours ne reprend pas ; seuls les principes sont à retenir, le cadre de Bangui faisant foi au Mali.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Webconférence « Le régime juridique de la contrefaçon dans l'Accord de Bangui »",
+    "chaine": "CEIPI",
+    "url": "https://www.youtube.com/watch?v=N7hBay_ugIE",
+    "langue": "Français",
+    "description": "Une webconférence universitaire consacrée précisément à la contrefaçon dans le système de l'Accord de Bangui : le prolongement direct et le plus exigeant de la leçon 7. Elle montre comment des spécialistes raisonnent sur le régime des atteintes dans l'espace OAPI, sans qu'il soit besoin d'en reproduire le détail ici.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
