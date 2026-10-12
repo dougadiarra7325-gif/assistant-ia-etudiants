@@ -8162,5 +8162,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-08": {
+  "pdf": "pdf/DRO-L2-08.pdf",
+  "pages": 37,
+  "videos": [
+   {
+    "titre": "Qu'est-ce que l'OHADA (Droit des affaires)",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=pCJIX6UNF0I",
+    "langue": "Français",
+    "description": "Une présentation générale de l'OHADA : ce qu'est l'organisation, pourquoi elle harmonise le droit des affaires et ce que sont les actes uniformes. Elle sert d'introduction à la leçon 1 ; pour le contenu de l'Acte sur le droit commercial général, seul le texte en vigueur sur ohada.org fait foi.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "DROIT COMMERCIAL (Actes de commerces, les Commerçants, les Agents-commerciaux) @nGV33",
+    "chaine": "Etudiants en Confinement",
+    "url": "https://www.youtube.com/watch?v=ZEumtQUSq_0",
+    "langue": "Français",
+    "description": "Un cours filmé qui reprend, dans l'ordre de la leçon 2, les actes de commerce par nature, par la forme et par accessoire, la définition du commerçant et les obligations qui en découlent. Les exemples de registre qu'il montre relèvent d'un autre système : retiens les mécanismes, et confronte-les toujours à l'Acte uniforme de l'espace OHADA.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Le registre du commerce et du crédit mobilier",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=YNCnscKQ8xw",
+    "langue": "Français",
+    "description": "Une vidéo de la série d'information sur le droit OHADA consacrée au RCCM : structure du registre, personnes tenues de s'immatriculer, effets de l'immatriculation et inscription des sûretés mobilières. C'est le prolongement direct de la leçon 3 ; toute précision de forme ou de condition se vérifie ensuite dans l'Acte en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Cours de Droit commercial : introduction et notions clefs",
+    "chaine": "Aide aux TD - Vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=z0BBy1yGUm0",
+    "langue": "Français",
+    "description": "Un cours d'introduction au droit commercial qui présente les notions clefs de la matière, notamment le commerçant et le fonds de commerce, ses éléments et son rôle dans l'exploitation. Il est proposé pour la leçon 4 comme révision croisée ; la composition du fonds retenue dans ce cours-ci suit la présentation de l'Acte uniforme.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Les intermédiaires de commerce",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=evkLxCeGWok",
+    "langue": "Français",
+    "description": "Une vidéo d'information sur le droit OHADA consacrée aux intermédiaires de commerce : ce qu'est un intermédiaire, quels sont ses pouvoirs et comment il est mis fin à sa mission. Elle accompagne la leçon 7 ; le tableau de critères du cours reste l'outil de qualification de référence.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
