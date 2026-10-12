@@ -7542,5 +7542,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "DRO-L1-19": {
+  "pdf": "pdf/DRO-L1-19.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "[ TUTO ] LibreOffice Writer : les BASES en 20 minutes ! ( Tutorial / cours en français )",
+    "chaine": "Bertrand . Tech",
+    "url": "https://www.youtube.com/watch?v=NJPN1IAZwIA",
+    "langue": "Français",
+    "description": "Tutoriel français complet sur Writer : paragraphes, styles, sommaire automatique, en-têtes, pieds de page et numérotation — exactement les gestes de la leçon 1. Refaire chaque manipulation en mettant la vidéo en pause permet d'ancrer la méthode des styles.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "[ TUTO ] LibreOffice Calc : les BASES en 30 minutes !   ( Tutorial / cours en français )",
+    "chaine": "Bertrand . Tech",
+    "url": "https://www.youtube.com/watch?v=2ET0w2BRVME",
+    "langue": "Français",
+    "description": "Prise en main du tableur libre : cellules, formules, fonctions de base et mise en forme. Le tutoriel montre à l'écran la recopie des formules, point délicat de la leçon 2 avec les références relatives et verrouillées.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Zotero: logiciel pour gérer la bibliographie d'un mémoire, TER, thèse [Tutoriel]",
+    "chaine": "Psychonotes",
+    "url": "https://www.youtube.com/watch?v=WKd4xploVYc",
+    "langue": "Français",
+    "description": "Tutoriel de prise en main de Zotero pour un travail universitaire : collecte des références depuis le navigateur, organisation et bibliographie automatique dans le traitement de texte. Il prolonge directement la leçon 4 et son exigence de notices vérifiées.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Faire des bibliographies avec Zotero en 5 minutes",
+    "chaine": "Bibliothèques UdeM",
+    "url": "https://www.youtube.com/watch?v=LVsI7kaIwFc",
+    "langue": "Français",
+    "description": "Capsule courte des bibliothèques de l'Université de Montréal : installer Zotero, importer des références et citer dans un document. Format idéal pour un premier démarrage avant le tutoriel complet de la même leçon.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "SÉCURITÉ SUR INTERNET - LES BASES",
+    "chaine": "CAPET",
+    "url": "https://www.youtube.com/watch?v=CvluIfIpAEU",
+    "langue": "Français",
+    "description": "Trois bases de la sécurité des comptes : un mot de passe solide, la connexion en deux étapes et le gestionnaire de mots de passe. À regarder avant de passer, point par point, la check-list de la leçon 5.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
