@@ -4998,5 +4998,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "BBA-L2-13": {
+  "pdf": "pdf/BBA-L2-13.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Arrêtez de vendre : Voici comment donner envie d'acheter",
+    "chaine": "Rachid Aghbal - La méthode DEA",
+    "url": "https://www.youtube.com/watch?v=uYY7rI1phfA",
+    "langue": "Français",
+    "description": "Une autre philosophie de la vente : cesser de forcer la décision pour donner envie d'acheter, en posant les vraies questions et en restant détaché du résultat. Le prolongement direct de la déontologie défendue dans ce cours.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Formation Vente : Les 7 phases d'une vente réussie - les 7 C",
+    "chaine": "Jean Pascal “Coach de Vente” Mollet",
+    "url": "https://www.youtube.com/watch?v=YKT2Z6kOliE",
+    "langue": "Français",
+    "description": "Les sept phases d'une vente réussie, de la conception à la conservation du client, expliquées simplement. À comparer avec l'ordre d'entretien de la leçon 3 : préparation, contact, découverte, proposition, conclusion, suivi.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "RENDEZ-VOUS COMMERCIAL : 10 étapes pour réussir sa vente (méthode et exemple)",
+    "chaine": "Katana - Quentin Despas",
+    "url": "https://www.youtube.com/watch?v=sWI7nof_Hag",
+    "langue": "Français",
+    "description": "Une méthode complète de rendez-vous commercial, avec un exemple : préparer, cadrer l'échange, présenter, laisser la place aux questions et conclure. Utile pour préparer tes propres simulations d'entretien.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Traitement des objections : comment répondre aux objections en 3 étapes - Technique de vente",
+    "chaine": "Jean-Pierre Giraud",
+    "url": "https://www.youtube.com/watch?v=5yKQqLR2Wkw",
+    "langue": "Français",
+    "description": "Une structure en trois étapes pour accueillir une objection sans se justifier ni s'énerver, avec des exemples d'application. Elle rejoint la méthode de la leçon 4 : écouter, clarifier, répondre, vérifier.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Formation vente : Utilise ces 6 techniques pour traiter les objections & conclure tes ventes !",
+    "chaine": "Bastien Pelissier",
+    "url": "https://www.youtube.com/watch?v=kalJWpz0PcQ",
+    "langue": "Français",
+    "description": "Les six objections les plus fréquentes — dont « je dois y réfléchir » et « votre prix est trop cher » — et des réponses proposées pour chacune. À regarder avec l'esprit critique du cours : garder ce qui clarifie, écarter ce qui force.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
