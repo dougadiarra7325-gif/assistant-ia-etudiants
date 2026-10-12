@@ -6086,5 +6086,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-12": {
+  "pdf": "pdf/BBA-L3-12.pdf",
+  "pages": 32,
+  "videos": [
+   {
+    "titre": "Négocier sans céder avec la méthode Harvard (négociation raisonnée)",
+    "chaine": "Katana - Quentin Despas",
+    "url": "https://www.youtube.com/watch?v=YFb-_rhe3Us",
+    "langue": "Français",
+    "description": "Une présentation complète de la négociation raisonnée issue des travaux de Harvard : passer des positions aux intérêts et construire un accord sans céder sur l'essentiel. Le complément direct de la leçon 1 et de la préparation de la leçon 2.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Négociation commerciale : les méthodes Harvard, BATNA et CRAC",
+    "chaine": "Maxime Picardo – Marketing, Vente, IA & Business",
+    "url": "https://www.youtube.com/watch?v=L40tI3JNi90",
+    "langue": "Français",
+    "description": "Méthode Harvard, construction du BATNA et réponses structurées aux objections, appliqués à un cas de hausse de prix. Utile pour réviser le lien entre négociation raisonnée et solution de rechange avant d'aborder les coalitions.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Négociation commerciale : la méthode pour conclure sans forcer",
+    "chaine": "Maxime Picardo – Marketing, Vente, IA & Business",
+    "url": "https://www.youtube.com/watch?v=CE4lMzDKJFE",
+    "langue": "Français",
+    "description": "Préparation, seuil de rupture, écoute active et gestion calme des objections : la vidéo insiste sur le refus des discussions sous pression, exactement la conduite à tenir face aux ultimatums de la leçon 3.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Apia Swiss : Médiation en Entreprise - Un Levier de Gouvernance et de Performance",
+    "chaine": "Business Talents TV",
+    "url": "https://www.youtube.com/watch?v=EjZwCSIMOhc",
+    "langue": "Français",
+    "description": "La médiation en entreprise présentée comme un outil de gestion : posture neutre du médiateur, étapes du processus, comparaison des coûts avec la voie judiciaire et limites du dispositif. Elle prolonge la leçon 4 et prépare le comparatif de la leçon 6.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Gérer un Conflit au Travail : La Méthode pas à pas (DESC & Médiation)",
+    "chaine": "Cours 2 Management",
+    "url": "https://www.youtube.com/watch?v=IFu1rHCoe_Q",
+    "langue": "Français",
+    "description": "Diagnostic d'un conflit au travail (tâche ou personne ?), protocole de médiation par un manager-facilitateur et pièges à éviter. À regarder après la leçon 5 pour comparer la démarche avec l'analyse de l'escalade du cours.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
