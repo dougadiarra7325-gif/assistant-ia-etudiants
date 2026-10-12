@@ -9562,5 +9562,51 @@
     "niveau": "Intermédiaire à avancé"
    }
   ]
+ },
+ "DRO-L3-15": {
+  "pdf": "pdf/DRO-L3-15.pdf",
+  "pages": 32,
+  "videos": [
+   {
+    "titre": "Les marchés publics expliqués simplement (comment les autorités publiques dépensent des milliards)",
+    "chaine": "LaTerrito",
+    "url": "https://www.youtube.com/watch?v=xrscp_Z5vEc",
+    "langue": "Français",
+    "description": "Une explication claire et complète de ce que sont les marchés publics et de la manière dont les autorités publiques dépensent l'argent public : le point de départ idéal avant la définition juridique et les trois principes de cette leçon.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Négocier en achat public : jusqu’où peut-on aller sans risque ?",
+    "chaine": "Déclic Public – Décision & commande publique",
+    "url": "https://www.youtube.com/watch?v=sZ37q5oavhQ",
+    "langue": "Français",
+    "description": "Sur la place de la négociation dans les procédures : quand elle est possible, sur quoi elle peut porter et où s'arrêtent les lignes rouges de l'égalité entre candidats — le complément direct de la leçon sur les procédures adaptées et négociées.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Marchés Publics Guinée #1 — Pourquoi votre offre est rejetée avant d'être lue",
+    "chaine": "FN Group",
+    "url": "https://www.youtube.com/watch?v=GasW2oQx7-c",
+    "langue": "Français",
+    "description": "Dans un contexte africain voisin, une série pédagogique sur les appels d'offres : cet épisode explique pourquoi la conformité du dossier passe toujours avant le prix lors de l'évaluation — exactement le premier temps de l'évaluation de cette leçon.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Faut-il vraiment craindre l’absence de clause de révision des prix dans un marché public ?",
+    "chaine": "Cabinet Landot & associés",
+    "url": "https://www.youtube.com/watch?v=Bs1fWZm59Kg",
+    "langue": "Français",
+    "description": "Un cabinet d'avocats en droit public examine, à partir d'un litige, le rôle des clauses de révision des prix et le traitement des pénalités pendant l'exécution : retiens la logique — le prix du marché évolue selon les clauses annoncées, pas selon les demandes du moment.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Marchés Publics- Eviter l'exclusion ou la Prison",
+    "chaine": "REUSSIR LES MARCHES PUBLICS",
+    "url": "https://www.youtube.com/watch?v=QzWbGw6jIJY",
+    "langue": "Français",
+    "description": "Une présentation pratique des irrégularités qui fragilisent une passation — dossier inaccessible, avis insuffisamment publiés, procès-verbaux défaillants — et de leurs conséquences pour les acteurs : la matière première des audits et des sanctions de cette leçon.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
