@@ -6906,5 +6906,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L1-05": {
+  "pdf": "pdf/DRO-L1-05.pdf",
+  "pages": 32,
+  "videos": [
+   {
+    "titre": "La personnalité juridique (définition, début et fin)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=BocEzFc7M-A",
+    "langue": "Français",
+    "description": "Jurixio présente la notion de personnalité juridique, son début à la naissance et sa fin au décès, avec les situations d'incertitude comme l'absence. C'est l'exact programme de cette première leçon, exposé dans la tradition de cette famille de droit : retiens les mécanismes, et vérifie leur régime précis dans le texte malien en vigueur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "La loi et le droit à l'image et à la voix",
+    "chaine": "Laudine Noaillet",
+    "url": "https://www.youtube.com/watch?v=-tCJ3NxMDeA",
+    "langue": "Français",
+    "description": "Cette vidéo explique le droit à l'image et à la voix : pourquoi l'autorisation de la personne est nécessaire avant de capter et de diffuser son image, et quelles utilisations posent problème. Elle illustre le principe de consentement au cœur de la leçon 3 ; les règles détaillées applicables au Mali se vérifient dans les textes en vigueur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "La capacité juridique",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=8U3ZkGrUQY8",
+    "langue": "Français",
+    "description": "Une synthèse claire de la capacité juridique et de la distinction que cette leçon met au centre : être titulaire de droits ne signifie pas toujours pouvoir les exercer seul. La vidéo donne le vocabulaire et la logique ; les conditions et les seuils exacts, au Mali, relèvent du Code des personnes et de la famille en vigueur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "La Tutelle : [Droit des Personnes]",
+    "chaine": "Constance Mosnier - Cours de droit en vidéos",
+    "url": "https://www.youtube.com/watch?v=5qoAAmtRd4s",
+    "langue": "Français",
+    "description": "Un cours en vidéo sur la tutelle, la plus forte des logiques de protection : une personne est représentée pour les actes de sa vie civile, sous contrôle. La vidéo présente le mécanisme dans le système où il est filmé ; retiens la logique de représentation et sa gradation avec l'assistance, puis vérifie les noms, conditions et effets du régime malien dans le texte en vigueur.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Les personnes morales (définition et exemple)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=44d56p77WtE",
+    "langue": "Français",
+    "description": "Jurixio définit la personne morale et la distingue de la personne physique à l'aide d'exemples : patrimoine propre, existence distincte de celle des membres. C'est le socle de la leçon 6 ; les catégories et les formes de naissance des groupements, au Mali et dans l'espace OHADA, se vérifient dans les textes applicables à chaque catégorie.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
