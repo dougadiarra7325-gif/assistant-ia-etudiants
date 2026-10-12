@@ -7274,5 +7274,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L1-13": {
+  "pdf": "pdf/DRO-L1-13.pdf",
+  "pages": 33,
+  "videos": [
+   {
+    "titre": "L'OHADA - L'harmonisation du droit des affaires en Afrique",
+    "chaine": "TV5MONDE Info",
+    "url": "https://www.youtube.com/watch?v=oyrULXZxcog",
+    "langue": "Français",
+    "description": "Une présentation journalistique claire du projet OHADA : pourquoi des États africains ont choisi de combattre l'insécurité juridique en se dotant d'un droit des affaires commun. À regarder après la leçon pour replacer la création de 1993 dans son intention économique d'origine.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le droit OHADA en pratique - DAC RDC",
+    "chaine": "DiasporaAuditCompta RDC",
+    "url": "https://www.youtube.com/watch?v=wh-aNWrMcPs",
+    "langue": "Français",
+    "description": "Un exposé complet sur le système OHADA en pratique : objectifs d'intégration et de sécurité, actes uniformes et architecture institutionnelle — Conseil des ministres, Secrétariat permanent, CCJA, ERSUMA. Le complément vidéo direct de la leçon sur les institutions, à suivre avec l'organigramme du cours sous les yeux.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "DROIT COMMERCIAL (Actes de commerces, les Commerçants, les Agents-commerciaux) @nGV33",
+    "chaine": "Etudiants en Confinement",
+    "url": "https://www.youtube.com/watch?v=ZEumtQUSq_0",
+    "langue": "Français",
+    "description": "Un cours filmé qui déroule exactement la grille de la leçon : acte de commerce par nature, par la forme, par accessoire, puis le commerçant personne physique et personne morale. Il est présenté dans le cadre français (registre RCS) : la grille doctrinale est la même, mais les règles applicables dans l'espace OHADA se vérifient dans l'acte uniforme relatif au droit commercial général, sur ohada.org.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Le registre du commerce et du crédit mobilier",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=YNCnscKQ8xw",
+    "langue": "Français",
+    "description": "La vidéo de référence de la série « Actualités du Droit OHADA » sur le RCCM : structure du registre, règles de tenue et de publicité, personnes tenues de s'immatriculer et effets de l'immatriculation, puis inscription des sûretés mobilières. Le prolongement naturel du parcours fictif d'immatriculation de la leçon.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "L'incompétence du juge étatique en présence d'une clause compromissoire",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=5j9WR27Dcn0",
+    "langue": "Français",
+    "description": "Quand les parties ont promis, par une clause compromissoire, de confier leurs litiges à l'arbitrage, le juge étatique doit en principe se déclarer incompétent : la vidéo explique ce mécanisme, sa logique et ses limites. Le point d'entrée idéal pour comprendre la deuxième casquette de la CCJA, celle de l'arbitrage.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
