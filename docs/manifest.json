@@ -4776,5 +4776,51 @@
     "niveau": "Licence (L2)"
    }
   ]
+ },
+ "BBA-L2-08": {
+  "pdf": "pdf/BBA-L2-08.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Maîtrisez le Marketing Stratégique : Transformez Vos Compétences en Avantage Concurrentiel",
+    "chaine": "Le Bon Coin Éco",
+    "url": "https://www.youtube.com/watch?v=Fjjs83wjtQ0",
+    "langue": "Français",
+    "description": "Une vue d'ensemble du marketing stratégique : analyse de marché, segmentation, avantage concurrentiel et positionnement à long terme. Parfaite en ouverture du cours pour voir comment toutes les pièces s'articulent avant de les étudier une à une.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "PESTEL et chaîne de valeur : clés du management efficace",
+    "chaine": "CurioSphere",
+    "url": "https://www.youtube.com/watch?v=nZzUuvfzQFw",
+    "langue": "Français",
+    "description": "La vidéo présente le modèle PESTEL pour lire le macro-environnement d'une entreprise, puis la chaîne de valeur pour son diagnostic interne. Elle fait donc le pont entre les leçons 2 et 3 de ce cours.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "L’analyse SWOT en 4 étapes (Exemple et Modèle)",
+    "chaine": "Parlons Projet by BGDP",
+    "url": "https://www.youtube.com/watch?v=XTjo_ezROkI",
+    "langue": "Français",
+    "description": "Une méthode en quatre étapes pour construire une matrice SWOT et, surtout, passer de l'analyse à l'action avec les croisements (démarche TOWS). À regarder après la leçon 3 pour consolider le passage du tableau aux stratégies.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Le positionnement stratégique de l'entreprise (Stratégie et économie industrielle)",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=Szm3veFJWmw",
+    "langue": "Français",
+    "description": "Un cours filmé sur le positionnement stratégique de l'entreprise : comment une entreprise choisit la place qu'elle veut occuper face à ses concurrents. Il complète la leçon 4 et annonce les stratégies concurrentielles de la leçon 5.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Les 5 forces de Porter [Les Jeudi d’Emilie]",
+    "chaine": "Les conseils d'Emilie et Régis",
+    "url": "https://www.youtube.com/watch?v=mGzPov-odyc",
+    "langue": "Français",
+    "description": "Présentation claire des cinq forces de Porter — concurrents, substituts, entrants, fournisseurs, clients — comme outil de veille stratégique. Idéale pour réviser la leçon 5 et apprendre à nommer chaque force sans les confondre.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
