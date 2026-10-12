@@ -6500,5 +6500,51 @@
     "niveau": "Intermédiaire à avancé"
    }
   ]
+ },
+ "BBA-L3-21": {
+  "pdf": "pdf/BBA-L3-21.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Intelligence économique : construire une veille utile à la décision",
+    "chaine": "ACADEMY CARREFOURDUWEB",
+    "url": "https://www.youtube.com/watch?v=DE1xfNRAEPg",
+    "langue": "Français",
+    "description": "Une présentation de l'intelligence économique comme transformation de données dispersées en informations fiables pour décider : distinction entre donnée, information et intelligence, choix des sources et vérification par recoupement. Elle prolonge directement la leçon 1 et prépare le cycle de la leçon 2.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "La veille concurrentielle, c'est quoi ? (définition, aide, lexique, tuto, explication)",
+    "chaine": "Infonet",
+    "url": "https://www.youtube.com/watch?v=5pGrZxjZHmw",
+    "langue": "Français",
+    "description": "Une définition claire et courte de la veille concurrentielle : ce qu'elle surveille, à quoi elle sert pour une entreprise et comment elle s'organise. À regarder avant de construire ta première fiche concurrent sur le modèle de la leçon 3.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "FORMATION : Espionnage Industriel : comment les Entreprises se font surveiller",
+    "chaine": "StartUp Academy",
+    "url": "https://www.youtube.com/watch?v=kTEoPZfvRCI",
+    "langue": "Français",
+    "description": "Une analyse de la frontière entre veille stratégique légale et espionnage industriel illégal, et des façons dont les entreprises se font surveiller. À regarder du côté défensif : elle éclaire la leçon 5 (protéger ses informations) et rappelle pourquoi les méthodes illégales sont exclues de ce cours.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les Petites Histoires de Transformation - Ep22 - Signaux Faibles",
+    "chaine": "Alpionys",
+    "url": "https://www.youtube.com/watch?v=SbTIH8EQA1Q",
+    "langue": "Français",
+    "description": "Un épisode court sur les signaux faibles dans les organisations : des indices discrets et progressifs, presque invisibles, qui offrent une possibilité d'agir tôt si on les repère et les qualifie. Il illustre la démarche de la leçon 6 : observer, qualifier avec lucidité, puis agir par petites actions mesurables.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Formation en Intelligence Économique organisée par l’ADCI",
+    "chaine": "ADCI",
+    "url": "https://www.youtube.com/watch?v=pONDNAtIM40",
+    "langue": "Français",
+    "description": "Le reportage d'une session de formation en intelligence économique pour dirigeants d'entreprises industrielles en Côte d'Ivoire : veille, protection des données sensibles et anticipation au service de décisions concrètes. Un exemple ouest-africain de dispositif organisé, dans l'esprit de la leçon 7.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
