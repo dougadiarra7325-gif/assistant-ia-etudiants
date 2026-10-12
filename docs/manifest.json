@@ -5948,5 +5948,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-09": {
+  "pdf": "pdf/BBA-L3-09.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Innovation et Systèmes d'Information : Le Guide Complet pour Manager l'Entreprise 4.0",
+    "chaine": "La Cinquième – Taleb Essalama",
+    "url": "https://www.youtube.com/watch?v=_NlpcF5luVU",
+    "langue": "Français",
+    "description": "Un cours complet qui distingue invention et innovation et présente les quatre types de progrès — produit, processus, organisation, marketing — avant d'aborder le rôle des systèmes d'information. À regarder avec la grille de la leçon 1 sous les yeux pour classer chaque exemple donné.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "La Méthode Lean Startup",
+    "chaine": "El Gigante de los Negocios",
+    "url": "https://www.youtube.com/watch?v=WHAnx_CJQW8",
+    "langue": "Français",
+    "description": "La méthode d'Eric Ries expliquée pas à pas : produit minimum viable, boucle créer-mesurer-apprendre, apprentissage validé et décision de pivoter ou persévérer. C'est la démarche exacte du journal d'expériences de SahelSaveurs en leçon 2.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Lean Startup – La méthode pour créer une startup qui réussit | Eric Ries",
+    "chaine": "Culture Sapience",
+    "url": "https://www.youtube.com/watch?v=nU5RArYRNQ8",
+    "langue": "Français",
+    "description": "Une synthèse claire de l'ouvrage fondateur d'Eric Ries : pourquoi les jeunes entreprises échouent en construisant sans apprendre, et comment les métriques actionnables remplacent les suppositions. Utile pour réviser les notions avant le TD sur les métriques.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Formation : Comment lever des Fonds pour son Projet",
+    "chaine": "StartUp Academy",
+    "url": "https://www.youtube.com/watch?v=kT3akE5UNzY",
+    "langue": "Français",
+    "description": "Une formation complète sur la levée de fonds : sources de financement (business angels, capital-risque, subventions, financement participatif), préparation du pitch et erreurs à éviter. À confronter à la leçon 3 : lever est un moyen au service d'un plan, pas une fin en soi.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "L'étude de valorisation avant la cession",
+    "chaine": "Ekkofin",
+    "url": "https://www.youtube.com/watch?v=KAnTiXWpc4Q",
+    "langue": "Français",
+    "description": "Pourquoi et comment étudier la valeur d'une entreprise avant de la céder : analyse des leviers de valeur, multiples de rentabilité et préparation en amont. Le complément direct de la leçon 7, du point de vue du cédant cette fois — indispensable pour comprendre l'autre côté de la négociation.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
