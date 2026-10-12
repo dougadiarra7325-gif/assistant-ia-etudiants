@@ -9776,5 +9776,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "DRO-L3-20": {
+  "pdf": "pdf/DRO-L3-20.pdf",
+  "pages": 32,
+  "videos": [
+   {
+    "titre": "Les politiques d'intégration régionale (Commerce International)",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=UPcH9AxEs3I",
+    "langue": "Français",
+    "description": "Un cours général sur les formes de l'intégration régionale — zone de libre-échange, union douanière, marché commun — et sur ce qui les distingue. Il fournit la grille de lecture idéale pour situer l'UEMOA et la CEDEAO avant d'entrer dans les principes de la leçon 1.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Parole d'intégration : libre circulation des personnes et des biens dans l' espace CEDEAO.",
+    "chaine": "BIPIA TV",
+    "url": "https://www.youtube.com/watch?v=Q-50QmE4jlI",
+    "langue": "Français",
+    "description": "Une émission consacrée à la libre circulation des personnes et des biens dans l'espace CEDEAO : les acquis revendiqués par les textes et les difficultés pratiques rencontrées par les usagers. Elle illustre directement le contraste, central dans la leçon 2, entre les droits proclamés et leur effectivité aux frontières.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Mali: la cour de justice de l'Uemoa milite pour une appropriation du droit communautaire",
+    "chaine": "Le360",
+    "url": "https://www.youtube.com/watch?v=6naASy8-ieg",
+    "langue": "Français",
+    "description": "Un reportage sur une action de sensibilisation menée par la Cour de justice de l'UEMOA pour faire connaître le droit communautaire aux praticiens et au public. Il montre l'autre visage du rôle de la Cour étudiée à la leçon 6 : au-delà du contentieux, diffuser une culture commune du droit de l'Union.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "La contribution du Comité Interparlementaire de l'UEMOA au processus de l'intégration régionale",
+    "chaine": "UEMOA Officiel",
+    "url": "https://www.youtube.com/watch?v=joCEVWR58Hg",
+    "langue": "Français",
+    "description": "Une vidéo de la chaîne institutionnelle de l'UEMOA sur le rôle de son organe interparlementaire dans le processus d'intégration. Elle éclaire la dimension parlementaire du suivi des textes communautaires et de leur réception dans les États, en appui de la leçon 7 sur l'harmonisation.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Ndiaw Diouf | L'évaluation de l'application du droit Ohada (EXTRAIT 1)",
+    "chaine": "Cairn info",
+    "url": "https://www.youtube.com/watch?v=QSwbnoz8d3g",
+    "langue": "Français",
+    "description": "Un entretien d'universitaire, spécialiste du droit des affaires africain, sur l'application concrète du droit OHADA dans les États parties. Il nourrit la comparaison de la leçon 8 : la logique d'uniformisation de l'OHADA éclaire, par ressemblance et par contraste, celle de l'harmonisation dans l'UEMOA.",
+    "niveau": "Intermédiaire à avancé"
+   }
+  ]
  }
 }
