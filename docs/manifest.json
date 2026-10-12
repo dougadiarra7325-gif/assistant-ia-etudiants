@@ -6952,5 +6952,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L1-06": {
+  "pdf": "pdf/DRO-L1-06.pdf",
+  "pages": 37,
+  "videos": [
+   {
+    "titre": "Cours de Droit de la famille : Introduction générale",
+    "chaine": "Aide aux TD - Vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=HW0bzjHwwRM",
+    "langue": "Français",
+    "description": "Une introduction générale au droit de la famille : son objet, ses grandes divisions entre le couple, la filiation et l'autorité parentale, et la place des sources. Elle présente la carte de la matière avant le parcours de ce cours ; retiens les notions et les classifications, et vérifie toujours le régime précis dans le Code des personnes et de la famille du Mali en vigueur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les conditions du mariage - Cours de droit de la famille",
+    "chaine": "Maxime Bizeau - Fiches-droit․com",
+    "url": "https://www.youtube.com/watch?v=8_CAT8kY7x4",
+    "langue": "Français",
+    "description": "Ce cours en vidéo présente les conditions du mariage en les classant, comme cette leçon, entre conditions de fond et conditions de forme. Il illustre la grille de lecture dans la tradition de cette famille de droit ; les conditions et les sanctions applicables au Mali sont celles du texte malien en vigueur, que la vidéo ne remplace pas.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Conditions de fond du mariage (Droit de la famille)",
+    "chaine": "Aide aux TD - Vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=mSpoI06APMs",
+    "langue": "Français",
+    "description": "Un complément ciblé sur les conditions de fond : consentement, capacité et empêchements, exposés comme des catégories de raisonnement. La vidéo aide à mémoriser la logique de chaque condition ; la liste et le régime exacts, dans le cadre malien, se lisent dans le Code des personnes et de la famille en vigueur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "L'autorité parentale : définition et contenu",
+    "chaine": "Maxime Bizeau - Fiches-droit․com",
+    "url": "https://www.youtube.com/watch?v=ELjEpihZSc8",
+    "langue": "Français",
+    "description": "La définition et le contenu de l'autorité parentale : qui la détient, à quoi elle sert, et comment elle s'exerce au service de l'enfant. C'est le fil conducteur de la leçon 7 ; comme pour tout le cours, les règles précises applicables au Mali se vérifient dans les textes en vigueur et, pour un cas réel, auprès d'un professionnel du droit.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Droit de la famille : Pension alimentaire pour les enfants",
+    "chaine": "Lazard Avocat Nice",
+    "url": "https://www.youtube.com/watch?v=eY7JxVOw5KQ",
+    "langue": "Français",
+    "description": "Une avocate explique la contribution à l'entretien et à l'éducation des enfants : comment elle s'évalue, se paie et se révise lorsque les situations changent. La vidéo illustre concrètement les caractères d'évaluation et de variabilité étudiés dans la leçon 8, dans le système où elle est filmée ; aucun montant ni barème ne s'en transpose au Mali, où seuls les textes en vigueur et le juge du cas concret font règle.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
