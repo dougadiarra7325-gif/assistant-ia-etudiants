@@ -4822,5 +4822,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "BBA-L2-09": {
+  "pdf": "pdf/BBA-L2-09.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "FORMATION MARKETING DIGITAL 2026 : Le Cours COMPLET pour tout savoir",
+    "chaine": "Ludo Salenne",
+    "url": "https://www.youtube.com/watch?v=5IcZPL-zJYc",
+    "langue": "Français",
+    "description": "Un cours complet et gratuit qui pose les fondations du marketing digital : stratégie, SEO, réseaux sociaux et publicité, dans l'ordre où ce cours les aborde. À regarder en début de semestre pour avoir la vue d'ensemble, puis revenir aux chapitres selon la leçon en cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Marketing Digital - tutoriel complet - formation marketing numérique",
+    "chaine": "StrategeMarketing",
+    "url": "https://www.youtube.com/watch?v=iU2yx3L-cXI",
+    "langue": "Français",
+    "description": "Un long tutoriel qui traverse les fondements, les réseaux sociaux plateforme par plateforme et la mesure des performances. Utile pour la leçon 2 (animer sa présence) et pour préparer le TP : repère comment chaque réseau y est présenté par son usage.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Chapitre 1/ Les bases du Référencement naturel : C'est quoi le SEO ?",
+    "chaine": "Ivon GBETO",
+    "url": "https://www.youtube.com/watch?v=bNpnKwDoRPg",
+    "langue": "Français",
+    "description": "Le premier chapitre d'une série SEO en français : ce qu'est le référencement naturel, comment Google classe les pages et par où commencer (mots-clés, optimisation des pages, référencement local). Le complément direct de la leçon 3, avec un regard ancré en Afrique de l'Ouest francophone.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Utiliser le catalogue sur WhatsApp Business",
+    "chaine": "WhatsApp",
+    "url": "https://www.youtube.com/watch?v=Ja7mIdfWEyA",
+    "langue": "Français",
+    "description": "La vidéo officielle de WhatsApp (sous-titres disponibles) pour créer son catalogue : ajouter des articles, prix et descriptions. C'est la référence la plus fiable pour la partie catalogue de la leçon 6 — à suivre téléphone en main en reproduisant chaque étape sur le compte d'exercice.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Créer un compte WhatsApp Business – Tutoriel rapide pour pros et entrepreneurs (Afrique francophone)",
+    "chaine": "Want Skills",
+    "url": "https://www.youtube.com/watch?v=3t7SF8tHvOg",
+    "langue": "Français",
+    "description": "Un tutoriel express pensé pour les entrepreneurs d'Afrique francophone : installer l'application, créer le profil professionnel, ajouter photo et nom d'activité. Idéal avant de remplir les fiches de la leçon 6 et du TP.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
