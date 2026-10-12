@@ -7412,5 +7412,43 @@
     "niveau": "Licence 1-2"
    }
   ]
+ },
+ "DRO-L1-16": {
+  "pdf": "pdf/DRO-L1-16.pdf",
+  "pages": 30,
+  "videos": [
+   {
+    "titre": "Le pluralisme juridique de Georges Gurvitch. Par Garance Navarro.",
+    "chaine": "Faculté de droit de CY Cergy Paris Université",
+    "url": "https://www.youtube.com/watch?v=wXHXqBNtEcc",
+    "langue": "Français",
+    "description": "Conférence universitaire consacrée à Georges Gurvitch, l'un des fondateurs de la sociologie du pluralisme juridique, et à son idée de droit social né au sein des groupes. Elle éclaire directement la première leçon : comment la pensée juridique a cessé de réduire le droit aux seules règles de l'État.",
+    "niveau": "Licence — culture juridique"
+   },
+   {
+    "titre": "PLURALISMES JURIDIQUES ET INTERCULTURALITÉS (40-2, 2016)",
+    "chaine": "Les Possédés et leurs mondes",
+    "url": "https://www.youtube.com/watch?v=GW-w1U-zH2U",
+    "langue": "Français",
+    "description": "Capsule de présentation d'un numéro de la revue Anthropologie et Sociétés (Université Laval) consacré aux pluralismes juridiques au pluriel et à leurs dimensions interculturelles. Une bonne porte d'entrée, courte et académique, vers la notion et vers les débats de la dernière leçon.",
+    "niveau": "Licence — introduction"
+   },
+   {
+    "titre": "Introduction au Droit – Les Sources du Droit : Tout Ce Que Tu Dois Savoir !",
+    "chaine": "Samira Benboubker",
+    "url": "https://www.youtube.com/watch?v=gm8k695i0FI",
+    "langue": "Français",
+    "description": "Révision claire des sources du droit — loi, jurisprudence, doctrine et coutume — qui replace la coutume parmi les sources et rappelle ses deux éléments, matériel et psychologique. À regarder en complément de la troisième leçon, en gardant la méthode propre à ce cours : vérifier, pour le Mali, dans les textes en vigueur.",
+    "niveau": "Licence 1 — révisions"
+   },
+   {
+    "titre": "Médiation et Règlement des Conflits à l'Amiable : Pertinence, Stratégies et Avantages | FRANC PARLER",
+    "chaine": "Radio Cotonou",
+    "url": "https://www.youtube.com/watch?v=O-Xx69Jut_4",
+    "langue": "Français",
+    "description": "Émission de radio ouest-africaine avec un magistrat devenu médiateur : mécanismes, stratégies et avantages du règlement amiable des conflits. Elle fait le pont entre la médiation institutionnelle et les modes traditionnels de la sixième leçon, qui partagent la même visée : une solution acceptée plutôt qu'imposée.",
+    "niveau": "Licence — ouverture"
+   }
+  ]
  }
 }
