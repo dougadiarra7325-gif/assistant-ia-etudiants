@@ -5412,5 +5412,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L2-22": {
+  "pdf": "pdf/BBA-L2-22.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Informatique de gestion : Maîtrisez l'impact du SI pour vos examens",
+    "chaine": "Abdellah Ounejjar",
+    "url": "https://www.youtube.com/watch?v=mCvD8obj8KU",
+    "langue": "Français",
+    "description": "Une vidéo de cours qui explique comment le système d'information transforme la performance, la stratégie et la collaboration dans l'entreprise. À regarder après la leçon 1 pour relier données, informations et décisions à des exemples d'entreprise.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Informatique de gestion : Les Fonctions Clés d’un Système d’Information Expliquées",
+    "chaine": "Abdellah Ounejjar",
+    "url": "https://www.youtube.com/watch?v=VlXLaXIzT8k",
+    "langue": "Français",
+    "description": "Les quatre grandes fonctions d'un système d'information — collecter, mémoriser, traiter, diffuser — détaillées pas à pas. Un bon complément à la leçon 2 pour visualiser la chaîne complète, de la donnée brute à l'information transmise.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "ERP : comprendre l'essentiel en 5 minutes",
+    "chaine": "Cookie connecté",
+    "url": "https://www.youtube.com/watch?v=jniLNzLwEqg",
+    "langue": "Français",
+    "description": "Une vulgarisation claire de ce qu'est un ERP : base partagée, modules, enjeux des données et bonnes pratiques, y compris en mode cloud. Idéale pour fixer les idées de la leçon 4 avant de passer à la grille de choix de la leçon 7.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Leçon 1_Partie_4_Eviter les pertes de données - Sauvegarde - Mon Prof d'Info",
+    "chaine": "Mon Prof D'Info",
+    "url": "https://www.youtube.com/watch?v=EDYgmYD6HPk",
+    "langue": "Français",
+    "description": "Un cours structuré sur les pertes de données : causes (erreurs, pannes, attaques, vols), stratégie de sauvegarde, multiplication des supports avec la règle 3-2-1 et tests de restauration. Le prolongement vidéo direct de la leçon 5.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Comprendre le e-commerce en 7 minutes",
+    "chaine": "Etienne Garcia",
+    "url": "https://www.youtube.com/watch?v=rWJXJCXz_W8",
+    "langue": "Français",
+    "description": "Les fondamentaux d'une boutique en ligne : fonctionnement, structure de coûts, types de boutiques et premiers pas pour vendre. À regarder après la leçon 6 pour confronter les modèles et exigences du cours à un retour d'expérience de praticien.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
