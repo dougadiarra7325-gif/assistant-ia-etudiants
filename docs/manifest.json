@@ -5596,5 +5596,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-01": {
+  "pdf": "pdf/BBA-L3-01.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Diagnostic stratégique SWOT - externe et interne",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=hFEBqiSSiig",
+    "langue": "Français",
+    "description": "Un cours filmé qui enchaîne la notion de stratégie, le diagnostic externe et interne et la logique des domaines d'activité stratégique. Il donne le vocabulaire complet avant d'entrer dans les outils des leçons suivantes.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comprendre l'analyse SWOT avec un exemple (FFOM)",
+    "chaine": "Dgboost",
+    "url": "https://www.youtube.com/watch?v=SronlIFCkks",
+    "langue": "Français",
+    "description": "La matrice SWOT expliquée pas à pas avec un exemple concret d'entreprise, en distinguant soigneusement ce qui relève de l'interne et de l'externe. Utile pour vérifier la traçabilité de tes propres diagnostics.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "L’analyse SWOT en 4 étapes (Exemple et Modèle)",
+    "chaine": "Parlons Projet by BGDP",
+    "url": "https://www.youtube.com/watch?v=XTjo_ezROkI",
+    "langue": "Français",
+    "description": "Une démarche en quatre étapes pour construire un SWOT puis passer de l'analyse à l'action, dans l'esprit du croisement forces-opportunités travaillé dans la leçon 2. Le modèle proposé peut servir de gabarit pour les TD.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les 5 forces de Porter - Formation RPMS",
+    "chaine": "Dgboost",
+    "url": "https://www.youtube.com/watch?v=df4LAe22l_w",
+    "langue": "Français",
+    "description": "Les cinq forces présentées une à une avec un exemple d'analyse concurrentielle, y compris le rôle des pouvoirs publics souvent ajouté comme sixième facteur. À regarder en refaisant la notation du DAS farines du cas Nimba.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comprendre la matrice BCG [Philippe Gattet]",
+    "chaine": "Xerfi",
+    "url": "https://www.youtube.com/watch?v=KsOKoFjnmGw",
+    "langue": "Français",
+    "description": "Une synthèse courte et claire de la matrice du Boston Consulting Group : les deux axes, les quatre positions et la logique d'équilibre du portefeuille. Parfaite en révision avant de refaire les calculs de parts relatives de la leçon 5.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
