@@ -8476,5 +8476,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "DRO-L2-15": {
+  "pdf": "pdf/DRO-L2-15.pdf",
+  "pages": 36,
+  "videos": [
+   {
+    "titre": "Cours Droit international public - Introduction et notions clefs",
+    "chaine": "Aide aux TD - Vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=RcW8npvD0Uc",
+    "langue": "Français",
+    "description": "Une introduction complète au droit international public : définition, ordres juridiques, sujets et notions fondamentales. Le point de départ idéal avant d'entrer dans le détail des sources de la leçon 1.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "RÈGNE DU DROIT OU LOI DU PLUS FORT ? - Le droit international #1",
+    "chaine": "Lex Imperii",
+    "url": "https://www.youtube.com/watch?v=wnubjKeTH04",
+    "langue": "Français",
+    "description": "Une présentation d'ensemble de l'ordre juridique international depuis son renouveau de 1945 : ses sujets, son paysage de règles, les actes illégaux et les différends. Un regard critique et documenté qui nourrit la réflexion sans commenter l'actualité.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "La place des traités internationaux",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=vXyFzFSE308",
+    "langue": "Français",
+    "description": "La place des traités parmi les sources et dans les ordres juridiques, expliquée simplement par un professeur de droit. Le complément direct de la leçon 2 sur la conclusion et la vie des traités.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "LSDi - Épisode 9 : La responsabilité internationale",
+    "chaine": "Arthur",
+    "url": "https://www.youtube.com/watch?v=J8WemhFsGbw",
+    "langue": "Français",
+    "description": "L'épisode de la série « Les Secrets du Droit international » consacré à la responsabilité : fait internationalement illicite, circonstances excluant l'illicéité, mise en œuvre et réparations. Exactement le plan de la leçon 6, en format pédagogique.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Qu'est-ce que la Cour internationale de Justice? Le rôle et les activités de la CIJ (vidéo 2016)",
+    "chaine": "CIJ ICJ",
+    "url": "https://www.youtube.com/watch?v=jo2TT7yvM4k",
+    "langue": "Français",
+    "description": "Le film officiel de la Cour internationale de Justice : son rôle d'organe judiciaire principal des Nations unies, ses fonctions contentieuse et consultative et son fonctionnement. La source primaire, présentée par l'institution elle-même.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
