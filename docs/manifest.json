@@ -8958,5 +8958,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L3-01": {
+  "pdf": "pdf/DRO-L3-01.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Le registre du commerce et du crédit mobilier",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=YNCnscKQ8xw",
+    "langue": "Français",
+    "description": "Une présentation claire du RCCM : sa structure, les personnes qui doivent s'y immatriculer et les effets de l'immatriculation. C'est le complément direct de la leçon 2 sur la constitution et la naissance de la personnalité morale.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "La société en commandite simple",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=CYBknv-SCm8",
+    "langue": "Français",
+    "description": "La SCS expliquée en vidéo : constitution, coexistence des commandités et des commanditaires, particularités de fonctionnement et causes de dissolution. À regarder après la leçon 4 pour fixer la distinction entre les deux catégories d'associés.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Révocation du gérant de la SARL (OHADA)",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=WxWHbMsKsAI",
+    "langue": "Français",
+    "description": "Un cours vidéo centré sur la fin des fonctions du gérant de SARL en droit OHADA : qui peut révoquer, dans quelles conditions et avec quelles conséquences. Il prolonge la leçon 5 sur la gérance et la confiance entre associés.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Les conventions réglementées dans la SA",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=a-_QEXRxeLM",
+    "langue": "Français",
+    "description": "Pourquoi les conventions entre une SA et ses dirigeants font-elles l'objet d'une procédure de surveillance particulière, et comment se déroule leur contrôle ? Cette vidéo illustre concrètement le mécanisme de gouvernance présenté à la leçon 6.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Droit des sociétés commerciales : l’égalité des associés en droit OHADA",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=8GbBorXpPRU",
+    "langue": "Français",
+    "description": "L'égalité des associés est le principe qui éclaire le droit de vote, l'information et le partage des bénéfices étudiés à la leçon 7. Cette vidéo en explore la portée et les limites dans les sociétés commerciales OHADA.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
