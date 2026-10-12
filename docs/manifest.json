@@ -8338,5 +8338,51 @@
     "niveau": "Licence 2 — inspection du travail"
    }
   ]
+ },
+ "DRO-L2-12": {
+  "pdf": "pdf/DRO-L2-12.pdf",
+  "pages": 36,
+  "videos": [
+   {
+    "titre": "Le budget de l’État, comment ça marche ?",
+    "chaine": "Vie publique",
+    "url": "https://www.youtube.com/watch?v=XznHhP-fNtU",
+    "langue": "Français",
+    "description": "Une présentation institutionnelle du budget de l'État : d'où viennent les recettes, à quoi servent les dépenses et comment le document est construit. Les mécanismes généraux qu'elle expose se lisent ensuite dans la loi de finances et les textes en vigueur au Mali et dans le cadre de l'UEMOA.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Droit public financier - Episode 66 - Principes budgétaires, présentation générale",
+    "chaine": "Le Droit public financier - par SD et AD",
+    "url": "https://www.youtube.com/watch?v=K1qk4Krt3to",
+    "langue": "Français",
+    "description": "Un épisode de cours consacré à la présentation générale des principes budgétaires classiques étudiés dans cette leçon. Les exemples étrangers éventuels servent d'illustration : au Mali, ces principes se lisent dans les textes organiques et budgétaires en vigueur et dans le cadre harmonisé de l'UEMOA.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Comment est adopté un projet de loi de finances ?",
+    "chaine": "Vie publique",
+    "url": "https://www.youtube.com/watch?v=jjnFECNpMe8",
+    "langue": "Français",
+    "description": "Le parcours d'adoption d'un projet de loi de finances, de sa préparation gouvernementale à son vote par la représentation, expliqué étape par étape. Les étapes décrites éclairent le mécanisme général ; leur déclinaison malienne précise se lit dans les textes en vigueur au Journal officiel.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Séparation des fonctions d’ordonnateur et de comptable publics",
+    "chaine": "JurisMana",
+    "url": "https://www.youtube.com/watch?v=4AKvREuA7oM",
+    "langue": "Français",
+    "description": "Une présentation du principe cardinal de l'exécution budgétaire : pourquoi celui qui ordonne ne paie pas, et celui qui paie ne décide pas. Le principe, commun aux systèmes de comptabilité publique de la région, s'applique au Mali selon les textes maliens et UEMOA en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Le rôle et le fonctionnement de la Cour et des chambres régionales des comptes",
+    "chaine": "Cour des comptes",
+    "url": "https://www.youtube.com/watch?v=7f7Jm52LiPE",
+    "langue": "Français",
+    "description": "La chaîne officielle d'une juridiction financière présente ses missions : juger les comptes, contrôler la gestion, informer le Parlement et le citoyen. Ces fonctions éclairent celles de toute Cour des comptes ; pour le Mali, ce sont les textes maliens et UEMOA en vigueur qui organisent l'institution.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
