@@ -7228,5 +7228,51 @@
     "niveau": "Débutant (L1)"
    }
   ]
+ },
+ "DRO-L1-12": {
+  "pdf": "pdf/DRO-L1-12.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "COURS HYPER-COMPLET - l’histoire de la pensée économique",
+    "chaine": "El khader",
+    "url": "https://www.youtube.com/watch?v=BTkqwEI3Uuc",
+    "langue": "Français",
+    "description": "Un cours complet qui déroule les grands courants, des mercantilistes aux héritiers de Keynes, en suivant la logique de cette leçon. À regarder en prenant des notes pour repérer, chez chaque auteur, sa réponse aux trois questions : valeur, marché, État.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "La loi de l'offre et de la demande",
+    "chaine": "Cours-éco",
+    "url": "https://www.youtube.com/watch?v=m45xl3BOCZU",
+    "langue": "Français",
+    "description": "L'offre, la demande et leur interaction présentées pas à pas, jusqu'à la détermination de l'équilibre. Le complément direct du marché fictif du mil : refais le calcul de la vidéo avec les fonctions de l'exemple du cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le circuit économique",
+    "chaine": "Cité de l'Économie (Citéco)",
+    "url": "https://www.youtube.com/watch?v=06DnEsZJt9M",
+    "langue": "Français",
+    "description": "Un film pédagogique qui suit l'argent d'un petit achat à travers les entreprises, les salariés, la banque et l'État. Il donne un visage au circuit bouclé de la leçon et montre comment une dépense devient le revenu d'un autre.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les 5 Agents Économiques et le Circuit Économique",
+    "chaine": "L'Économie-Gestion Simplement",
+    "url": "https://www.youtube.com/watch?v=NICUQ_g1qpE",
+    "langue": "Français",
+    "description": "Les cinq catégories d'agents — ménages, entreprises, État, institutions financières, reste du monde — et les flux qui les relient, présentés de façon systématique. Utile pour réviser la grille avant d'analyser les flux d'un TD.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Inflation et déflation | Banque de France",
+    "chaine": "Banque de France",
+    "url": "https://www.youtube.com/watch?v=xFfFxX8m2ng",
+    "langue": "Français",
+    "description": "Une vidéo institutionnelle courte qui fixe les définitions : inflation, déflation, indicateur de mesure, causes et conséquences, et le rôle d'une banque centrale dans la stabilité des prix. À rapprocher des calculs d'indices de la leçon.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
