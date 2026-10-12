@@ -7718,5 +7718,51 @@
     "niveau": "Licence"
    }
   ]
+ },
+ "DRO-L1-23": {
+  "pdf": "pdf/DRO-L1-23.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Améliorer son Expression Écrite en Français en 5 min. par jour (avec PDF)",
+    "chaine": "Français avec Pierre",
+    "url": "https://www.youtube.com/watch?v=Rrr4E1BfF3c",
+    "langue": "Français",
+    "description": "Cinq conseils simples pour mieux écrire au quotidien : organiser ses idées avant de rédiger, construire des phrases simples et se relire systématiquement. C'est le prolongement direct de la leçon 1 : applique ces réflexes à tes écrits juridiques, où la clarté est une exigence professionnelle.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Réussir son RÉSUMÉ / CONTRACTION DE TEXTE - Prépa Scientifique",
+    "chaine": "Prépa Up",
+    "url": "https://www.youtube.com/watch?v=kglANS4flVk",
+    "langue": "Français",
+    "description": "La méthode de la contraction de texte pas à pas : repérer les idées essentielles, reformuler sans recopier et respecter la longueur demandée. Cet exercice est le cousin direct du résumé de la leçon 2, avec les mêmes fidélités — idées, ordre, proportions.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "La méthode du commentaire d'arrêt (plan, sens, valeur, portée) - Méthodologie du droit",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=sFPpvmX9fSE",
+    "langue": "Français",
+    "description": "Comment analyser un document juridique avec méthode avant de le restituer : dégager le plan, le sens et la portée. Cet entraînement à la lecture rigoureuse est réutilisable pour la note de synthèse : extraire juste d'un document est la première moitié du travail.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "5 tips pour améliorer vos prises de parole en public I Travaille ta présence et fais la différence !",
+    "chaine": "Olga Ciesco",
+    "url": "https://www.youtube.com/watch?v=QdT4RqO6jjc",
+    "langue": "Français",
+    "description": "Cinq conseils de présence pour prendre la parole : posture ancrée, gestes, regard porté à l'auditoire et entraînement répété. À regarder avant de préparer l'exposé ou la plaidoirie d'initiation de la leçon 5, puis à appliquer lors des répétitions chronométrées.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Peur de parler en public : 7 solutions contre cette phobie (prise de parole sans stress)",
+    "chaine": "Y.GAUTIER, Coach Emploi, oral de concours et +",
+    "url": "https://www.youtube.com/watch?v=9z3gFZmohiA",
+    "langue": "Français",
+    "description": "Comprendre d'où vient la peur de parler en public et la dépasser avec des solutions concrètes, pensées pour les oraux et les concours. Un complément utile à la leçon 5 : le trac se réduit par la préparation et la répétition, comme le montre cette démarche.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
