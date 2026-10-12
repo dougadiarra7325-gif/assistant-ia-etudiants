@@ -5274,5 +5274,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "BBA-L2-19": {
+  "pdf": "pdf/BBA-L2-19.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "Le registre du commerce et du crédit mobilier",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=YNCnscKQ8xw",
+    "langue": "Français",
+    "description": "La structure du RCCM, les règles de tenue et de publicité, les personnes tenues de s'y immatriculer et les effets de l'immatriculation : le complément direct de la leçon 1 sur l'acte uniforme de droit commercial général. Vérifie toujours, en parallèle, la version révisée de l'acte et les pratiques du greffe compétent.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "VOICI LES DIFFERENTS TYPES DE SOCIETE SUIVANT LE DROIT OHADA",
+    "chaine": "Fiscalight",
+    "url": "https://www.youtube.com/watch?v=j66mlLFqnvQ",
+    "langue": "Français",
+    "description": "Un panorama des formes de sociétés reconnues par le droit OHADA, utile pour réviser la leçon 2 avant de choisir une forme. Confronte ce panorama à tes propres critères de choix : responsabilité des associés, nombre de partenaires et gouvernance souhaitée.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Les conventions réglementées dans la SA",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=a-_QEXRxeLM",
+    "langue": "Français",
+    "description": "Les catégories de conventions réglementées dans la société anonyme et la logique de leur procédure d'encadrement : un approfondissement de la leçon 3 sur les organes et le contrôle dans la SA. Retiens la logique de prévention des conflits d'intérêts plutôt que le détail des procédures, à vérifier dans l'acte révisé.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Droit des sociétés commerciales : l’égalité des associés en droit OHADA",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=8GbBorXpPRU",
+    "langue": "Français",
+    "description": "Le principe d'égalité entre associés et ses aménagements possibles : un éclairage utile pour la leçon 4 sur les droits et obligations des associés. Demande-toi, en regardant, comment ce principe protège concrètement un associé minoritaire.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Révocation du gérant de la SARL (OHADA)",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=WxWHbMsKsAI",
+    "langue": "Français",
+    "description": "Les conditions de fond et de forme de la révocation du gérant de SARL : un cas central de la leçon 5 sur la fin du mandat des dirigeants. Compare la démarche présentée avec l'équilibre dégagé dans le cours : révocation possible, mais jamais brutale ni sans vérification des statuts.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
