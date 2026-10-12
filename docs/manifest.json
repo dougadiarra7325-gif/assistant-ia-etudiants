@@ -5764,5 +5764,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-05": {
+  "pdf": "pdf/BBA-L3-05.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Développer son leadership : 7 clés pour inspirer et mobiliser son équipe | Magic Formations | MGA",
+    "chaine": "Magic Formations",
+    "url": "https://www.youtube.com/watch?v=q4bzOPT_4VQ",
+    "langue": "Français",
+    "description": "Une formation filmée qui distingue la posture du manager de celle du leader et donne des clés concrètes pour mobiliser une équipe autour d'un cap commun. À regarder en lien avec la leçon 1 : repère ce qui relève de l'échange transactionnel et ce qui relève de l'inspiration transformationnelle.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Vision stratégique d'entreprise : l'arme secrète des entreprises qui performent (et qui durent!)",
+    "chaine": "My Marketing Xperience",
+    "url": "https://www.youtube.com/watch?v=tiitR_DcP4Q",
+    "langue": "Français",
+    "description": "Cet épisode distingue mission, vision, valeurs et stratégie, puis propose une démarche en étapes pour construire une vision partagée plutôt que gardée dans la tête du dirigeant. Il prolonge directement la leçon 2 et son exigence de co-construction.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Le secret des coachs pour booster la performance #Coaching #AutoCoaching #DeveloppementPersonnel",
+    "chaine": "Outils du Manager",
+    "url": "https://www.youtube.com/shorts/AR-R9V-j7wc",
+    "langue": "Français",
+    "description": "Un format court qui présente les quatre étapes du modèle GROW (objectif, réalité, options, volonté) utilisé dans la leçon 4. Idéal pour mémoriser la structure avant de rejouer le dialogue de coaching de Seydou et Aïcha.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Gérer un Conflit au Travail : La Méthode pas à pas (DESC & Médiation)",
+    "chaine": "Cours 2 Management",
+    "url": "https://www.youtube.com/watch?v=IFu1rHCoe_Q",
+    "langue": "Français",
+    "description": "Une méthode pas à pas pour conduire un entretien de conflit sans prendre parti : diagnostic, médiation, formalisation et suivi. Elle complète la leçon 5 sur la conduite des entretiens difficiles, faits à l'appui et dignité préservée.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Leadership et culture d'entreprise : le secret des managers performants",
+    "chaine": "M360 Leader",
+    "url": "https://www.youtube.com/watch?v=w9wKHZIKKEE",
+    "langue": "Français",
+    "description": "Cette vidéo montre comment les comportements quotidiens du dirigeant façonnent la culture réelle de l'entreprise, bien au-delà des discours. Elle illustre la leçon 6 : l'exemplarité n'est pas une affiche, c'est ce que les équipes observent chaque jour.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
