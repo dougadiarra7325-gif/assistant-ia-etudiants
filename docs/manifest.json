@@ -6454,5 +6454,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-20": {
+  "pdf": "pdf/BBA-L3-20.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "Kurt Lewin et la théorie du changement : la méthode Dégeler, Changer, Regeler",
+    "chaine": "Français Facile avec Maria",
+    "url": "https://www.youtube.com/watch?v=_X6EuDsU-So",
+    "langue": "Français",
+    "description": "Une présentation claire des trois temps de Lewin — dégeler, changer, regeler — avec la logique du modèle expliquée pas à pas. À regarder avant de refaire le champ de forces de la leçon 2.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "La conduite du changement  Kurt LEWIN",
+    "chaine": "Damien Lebas",
+    "url": "https://www.youtube.com/watch?v=kafmaRTMTkY",
+    "langue": "Français",
+    "description": "Un cours filmé consacré à l'apport de Lewin à la conduite du changement : dynamique de groupe, participation et réduction des résistances. Il complète la leçon 2 par l'angle des groupes, cher à Lewin.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "La conduite du changement John KOTTER",
+    "chaine": "Damien Lebas",
+    "url": "https://www.youtube.com/watch?v=vD4hAgXqjCM",
+    "langue": "Français",
+    "description": "La démarche de changement réussi selon Kotter, présentée en cours : pourquoi l'ordre des temps compte et ce que coûte un temps sauté. À comparer avec le plan d'application au cas SODAL de la leçon 3.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Conduire le changement",
+    "chaine": "ACIONNYS FORMATION",
+    "url": "https://www.youtube.com/watch?v=XIA4EjSHLnM",
+    "langue": "Français",
+    "description": "Un épisode de formation qui décortique la psychologie de la résistance : pourquoi elle signale une perte de contrôle ou de compétence plus qu'un refus du changement. Il prolonge directement le diagnostic de la leçon 4.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Change Management : pourquoi vos projets ne sont pas adoptés (PROSCI, ADKAR, Kotter)",
+    "chaine": "Elitek",
+    "url": "https://www.youtube.com/watch?v=tbM2Vah7OeM",
+    "langue": "Français",
+    "description": "Un webinaire d'une heure sur l'écart entre projet livré et adoption réelle, qui croise plusieurs référentiels de conduite du changement dont Kotter et Lewin. Idéal pour préparer l'évaluation d'adoption de la leçon 7.",
+    "niveau": "Intermédiaire à avancé"
+   }
+  ]
  }
 }
