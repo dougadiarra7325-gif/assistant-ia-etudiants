@@ -9318,5 +9318,43 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "DRO-L3-09": {
+  "pdf": "pdf/DRO-L3-09.pdf",
+  "pages": 34,
+  "videos": [
+   {
+    "titre": "COURS DE DROIT INTERNATIONAL PRIVÉ - Introduction",
+    "chaine": "academie juridique",
+    "url": "https://www.youtube.com/watch?v=GelZl_n-5D0",
+    "langue": "Français",
+    "description": "Une introduction complète à la discipline : élément d'extranéité, détermination du juge compétent, choix de la loi applicable, renvoi et fraude à la loi. Elle dessine la carte générale que la leçon 1 présente, avant l'étude de la structure de la règle de conflit.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "COURS DE DROIT INTERNATIONAL PRIVÉ - Conflit de Lois",
+    "chaine": "academie juridique",
+    "url": "https://www.youtube.com/watch?v=X3IQ92aYnvQ",
+    "langue": "Français",
+    "description": "Le cœur de la méthode conflictuelle : comment une règle de conflit désigne la loi applicable, avec les mécanismes du renvoi et de la fraude à la loi. À regarder après la leçon 2, en refaisant à la main la décomposition catégorie — rattachement — loi désignée.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Comprendre les Conflits de Juridictions en 7 minutes (Droit International Privé)",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=8NmMiBs0IDE",
+    "langue": "Français",
+    "description": "En quelques minutes, les critères de la compétence internationale et la méthode pour déterminer la juridiction compétente, avec des exemples concrets. Un résumé efficace de la leçon 5, à compléter par le dossier des trois rattachements testés.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "COURS DE DROIT INTERNATIONAL PRIVÉ - La Nationalité",
+    "chaine": "academie juridique",
+    "url": "https://www.youtube.com/watch?v=WcMQA9ymims",
+    "langue": "Français",
+    "description": "Une présentation comparée de la notion de nationalité en droit international privé — droit du sang, droit du sol, acquisition par décision — qui illustre la leçon 7. Les comparaisons y servent d'exemples de méthode : pour le Mali, seuls les textes maliens en vigueur font foi.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
