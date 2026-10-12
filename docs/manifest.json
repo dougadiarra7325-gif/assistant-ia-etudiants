@@ -5366,5 +5366,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L2-21": {
+  "pdf": "pdf/BBA-L2-21.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "Les théories de la motivation au travail (Maslow, Herzberg, Vroom…) – Comportement organisationnel",
+    "chaine": "Eco-Gest",
+    "url": "https://www.youtube.com/watch?v=rpv_YL5iHTQ",
+    "langue": "Français",
+    "description": "Une synthèse claire des grandes théories de la motivation, des besoins de Maslow aux deux facteurs d'Herzberg et au modèle des attentes de Vroom. À regarder après la leçon 2 pour consolider, en gardant en tête les limites discutées dans le cours.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "7 leviers de la motivation au travail (ce qui fonctionne vraiment)",
+    "chaine": "MasloTV",
+    "url": "https://www.youtube.com/watch?v=GE1ElmFdGvY",
+    "langue": "Français",
+    "description": "Sept leviers concrets d'engagement : sens, autonomie, défis, reconnaissance, collectif, perspectives et conditions de travail. Un bon prolongement de la leçon 3 pour comparer les leviers d'action aux résultats d'un baromètre.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les 4 styles de management : Le leadership situationnel",
+    "chaine": "Anagramme Formation",
+    "url": "https://www.youtube.com/watch?v=_V6JLnmgwkQ",
+    "langue": "Français",
+    "description": "Les styles directif, persuasif, participatif et délégatif expliqués et situés selon l'équilibre entre organisation et relation. Le support vidéo direct de la grille utilisée dans l'exemple de la leçon 5.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Quel est le style de management le plus efficace ?",
+    "chaine": "La Brève du Manager - Clément Bergon",
+    "url": "https://www.youtube.com/watch?v=3AH7kNDGENw",
+    "langue": "Français",
+    "description": "Un tour d'horizon des styles de management, de leurs forces et de leurs faiblesses, avec l'idée d'un management individualisé selon les personnes. À confronter avec l'exercice de la leçon 5 sur le manager qui refuse de changer de style.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Kurt Lewin et la théorie du changement : la méthode Dégeler, Changer, Regeler",
+    "chaine": "Français Facile avec Maria",
+    "url": "https://www.youtube.com/watch?v=_X6EuDsU-So",
+    "langue": "Français",
+    "description": "Le modèle de Lewin en trois étapes expliqué simplement, du dégel des habitudes au regel des nouvelles pratiques. À regarder avant de relire le plan d'accompagnement de la leçon 7 pour en repérer chaque phase.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
