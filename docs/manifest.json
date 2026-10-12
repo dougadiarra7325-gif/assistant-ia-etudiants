@@ -8568,5 +8568,51 @@
     "niveau": "Licence 2 (L2)"
    }
   ]
+ },
+ "DRO-L2-17": {
+  "pdf": "pdf/DRO-L2-17.pdf",
+  "pages": 32,
+  "videos": [
+   {
+    "titre": "Le contrôle de constitutionnalité des lois",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=2NxoaNX7pDM",
+    "langue": "Français",
+    "description": "Une présentation claire du contrôle de constitutionnalité des lois : pourquoi il existe, qui l'exerce et selon quelles logiques. À regarder comme l'introduction filmée de la leçon 1, avant d'aborder la comparaison des modèles diffus et concentré.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Contrôle de constitutionnalité par voie d'action / par voie d'exception",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=9wM65RPE8tQ",
+    "langue": "Français",
+    "description": "Action ou exception : les deux voies d'accès au juge constitutionnel sont distinguées et illustrées pas à pas. Le cours replace ensuite ces mécanismes dans la présentation fonctionnelle du contrôle au Mali, dont les règles exactes se lisent dans les textes officiels.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "La classification des libertés fondamentales",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=1wTEMktz9FQ",
+    "langue": "Français",
+    "description": "Les libertés fondamentales classées par générations, dans la grille discutée à la leçon 4 — et que le cours invite justement à critiquer au nom de l'indivisibilité des droits. Un support visuel pour mémoriser les familles de droits avant d'en débattre.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "L'état d'urgence sanitaire",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=hGUPfRVQn2k",
+    "langue": "Français",
+    "description": "La notion d'état d'urgence expliquée dans un cours de droit : son déclenchement, son encadrement et ses effets sur les libertés. Le cours de l'IAM n'en retient que le cadre juridique général de la leçon 5, sans l'appliquer à aucune situation réelle.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Le pouvoir constituant dérivé - Droit constitutionnel",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=ipi2xIMvU-E",
+    "langue": "Français",
+    "description": "Le pouvoir constituant dérivé, qui révise sans refonder, distingué du pouvoir constituant originaire, avec la question des constitutions rigides. Le complément direct de la leçon 6 sur les procédures et les limites de la révision.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
