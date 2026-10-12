@@ -7588,5 +7588,43 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L1-20": {
+  "pdf": "pdf/DRO-L1-20.pdf",
+  "pages": 33,
+  "videos": [
+   {
+    "titre": "TOUT le droit du travail en 1h26 (relations individuelles et relations collectives)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=fNq8aEy9YbA",
+    "langue": "Français",
+    "description": "Le programme complet en une vidéo : sources, qualification du contrat, essai, pouvoirs de l'employeur, licenciement, relations collectives. Les mécanismes généraux présentés se vérifient, pour le Mali, dans le Code du travail malien en vigueur.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Les conventions collectives et les accords collectifs - Cours de droit du travail",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=46UE1wETxeM",
+    "langue": "Français",
+    "description": "Ce qu'est une convention collective, ses niveaux de négociation et ses effets sur le contrat de travail : le prolongement direct de la leçon sur les sources. Au Mali, la convention applicable à un poste se vérifie dans les textes et accords en vigueur.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "La subordination | Web série droit du travail",
+    "chaine": "Ministère du Travail",
+    "url": "https://www.youtube.com/watch?v=bq2Ytfxgfk4",
+    "langue": "Français",
+    "description": "Une web-série officielle qui met en scène la qualification du salariat : acteur, livreur de plateforme, stagiaire plongeur — salarié ou non ? La méthode du faisceau d'indices est universelle ; ses applications précises se vérifient dans le Code du travail malien en vigueur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le Contrat de Travail : Conditions, Formation, Droits et Obligations",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=WpnFJJ1YlQo",
+    "langue": "Français",
+    "description": "Les conditions de formation du contrat de travail, ses éléments constitutifs et les droits et obligations des deux parties, avec des exemples concrets : il couvre les leçons 3 et 4. Les formes exigées au Mali se vérifient dans le Code du travail en vigueur.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
