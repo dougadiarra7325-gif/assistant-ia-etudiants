@@ -8208,5 +8208,43 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-09": {
+  "pdf": "pdf/DRO-L2-09.pdf",
+  "pages": 35,
+  "videos": [
+   {
+    "titre": "La procédure civile (présentation, conseils, code de procédure civile...) - Droit judiciaire privé",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=LiI1RN-RjQo",
+    "langue": "Français",
+    "description": "Une présentation générale de la matière par un enseignant universitaire : ce qu'est la procédure civile, les juridictions qu'elle mobilise, ses sources et ses grands thèmes. Elle sert d'ouverture à ce cours ; les mécanismes qu'elle présente se confrontent ensuite, leçon par leçon, aux textes maliens en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Cours de procédure civile (Introduction et notions clés)",
+    "chaine": "Maxime Bizeau - Fiches-droit․com",
+    "url": "https://www.youtube.com/watch?v=pSbWsYeQwSs",
+    "langue": "Français",
+    "description": "Un cours structuré qui enchaîne exactement les étapes de notre parcours : l'action en justice, la compétence, l'instance, le jugement et les voies de recours. Regarde-le après les leçons 2 et 7 pour consolider ; les règles de forme et de compétence qu'il expose relèvent de son système et doivent être vérifiées dans les textes maliens applicables.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "PROCEDURE CIVILE (Les tribunaux de juridiction, l'exercice de l'action et les incidents) @assiajay_",
+    "chaine": "Etudiants en Confinement",
+    "url": "https://www.youtube.com/watch?v=yLIHgK6W9SQ",
+    "langue": "Français",
+    "description": "Un cours de soutien universitaire consacré à l'exercice de l'action — demandes et moyens de défense — puis aux incidents de procédure, classés selon qu'ils affectent le déroulement de l'instance, y mettent fin ou touchent à ses acteurs. C'est le prolongement direct de nos leçons 1 et 5 ; le tri en familles proposé dans ce cours reste l'outil de référence.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "PROCÉDURE DE RÉFÉRÉ (Procédure civile)",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=L7VL8xKexA4",
+    "langue": "Français",
+    "description": "Un cours consacré à la procédure de référé : quand l'urgence justifie de saisir le juge des référés, quelles mesures il peut ordonner et ce qui distingue sa décision provisoire du jugement au fond. Il accompagne la leçon 8 ; au Mali, la saisine et les cas d'ouverture précis se vérifient dans les textes en vigueur.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
