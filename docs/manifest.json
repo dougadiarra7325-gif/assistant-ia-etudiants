@@ -6132,5 +6132,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-13": {
+  "pdf": "pdf/BBA-L3-13.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Théorie de l’agence : comprendre le conflit entre propriétaires et dirigeants",
+    "chaine": "Comprendre l’Éco-Gestion",
+    "url": "https://www.youtube.com/watch?v=68gQs8fKxhU",
+    "langue": "Français",
+    "description": "Présentation claire de la relation d'agence entre propriétaires et dirigeants, des intérêts divergents et des coûts qui en résultent. Un appui direct à la leçon 1 pour réviser la théorie de Jensen et Meckling avant de traiter le cas FD SA.",
+    "niveau": "Licence 3 — compréhension directe"
+   },
+   {
+    "titre": "Qu'est-ce qu'un Conseil d'administration ?",
+    "chaine": "FNEGE Médias",
+    "url": "https://www.youtube.com/watch?v=itnOhPUM7DQ",
+    "langue": "Français",
+    "description": "Une vidéo académique courte qui définit le conseil d'administration, sa composition et ses responsabilités de supervision et de stratégie. Elle illustre la leçon 2 et aide à distinguer les rôles du conseil et ceux de la direction générale.",
+    "niveau": "Licence 3 — compréhension directe"
+   },
+   {
+    "titre": "Intégrer un conseil d'administration avec la formation Objectif Conseil d'Administration- Témoignage",
+    "chaine": "emlyon business school",
+    "url": "https://www.youtube.com/watch?v=5DrJ5NDeJD8",
+    "langue": "Français",
+    "description": "Un témoignage sur le métier d'administrateur et la préparation nécessaire pour siéger efficacement à un conseil. Utile pour prolonger la leçon 2 : compétences attendues, posture et responsabilité personnelle de l'administrateur.",
+    "niveau": "Licence 3 — approfondissement"
+   },
+   {
+    "titre": "Les 10 points clés de la Gouvernance d'Entreprise (FR)",
+    "chaine": "Paris Governance Institute",
+    "url": "https://www.youtube.com/watch?v=k_Iv8VxgXdI",
+    "langue": "Français",
+    "description": "Une synthèse des points de vigilance d'une bonne gouvernance : règles claires, conseil qui fonctionne, transparence et contrôle interne. À regarder avec la leçon 6 pour relier les principes des codes à l'auto-évaluation de FD SA.",
+    "niveau": "Licence 3 — compréhension directe"
+   },
+   {
+    "titre": "L’affaire Enron expliquée : la plus grande fraude d’entreprise",
+    "chaine": "Véridica",
+    "url": "https://www.youtube.com/watch?v=quxEkjqylKY",
+    "langue": "Français",
+    "description": "Le récit documenté de l'affaire Enron : comptes manipulés, dettes dissimulées et effondrement en 2001. À visionner après la leçon 7 en repérant, un par un, les mécanismes de défaillance décomposés dans l'autopsie du cours.",
+    "niveau": "Licence 3 — compréhension directe"
+   }
+  ]
  }
 }
