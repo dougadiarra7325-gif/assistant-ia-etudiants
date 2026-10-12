@@ -7626,5 +7626,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L1-21": {
+  "pdf": "pdf/DRO-L1-21.pdf",
+  "pages": 31,
+  "videos": [
+   {
+    "titre": "Sociologie du droit / S1/ Droit privé français",
+    "chaine": "L'Art de Comprendre",
+    "url": "https://www.youtube.com/watch?v=70_nk_qgsuo",
+    "langue": "Français",
+    "description": "Un cours d'introduction à la sociologie du droit destiné aux étudiants de première année : objet de la discipline, place du droit dans la société et premières notions. Parfait pour prolonger la leçon 1 avant les TD.",
+    "niveau": "Licence 1"
+   },
+   {
+    "titre": "Max Webe : Sociologie du Droit",
+    "chaine": "Cultures et Savoirs",
+    "url": "https://www.youtube.com/watch?v=ZoUYzLDw5nA",
+    "langue": "Français",
+    "description": "Une présentation de la sociologie du droit de Max Weber : types de droit, rationalisation et place des professionnels. Le titre de la vidéo orthographie « Webe » ; il s'agit bien de Max Weber, dont le cours reformule les idées.",
+    "niveau": "Licence 1"
+   },
+   {
+    "titre": "Jean Carbonnier, entre droit et non-droit par Fabien Girard",
+    "chaine": "Lex TV - La chaîne juridique signée Lexbase",
+    "url": "https://www.youtube.com/watch?v=agaYlOsqRBQ",
+    "langue": "Français",
+    "description": "Une conférence consacrée à Jean Carbonnier et à son hypothèse du non-droit : ce que le droit laisse hors de son champ, et pourquoi cela éclaire l'effectivité des règles. À regarder après les leçons 1 et 3.",
+    "niveau": "Licence 1 à Licence 2"
+   },
+   {
+    "titre": "Communitas - Dalia Gesualdi Fecteau – L'effectivité du droit",
+    "chaine": "COMMUNITAS",
+    "url": "https://www.youtube.com/watch?v=jAlLA951yxo",
+    "langue": "Français",
+    "description": "Un entretien universitaire québécois sur l'effectivité du droit : quand les règles produisent-elles réellement leurs effets, et à quelles conditions ? Un prolongement direct de la leçon 3, venu d'une autre tradition de recherche francophone.",
+    "niveau": "Licence 1 à Licence 2"
+   },
+   {
+    "titre": "LE NON RECOURS AUX DROITS. DES VIES SUSPENDUES.",
+    "chaine": "TDM asbl",
+    "url": "https://www.youtube.com/watch?v=CJCFBlziyWE",
+    "langue": "Français",
+    "description": "Un documentaire belge francophone qui donne la parole à des femmes en situation de précarité sur leur non-recours aux droits : information, complexité des démarches, découragement. Les contextes diffèrent, les mécanismes analysés à la leçon 5 s'y reconnaissent.",
+    "niveau": "Tout niveau"
+   }
+  ]
  }
 }
