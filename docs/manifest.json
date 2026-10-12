@@ -7848,5 +7848,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "DRO-L2-01": {
+  "pdf": "pdf/DRO-L2-01.pdf",
+  "pages": 36,
+  "videos": [
+   {
+    "titre": "La FORMATION DU CONTRAT (partie 1) | Cours complet & explications | DCG UE1 / L1, L2 Droit",
+    "chaine": "MNEMOTACTIQUES | Culture JURIDIQUE & ÉCONOMIQUE",
+    "url": "https://www.youtube.com/watch?v=OKuW5dl5jok",
+    "langue": "Français",
+    "description": "Un cours complet sur la classification des contrats et la rencontre des volontés : négociation, offre et acceptation, qui prolonge directement la leçon 2. La théorie générale présentée est celle de la tradition civiliste ; les règles précises applicables au Mali se vérifient dans ses textes en vigueur.",
+    "niveau": "Licence (L1-L2)"
+   },
+   {
+    "titre": "Les vices du consentement [Droit des obligations]",
+    "chaine": "Juris-Dico",
+    "url": "https://www.youtube.com/watch?v=8aiWhxKAsLI",
+    "langue": "Français",
+    "description": "Une synthèse claire des trois vices du consentement — erreur, dol et violence — en écho à la leçon 4, pour fixer les définitions avant de travailler les cas. Théorie générale de tradition civiliste : à confronter, pour une situation réelle, aux textes applicables au Mali.",
+    "niveau": "Licence (L2)"
+   },
+   {
+    "titre": "Les Vices du Consentement : [Droit des Contrats]",
+    "chaine": "Constance Mosnier - Cours de droit en vidéos",
+    "url": "https://www.youtube.com/watch?v=9AERqNf-Dmc",
+    "langue": "Français",
+    "description": "Un second traitement pédagogique des vices du consentement, utile pour croiser les explications sur l'erreur déterminante, le dol et la violence. Comme toute la théorie générale, il se vérifie dans les textes en vigueur applicables au Mali avant tout usage pratique.",
+    "niveau": "Licence (L2)"
+   },
+   {
+    "titre": "La FORMATION DU CONTRAT (partie 2) | Cours complet & explications | DCG UE1 / L1, L2 Droit",
+    "chaine": "MNEMOTACTIQUES | Culture JURIDIQUE & ÉCONOMIQUE",
+    "url": "https://www.youtube.com/watch?v=Sm35DAdVPPM",
+    "langue": "Français",
+    "description": "La suite du cours : capacité, vices du consentement, nullités relative et absolue et effets de la nullité — le pendant vidéo des leçons 3 à 5. Les présentations étrangères des conditions de validité sont une grille de lecture ; les conditions retenues au Mali se lisent dans ses textes applicables.",
+    "niveau": "Licence (L1-L2)"
+   },
+   {
+    "titre": "Droit des contrats",
+    "chaine": "École de droit en bande organisée",
+    "url": "https://www.youtube.com/watch?v=FQ689PWISy4",
+    "langue": "Français",
+    "description": "Une synthèse du droit des contrats couvrant la formation, la validité, les effets et l'exécution : idéale en révision globale des leçons 6 et 7 avant le QCM. La théorie générale illustrée se contrôle, pour le Mali, dans les textes en vigueur et les actes uniformes applicables.",
+    "niveau": "Licence (L2)"
+   }
+  ]
  }
 }
