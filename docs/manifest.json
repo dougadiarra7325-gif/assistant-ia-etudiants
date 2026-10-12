@@ -6270,5 +6270,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L3-16": {
+  "pdf": "pdf/BBA-L3-16.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "La Gestion de la Relation Client : les 5 principes actifs à connaître",
+    "chaine": "emoveo",
+    "url": "https://www.youtube.com/watch?v=0V5neDFc5gY",
+    "langue": "Français",
+    "description": "Un cadre de cabinet conseil présente les principes d'une bonne gestion de la relation client : écoute, stratégie relationnelle, connaissance du client. Le complément direct de la leçon 1 pour passer de la transaction à la relation organisée.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "CAC / LTV : la formule exacte de la rentabilité",
+    "chaine": "Pedro Canali",
+    "url": "https://www.youtube.com/shorts/DooWLWPYip8",
+    "langue": "Français",
+    "description": "Format court qui confronte le coût d'acquisition (CAC) et la valeur vie (LTV) sur un exemple chiffré simple. À regarder après la leçon 2 pour ancrer le réflexe : ne jamais juger une acquisition sans la valeur vie en face.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Fidéliser une clientèle locale pour les PME",
+    "chaine": "Pub Captive",
+    "url": "https://www.youtube.com/watch?v=w1DeGBf0rSc",
+    "langue": "Français",
+    "description": "Une stratégie de fidélisation pensée pour les PME locales : rester présent dans l'esprit des clients sans les harceler de promotions. Elle illustre le versant pratique de la leçon 3, avant l'évaluation chiffrée d'un programme.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "7 Logiciels CRM Gratuits en ligne ou à télécharger !",
+    "chaine": "C'est Cadeau ! C'est Gratuit !",
+    "url": "https://www.youtube.com/watch?v=WBBZe3I5tK4",
+    "langue": "Français",
+    "description": "Un tour d'horizon d'outils CRM gratuits ou open source accessibles à une PME. Utile pour la leçon 4 : compare chaque outil au cahier des charges du cours plutôt qu'à la promesse de la page d'accueil.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Net Promoter Score (NPS) comment ça marche",
+    "chaine": "StrategeMarketing",
+    "url": "https://www.youtube.com/watch?v=VaWM0dMi-A0",
+    "langue": "Français",
+    "description": "Le fonctionnement du NPS expliqué pas à pas : question unique, promoteurs, passifs, détracteurs et calcul du score. Le prolongement vidéo de la leçon 7, à recouper avec le calcul depuis la distribution brute fait en cours.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
