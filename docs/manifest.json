@@ -7672,5 +7672,51 @@
     "niveau": "Tout niveau"
    }
   ]
+ },
+ "DRO-L1-22": {
+  "pdf": "pdf/DRO-L1-22.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Les principes du droit de l'environnement - 1",
+    "chaine": "Nicolas de Sadeleer",
+    "url": "https://www.youtube.com/watch?v=vAosnQeM5mY",
+    "langue": "Français",
+    "description": "Premier volet d'une série universitaire consacrée aux principes du droit de l'environnement, par un professeur spécialiste de la matière. Il pose le cadre général dans lequel s'inscrivent la prévention, la précaution et le pollueur-payeur étudiés dans ce cours.",
+    "niveau": "Licence"
+   },
+   {
+    "titre": "Les principes du droit de l'environnement - 4",
+    "chaine": "Nicolas de Sadeleer",
+    "url": "https://www.youtube.com/watch?v=x0KZS_rwn1o",
+    "langue": "Français",
+    "description": "Ce volet approfondit l'analyse des principes directeurs du droit de l'environnement et leurs distinctions. Il complète utilement la leçon 2 : regarde-le en ayant sous les yeux les exemples d'école du cours pour comparer les raisonnements.",
+    "niveau": "Licence"
+   },
+   {
+    "titre": "Les principes du droit de l'environnement - 6",
+    "chaine": "Nicolas de Sadeleer",
+    "url": "https://www.youtube.com/watch?v=y1Dg0bS0rCc",
+    "langue": "Français",
+    "description": "Dernier volet retenu de la même série universitaire, qui poursuit l'examen des principes et de leur portée pratique. Les exemples relèvent d'autres systèmes juridiques : retiens les mécanismes et les distinctions, sans les transposer tels quels au Mali.",
+    "niveau": "Licence"
+   },
+   {
+    "titre": "L’Étude d’Impact sur l’Environnement (EIE)",
+    "chaine": "CYRUS ENGINEERING",
+    "url": "https://www.youtube.com/watch?v=C9qeDt_DB7c",
+    "langue": "Français",
+    "description": "Une présentation du rôle de l'étude d'impact : identifier et évaluer, avant le lancement d'un projet, les risques qu'il fait peser sur son environnement. La procédure décrite relève d'un autre cadre national : ce sont les étapes et la logique préventive qui font le lien avec la leçon 5.",
+    "niveau": "Licence"
+   },
+   {
+    "titre": "Procédure d'évaluation et d'examen des impacts sur l'environnement",
+    "chaine": "Environnement Québec",
+    "url": "https://www.youtube.com/watch?v=HZLSANaWwmQ",
+    "langue": "Français",
+    "description": "Une administration de l'environnement présente sa procédure d'évaluation et d'examen des impacts, avec la place faite à la consultation du public. Le cadre est québécois, donc différent du cadre malien, mais les étapes générales — étude, examen, consultation, décision — éclairent concrètement la leçon.",
+    "niveau": "Licence"
+   }
+  ]
  }
 }
