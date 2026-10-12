@@ -9280,5 +9280,43 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "DRO-L3-08": {
+  "pdf": "pdf/DRO-L3-08.pdf",
+  "pages": 36,
+  "videos": [
+   {
+    "titre": "DCG UE 1 FONDAMENTAUX DU DROIT - Contrats de vente, droit de la consommation et sûretés",
+    "chaine": "Ficheben DCG DSCG DEC",
+    "url": "https://www.youtube.com/watch?v=zAilS3fHFC4",
+    "langue": "Français",
+    "description": "Une séance de révision structurée sur le contrat de vente : formation, obligations du vendeur et de l'acheteur, et mécanismes des vices cachés. Elle fixe les réflexes d'analyse avant les dossiers de la leçon, dans le prolongement du droit commun étudié en DRO-L2-01.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Le Bail Commercial : Règles Essentielles à Connaître | Cours Complet pour Débutants",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=M-WHdiqT8Bc",
+    "langue": "Français",
+    "description": "Un cours complet et progressif sur le bail commercial : statut, conditions, droits du locataire commerçant et obligations du bailleur. Il illustre directement la notion de propriété commerciale et le droit au renouvellement étudiés dans la leçon.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Les baux commerciaux",
+    "chaine": "LBV AVOCATS",
+    "url": "https://www.youtube.com/watch?v=2AQUpPhc6Lw",
+    "langue": "Français",
+    "description": "Une présentation par des praticiens du régime des baux commerciaux : équilibre entre liberté contractuelle et protections du fonds de commerce. Un regard de terrain qui complète utilement le cours magistral précédent.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "RENSEIGNER LA LETTRE DE VOITURE (CMR)",
+    "chaine": "David Ramirez    Professeur en conduite routière",
+    "url": "https://www.youtube.com/watch?v=AYr4Y8zv780",
+    "langue": "Français",
+    "description": "Une vidéo de formation professionnelle qui montre, champ par champ, comment renseigner la lettre de voiture utilisée dans le transport routier de marchandises. Elle donne un visage concret au document dont la leçon explique les fonctions de preuve, d'identification et d'instruction.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
