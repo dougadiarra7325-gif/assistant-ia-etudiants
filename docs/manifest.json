@@ -5090,5 +5090,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L2-15": {
+  "pdf": "pdf/BBA-L2-15.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Méthode KANBAN en logistique ⎮ Supermarché et petit train⎮ Simulation⎮Lean Manufacturing",
+    "chaine": "Julien CHARLES - 7-Shapes",
+    "url": "https://www.youtube.com/watch?v=Yh3ltrFehfo",
+    "langue": "Français",
+    "description": "Une simulation filmée d'une boucle kanban entre magasin et production : on y voit le dimensionnement des cartes et le rôle du « petit train » de réapprovisionnement. Parfait pour visualiser le flux tiré de la leçon 4 après en avoir calculé le nombre de cartes.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Lean & Flux Tirés : 2 leviers pour une supply chain performante et agile",
+    "chaine": "Jérôme Bilquey d'Ex Up Consulting",
+    "url": "https://www.youtube.com/watch?v=Im4NbAcZ65o",
+    "langue": "Français",
+    "description": "Une conférence claire sur ce que sont vraiment les flux tirés : dimensionnement (demande journalière, taille de lot, délais) et articulation avec les outils du Lean. Elle prolonge la comparaison poussé/tiré en montrant les conditions de réussite sur le terrain.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Le diagramme de Gantt : Méthode d'ordonnancement | Gestion de projet",
+    "chaine": "5 minutes pour réussir",
+    "url": "https://www.youtube.com/watch?v=T4u-Fw3uAbc",
+    "langue": "Français",
+    "description": "La construction pas à pas d'un diagramme de Gantt sur un exercice complet, jusqu'à la durée totale et au chemin critique. À regarder avec l'exemple de la leçon 3 sous les yeux pour comparer les deux lectures d'un même ordonnancement.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Exercice sur le diagramme GANTT, version française",
+    "chaine": "Youssef Hassan",
+    "url": "https://www.youtube.com/watch?v=kwueiTQ8Stg",
+    "langue": "Français",
+    "description": "Un exercice corrigé de Gantt et de réseau d'ordonnancement, dans le style des travaux dirigés. Mets la vidéo en pause à chaque étape et construis ton propre diagramme avant de vérifier la solution proposée.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Les 10 principes de l'amélioration continue",
+    "chaine": "OperaePartners",
+    "url": "https://www.youtube.com/watch?v=TwVwHQpJF4M",
+    "langue": "Français",
+    "description": "Les principes qui fondent l'esprit Kaizen : remettre en cause le statu quo, chercher la cause racine avec les 5 pourquoi, préférer les idées de l'équipe aux solutions coûteuses. Un bon complément culturel à la démarche PDCA de la leçon 6.",
+    "niveau": "Tous niveaux"
+   }
+  ]
  }
 }
