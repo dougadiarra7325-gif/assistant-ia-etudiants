@@ -9478,5 +9478,51 @@
     "niveau": "Licence 3 (L3)"
    }
   ]
+ },
+ "DRO-L3-13": {
+  "pdf": "pdf/DRO-L3-13.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "\"AFOR : Sécurisation du Foncier Rural en Côte d'Ivoire – 16 Régions Engagées pour l'Avenir\"",
+    "chaine": "YuG'ô Immobilier",
+    "url": "https://www.youtube.com/watch?v=VuE6vjVyWlI",
+    "langue": "Français",
+    "description": "Une présentation institutionnelle d'un programme de sécurisation du foncier rural dans un pays voisin de la sous-région : démarche de constatation des droits et organisation locale. À regarder pour les mécanismes — identification, publicité, délivrance de documents — en gardant à l'esprit que le cadre malien et ses textes en vigueur font seuls foi pour le Mali.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comment obtenir un titre foncier ?",
+    "chaine": "Francis Mitati",
+    "url": "https://www.youtube.com/watch?v=S2uH0Aj3pew",
+    "langue": "Français",
+    "description": "Une explication pas à pas de la logique de l'immatriculation et de l'obtention d'un titre foncier en Afrique francophone : instruction, bornage, publicité, délivrance. La vidéo sert à visualiser la chaîne des fonctions décrite dans la leçon ; les étapes précises applicables au Mali se vérifient auprès de la conservation et des textes en vigueur.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Refus de Permis de Construire : Motifs, Délais et Tribunal Administratif",
+    "chaine": "Benjamin INGELAERE Avocat",
+    "url": "https://www.youtube.com/watch?v=xwwHcdzFLgM",
+    "langue": "Français",
+    "description": "Un avocat en droit de l'urbanisme explique comment se lit et se discute un refus de permis de construire : motivation de la décision, motifs tirés des documents de planification, voies de contestation. Le cadre présenté est étranger ; on en retient la méthode — lire la motivation, identifier le document applicable — que la leçon transpose au cadre malien.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les enjeux de l'expropriation en contexte de conservation [WEBINAIRE]",
+    "chaine": "Centre québécois du droit de l'environnement",
+    "url": "https://www.youtube.com/watch?v=a0J1CZkWkXs",
+    "langue": "Français",
+    "description": "Un webinaire académique qui discute les pouvoirs d'expropriation des personnes publiques, leurs limites et la question de l'indemnisation, y compris les situations d'atteinte déguisée à la propriété. À écouter pour la discussion des principes — utilité publique contrôlée, réparation — que la leçon présente dans le cadre malien des textes en vigueur.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Popenguine, Ndayane : La Terre, La Mer et les Habitants",
+    "chaine": "Sénégal Rek",
+    "url": "https://www.youtube.com/watch?v=8iJJhta8vJw",
+    "langue": "Français",
+    "description": "Un diagnostic foncier communal présenté dans une commune de la sous-région : gestion locale des terres, chaîne de délivrance des documents, place des instances de concertation. La vidéo illustre concrètement les enjeux de la gestion foncière rapprochée des territoires que la leçon discute en balance, sans transposer au Mali des règles qui ne sont pas les siennes.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
