@@ -7450,5 +7450,51 @@
     "niveau": "Licence — ouverture"
    }
   ]
+ },
+ "DRO-L1-17": {
+  "pdf": "pdf/DRO-L1-17.pdf",
+  "pages": 33,
+  "videos": [
+   {
+    "titre": "Introduction au droit pénal général (cours de droit pénal)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=HcTuxpJILQY",
+    "langue": "Français",
+    "description": "Le cours d'ouverture du droit pénal général par un enseignant en droit : définition de la matière, place de l'infraction et de la peine, et plan d'ensemble de la discipline. Le prolongement vidéo direct de la leçon 1 — regarde-la avant de passer au principe de légalité.",
+    "niveau": "Licence (L1-L2)"
+   },
+   {
+    "titre": "Le principe de légalité (criminelle) en droit pénal",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=TZ92I0GV2-w",
+    "langue": "Français",
+    "description": "Qu'est-ce que le principe de légalité des délits et des peines, quelle est sa valeur et comment il s'applique au juge comme au législateur. La vidéo cite le cadre français : retiens le mécanisme, universel dans cette famille de droit, et vérifie toujours les textes maliens en vigueur pour le contenu applicable.",
+    "niveau": "Licence (L1-L2)"
+   },
+   {
+    "titre": "Les éléments constitutifs de l'infraction en 3 minutes",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=QBSxjkt2e8o",
+    "langue": "Français",
+    "description": "L'élément légal, l'élément matériel et l'élément moral présentés en format court et clair : la grille même de la leçon 3. Idéale en révision express avant un contrôle — refais ensuite, seul, la dissection du téléphone emporté de l'exemple du cours.",
+    "niveau": "Licence (L1-L2)"
+   },
+   {
+    "titre": "L'élément moral en droit pénal : imputabilité et culpabilité - Pénal #5",
+    "chaine": "Juris Internetus",
+    "url": "https://www.youtube.com/watch?v=-LhQCpsY_tk",
+    "langue": "Français",
+    "description": "Un cours filmé sur l'élément moral : imputabilité, culpabilité et causes subjectives d'irresponsabilité pénale. C'est le complément direct de la leçon 5 — suis en particulier le raisonnement qui distingue celui qui ne pouvait pas comprendre ou choisir, de celui qui a simplement mal agi.",
+    "niveau": "Licence (L1-L2)"
+   },
+   {
+    "titre": "La procédure pénale (présentation, déroulement, code de procédure pénale, conseils...)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=HK9ReNAO3nQ",
+    "langue": "Français",
+    "description": "Qu'est-ce que la procédure pénale, comment elle s'organise et quelles sont les grandes phases du procès pénal, de l'enquête au jugement. La vidéo décrit le cadre français : la leçon 7 t'a donné la mécanique générale — compare les phases, et souviens-toi que les formes applicables au Mali se lisent dans son Code de procédure pénale en vigueur.",
+    "niveau": "Licence (L1-L2)"
+   }
+  ]
  }
 }
