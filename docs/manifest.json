@@ -7940,5 +7940,51 @@
     "niveau": "Licence 2 (L2)"
    }
   ]
+ },
+ "DRO-L2-03": {
+  "pdf": "pdf/DRO-L2-03.pdf",
+  "pages": 35,
+  "videos": [
+   {
+    "titre": "Le principe de légalité en droit administratif (cours de droit administratif)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=SFhtoXYmCp0",
+    "langue": "Français",
+    "description": "Un cours complet sur le principe de légalité : ce qu'il exige de l'administration, les sources auxquelles elle est soumise et les limites du principe. Il prolonge directement la leçon 2 sur les sources. Les mécanismes généraux illustrés se vérifient dans les textes maliens en vigueur.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "Le service public (définition, critères, distinction SPA/SPIC, gestion)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=qVMu5QavXhc",
+    "langue": "Français",
+    "description": "Une présentation structurée de la notion de service public : éléments de définition, distinction entre services administratifs et services industriels et commerciaux, et modes de gestion. Les mécanismes généraux illustrés se vérifient dans les textes maliens en vigueur.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "L'acte administratif unilatéral (définition et distinction, application, abrogation et retrait)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=RkKXT_mbXb8",
+    "langue": "Français",
+    "description": "Un cours sur l'acte administratif unilatéral : sa définition, ses distinctions, son entrée en vigueur et sa disparition par abrogation ou retrait — le cœur de la leçon 5. Les mécanismes généraux illustrés se vérifient dans les textes maliens en vigueur.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "Le contrat administratif (définition, critères et exemples) - Cours de droit administratif",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=vp_Cgs3ZOLI",
+    "langue": "Français",
+    "description": "Un cours qui définit le contrat administratif et présente ses critères de qualification, avec des exemples — exactement le premier temps de la leçon 6, avant le régime et les théories de l'équilibre. Les mécanismes généraux illustrés se vérifient dans les textes maliens en vigueur.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "La responsabilité administrative (2) : Faute de service et faute personnelle",
+    "chaine": "JurisMana",
+    "url": "https://www.youtube.com/watch?v=eQYADqqcZd8",
+    "langue": "Français",
+    "description": "Une vidéo consacrée à la distinction entre faute de service et faute personnelle, qui structure toute la responsabilité administrative pour faute étudiée à la leçon 7. Les mécanismes généraux illustrés se vérifient dans les textes maliens en vigueur.",
+    "niveau": "Licence 2 (L2)"
+   }
+  ]
  }
 }
