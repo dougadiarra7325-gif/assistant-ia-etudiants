@@ -9960,5 +9960,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "DRO-L3-24": {
+  "pdf": "pdf/DRO-L3-24.pdf",
+  "pages": 31,
+  "videos": [
+   {
+    "titre": "Les 2 grands principes de la DECENTRALISATION",
+    "chaine": "Fonctionnaire territorial",
+    "url": "https://www.youtube.com/watch?v=0IMsmn_DnnE",
+    "langue": "Français",
+    "description": "Une synthèse claire des principes qui fondent la décentralisation : le point de départ idéal avant la leçon 1, pour fixer les notions d'autonomie locale et de transfert de compétences. Le cadre présenté est général ; confronte-le toujours aux textes maliens en vigueur.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Cours de droit Déconcentration vs Décentralisation",
+    "chaine": "Éditions Pamplemousse (Magazine)",
+    "url": "https://www.youtube.com/watch?v=ZZm95MAoudI",
+    "langue": "Français",
+    "description": "Un cours de droit qui oppose méthodiquement déconcentration et décentralisation — définitions, acteurs, effets — exactement la distinction qui ouvre ce cours et que l'exercice de la leçon 1 entraîne.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les budgets locaux ? Attends j't'explique !",
+    "chaine": "Vie publique",
+    "url": "https://www.youtube.com/watch?v=4LptB2QgKPE",
+    "langue": "Français",
+    "description": "La chaîne du service public d'information Vie publique explique comment se préparent et se votent les budgets locaux, d'où viennent les recettes et à quoi servent les dépenses : le compagnon direct de la leçon 5 et de son budget fictif bouclé.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Contrôle de légalité : comment l'État surveille les collectivités territoriales pour vos concours",
+    "chaine": "Flash FPT",
+    "url": "https://www.youtube.com/watch?v=3eJYuWbLRH8",
+    "langue": "Français",
+    "description": "Une fiche de révision dynamique sur le contrôle de légalité : transmission des actes, observations, déféré au juge — la mécanique complète de la leçon 7, présentée dans un cadre français à transposer avec prudence aux textes maliens.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Budget participatif : l'OIDP forme une nouvelle génération de facilitateurs africains",
+    "chaine": "Actu7News(A7N)",
+    "url": "https://www.youtube.com/watch?v=aLOwZ-xiw0Y",
+    "langue": "Français",
+    "description": "Un reportage sur une formation africaine de facilitateurs du budget participatif organisée par l'Observatoire international de la démocratie participative : il montre concrètement la pratique étudiée à la leçon 8, ses acteurs et ses exigences de méthode.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
