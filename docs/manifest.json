@@ -5550,5 +5550,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "BBA-L2-25": {
+  "pdf": "pdf/BBA-L2-25.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Les 4 styles de management : Le leadership situationnel",
+    "chaine": "Anagramme Formation",
+    "url": "https://www.youtube.com/watch?v=_V6JLnmgwkQ",
+    "langue": "Français",
+    "description": "Les quatre styles du leadership situationnel (directif, persuasif, participatif, délégatif) et la manière de doser organisation et relation selon la situation. Le prolongement direct de la leçon 1 et du rappel fait au cours BBA-L2-21.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Tu ne délègues pas assez ? Voici la méthode pour changer ça",
+    "chaine": "l'effet manager",
+    "url": "https://www.youtube.com/watch?v=UqLhfm-KWyE",
+    "langue": "Français",
+    "description": "Pourquoi les managers déléguent trop peu et quelle méthode suivre pour confier des tâches sans perdre le fil. À regarder après la leçon 2 pour comparer avec le plan de délégation de Mariam et ses trois niveaux d'autonomie.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Réunions efficaces | 2 minutes pour arrêter les réunions inutiles",
+    "chaine": "Happiness Consult",
+    "url": "https://www.youtube.com/watch?v=F6DdBOflmzk",
+    "langue": "Français",
+    "description": "Un format court sur les conditions d'une réunion utile : objectif clair, participants concernés, ordre du jour et décisions concrètes. Un bon résumé vidéo de la leçon 3 avant de rédiger ton propre ordre du jour minuté.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "#210 - Recette de Manager : Comment faire un feedback à un collaborateur expert ?",
+    "chaine": "Teambakery : management & travail en équipe",
+    "url": "https://www.youtube.com/watch?v=oOiJElr_ynY",
+    "langue": "Français",
+    "description": "Des réflexes concrets pour faire un feedback : à froid plutôt qu'à chaud, partir d'un fait précis, demander l'avis de l'autre avant de proposer une solution. Le cas traité — un collaborateur expert — prolonge utilement le dialogue de la leçon 4.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Renforce ta position de leader en gérant les conflits",
+    "chaine": "Sandra VICENTE - Management",
+    "url": "https://www.youtube.com/watch?v=xclZMyhjbhM",
+    "langue": "Français",
+    "description": "Comment un manager peut traiter les conflits d'équipe au lieu de les subir : repérer les sources réelles de tension et restaurer la confiance. À confronter avec la médiation de la leçon 6 et ses règles de cadre.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
