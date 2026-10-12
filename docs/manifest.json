@@ -8292,5 +8292,51 @@
     "niveau": "Licence 2 — ruptures négociées"
    }
   ]
+ },
+ "DRO-L2-11": {
+  "pdf": "pdf/DRO-L2-11.pdf",
+  "pages": 37,
+  "videos": [
+   {
+    "titre": "TOUT le droit du travail en 1h26 (relations individuelles et relations collectives)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=fNq8aEy9YbA",
+    "langue": "Français",
+    "description": "Ce cours complet consacre sa seconde partie aux relations collectives : syndicats et liberté syndicale, représentativité, conventions collectives, représentants du personnel et droit de grève, avec des repères de temps pour aller directement aux chapitres utiles. Les mécanismes généraux qu'elle présente se vérifient dans le Code du travail malien et les conventions collectives en vigueur au Mali.",
+    "niveau": "Licence 2 — relations collectives"
+   },
+   {
+    "titre": "Qu'est-ce qu'une convention collective de travail ? Définition & avantages par Juritravail",
+    "chaine": "Juritravail - Votre service juridique en ligne",
+    "url": "https://www.youtube.com/watch?v=wALocNXxhgg",
+    "langue": "Français",
+    "description": "La vidéo définit la convention collective de travail, les thèmes qu'elle aborde et les salariés qu'elle concerne, en montrant en quoi connaître sa convention est utile au quotidien. Les mécanismes généraux qu'elle présente se vérifient dans le Code du travail malien et les conventions collectives effectivement applicables au Mali.",
+    "niveau": "Licence 2 — négociation collective"
+   },
+   {
+    "titre": "La Grève : [Droit du travail]",
+    "chaine": "Constance Mosnier - Cours de droit en vidéos",
+    "url": "https://www.youtube.com/watch?v=4cVk85nWRZg",
+    "langue": "Français",
+    "description": "Ce cours en vidéo présente la grève en droit du travail : sa définition comme cessation collective et concertée du travail, ses conditions d'exercice et ses effets sur le contrat. Les mécanismes généraux qu'elle présente se vérifient dans le Code du travail malien et les conventions collectives en vigueur au Mali.",
+    "niveau": "Licence 2 — droit de grève"
+   },
+   {
+    "titre": "Dessine-moi l'éco : la protection sociale",
+    "chaine": "Dessine-moi l'éco",
+    "url": "https://www.youtube.com/watch?v=Z0IPxLcD_fA",
+    "langue": "Français",
+    "description": "Cette vidéo d'animation pédagogique explique ce qu'est la protection sociale : les risques couverts — maladie, vieillesse, famille, chômage — et son financement par les cotisations, dans une logique de solidarité. Elle illustre les mécanismes généraux de la matière ; l'organisation malienne présentée dans la leçon — l'INPS et la couverture maladie — se vérifie dans le Code de prévoyance sociale et auprès des organismes maliens compétents.",
+    "niveau": "Licence 2 — protection sociale"
+   },
+   {
+    "titre": "Inspecteur Du Travail : [Droit du travail]",
+    "chaine": "Constance Mosnier - Cours de droit en vidéos",
+    "url": "https://www.youtube.com/watch?v=soPB3Nta2kY",
+    "langue": "Français",
+    "description": "Ce cours en vidéo présente l'inspecteur du travail : ses missions de contrôle, de conseil et de conciliation, et la manière dont il intervient dans les entreprises. Les mécanismes généraux qu'elle présente se vérifient dans le Code du travail malien et les conventions collectives en vigueur au Mali.",
+    "niveau": "Licence 2 — inspection du travail"
+   }
+  ]
  }
 }
