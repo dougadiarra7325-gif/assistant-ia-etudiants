@@ -8912,5 +8912,51 @@
     "niveau": "Licence 2 (L2)"
    }
   ]
+ },
+ "DRO-L2-25": {
+  "pdf": "pdf/DRO-L2-25.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "Magistrat, un métier pour moi ?",
+    "chaine": "Ministère de la Justice",
+    "url": "https://www.youtube.com/watch?v=ST3YrW9rlIw",
+    "langue": "Français",
+    "description": "Une présentation institutionnelle du métier de magistrat, tournée au moment de l'entrée dans la fonction et de la prestation de serment d'une promotion d'auditeurs de justice. Elle illustre concrètement la leçon 1 : le serment comme engagement solennel d'entrée et les missions que le magistrat s'engage à servir — les statuts maliens en vigueur restant la référence à consulter.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "L'indépendance et l'impartialité de la justice : Mythe ou réalité ? | David GUYON",
+    "chaine": "David GUYON Avocat - Droit public",
+    "url": "https://www.youtube.com/watch?v=HTMt0Gjsw7w",
+    "langue": "Français",
+    "description": "Un décryptage thématique qui distingue indépendance et impartialité, présente les garanties classiques et les voies de contestation — récusation, recours, rôle du conseil supérieur de la magistrature. À regarder comme une discussion d'idées générales : les garanties exactes se lisent dans la Constitution et les statuts maliens en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Déontologie de l Avocat 1",
+    "chaine": "DSP AVOCATS",
+    "url": "https://www.youtube.com/watch?v=1O9sojhGtd0",
+    "langue": "Français",
+    "description": "Un cours de déontologie de l'avocat qui présente les principes essentiels de la profession — indépendance, secret professionnel, loyauté, confraternité — et les enjeux disciplinaires du manquement. Il donne un visage concret au code de déontologie nommé en général dans ce cours ; le code du barreau malien en vigueur fait foi pour l'exercice au Mali.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "[ LES RÈGLES DE LA PROFESSION D'AVOCAT-ÉPISODE 2 : LE CONFLIT D'INTERÊT ]",
+    "chaine": "LES AVOCATS REUNIS AARPI",
+    "url": "https://www.youtube.com/watch?v=U4g3FE1kiZU",
+    "langue": "Français",
+    "description": "Un entretien de praticiens entièrement consacré au conflit d'intérêts de l'avocat : comment il naît, comment il se repère, pourquoi il commande de refuser un dossier. Il prolonge la grille de la leçon 3 par des questions de pratique, les règles exactes restant celles du statut et du code de déontologie maliens en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "[GRA 2025] Replay : Secret professionnel, perquisitions, écoutes téléphoniques",
+    "chaine": "CNB Conseil national des barreaux - les avocats",
+    "url": "https://www.youtube.com/watch?v=25Y3eC68jX0",
+    "langue": "Français",
+    "description": "Un replay institutionnel du Conseil national des barreaux consacré à la défense du secret professionnel face aux mesures d'enquête, avec des avocats et un magistrat. Il éclaire la frontière pénale de la leçon 6 : le secret comme rempart de la défense, dont la violation et la protection se lisent dans les textes maliens en vigueur.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
