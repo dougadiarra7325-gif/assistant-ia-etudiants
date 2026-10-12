@@ -5810,5 +5810,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-06": {
+  "pdf": "pdf/BBA-L3-06.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "La Gestion de projet en 5 minutes",
+    "chaine": "Capisens",
+    "url": "https://www.youtube.com/watch?v=o5gL8LgXCgI",
+    "langue": "Français",
+    "description": "Une synthèse claire des fondamentaux : ce qu'est un projet, la triple contrainte délai–coût–périmètre, les phases du cycle de vie et le rôle du chef de projet. Parfaite pour fixer le vocabulaire de la leçon 1 avant d'entrer dans les calculs.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "[Gestion de Projet] Leçon 4 : Décomposition technique d'un projet",
+    "chaine": "Self Education",
+    "url": "https://www.youtube.com/watch?v=2gP5881jlX4",
+    "langue": "Français",
+    "description": "La construction du WBS pas à pas : pourquoi découper en lots de travaux élémentaires, comment catégoriser l'organigramme des tâches et rédiger son dictionnaire. Le prolongement direct de la leçon 3, avec un exemple suivi.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Le réseau Pert : une méthode d'ordonnancement | Gestion de projet",
+    "chaine": "5 minutes pour réussir",
+    "url": "https://www.youtube.com/watch?v=_OZeJG-UMGw",
+    "langue": "Français",
+    "description": "Un exercice complet de construction d'un réseau PERT : règles de dessin du graphe, dates au plus tôt et au plus tard, puis détermination du chemin critique. Refais l'exercice en parallèle avec le réseau du dépôt de Ségou de la leçon 4.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Le diagramme de Gantt : Méthode d'ordonnancement | Gestion de projet",
+    "chaine": "5 minutes pour réussir",
+    "url": "https://www.youtube.com/watch?v=T4u-Fw3uAbc",
+    "langue": "Français",
+    "description": "La construction du diagramme de Gantt à partir d'un exercice : placer les barres des tâches, lire la durée totale et repérer le chemin critique sur le calendrier. À regarder après la vidéo PERT pour voir le même plan sous sa forme calendaire.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Réussir les questions PMP sur les métriques et KPI - Partie 1",
+    "chaine": "Esoftsolution | Agilité & Projets IT",
+    "url": "https://www.youtube.com/watch?v=Zxzi3FP7Fd8",
+    "langue": "Français",
+    "description": "La gestion de la valeur acquise expliquée simplement, avec un cas chiffré : PV, EV, AC, puis SV, SPI, CV et CPI, et leur interprétation (retard ? dépassement ?). Le cas de la vidéo donne SV négatif et CPI inférieur à 1, comme le point de suivi de la leçon 5 — compare les deux diagnostics.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
