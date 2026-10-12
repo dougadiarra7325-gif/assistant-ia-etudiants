@@ -7894,5 +7894,51 @@
     "niveau": "Licence (L2)"
    }
   ]
+ },
+ "DRO-L2-02": {
+  "pdf": "pdf/DRO-L2-02.pdf",
+  "pages": 32,
+  "videos": [
+   {
+    "titre": "Les fondements de la responsabilité délictuelle",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=J-xivk_ycRw",
+    "langue": "Français",
+    "description": "Un cours de présentation des fondements de la responsabilité délictuelle : faute, dommage et causalité, et les raisons pour lesquelles le droit fait peser la réparation sur l'auteur du fait. Les régimes généraux illustrés se vérifient dans les textes en vigueur applicables au Mali.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "[Droit/DGEMC] Le dommage - Droit / DGEMC",
+    "chaine": "Vincent Pauthier",
+    "url": "https://www.youtube.com/watch?v=z5ZbWACA4Rk",
+    "langue": "Français",
+    "description": "Une présentation claire et progressive du dommage : ses conditions de réparation — certain, direct, légitime — et ses grandes catégories, qui sert de socle à la leçon 2. Les régimes généraux illustrés se vérifient dans les textes en vigueur applicables au Mali.",
+    "niveau": "Licence (L1-L2)"
+   },
+   {
+    "titre": "Comprendre La Responsabilité Contractuelle & La Responsabilité Délictuelle.",
+    "chaine": "Étudiant En Droit",
+    "url": "https://www.youtube.com/watch?v=5-kYqoFhwMM",
+    "langue": "Français",
+    "description": "Une vidéo de distinction entre responsabilité contractuelle et responsabilité délictuelle, centrée sur le rôle de la faute, du dommage et du lien de causalité : utile pour situer la faute personnelle de la leçon 3. Les régimes généraux illustrés se vérifient dans les textes en vigueur applicables au Mali.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "L2 équipe 1 - La responsabilité du fait des choses",
+    "chaine": "Major Droit",
+    "url": "https://www.youtube.com/watch?v=QcPokh1rCFQ",
+    "langue": "Français",
+    "description": "Un cours de niveau Licence 2 consacré à la responsabilité du fait des choses : construction du régime général, conditions tenant à la chose et à sa garde, et régime de la responsabilité du gardien. Les régimes généraux illustrés se vérifient dans les textes en vigueur applicables au Mali.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "Le lien de causalité",
+    "chaine": "École de droit en bande organisée",
+    "url": "https://www.youtube.com/watch?v=eclZA5sOR3E",
+    "langue": "Français",
+    "description": "Une explication méthodique du lien de causalité, avec la distinction entre la théorie de l'équivalence des conditions et celle de la causalité adéquate au cœur de la leçon 6. Les régimes généraux illustrés se vérifient dans les textes en vigueur applicables au Mali.",
+    "niveau": "Licence 2 (L2)"
+   }
+  ]
  }
 }
