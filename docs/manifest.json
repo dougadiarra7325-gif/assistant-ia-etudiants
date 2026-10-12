@@ -5642,5 +5642,35 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-02": {
+  "pdf": "pdf/BBA-L3-02.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Marketing international Chapitre 2 la démarche marketing à l'international",
+    "chaine": "L' Univers du commerce",
+    "url": "https://www.youtube.com/watch?v=55dUj_spkyQ",
+    "langue": "Français",
+    "description": "Un chapitre de cours qui présente la démarche complète du marketing international, de l'analyse de l'environnement au choix des marchés. À regarder avant la leçon 2 pour situer la grille de sélection dans la démarche d'ensemble.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Marketing international Chapitre 3 Les techniques de segmentation des marchés cibles",
+    "chaine": "L' Univers du commerce",
+    "url": "https://www.youtube.com/watch?v=Rh61IZHIGgQ",
+    "langue": "Français",
+    "description": "Ce chapitre traite de la segmentation des marchés étrangers, des critères de choix d'un marché et des modes d'accès aux marchés étrangers. Il prolonge directement les leçons 2 et 3 de ce cours.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Management Interculturel : Le Modèle d'Hofstede",
+    "chaine": "Strategie & Management",
+    "url": "https://www.youtube.com/watch?v=70AQQmV1rBA",
+    "langue": "Français",
+    "description": "Un professeur des universités présente les six dimensions culturelles du modèle de Hofstede, avec définitions et exemples. À regarder avec l'esprit critique développé dans la leçon 5 : des tendances moyennes pour observer, jamais des étiquettes sur des personnes.",
+    "niveau": "Intermédiaire à avancé"
+   }
+  ]
  }
 }
