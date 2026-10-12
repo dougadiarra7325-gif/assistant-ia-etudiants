@@ -6316,5 +6316,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L3-17": {
+  "pdf": "pdf/BBA-L3-17.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "La transformation numérique",
+    "chaine": "Mastering Network Engineering",
+    "url": "https://www.youtube.com/watch?v=fos64PB8VoM",
+    "langue": "Français",
+    "description": "Présentation structurée des grands concepts de la transformation numérique des organisations, du cloud à l'intelligence artificielle. À regarder avant la leçon 1 pour situer les technologies dans une stratégie d'ensemble.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Automatisation des documents : passez à l’étape supérieure après la dématérialisation #workflow",
+    "chaine": "Open Bee",
+    "url": "https://www.youtube.com/watch?v=ARATQcuGhFQ",
+    "langue": "Français",
+    "description": "Une fois les documents dématérialisés, l'enjeu devient leur circulation : reconnaissance automatique, indexation, circuits de validation et relances. Le prolongement direct de la leçon 2 sur la dématérialisation des processus.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Transformation digitale : 3 leviers marketing CRM pour créer de la valeur vie client",
+    "chaine": "emoveo",
+    "url": "https://www.youtube.com/watch?v=r8L9ymrzzbY",
+    "langue": "Français",
+    "description": "Comment la transformation digitale renouvelle la relation client autour de trois leviers : le service, l'expérience et la coopération. Un éclairage utile pour la leçon 3 sur les nouveaux modèles économiques fondés sur la relation durable.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Recevoir ses paiements (Mobile Money) et régler la livraison | Bien démarrer avec Yeli #3",
+    "chaine": "Yeli",
+    "url": "https://www.youtube.com/watch?v=gEFX8XHgC2s",
+    "langue": "Français",
+    "description": "Un tutoriel concret, pensé pour les commerçants d'Afrique de l'Ouest : configurer les paiements par Mobile Money (Wave, Orange Money) et la livraison d'une boutique en ligne. Il illustre le parcours de paiement de la leçon 4, côté marchand.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Comment transformer une organisation IT ?",
+    "chaine": "Wintalk_podcast",
+    "url": "https://www.youtube.com/watch?v=Lo2lO0ZCyc0",
+    "langue": "Français",
+    "description": "Un manager de transition y raconte comment conduire une transformation en quelques mois : partir du besoin métier, observer avant d'agir, garder les équipes à bord. Un témoignage de terrain qui fait écho aux leçons 5 et 6 sur la feuille de route et les freins humains.",
+    "niveau": "Intermédiaire à avancé"
+   }
+  ]
  }
 }
