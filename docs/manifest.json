@@ -7182,5 +7182,51 @@
     "niveau": "Débutant à intermédiaire (L1)"
    }
   ]
+ },
+ "DRO-L1-11": {
+  "pdf": "pdf/DRO-L1-11.pdf",
+  "pages": 33,
+  "videos": [
+   {
+    "titre": "Relations Internationales (Résumé du cours)",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=FGY2f8mpYnI",
+    "langue": "Français",
+    "description": "La vidéo résume un cours complet de relations internationales : les acteurs du système international, la puissance des États et les grandes manières d'analyser leurs relations. Elle prolonge la leçon 1 : en la regardant, exerce-toi à classer chaque entité évoquée entre sujet de droit international et simple acteur, comme dans l'exercice du cours.",
+    "niveau": "Débutant (L1)"
+   },
+   {
+    "titre": "L'Onu, à quoi ça sert ? Décod'Actu | Lumni",
+    "chaine": "Lumni",
+    "url": "https://www.youtube.com/watch?v=cFoZJDXrjp0",
+    "langue": "Français",
+    "description": "En quelques minutes, la vidéo explique pourquoi l'ONU a été créée en 1945 et présente ses principaux organes — Assemblée générale, Conseil de sécurité, Cour internationale de Justice, Secrétariat — et leurs rôles respectifs. Elle complète le schéma de la leçon 3 : compare la place donnée à chaque organe avec les fonctions décrites dans le cours, notamment le mécanisme du veto.",
+    "niveau": "Débutant (L1)"
+   },
+   {
+    "titre": "Organisations internationales – Leçon 1 | Marc Finaud | SWISS UMEF Genève (L1 S1)",
+    "chaine": "SWISS UMEF - Campus de Genève",
+    "url": "https://www.youtube.com/watch?v=o1DBCLQpE0U",
+    "langue": "Français",
+    "description": "Première leçon d'un cours universitaire de niveau L1 : rôle et typologie des organisations internationales, place des Nations unies et des organisations régionales, gouvernance mondiale et sécurité collective. Elle sert directement la leçon 4 : repère comment l'enseignant distingue les organisations selon leur échelle — universelle ou régionale — et leurs finalités, la grille même du tableau comparatif du cours.",
+    "niveau": "Débutant (L1)"
+   },
+   {
+    "titre": "Droit des IDE #5 : Les Sources du Droit | Traités, Coutume, PGD & Jurisprudence en Musique",
+    "chaine": "Asmaa El Forkani",
+    "url": "https://www.youtube.com/watch?v=B26LA_5Fo_0",
+    "langue": "Français",
+    "description": "La vidéo présente, sous une forme mnémotechnique originale, les sources du droit international : traités, coutume, principes généraux du droit et jurisprudence. Elle accompagne la leçon 5 : après le visionnage, refais à voix haute le test des deux éléments de la coutume — pratique générale et opinio juris — sur l'exemple fictif du document A du cours.",
+    "niveau": "Débutant à intermédiaire (L1)"
+   },
+   {
+    "titre": "Droit diplomatique et consulaire – Leçon 1 | Jean-Daniel Ruch | SWISS UMEF Genève (L1 S1)",
+    "chaine": "SWISS UMEF - Campus de Genève",
+    "url": "https://www.youtube.com/watch?v=1TMPehXk-Gk",
+    "langue": "Français",
+    "description": "Première leçon d'un cours universitaire de droit diplomatique et consulaire, donné par un praticien des relations internationales : cadre, acteurs et fonctions des relations entre États menées par les diplomates et les consuls. Elle prolonge la leçon 6 : note comment l'enseignant distingue concrètement le travail de l'ambassade, qui représente l'État, de celui du consulat, qui assiste les personnes.",
+    "niveau": "Débutant (L1)"
+   }
+  ]
  }
 }
