@@ -7136,5 +7136,51 @@
     "niveau": "Débutant (L1)"
    }
   ]
+ },
+ "DRO-L1-10": {
+  "pdf": "pdf/DRO-L1-10.pdf",
+  "pages": 32,
+  "videos": [
+   {
+    "titre": "Qu’est-ce que la Science Politique ? | Cours Complet & Compréhension Facile",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=QjtOrm1IsOE",
+    "langue": "Français",
+    "description": "La vidéo présente la discipline dans son ensemble : ce qu'elle étudie, ses principaux concepts et ses grandes branches, des institutions aux comportements des citoyens. Elle prolonge directement la leçon 1 : regarde-la en te demandant, pour chaque exemple donné, quelle méthode permettrait de le vérifier.",
+    "niveau": "Débutant (L1)"
+   },
+   {
+    "titre": "Max Weber , violence légitime.",
+    "chaine": "PHILOVIBE",
+    "url": "https://www.youtube.com/watch?v=pyir2nqXMQM",
+    "langue": "Français",
+    "description": "La vidéo explique l'idée webérienne selon laquelle l'État revendique pour lui seul l'usage légitime de la force sur un territoire, et ce que « légitime » veut dire ici : une croyance partagée, pas seulement une capacité de contrainte. Elle éclaire la leçon 2 ; complète-la par la typologie des trois légitimités développée dans le cours.",
+    "niveau": "Débutant (L1)"
+   },
+   {
+    "titre": "La sociologie de Max Weber",
+    "chaine": "Anthropologique[s].",
+    "url": "https://www.youtube.com/watch?v=uPuQwaRTNJI",
+    "langue": "Français",
+    "description": "La vidéo parcourt les concepts majeurs de Weber — action sociale, idéal-type, formes de domination — et montre comment un même auteur fournit des outils pour analyser le pouvoir, les organisations et les croyances. Elle sert d'approfondissement à la leçon 2 : note en particulier ce qu'est un idéal-type, car les trois légitimités du cours en sont des exemples.",
+    "niveau": "Débutant à intermédiaire (L1)"
+   },
+   {
+    "titre": "Les partis politiques, qu'est-ce que c'est et à quoi ça sert?",
+    "chaine": "La Sociothèque",
+    "url": "https://www.youtube.com/watch?v=NuC3NBoWuQM",
+    "langue": "Français",
+    "description": "La vidéo définit ce qu'est un parti politique et expose ses fonctions — structurer l'offre électorale, sélectionner des candidats, porter des visions du monde — ainsi que certaines dérives discutées par la littérature. Elle accompagne la leçon 3 : compare ses fonctions à celles listées dans le cours et repère ce qui relève de la typologie de Duverger.",
+    "niveau": "Débutant (L1)"
+   },
+   {
+    "titre": "L'évaluation",
+    "chaine": "Anthropologique[s].",
+    "url": "https://www.youtube.com/watch?v=h5-VoZRL39w",
+    "langue": "Français",
+    "description": "La vidéo présente la démarche d'évaluation d'une politique locale ou d'un projet de développement : définir ce que l'on veut mesurer, recueillir des données, comparer les résultats aux objectifs. C'est le prolongement pratique de la dernière étape du cycle étudié dans la leçon 7 — celle qui permet de distinguer un programme réellement efficace d'un simple effet d'annonce.",
+    "niveau": "Débutant à intermédiaire (L1)"
+   }
+  ]
  }
 }
