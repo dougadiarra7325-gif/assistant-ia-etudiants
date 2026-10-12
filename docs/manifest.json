@@ -5902,5 +5902,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-08": {
+  "pdf": "pdf/BBA-L3-08.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Comment créer un business plan étape par étape ? #LaChecklist | Crédit Agricole",
+    "chaine": "Crédit Agricole",
+    "url": "https://www.youtube.com/watch?v=i7G5fvbIk6M",
+    "langue": "Français",
+    "description": "Les cinq grandes parties d'un business plan présentées par une banque : projet, étude de marché, offre, stratégie commerciale et plan de financement. À regarder avant la leçon 1 pour avoir la carte complète du document que ce cours construit pièce par pièce.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Comment rédiger un plan d'affaires | Demandez à un.e expert.e",
+    "chaine": "BDC",
+    "url": "https://www.youtube.com/watch?v=tAKiVzKDKpg",
+    "langue": "Français",
+    "description": "Une experte détaille les sections du plan d'affaires, la place de la présentation de l'entreprise et de l'équipe, et les erreurs à éviter. Le complément direct de la leçon 2 : comment structurer la partie rédactionnelle sans la gonfler.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les 6 étapes pour réaliser son prévisionnel financier",
+    "chaine": "CCI Entreprendre",
+    "url": "https://www.youtube.com/watch?v=HuTCjHscU2Q",
+    "langue": "Français",
+    "description": "La construction du prévisionnel financier en six étapes : compte de résultat, soldes intermédiaires, plan de financement initial et à trois ans, plan de trésorerie. C'est exactement la chaîne de tableaux liés de la leçon 6, présentée par une chambre de commerce.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comment faire un compte résultat prévisionnel et calculer les SIG sur Excel ? (Modèle gratuit)",
+    "chaine": "Morpheus Formation | Excel, Power BI, Data",
+    "url": "https://www.youtube.com/watch?v=Ceke78ioZ3k",
+    "langue": "Français",
+    "description": "Un tutoriel tableur qui construit un compte de résultat prévisionnel cellule par cellule et en tire les soldes intermédiaires de gestion. Utile pour refaire au tableur le prévisionnel de la leçon 6 et tester tes propres hypothèses en modifiant volumes et prix.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comment faire un Business Plan qui impressionne les investisseurs ?",
+    "chaine": "Legalstart",
+    "url": "https://www.youtube.com/watch?v=TGAsfp-HqXk",
+    "langue": "Français",
+    "description": "Comment des financeurs lisent un business plan et ce qu'ils attendent de sa présentation : clarté des hypothèses, cohérence des chiffres, anticipation des risques. À confronter à la leçon 7 : convaincre, oui — mais par la cohérence, jamais par le gonflage.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
