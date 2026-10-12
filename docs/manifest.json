@@ -9524,5 +9524,43 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "DRO-L3-14": {
+  "pdf": "pdf/DRO-L3-14.pdf",
+  "pages": 32,
+  "videos": [
+   {
+    "titre": "Le Droit de la Concurrence : Règles Essentielles et Enjeux Modernes | Cours Complet",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=_oZR_rY1cEk",
+    "langue": "Français",
+    "description": "Un cours complet qui enchaîne les objectifs du droit de la concurrence, les pratiques anticoncurrentielles, le contrôle des concentrations et le rôle de l'autorité : la vue d'ensemble idéale avant d'entrer dans les leçons de détail de ce cours.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Abus de position dominante",
+    "chaine": "JurisMana",
+    "url": "https://www.youtube.com/watch?v=RVjC2EF8dQM",
+    "langue": "Français",
+    "description": "Une présentation courte et directe de la notion d'abus de position dominante : retiens la distinction centrale — la dominance est une situation, l'abus est un comportement — puis reviens au dossier fictif de la leçon 3 pour appliquer le test des coûts.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "CAPSULE N°1 LES PRATIQUES ANTICONCURENTIELLES DANS L'ESPACE UEMOA",
+    "chaine": "CLKA NEWS",
+    "url": "https://www.youtube.com/watch?v=idkOdZu36iw",
+    "langue": "Français",
+    "description": "Une capsule consacrée spécifiquement aux pratiques anticoncurrentielles dans l'espace UEMOA : le prolongement direct de la leçon 5, pour entendre le cadre communautaire présenté dans son contexte régional avant de consulter les textes sur uemoa.int.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Concurrence déloyale et parasitisme : les dernières évolutions jurisprudentielles",
+    "chaine": "Cour de cassation",
+    "url": "https://www.youtube.com/watch?v=sMmH9JPaLUE",
+    "langue": "Français",
+    "description": "Sur la chaîne institutionnelle de la Cour de cassation, un point d'actualité doctrinale sur la concurrence déloyale et le parasitisme : utile pour voir comment les catégories de la leçon 6 (confusion, dénigrement, parasitisme) vivent dans la jurisprudence récente.",
+    "niveau": "Intermédiaire à avancé"
+   }
+  ]
  }
 }
