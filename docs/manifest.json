@@ -9234,5 +9234,51 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "DRO-L3-07": {
+  "pdf": "pdf/DRO-L3-07.pdf",
+  "pages": 35,
+  "videos": [
+   {
+    "titre": "Cours de droit fiscal (introduction, définition, impôts...)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=ygqEiTknqGY",
+    "langue": "Français",
+    "description": "Un cours d'introduction au droit fiscal par un enseignant de droit : définition de la matière, panorama des impôts et caractéristiques de la discipline. Le cadre décrit est celui du pays de la vidéo ; retiens les définitions et les distinctions, puis transpose les mécanismes au système malien présenté dans ce cours.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Dessine-moi l'éco : TVA collectée, TVA déductible... Qui paye réellement ?",
+    "chaine": "Dessine-moi l'éco",
+    "url": "https://www.youtube.com/watch?v=fh2Uy5M1NS4",
+    "langue": "Français",
+    "description": "Le mécanisme de la TVA en dessin animé : collecte, déduction et charge finale du consommateur, exactement la mécanique de la leçon 5. Les exemples chiffrés relèvent d'un cadre étranger ; seuls les mécanismes se transposent, et le code général des impôts malien en vigueur fait foi pour toute application.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Épisode 02 : TVA Facturée OU TVA Déductible ?",
+    "chaine": "COMPTA PRATIQUE",
+    "url": "https://www.youtube.com/watch?v=F77ZKJ3rUpI",
+    "langue": "Français",
+    "description": "La distinction entre TVA facturée (collectée) et TVA déductible, travaillée sur des exemples de factures. La vidéo relève d'un autre cadre national : les paramètres qui y figurent ne sont pas ceux du Mali — retiens la distinction et la méthode de calcul, et vérifie toujours le texte malien à jour.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "*Les techniques de recouvrement fiscal  *Cours Droit Fiscal S4",
+    "chaine": "COURS DROIT ECO",
+    "url": "https://www.youtube.com/watch?v=sWCWFpXU30Q",
+    "langue": "Français",
+    "description": "Un cours universitaire de droit fiscal consacré aux techniques de recouvrement de la créance fiscale : du paiement spontané aux poursuites. Présentation académique d'un autre cadre national ; les mécanismes et la gradation des suites se comparent utilement à la leçon 6, le texte malien en vigueur restant la référence.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Contrôle fiscal (2/2) : vos droits après la notification (le mois de plus, les recours)",
+    "chaine": "Stratégies — François Muller",
+    "url": "https://www.youtube.com/watch?v=JcEBZ7_2Udo",
+    "langue": "Français",
+    "description": "Après la proposition de rectification : les droits du contribuable, la discussion contradictoire et les recours, présentés par un praticien dans le cadre français. Les délais et paramètres évoqués sont ceux de ce cadre étranger et ne valent pas au Mali ; retiens la logique des garanties — répondre, motiver, discuter — qui structure les leçons 7 et 8.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
