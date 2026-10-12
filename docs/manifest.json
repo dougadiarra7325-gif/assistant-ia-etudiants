@@ -9004,5 +9004,51 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "DRO-L3-02": {
+  "pdf": "pdf/DRO-L3-02.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Colloque international sur les sûretés",
+    "chaine": "CERPA Officiel",
+    "url": "https://www.youtube.com/watch?v=pDu3ciuOpFM",
+    "langue": "Français",
+    "description": "Un colloque académique consacré à l'Acte uniforme portant organisation des sûretés dans l'espace OHADA et à la question de son efficacité. Parfait pour prendre du recul sur la leçon 1 : à quoi sert un système de sûretés, et comment juge-t-on qu'il remplit son office pour le crédit ?",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Le gage: Définition (Droit des sûretés)",
+    "chaine": "Cabinet D'affaires En Ligne (OHADA)",
+    "url": "https://www.youtube.com/watch?v=T_kGiQsrgcQ",
+    "langue": "Français",
+    "description": "Une présentation du gage à la lumière de la législation OHADA, de son évolution et de sa notion. À regarder avec la leçon 5 sous les yeux pour comparer la définition du gage et la logique de la dépossession avec le schéma du cours.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Le nantissement des droits d’associés et valeurs mobilières",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=fyUvAbwgxMw",
+    "langue": "Français",
+    "description": "La série « Actualités Droit OHADA » explique le nantissement des biens incorporels : quels biens peuvent être nantis, comment la sûreté se forme et quels effets elle produit. Le prolongement vidéo direct de la seconde moitié de la leçon 5.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Le registre du commerce et du crédit mobilier",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=YNCnscKQ8xw",
+    "langue": "Français",
+    "description": "Structure du RCCM, règles de tenue et de publicité, et surtout inscription des sûretés mobilières et effet de cette inscription. C'est la vidéo de base de la leçon 8 : sans elle, la logique de la priorité par les dates reste abstraite. Déjà mobilisée dans DRO-L3-01 pour le registre, elle est ici reprise sous l'angle des sûretés.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "DCG UE 1 FONDAMENTAUX DU DROIT - Contrats de vente, droit de la consommation et sûretés",
+    "chaine": "Ficheben DCG DSCG DEC",
+    "url": "https://www.youtube.com/watch?v=zAilS3fHFC4",
+    "langue": "Français",
+    "description": "Une révision de formation comptable française dont la partie consacrée aux sûretés présente la hiérarchie des créanciers et les grandes garanties — hypothèque, nantissement, cautionnement. Cadre étranger à l'OHADA : seuls les mécanismes généraux se transposent, et pour l'espace OHADA, c'est l'Acte uniforme en vigueur qui fait foi.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
