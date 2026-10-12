@@ -6998,5 +6998,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L1-07": {
+  "pdf": "pdf/DRO-L1-07.pdf",
+  "pages": 33,
+  "videos": [
+   {
+    "titre": "HISTOIRE DU DROIT (Les premiers droits, la démocratie, la loi des XII Tables) @JJDSimon",
+    "chaine": "Etudiants en Confinement",
+    "url": "https://www.youtube.com/watch?v=odwnBtRUg5o",
+    "langue": "Français",
+    "description": "Un cours filmé qui parcourt exactement la première leçon : premiers droits écrits, code d'Hammourabi, Grèce antique et loi des Douze Tables à Rome. Utile pour fixer la frise chronologique avant de passer au droit romain.",
+    "niveau": "Licence 1"
+   },
+   {
+    "titre": "L'Antiquité en œuvres | Le Corpus Juris Civilis (avec Maxime St-Hilaire)",
+    "chaine": "Formations Humanitas",
+    "url": "https://www.youtube.com/watch?v=4Tk5BkRCMqU",
+    "langue": "Français",
+    "description": "Un professeur de droit présente la compilation de Justinien, ses parties et ce que la codification fait au droit qu'elle conserve. Le prolongement savant idéal de la leçon sur l'héritage romain.",
+    "niveau": "Licence 1 à Licence 3"
+   },
+   {
+    "titre": "Cours d'introduction historique au droit (résumé, présentation et conseils pour réussir)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=CyS9WJGBBws",
+    "langue": "Français",
+    "description": "Une présentation complète de la matière d'introduction historique au droit : grandes phases, Antiquité, droit romain et droit médiéval, avec des conseils de méthode pour les examens. Parfait pour réviser l'enchaînement des trois premières leçons.",
+    "niveau": "Licence 1"
+   },
+   {
+    "titre": "Soundiata Keïta : De l'enfant qui ne marchait pas au plus grand Empire",
+    "chaine": "Je suis - Récits d'Histoire",
+    "url": "https://www.youtube.com/watch?v=Dv9XkU_aUCY",
+    "langue": "Français",
+    "description": "Le récit de la fondation de l'empire du Mali par Soundiata Keïta, de la victoire de Kirina à l'organisation de l'empire et à sa tradition normative. À regarder avec l'œil de la leçon : distinguer l'épopée transmise par les griots et les faits établis.",
+    "niveau": "Licence 1"
+   },
+   {
+    "titre": "Le droit OHADA en pratique - DAC RDC",
+    "chaine": "DiasporaAuditCompta RDC",
+    "url": "https://www.youtube.com/watch?v=wh-aNWrMcPs",
+    "langue": "Français",
+    "description": "Une présentation de l'OHADA comme expérience d'intégration juridique : création par le traité de Port-Louis de 1993, révision de Québec en 2008 et objectifs de sécurité juridique des entreprises. Elle donne un visage concret à l'aboutissement historique de la leçon 7.",
+    "niveau": "Licence 1 à Licence 3"
+   }
+  ]
  }
 }
