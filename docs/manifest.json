@@ -8430,5 +8430,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-14": {
+  "pdf": "pdf/DRO-L2-14.pdf",
+  "pages": 36,
+  "videos": [
+   {
+    "titre": "Droit des régimes matrimoniaux : La participation aux acquêts",
+    "chaine": "NotaCours - Réussir en Droit notarial",
+    "url": "https://www.youtube.com/watch?v=04xek9VcXEI",
+    "langue": "Français",
+    "description": "Un cours détaillé sur la variante mixte de la typologie : fonctionnement séparatiste pendant le mariage, puis compte de participation à la dissolution. Les règles précises applicables à un couple — régime légal, mesures des comptes — se lisent dans le Code des personnes et de la famille malien en vigueur, pas dans cette vidéo qui présente une construction classique décrite.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Le régime de la séparation de biens (présentation, intérêt...)",
+    "chaine": "JuriXio",
+    "url": "https://www.youtube.com/watch?v=D7Oh4oOpoI0",
+    "langue": "Français",
+    "description": "La présentation claire de la grande construction séparatiste : définition, fonctionnement et intérêts discutés, par un enseignant en droit. Pour savoir quel régime s'applique à défaut de choix et ce qu'un contrat peut organiser au Mali, la réponse se lit dans le Code des personnes et de la famille en vigueur.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Liquidation corrigée : Liquidation d'une communauté légale avec récompenses",
+    "chaine": "NotaCours - Réussir en Droit notarial",
+    "url": "https://www.youtube.com/watch?v=_Kt21z2P7Rg",
+    "langue": "Français",
+    "description": "Une liquidation complète menée pas à pas, avec qualification des biens, récompenses et partage : la méthode en étapes de la leçon, appliquée à un cas d'école d'un autre système. Les mesures et règles de calcul d'une liquidation malienne se lisent dans le Code des personnes et de la famille en vigueur et se vérifient avec le professionnel chargé du dossier.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Droit des successions : L'indemnité de réduction",
+    "chaine": "NotaCours - Réussir en Droit notarial",
+    "url": "https://www.youtube.com/watch?v=qixthNEn8-k",
+    "langue": "Français",
+    "description": "Le mécanisme de la réduction des libéralités excessives, expliqué avec la méthode des deux temps — dépassement mesuré, puis indemnité chiffrée — sur des exemples d'école étrangers. Aucune des fractions présentées ne vaut pour le Mali : les quotités éventuelles se lisent dans le Code des personnes et de la famille malien en vigueur.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les différentes formes de testament (authentique, olographe, mystique)",
+    "chaine": "JuriXio",
+    "url": "https://www.youtube.com/watch?v=c-Cw0WcdZo0",
+    "langue": "Français",
+    "description": "La présentation des formes classiques du testament et de leurs principes, par un enseignant en droit : le prolongement direct de la leçon. Les conditions de validité précises d'un testament au Mali se lisent dans le Code des personnes et de la famille en vigueur, et la rédaction réelle passe par le notaire ou l'avocat.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
