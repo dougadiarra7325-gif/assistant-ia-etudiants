@@ -5504,5 +5504,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L2-24": {
+  "pdf": "pdf/BBA-L2-24.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Introduction à la Recherche Opérationnelle (RO)",
+    "chaine": "Dr. Madani Bezoui",
+    "url": "https://www.youtube.com/watch?v=4i0Y0r4PFpo",
+    "langue": "Français",
+    "description": "Une présentation d'ensemble de la recherche opérationnelle : à quoi elle sert, quels types de problèmes de décision elle traite et comment elle aide les organisations à choisir. À regarder en ouverture du cours pour situer les méthodes des leçons suivantes.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Recherche opérationnelle :  Résolution graphique d'un programme linéaire",
+    "chaine": "Comprendre l'informatique",
+    "url": "https://www.youtube.com/watch?v=ZO0FvbLaoZI",
+    "langue": "Français",
+    "description": "La résolution graphique d'un programme linéaire pas à pas : tracé des contraintes, région des solutions admissibles et recherche de l'optimum par les sommets ou les droites parallèles. Le compagnon vidéo direct de la leçon 2.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "La Loi de Little",
+    "chaine": "Les meilleures Videos WikiLean",
+    "url": "https://www.youtube.com/watch?v=CVAaCg0V_s8",
+    "langue": "Français",
+    "description": "Un exemple court et concret de la loi de Little, qui relie le nombre moyen d'éléments présents dans un système, le taux d'arrivée et le temps de séjour. Idéal pour ancrer la relation L = lambda × W utilisée dans la leçon 4.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "S5 - La gestion financière 5 - les critères du choix d'investissement en avenir aléatoire et risqué",
+    "chaine": "Economie Simple",
+    "url": "https://www.youtube.com/watch?v=AfFAjG14FQM",
+    "langue": "Français",
+    "description": "Les critères de choix d'investissement quand l'avenir est aléatoire ou risqué, avec des exemples chiffrés : espérance, mais aussi prise en compte du risque. Un prolongement naturel de la leçon 5 sur l'arbre de décision et l'EMV.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "#6 La Recherche Opérationnelle (RO) | Programmation Linéaire | Méthode Graphique",
+    "chaine": "Salim Bro",
+    "url": "https://www.youtube.com/watch?v=5Lb366XP4Bw",
+    "langue": "Français",
+    "description": "Un épisode de série de recherche opérationnelle consacré à la programmation linéaire et à la méthode graphique, avec un exemple traité en détail. Utile pour revoir la formulation avant de passer au solveur du tableur.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
