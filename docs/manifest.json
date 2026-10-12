@@ -8024,5 +8024,51 @@
     "niveau": "Licence 2 (L2)"
    }
   ]
+ },
+ "DRO-L2-05": {
+  "pdf": "pdf/DRO-L2-05.pdf",
+  "pages": 39,
+  "videos": [
+   {
+    "titre": "L'application de la loi pénale dans le temps - Les lois de fond",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=Yetz-mYzpyY",
+    "langue": "Français",
+    "description": "Le conflit de lois pénales de fond dans le temps, exposé par un enseignant : non-rétroactivité de la loi plus sévère et rétroactivité de la loi plus douce y sont traités en cours complet. Retiens les mécanismes : les règles précises applicables se lisent dans le Code pénal malien en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "LA TENTATIVE en droit pénal",
+    "chaine": "Aide aux TD - Vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=38Wi7p4uI3Y",
+    "langue": "Français",
+    "description": "La tentative travaillée comme en travaux dirigés : commencement d'exécution, absence de désistement volontaire et champ des infractions concernées. Les mécanismes se transposent ; les incriminations et les peines applicables se lisent dans le Code pénal malien.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "L'élément matériel : complicité et responsabilité pénale du fait d'autrui - Pénal #4",
+    "chaine": "Juris Internetus",
+    "url": "https://www.youtube.com/watch?v=n8ERSb8caWg",
+    "langue": "Français",
+    "description": "Un cours filmé de droit pénal général consacré à la complicité : acte de participation, fait principal punissable et élément moral du complice. À regarder avec la grille de la leçon 6 — aide, assistance, provocation — en vérifiant les règles précises dans les textes applicables au Mali.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Imputation de l'infraction : Auteur, Complice et Responsabilité Pénale",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=BkOlBZsuMNg",
+    "langue": "Français",
+    "description": "Qui répond de l'infraction : auteur, coauteur, complice — une leçon claire sur l'imputation et la répartition des rôles dans la participation criminelle. Seuls les mécanismes se transposent au Mali ; les peines encourues se lisent dans le Code pénal malien en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Les Peines en Droit : Tout Comprendre sur les Sanctions Pénales | Cours Complet",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=mmyoR7QAN60",
+    "langue": "Français",
+    "description": "Un cours complet sur les sanctions pénales : leurs types, leur classification et leurs critères d'application, dans l'esprit de la leçon 8. Aucun quantum énoncé dans cette vidéo ne vaut pour le Mali : les peines applicables se lisent exclusivement dans le Code pénal malien en vigueur.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
