@@ -8790,5 +8790,35 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-22": {
+  "pdf": "pdf/DRO-L2-22.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "La cessation de paiement",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=j5JOSTbvX9s",
+    "langue": "Français",
+    "description": "La chaîne Actualités Droit OHADA explique la notion qui commande tout ce cours : l'impossibilité de faire face au passif exigible avec l'actif disponible, dans le cadre même de l'Acte uniforme. À regarder en gardant la discipline de la leçon : les mécanismes se comprennent ici, les règles précises se vérifient dans l'Acte en vigueur sur ohada.org.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Difficultés d'Entreprise : Comment anticiper et sauver votre activité ? (Prévention & Sauvegarde)",
+    "chaine": "JurisTis",
+    "url": "https://www.youtube.com/watch?v=h_eG2eKWbYA",
+    "langue": "Français",
+    "description": "Cette vidéo présente les idées de la prévention dans un système voisin : détection interne, alerte du commissaire aux comptes, appui du président du tribunal et négociation confidentielle. Retenir les idées générales de la leçon 2 — anticiper, alerter, négocier — en se souvenant que, dans l'espace OHADA, la prévention organisée par l'Acte est le règlement préventif.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Entreprises en difficulté : la consultation des créanciers",
+    "chaine": "Deloitte Société d'Avocats",
+    "url": "https://www.youtube.com/watch?v=JNQxFPelYTc",
+    "langue": "Français",
+    "description": "Deux avocates expliquent comment les créanciers sont consultés, individuellement ou collectivement, sur un projet de plan de redressement, dans un cadre étranger à l'OHADA. À utiliser pour l'idée générale — un plan se négocie avec ceux qui devront attendre ou consentir des efforts — l'assemblée concordataire de l'Acte uniforme se lisant, elle, dans le texte officiel.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
