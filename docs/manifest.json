@@ -6814,5 +6814,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L1-03": {
+  "pdf": "pdf/DRO-L1-03.pdf",
+  "pages": 30,
+  "videos": [
+   {
+    "titre": "La théorie de la séparation des pouvoirs",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=e7UGEG0xaxA",
+    "langue": "Français",
+    "description": "Le principe fondateur de toute architecture institutionnelle : pourquoi séparer les pouvoirs, et ce que séparation stricte et séparation souple changent concrètement. À transposer au cas malien en gardant le réflexe du cours : vérifier ensuite le texte en vigueur.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Quelles sont les étapes du vote d'une loi ?",
+    "chaine": "Vie publique",
+    "url": "https://www.youtube.com/watch?v=4KeXWox72zg",
+    "langue": "Français",
+    "description": "Le cheminement général d'un texte, de son dépôt à son adoption, dans un système parlementaire comparable : initiative, commission, débats, vote. Les mécanismes sont ceux de la leçon ; les délais et formes propres à ce système ne se transposent pas tels quels.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le vote de la loi",
+    "chaine": "Sénat",
+    "url": "https://www.youtube.com/watch?v=aG99ge8G2ng",
+    "langue": "Français",
+    "description": "Une présentation institutionnelle du moment du vote dans une assemblée : qui participe, comment le scrutin se déroule, ce que le vote décide. Utile pour visualiser l'étape où la discussion devient décision.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le contrôle de constitutionnalité des lois",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=2NxoaNX7pDM",
+    "langue": "Français",
+    "description": "Pourquoi et comment la conformité des lois à la Constitution est contrôlée : saisine, effets d'une censure, place du juge constitutionnel. Le prolongement direct de la leçon sur les organes juridictionnels.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Décentralisation et déconcentration (définition, exemple) - Droit constitutionnel",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=sKTxYQ99tJA",
+    "langue": "Français",
+    "description": "La distinction que la leçon 8 martèle : transférer des compétences à des collectivités élues n'est pas déplacer des agents de l'État. Définitions nettes et exemples à l'appui, à relire avant l'exercice de tri.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
