@@ -6040,5 +6040,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-11": {
+  "pdf": "pdf/BBA-L3-11.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "La RSE : levier de performance globale et de sens pour les entrepreneurs",
+    "chaine": "Bpifrance",
+    "url": "https://www.youtube.com/watch?v=bWOcDXtHnkM",
+    "langue": "Français",
+    "description": "Bpifrance présente la RSE comme un levier de performance et de sens pour les entrepreneurs, et non comme une contrainte administrative. Un bon prolongement de la leçon 1 pour voir comment des entreprises réelles articulent responsabilité et stratégie.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comprendre la RSE et la norme ISO 26000 en quelques minutes - part 2",
+    "chaine": "Rate A Company - la RSE avec les parties prenantes",
+    "url": "https://www.youtube.com/watch?v=WQPXQihi9zw",
+    "langue": "Français",
+    "description": "Une explication courte de la RSE et de la norme ISO 26000 par une chaîne spécialisée dans la notation RSE avec les parties prenantes. Elle aide à situer les questions centrales du référentiel avant de faire ses propres choix de priorités.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "cours de management d'entreprise: les parties prenantes / définition et types",
+    "chaine": "Gestion 360",
+    "url": "https://www.youtube.com/watch?v=SUOgbY_3Ack",
+    "langue": "Français",
+    "description": "Un cours de management qui définit les parties prenantes et distingue les internes (dirigeants, salariés) des externes (clients, fournisseurs, pouvoirs publics…). À regarder pour consolider la cartographie construite dans la leçon 3.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Le greenwashing c'est quoi ? Tactiques & exemples",
+    "chaine": "Sustainability Illustrated",
+    "url": "https://www.youtube.com/watch?v=2kBUfQ-h_JQ",
+    "langue": "Français",
+    "description": "Une animation au tableau blanc, en français, qui décortique les tactiques du greenwashing : imagerie trompeuse, affirmations sans preuve, déclarations vagues, attributs insignifiants mis en avant. Le complément direct de l'audit de communication de la leçon 6.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "La responsabilité sociétale de l'entreprise",
+    "chaine": "Initiative France",
+    "url": "https://www.youtube.com/watch?v=g8O9-B_46IY",
+    "langue": "Français",
+    "description": "Initiative France, réseau d'accompagnement des entrepreneurs, explique la responsabilité sociétale de l'entreprise à destination des petites structures. Utile pour situer la démarche proportionnée de la leçon 7 dans le parcours d'un créateur ou d'un dirigeant de PME.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
