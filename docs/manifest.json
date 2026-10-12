@@ -7496,5 +7496,51 @@
     "niveau": "Licence (L1-L2)"
    }
   ]
+ },
+ "DRO-L1-18": {
+  "pdf": "pdf/DRO-L1-18.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Legal English Crime Masterclass: Understanding the Language of Law",
+    "chaine": "LearningEnglishPRO",
+    "url": "https://www.youtube.com/watch?v=iwVYShLXclc",
+    "langue": "Anglais",
+    "description": "Une grande leçon de vocabulaire juridique anglais qui présente les acteurs du droit et du procès — avocat, barrister, defendant, témoin — avec définitions et phrases d'exemple. Parfaite pour accompagner la leçon 1 et entendre chaque mot prononcé dans une phrase complète.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "50 Legal English Vocabulary Words for TOEFL & Law (B2-C2) IELTS",
+    "chaine": "Language Villlage by Valeria",
+    "url": "https://www.youtube.com/watch?v=9e85wJ--hi8",
+    "langue": "Anglais",
+    "description": "Cinquante mots du procès et de la justice — trial, verdict, jury, witness, appeal — définis simplement et illustrés par des extraits de films. Plus exigeante que la leçon 2, elle sert de prolongement : regarde-la avec le glossaire du cours sous les yeux.",
+    "niveau": "Intermédiaire à avancé (B2-C2)"
+   },
+   {
+    "titre": "12 Common Commercial Contracts in English | Legal English Vocabulary",
+    "chaine": "Study Legal English",
+    "url": "https://www.youtube.com/watch?v=lOzC445hHNA",
+    "langue": "Anglais",
+    "description": "Douze types de contrats commerciaux présentés en anglais, avec le nom des parties à chaque contrat — seller, buyer, landlord, tenant, lender, borrower. Elle prolonge la leçon 3 et se termine par un quiz qui te permet de tester ton vocabulaire.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Commercial Agreements Explained | Legal English for Lawyers",
+    "chaine": "Legal English",
+    "url": "https://www.youtube.com/watch?v=roZY_F2lNsY",
+    "langue": "Anglais",
+    "description": "Les accords commerciaux expliqués en anglais juridique : obligations contractuelles, performance, breach of contract et consideration y sont employés en contexte, exactement les mots-blocs de la leçon 3. Idéale pour entendre la différence entre to perform et to breach dans des phrases professionnelles.",
+    "niveau": "Intermédiaire (B1-B2)"
+   },
+   {
+    "titre": "Legal English Complete Course | Master Legal Communication with Confidence",
+    "chaine": "LangAdvance",
+    "url": "https://www.youtube.com/watch?v=hw-AeyW9MHI",
+    "langue": "Anglais",
+    "description": "Un cours complet d'anglais juridique dont une section entière est consacrée à la correspondance et à la communication légale : c'est le prolongement direct de la leçon 5 sur la lettre formelle. Sa section sur les présentations orales servira aussi à préparer l'exercice de la leçon 7 — choisis les chapitres dans la description de la vidéo.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
