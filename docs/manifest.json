@@ -9822,5 +9822,51 @@
     "niveau": "Intermédiaire à avancé"
    }
   ]
+ },
+ "DRO-L3-21": {
+  "pdf": "pdf/DRO-L3-21.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Charte Africaine des droits de l'Homme",
+    "chaine": "PNUD Sénégal",
+    "url": "https://www.youtube.com/watch?v=9iEiYHRY1_Y",
+    "langue": "Français",
+    "description": "Présentation institutionnelle de la Charte africaine réalisée dans un cadre des Nations unies : utile pour situer le texte fondateur du système africain avant d'en étudier les mécanismes dans les leçons 1 et 2.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Entretien avec Dénis Ndour, Spécialiste en droits humains et professeur de Sciences Sociales",
+    "chaine": "WATHI Think Tank",
+    "url": "https://www.youtube.com/watch?v=endy_UFvpw4",
+    "langue": "Français",
+    "description": "Un spécialiste explique le projet de vulgarisation de la Charte africaine et les réalisations de la Commission africaine : un éclairage concret sur la fonction de promotion étudiée à la leçon 1.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "#32 Sur la Création d'une Cour Africaine des Droits de l'Homme et des Peuples",
+    "chaine": "WATHI Think Tank",
+    "url": "https://www.youtube.com/watch?v=HtiIPk-DqEo",
+    "langue": "Français",
+    "description": "Cette capsule d'un cercle de réflexion ouest-africain retrace la création de la Cour africaine et sa place à côté de la Commission : le prolongement direct de la leçon 2 sur la saisine et les décisions.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comment distinguer le DIH du DIDH et du DPI ?  Vidéo explicative",
+    "chaine": "Le Comité international de la Croix-Rouge",
+    "url": "https://www.youtube.com/watch?v=0kfrGOEDhtE",
+    "langue": "Français",
+    "description": "Une animation du CICR qui distingue droit international humanitaire, droit des droits de l'homme et droit pénal international : la clarification préalable idéale avant d'appliquer les principes de la leçon 5.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Les lois de la guerre en bref | CICR",
+    "chaine": "International Committee of the Red Cross (ICRC)",
+    "url": "https://www.youtube.com/watch?v=l64JaiDR6zQ",
+    "langue": "Français",
+    "description": "Le film pédagogique de référence du CICR sur les règles qui protègent les personnes en temps de conflit : il illustre l'esprit des Conventions de Genève présentées à la leçon 6, sans images de situations réelles.",
+    "niveau": "Débutant à intermédiaire"
+   }
+  ]
  }
 }
