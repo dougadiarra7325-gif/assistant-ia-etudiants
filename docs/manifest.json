@@ -5856,5 +5856,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-07": {
+  "pdf": "pdf/BBA-L3-07.pdf",
+  "pages": 33,
+  "videos": [
+   {
+    "titre": "Tout savoir sur les incoterms en 2026 | Les bases à connaître pour exporter | Episode 1/2",
+    "chaine": "Wallonia Export & Investment Agency (AWEX)",
+    "url": "https://www.youtube.com/watch?v=zRUTnZKmtx8",
+    "langue": "Français",
+    "description": "Un épisode pédagogique d'une agence publique d'appui à l'export qui pose les fondations : ce que sont les incoterms, ce qu'ils répartissent (frais, risques, documents) et ce qu'ils ne couvrent pas. À regarder avant ou après la leçon 1 pour ancrer les définitions.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Tout savoir sur les incoterms en 2026 | Les Incoterms à éviter et ceux à privilégier | Episode 2/2",
+    "chaine": "Wallonia Export & Investment Agency (AWEX)",
+    "url": "https://www.youtube.com/watch?v=rkyMnVe-3q8",
+    "langue": "Français",
+    "description": "Le second épisode passe au choix pratique : quels termes sont risqués pour un exportateur (l'épisode discute notamment EXW et DDP, les deux extrémités de la leçon 1) et lesquels privilégier selon la situation. Un prolongement direct de la note de choix d'incoterm du TP.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "ETUDE DES INCOTERMS MULTIMODAUX",
+    "chaine": "ACADEMIE DES LOGISTICIENS Didi chance AMBIA",
+    "url": "https://www.youtube.com/watch?v=E7KJkBajxgc",
+    "langue": "Français",
+    "description": "Un cours de logistique africaine consacré aux incoterms des transports multimodaux — exactement la situation d'une expédition malienne combinant route et mer. Il complète la leçon 3 sur la chaîne de transport et le choix des termes adaptés à chaque remise.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Le Droit des Douanes : règles, obligations et procédures expliquées",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=Db-tTU9JNLk",
+    "langue": "Français",
+    "description": "Une leçon de droit douanier en français : règles, obligations des opérateurs, procédures et régimes douaniers. Elle donne le cadre juridique général derrière le parcours pratique de la leçon 4 — les taux et procédures applicables restant, eux, à vérifier auprès de la douane concernée.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Règlements financiers - Banques et crédits documentaires",
+    "chaine": "Dar Al Moukawil دار المقاول",
+    "url": "https://www.youtube.com/watch?v=qeJsiq_B4jo",
+    "langue": "Français",
+    "description": "Une présentation destinée aux entrepreneurs sur les règlements financiers à l'international et le fonctionnement des crédits documentaires vus du côté des banques. À regarder avec la chronologie de la leçon 5 sous les yeux pour repérer chaque acteur et chaque étape.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
