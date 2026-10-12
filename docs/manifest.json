@@ -5458,5 +5458,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "BBA-L2-23": {
+  "pdf": "pdf/BBA-L2-23.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Comprendre l'escompte (Bancaire, Commercial, définition, exercices...etc.) | Finance Facile.",
+    "chaine": "Finance Facile",
+    "url": "https://www.youtube.com/watch?v=oBN82BC5uOY",
+    "langue": "Français",
+    "description": "La définition de l'escompte bancaire et commercial, le calcul de la valeur actuelle et des exercices d'application : le prolongement direct de la leçon 3 sur les agios.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "LES AGIOS, QU'EST-CE QUE C'EST ? COMBIEN ÇA COÛTE ?",
+    "chaine": "FACS-SENEGAL",
+    "url": "https://www.youtube.com/watch?v=Iib8q5ckd54",
+    "langue": "Français",
+    "description": "Ce que recouvrent les agios, comment ils se calculent sur un découvert et combien ils peuvent coûter : utile pour relire les calculs d'intérêts débiteurs de la leçon 3.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "La Microfinance",
+    "chaine": "Agence Ecofin",
+    "url": "https://www.youtube.com/watch?v=3Gb5o1Q9uBI",
+    "langue": "Français",
+    "description": "Le concept de microfinance, ses avantages et ses limites dans le contexte africain : une synthèse qui complète la leçon 5 sur le rôle des institutions de microfinance.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Créer son entreprise : comment monter un BON dossier de FINANCEMENT ? #GPS | Crédit Agricole",
+    "chaine": "Crédit Agricole",
+    "url": "https://www.youtube.com/watch?v=Dlz9Q6CauQY",
+    "langue": "Français",
+    "description": "Les conseils d'une banque pour constituer un dossier de financement solide : business plan, chiffres clés et préparation du rendez-vous, en écho à la leçon 6.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Pourquoi les banques refusent ton prêt (et comment éviter ça)",
+    "chaine": "Advyse - Conseil et expertise comptable",
+    "url": "https://www.youtube.com/watch?v=LaNta0PbGQw",
+    "langue": "Français",
+    "description": "Les motifs réels de refus bancaire et la façon de structurer son dossier et ses chiffres pour les éviter : le contrepoint pratique des leçons 6 et 7.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
