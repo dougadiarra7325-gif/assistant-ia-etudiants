@@ -5994,5 +5994,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-10": {
+  "pdf": "pdf/BBA-L3-10.pdf",
+  "pages": 27,
+  "videos": [
+   {
+    "titre": "Audit Financier : La mission de Commissariat aux comptes - Ép. 4",
+    "chaine": "Alexandre - Terrain Audit",
+    "url": "https://www.youtube.com/watch?v=81ayKiM3K0c",
+    "langue": "Français",
+    "description": "Une présentation concrète de la mission de commissariat aux comptes : acceptation, planification, travaux par cycles et rapports, avec une évocation des rapports d'audit dans l'espace OHADA. Parfait pour distinguer le CAC de l'audit contractuel.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Comprendre le vrai rôle du commissaire aux comptes",
+    "chaine": "GMBA - Conseil, Expertise comptable & Audit",
+    "url": "https://www.youtube.com/watch?v=AFBA11HxBaM",
+    "langue": "Français",
+    "description": "À quoi sert concrètement un commissaire aux comptes pour l'entreprise et ses partenaires ? Cette vidéo complète la leçon 1 sur la portée de la certification et la confiance des tiers.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Audit financier : normes générales, normes de travail et normes de rapport | Cours",
+    "chaine": "Formateur Hicham AIT ITTO",
+    "url": "https://www.youtube.com/watch?v=fzt4gr7uWuI",
+    "langue": "Français",
+    "description": "Un cours structuré sur les familles de normes qui organisent le travail de l'auditeur : indépendance, compétence, éléments probants, inspection et confirmations. À regarder après la leçon 2.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "La mission d'audit 1 - La prise de connaissance",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=g_HDekqALbg",
+    "langue": "Français",
+    "description": "La première étape de la démarche d'audit détaillée : connaître l'entité, son environnement et ses risques avant de planifier les travaux. Elle prolonge directement la leçon 3.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Contrôle interne : comment mettre en place un dispositif et le faire vivre",
+    "chaine": "IFACI",
+    "url": "https://www.youtube.com/watch?v=0BBvGV2V9Ac",
+    "langue": "Français",
+    "description": "L'IFACI, chapitre français de l'IIA, explique comment concevoir un dispositif de contrôle interne et le faire vivre au quotidien : périmètre, rôles, risques et contrôles. Un complément de référence pour les leçons 3 et 5.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
