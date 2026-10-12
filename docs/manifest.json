@@ -9684,5 +9684,51 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "DRO-L3-18": {
+  "pdf": "pdf/DRO-L3-18.pdf",
+  "pages": 33,
+  "videos": [
+   {
+    "titre": "Cours I Droit des médias et du numérique",
+    "chaine": "Gauthier Soufflard",
+    "url": "https://www.youtube.com/watch?v=4JESbdRWpxg",
+    "langue": "Français",
+    "description": "Un premier cours universitaire de droit des médias et du numérique qui ouvre la matière : champs couverts, place des réseaux et des contenus, articulation avec les droits voisins. Il prolonge la cartographie de la leçon 1 — domaines et couches de sources.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Le Droit du Commerce Électronique : règles, obligations et exemples concrets",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=3Mc3XncQ588",
+    "langue": "Français",
+    "description": "Les règles et obligations du commerce électronique présentées avec des exemples concrets : information du consommateur, contrat en ligne, responsabilités du vendeur. Elle illustre le parcours loyal décrit à la leçon 4, qui fabrique la preuve du consentement.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Signature électronique : comment ça marche ?",
+    "chaine": "LE DROIT POUR MOI",
+    "url": "https://www.youtube.com/watch?v=GhTZUbp9M-8",
+    "langue": "Français",
+    "description": "Le fonctionnement de la signature électronique expliqué par des juristes : identification du signataire, lien au document, intégrité garantie. Elle donne à voir la chaîne de confiance raisonnée à la leçon 5, maillon par maillon.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "DRT301 Chapitre 5 - La cybercriminalité  notions et sanctions",
+    "chaine": "NELLAPP",
+    "url": "https://www.youtube.com/watch?v=dOdCV7WO8jY",
+    "langue": "Français",
+    "description": "Un chapitre de cours consacré aux notions de cybercriminalité et à la logique des sanctions : familles d'infractions, éléments constitutifs, réponse pénale en catégories. Il prolonge l'aperçu sobre de la leçon 6, centré sur la qualification et la posture des victimes.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Internet et réseaux sociaux : que dit la loi ?",
+    "chaine": "Bruxelles-J",
+    "url": "https://www.youtube.com/watch?v=MDyS_i9YblI",
+    "langue": "Français",
+    "description": "Une juriste spécialisée répond aux questions des jeunes sur ce que la loi dit d'Internet et des réseaux sociaux : données personnelles, droit à l'image, liberté d'expression en ligne. Elle fait écho à l'équilibre de la leçon 8 entre droits des personnes et liberté de s'exprimer.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
