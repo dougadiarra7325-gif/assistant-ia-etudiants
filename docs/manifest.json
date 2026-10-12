@@ -7986,5 +7986,43 @@
     "niveau": "Licence 2 (L2)"
    }
   ]
+ },
+ "DRO-L2-04": {
+  "pdf": "pdf/DRO-L2-04.pdf",
+  "pages": 36,
+  "videos": [
+   {
+    "titre": "Cours de Droit administratif : introduction et notions clefs",
+    "chaine": "Aide aux TD - Vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=-7cGqzZxyiM",
+    "langue": "Français",
+    "description": "Une introduction générale au droit administratif et à ses notions structurantes, qui replace le juge administratif et les recours contentieux dans l'ensemble de la matière abordée par ce cours. Les mécanismes généraux illustrés se vérifient dans les textes maliens en vigueur.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "Le recours pour excès de pouvoir",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=kN4pDHIim6w",
+    "langue": "Français",
+    "description": "Un cours structuré sur le recours pour excès de pouvoir : sa nature de procès fait à un acte, ses conditions et les illégalités qui fondent l'annulation, en appui des leçons 2 et 3. Les mécanismes généraux illustrés se vérifient dans les textes maliens en vigueur.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "Cours de droit administratif : l'essentiel à connaître (conseils, arrêts importants)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=y-Ttp8CFti0",
+    "langue": "Français",
+    "description": "Un cours complet de synthèse sur le droit administratif, dont la partie contentieuse compare utilement recours pour excès de pouvoir et recours de pleine juridiction, en écho à la leçon 4. Les mécanismes généraux illustrés se vérifient dans les textes maliens en vigueur.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "Les référés administratifs d'urgence (référé-liberté, référé-suspension, référé conservatoire)",
+    "chaine": "Rémy Dandan - Avocat et enseignant",
+    "url": "https://www.youtube.com/watch?v=s0AugxLz1PA",
+    "langue": "Français",
+    "description": "Une présentation des trois référés d'urgence — suspension, liberté et mesures conservatoires — et de leurs conditions, en prolongement direct de la leçon 5 sur les fonctions du juge des référés. Les mécanismes généraux illustrés se vérifient dans les textes maliens en vigueur.",
+    "niveau": "Licence 2 (L2)"
+   }
+  ]
  }
 }
