@@ -8384,5 +8384,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-13": {
+  "pdf": "pdf/DRO-L2-13.pdf",
+  "pages": 39,
+  "videos": [
+   {
+    "titre": "Une gouvernance foncière améliorée pour une prospérité partagée dans le bassin du fleuve Sénégal",
+    "chaine": "Food and Agriculture Organization of the United Nations",
+    "url": "https://www.youtube.com/watch?v=zfxe_KQ9mYY",
+    "langue": "Français",
+    "description": "La FAO présente un programme de gouvernance foncière mené en Afrique de l'Ouest, auquel le Mali participe : plateformes d'échanges entre acteurs du foncier aux niveaux local, national et régional, et appui à des cadres de gestion plus sûrs pour tous les usagers. Une illustration institutionnelle des enjeux de la leçon 1 et de la gouvernance étudiée à la leçon 7 ; les principes internationaux présentés complètent, sans s'y substituer, le droit malien en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Le droit de propriété (usus, fructus, abusus)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=yCQ1E3Da9s8",
+    "langue": "Français",
+    "description": "Un enseignant universitaire décompose le droit de propriété en ses trois attributs classiques : user, recueillir les fruits, disposer. Cette grille éclaire directement la leçon 3 : sur le domaine public, c'est précisément l'attribut de disposition de la personne publique qui est paralysé par l'affectation, ce qui fonde l'inaliénabilité.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "La possession",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=Du6ImeTMR6M",
+    "langue": "Français",
+    "description": "Un cours universitaire sur la possession : son corpus, son animus et ses effets de preuve. Ces notions sont au cœur de la leçon 4, car c'est largement par une possession paisible, publique et prolongée, confirmée par la notoriété du terroir, que les droits fonciers coutumiers se démontrent.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Comprendre enfin le foncier, le droit de la construction au Cameroun",
+    "chaine": "VOX Land",
+    "url": "https://www.youtube.com/watch?v=uRkYKBNYDcY",
+    "langue": "Français",
+    "description": "Un professionnel du foncier — président de l'ordre des géomètres de son pays — explique les mécanismes de la sécurisation foncière : titre foncier, bornage, rôle des services techniques. Les procédures montrées sont celles d'un autre système francophone : on en retiendra les mécanismes généraux étudiés dans la leçon 5, la déclinaison malienne se lisant dans le Code domanial et foncier en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "La contractualisation foncière: la parole unit, l'écrit protège",
+    "chaine": "Audace Institut Afrique",
+    "url": "https://www.youtube.com/watch?v=_-G2UrDURo0",
+    "langue": "Français",
+    "description": "Un institut africain présente la contractualisation foncière en milieu rural ouest-africain : mettre par écrit les accords de terre — prêts, accueils, partages d'usage — pour protéger la parole donnée au lieu de la remplacer. C'est exactement le geste de prévention au centre de la leçon 8, illustré ici dans un autre pays de la région, selon des mécanismes transposables dans leur principe.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
