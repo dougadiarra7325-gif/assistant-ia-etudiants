@@ -9188,5 +9188,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "DRO-L3-06": {
+  "pdf": "pdf/DRO-L3-06.pdf",
+  "pages": 30,
+  "videos": [
+   {
+    "titre": "52 Minutes Pour Comprendre le fonctionnement de la BCEAO",
+    "chaine": "RTI Officiel",
+    "url": "https://www.youtube.com/watch?v=a2aCRWXFBvM",
+    "langue": "Français",
+    "description": "Une émission institutionnelle qui explique le fonctionnement de la banque centrale commune de l'Union : émission de la monnaie, politique monétaire et rôle auprès des États et des banques. C'est le point d'entrée visuel de la leçon 1, à regarder en gardant la grille du cours : chaque mission citée se range dans une fonction.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Film institutionnel sur l'histoire de la commission bancaire de l'UMOA",
+    "chaine": "Abidjan.netTV",
+    "url": "https://www.youtube.com/watch?v=lX-p1fa67uU",
+    "langue": "Français",
+    "description": "Le film institutionnel de l'organe de supervision bancaire de l'Union : sa création, ses missions de contrôle des établissements de crédit et sa place dans le système. Il illustre la leçon 1 du côté du superviseur, en complément de la cartographie par fonctions.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Cours de droit bancaire - Les établissements de crédit",
+    "chaine": "Juris Business",
+    "url": "https://www.youtube.com/watch?v=mwXQeDMGqx8",
+    "langue": "Français",
+    "description": "Un cours de droit bancaire consacré aux établissements de crédit : catégories, statut et conditions d'exercice dans un cadre général de droit français. À utiliser comme miroir des mécanismes de la leçon 2 — dans l'UEMOA, ce sont les textes de l'Union et la supervision de la Commission bancaire qui font foi.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Cours de droit bancaire - LES OPÉRATIONS DE BANQUE",
+    "chaine": "Juris Business",
+    "url": "https://www.youtube.com/watch?v=hs48SnBw8a4",
+    "langue": "Français",
+    "description": "Le cours compagnon sur les opérations de banque : réception de fonds, opérations de crédit et moyens de paiement dans leur logique juridique générale. Il prolonge la leçon 4 sur les catégories d'opérations ; les exemples chiffrés du cours, eux, restent des exercices pédagogiques propres à l'UEMOA fictive du dossier.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "TABLE RONDE VSLA AU MALI",
+    "chaine": "CARE INTERNATIONAL MALI",
+    "url": "https://www.youtube.com/watch?v=7clXGCZt3qI",
+    "langue": "Français",
+    "description": "Une table ronde malienne sur les groupes d'épargne et de crédit (VSLA), forme de finance communautaire de proximité. Elle donne un visage de terrain à la leçon 8 : avant l'institution encadrée, il y a la pratique collective d'épargne que les systèmes financiers décentralisés organisent et protègent.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
