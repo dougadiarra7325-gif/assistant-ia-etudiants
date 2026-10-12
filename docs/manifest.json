@@ -6630,5 +6630,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-24": {
+  "pdf": "pdf/BBA-L3-24.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "1-Méthodologie de Recherche",
+    "chaine": "Soumiazad",
+    "url": "https://www.youtube.com/watch?v=eu6M9qZyM3Y",
+    "langue": "Français",
+    "description": "Une présentation structurée des étapes d'un travail de recherche : choix du sujet, problématique, cadre théorique, méthodes, collecte et analyse. À regarder au démarrage, pour situer chaque leçon de ce cours dans la démarche complète.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "5 Clés pour bien rédiger la problématique d'un mémoire",
+    "chaine": "Expertmemoire - Aide à la rédaction de mémoire",
+    "url": "https://www.youtube.com/watch?v=oNKhUcqa5b0",
+    "langue": "Français",
+    "description": "Cinq clés pour passer d'un thème général à une problématique rédigée : délimiter, constater, questionner. Compare sa démarche avec l'entonnoir de la leçon 2 et avec la problématique du cas fictif d'Aminata T.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Les outils dans le travail de recherche / mémoire / thèse",
+    "chaine": "Geo",
+    "url": "https://www.youtube.com/watch?v=t1WCMb2HZJE",
+    "langue": "Français",
+    "description": "Les outils numériques du chercheur débutant : gestion des références bibliographiques, organisation du corpus de lectures et aide à la rédaction. Utile pour tenir ta matrice de lecture et ta bibliographie sans erreurs de références.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Méthodologie complète de rédaction d'un mémoire",
+    "chaine": "Expertmemoire - Aide à la rédaction de mémoire",
+    "url": "https://www.youtube.com/watch?v=e2eEwI6St1c",
+    "langue": "Français",
+    "description": "Une vue d'ensemble de la rédaction : structure des chapitres, enchaînement des parties et exigences formelles. À confronter avec l'ordre de rédaction proposé dans la leçon 6 (résultats d'abord, introduction en dernier).",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "4 questions qu'on peut vous poser le jour de votre soutenance de mémoire ou de thèse",
+    "chaine": "A la rescousse de ton mémoire ou de ta thèse",
+    "url": "https://www.youtube.com/watch?v=ZKEfuwLvYaU",
+    "langue": "Français",
+    "description": "Quatre questions classiques des jurys — difficultés rencontrées, ce que l'on referait autrement, acquis de la recherche, ouvertures — et des pistes pour y répondre. Le complément direct de la banque de questions de la leçon 7.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
