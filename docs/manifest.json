@@ -6178,5 +6178,51 @@
     "niveau": "Licence 3 — compréhension directe"
    }
   ]
+ },
+ "BBA-L3-14": {
+  "pdf": "pdf/BBA-L3-14.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "L’essentiel pour maîtriser la cartographie des risques",
+    "chaine": "IFACI",
+    "url": "https://www.youtube.com/watch?v=zpj1N774F_Q",
+    "langue": "Français",
+    "description": "Une présentation complète de la cartographie des risques par l'institut français des auditeurs et contrôleurs internes : utilité, étapes de construction et usage pour décider. Elle prolonge directement la démarche de cotation et de priorisation travaillée dans la leçon 1 sur le cas SND.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "5 étapes pour identifier et évaluer vos risques",
+    "chaine": "Optimiso by Iskera",
+    "url": "https://www.youtube.com/watch?v=wRl1HZ9IdnA",
+    "langue": "Français",
+    "description": "Deux praticiens déroulent une démarche en cinq étapes, de la définition du périmètre à l'identification des moyens de maîtrise, puis à l'évaluation et au traitement des risques. Utile pour comparer la méthode du cours avec celle mise en œuvre dans un outil de gestion des risques.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Pourquoi est il nécessaire d’avoir un PCA ?",
+    "chaine": "Promosoft Informatique",
+    "url": "https://www.youtube.com/watch?v=iYYSDCdbKEA",
+    "langue": "Français",
+    "description": "Une vidéo courte qui explique pourquoi une entreprise doit préparer un plan de continuité d'activité avant la crise plutôt que pendant. Elle sert d'introduction parlée au PCA de SND construit dans la leçon 6.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Leçon 2_Partie_4_PRA_PCA_RTO_RPO - Sauvegarde - Mon Prof d'Info",
+    "chaine": "Mon Prof D'Info",
+    "url": "https://www.youtube.com/watch?v=Yr_6seSkX5Q",
+    "langue": "Français",
+    "description": "Un cours filmé qui distingue plan de reprise et plan de continuité, et définit les objectifs de délai de reprise et de perte de données maximale. Il donne le vocabulaire technique correspondant aux délais visés et à la tolérance de perte de données du cas SND.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Plan de Continuité des activités | Business Continuity Plan - Se préparer à faire face à une crise",
+    "chaine": "Belizaire Raphel",
+    "url": "https://www.youtube.com/watch?v=ldM85NZoZHk",
+    "langue": "Français",
+    "description": "Une présentation du plan de continuité des activités comme préparation organisée à la crise : anticiper, maintenir les activités essentielles et reprendre dans des délais maîtrisés. Elle complète le PCA de la leçon 6 par un regard de praticien sur la préparation des équipes.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
