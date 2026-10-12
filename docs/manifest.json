@@ -6722,5 +6722,51 @@
     "niveau": "Débutant"
    }
   ]
+ },
+ "DRO-L1-01": {
+  "pdf": "pdf/DRO-L1-01.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Cours d'introduction au droit : l'essentiel de la matière",
+    "chaine": "Aide aux TD - Vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=w1Q6VycxeXc",
+    "langue": "Français",
+    "description": "Une vue d'ensemble de la matière de première année : définition du droit, règle de droit, branches et sources. Parfaite pour ouvrir ce cours et vérifier que tu as bien la carte d'ensemble avant d'entrer dans le détail des leçons.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Introduction au Droit  la sanction et la règle de droit",
+    "chaine": "Samira Benboubker",
+    "url": "https://www.youtube.com/watch?v=y7D3tWVZGZk",
+    "langue": "Français",
+    "description": "La vidéo explique pourquoi la sanction distingue la règle de droit des autres règles de conduite. Elle insiste sur le rôle de la contrainte organisée par la puissance publique, en complément direct de la leçon 2.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Les Branches du Droit expliquées en 6 minutes | Droit Public, Droit Privé, Droit Mixte",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=x2F8KG3THpg",
+    "langue": "Français",
+    "description": "En quelques minutes, la vidéo présente la grande coupure entre droit public et droit privé, ainsi que les branches mixtes. Un aide-mémoire visuel efficace à regarder avant de refaire le tableau de la leçon 3.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Introduction au Droit – Les Sources du Droit : Tout Ce Que Tu Dois Savoir !",
+    "chaine": "Samira Benboubker",
+    "url": "https://www.youtube.com/watch?v=gm8k695i0FI",
+    "langue": "Français",
+    "description": "Loi, coutume, jurisprudence et doctrine y sont présentées une à une, avec leurs rôles respectifs dans la formation du droit. À regarder après la leçon 4 pour consolider la distinction entre sources formelles et sources d'interprétation.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "La Pyramide De Kelsen et la Hiérarchie Des Normes",
+    "chaine": "Aide aux TD - Vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=6QGteIeK3-E",
+    "langue": "Français",
+    "description": "La pyramide de Kelsen est expliquée étage par étage, du texte fondamental aux actes d'application. Elle t'aidera à refaire, sans te tromper d'ordre, le schéma appliqué au cas fictif malien de la leçon 5.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
