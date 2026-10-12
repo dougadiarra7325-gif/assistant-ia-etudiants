@@ -5718,5 +5718,51 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L3-04": {
+  "pdf": "pdf/BBA-L3-04.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "RÉVISION EXPRESS : Tout sur le Processus Budgétaire (Spécial DCG UE11 - Contrôle de Gestion) - 2/3",
+    "chaine": "Les Geeks des Chiffres",
+    "url": "https://www.youtube.com/watch?v=OWEkbS7ztGc",
+    "langue": "Français",
+    "description": "Une révision dense de toute la gestion budgétaire : prévision des ventes, budgets en chaîne, masse salariale et analyse des écarts. À regarder après les leçons 2 et 3 pour consolider la démarche complète.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Module : Comptabilité analytique |  Cours : La gestion budgétaire - Introduction",
+    "chaine": "NELLAPP",
+    "url": "https://www.youtube.com/watch?v=LFyO78Azji4",
+    "langue": "Français",
+    "description": "Une introduction claire aux budgets interdépendants (ventes, achats, investissements, TVA) puis aux budgets d'encaissements et de décaissements. Idéale pour préparer les leçons 3 et 4 de ce cours.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Contrôle budgétaire : Calcule des écarts sur coûts de production",
+    "chaine": "Performance Éducation",
+    "url": "https://www.youtube.com/watch?v=WMJCnMBGu4Y",
+    "langue": "Français",
+    "description": "Le calcul guidé des écarts sur coûts de production à partir de coûts préétablis, étape par étape. Le prolongement direct de la leçon 5, à suivre avec les chiffres de mars de Sahel Jus sous les yeux.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "L'écart sur marge (cours) - DCG UE11 CONTROLE DE GESTION",
+    "chaine": "Ficheben DCG DSCG DEC",
+    "url": "https://www.youtube.com/watch?v=insUDpx81oI",
+    "langue": "Français",
+    "description": "L'écart sur marge décomposé en écart sur marge unitaire et écart sur quantité, avec le lien entre écarts de chiffre d'affaires et écarts de marge. Pour aller plus loin que la décomposition prix/volume de la leçon 5.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Contrôle de gestion_Mesure de performance par la méthode des écarts-Partie1#4Gestion Academy",
+    "chaine": "4GESTION ACADEMY",
+    "url": "https://www.youtube.com/watch?v=hsX826rj4WQ",
+    "langue": "Français",
+    "description": "Comment la méthode des écarts sert à mesurer la performance : principes et premiers calculs commentés. Un bon complément pour relier l'analyse des écarts (leçon 5) au pilotage par indicateurs (leçon 7).",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
