@@ -8116,5 +8116,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-07": {
+  "pdf": "pdf/DRO-L2-07.pdf",
+  "pages": 36,
+  "videos": [
+   {
+    "titre": "Procédure pénale (présentation, schéma et conseils)",
+    "chaine": "École de droit en bande organisée",
+    "url": "https://www.youtube.com/watch?v=Qd5ddsCIsfo",
+    "langue": "Français",
+    "description": "Une présentation d'ensemble de la procédure pénale : sa définition, ses grandes phases — enquête, poursuite, instruction, jugement — et les principes qui la gouvernent. À regarder avant la leçon 1 pour fixer la carte du cours ; les étapes et garanties générales présentées se vérifient dans le Code de procédure pénale malien en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Les acteurs de l'enquête : police judiciaire, procureur, juge d'instruction - Comprendre le droit",
+    "chaine": "Pour comprendre le droit",
+    "url": "https://www.youtube.com/watch?v=JhCVqzda_Q4",
+    "langue": "Français",
+    "description": "Qui fait quoi dans une enquête : la police judiciaire, le procureur et le parquet, le juge d'instruction, présentés par leurs rôles respectifs. Le complément direct de la leçon 2 ; les fonctions générales décrites se vérifient dans le Code de procédure pénale malien en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "L'enquête préliminaire (définition, durée) - Procédure pénale",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=Vo8ZMciYTmQ",
+    "langue": "Français",
+    "description": "La définition et le déroulement de l'enquête préliminaire, phase de rassemblement des éléments sous la direction du parquet. Elle prolonge la leçon 3 ; le cours de l'IAM enseigne cette phase par ses garanties, et ses mesures précises — comme celles de l'enquête malienne — se vérifient dans le Code de procédure pénale malien en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "DIFFÉRENCE ENTRE ACTION PUBLIQUE ET ACTION CIVILE",
+    "chaine": "korat kama Tv",
+    "url": "https://www.youtube.com/watch?v=nlxkIWGKe-k",
+    "langue": "Français",
+    "description": "La distinction fondamentale de la leçon 4 : l'action publique, exercée par le ministère public au nom de la société, et l'action civile, par laquelle la victime demande réparation de son préjudice. Les mécanismes généraux exposés se vérifient dans le Code de procédure pénale malien en vigueur.",
+    "niveau": "Licence 2"
+   },
+   {
+    "titre": "Le métier de juge d'instruction | Les métiers du droit",
+    "chaine": "Lextenso",
+    "url": "https://www.youtube.com/watch?v=SAWQvKqYuC0",
+    "langue": "Français",
+    "description": "Le juge d'instruction présenté par un éditeur juridique : son quotidien, son rôle d'investigation impartiale et les qualités que la fonction exige. Un éclairage vivant sur l'acteur central de la leçon 5 ; ses pouvoirs précis et les formes de l'instruction se vérifient dans le Code de procédure pénale malien en vigueur.",
+    "niveau": "Licence 2"
+   }
+  ]
  }
 }
