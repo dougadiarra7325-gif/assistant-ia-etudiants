@@ -7090,5 +7090,51 @@
     "niveau": "Licence 1 (L1)"
    }
   ]
+ },
+ "DRO-L1-09": {
+  "pdf": "pdf/DRO-L1-09.pdf",
+  "pages": 33,
+  "videos": [
+   {
+    "titre": "Le patrimoine",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=1kFNu2ebWbQ",
+    "langue": "Français",
+    "description": "La vidéo présente la notion de patrimoine, sa composition en droits et obligations à valeur pécuniaire et son lien avec la personnalité juridique : le prolongement direct de la leçon 1. Les mécanismes généraux qu'elle illustre, dans une tradition de droit civil comparable, se vérifient toujours dans les textes en vigueur au Mali.",
+    "niveau": "Débutant (L1)"
+   },
+   {
+    "titre": "La distinction meubles/immeubles",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=xrog4xKGPf0",
+    "langue": "Français",
+    "description": "La vidéo expose les critères qui séparent les meubles des immeubles — nature, destination, objet — et l'intérêt pratique de la qualification : exactement la grille travaillée dans la leçon 2. Refais mentalement le classement des dix biens fictifs du cours en la regardant.",
+    "niveau": "Débutant (L1)"
+   },
+   {
+    "titre": "Le droit de propriété (usus, fructus, abusus)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=yCQ1E3Da9s8",
+    "langue": "Français",
+    "description": "La vidéo décompose le droit de propriété en ses trois attributs classiques — user, percevoir les fruits, disposer — avec des exemples simples : la synthèse de la leçon 4. Elle prépare aussi la leçon 7, puisque l'usufruit n'est rien d'autre que la séparation de ces attributs.",
+    "niveau": "Débutant (L1)"
+   },
+   {
+    "titre": "La possession",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=Du6ImeTMR6M",
+    "langue": "Français",
+    "description": "La vidéo définit la possession par ses deux éléments, la maîtrise matérielle et l'intention de se comporter en propriétaire, et la distingue de la simple détention : le cœur de la leçon 6. Les effets précis de la possession, notamment foncière, se vérifient dans les textes maliens en vigueur.",
+    "niveau": "Débutant (L1)"
+   },
+   {
+    "titre": "L'usufruit",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=f_KJQo39fwM",
+    "langue": "Français",
+    "description": "La vidéo explique l'usufruit comme démembrement de la propriété : la jouissance pour l'usufruitier, la nue-propriété pour l'autre titulaire, et les obligations de conservation qui l'encadrent. Elle illustre les mécanismes généraux de la leçon 7, dont les conditions exactes relèvent des textes en vigueur.",
+    "niveau": "Débutant (L1)"
+   }
+  ]
  }
 }
