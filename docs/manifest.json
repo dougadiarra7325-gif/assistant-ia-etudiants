@@ -8246,5 +8246,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-10": {
+  "pdf": "pdf/DRO-L2-10.pdf",
+  "pages": 36,
+  "videos": [
+   {
+    "titre": "Les conventions collectives et les accords collectifs - Cours de droit du travail",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=46UE1wETxeM",
+    "langue": "Français",
+    "description": "La vidéo présente le rôle des conventions et accords collectifs dans l'étage des sources du droit du travail : champ d'application, articulation avec la loi et place dans la négociation. Elle expose un cadre général dont les mécanismes se vérifient dans le Code du travail malien et les conventions collectives en vigueur au Mali.",
+    "niveau": "Licence 2 — sources négociées"
+   },
+   {
+    "titre": "La subordination | Web série droit du travail",
+    "chaine": "Ministère du Travail",
+    "url": "https://www.youtube.com/watch?v=bq2Ytfxgfk4",
+    "langue": "Français",
+    "description": "Cet épisode de web-série explique, par une situation concrète, ce qu'est le lien de subordination et comment il distingue le salarié du travailleur indépendant. Le mécanisme général qu'elle illustre se vérifie dans le Code du travail malien et les conventions collectives en vigueur.",
+    "niveau": "Licence 2 — critères du contrat"
+   },
+   {
+    "titre": "Période d'essai [Fraude de l'employeur et succession de CDD avant le CDI]",
+    "chaine": "École de droit en bande organisée",
+    "url": "https://www.youtube.com/watch?v=ZOKaR5ez-0M",
+    "langue": "Français",
+    "description": "La vidéo analyse la période d'essai comme mécanisme d'évaluation réciproque et les abus qui la dénaturent, notamment lorsqu'elle sert à contourner la stabilité du contrat. Les règles précises applicables se vérifient dans le Code du travail malien et les conventions collectives en vigueur.",
+    "niveau": "Licence 2 — essai et formes"
+   },
+   {
+    "titre": "Le licenciement pour motif personnel - Cours de droit du travail",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=VNDNr4_aKuY",
+    "langue": "Français",
+    "description": "Ce cours présente les principes du licenciement pour motif personnel : exigence d'un motif, gradation des fautes et rôle de la procédure contradictoire. Il expose des mécanismes généraux dont l'application concrète se vérifie dans le Code du travail malien et les conventions collectives en vigueur.",
+    "niveau": "Licence 2 — rupture par l'employeur"
+   },
+   {
+    "titre": "La rupture conventionnelle | Web série droit du travail",
+    "chaine": "Ministère du Travail",
+    "url": "https://www.youtube.com/watch?v=Kav4muF0C14",
+    "langue": "Français",
+    "description": "Cet épisode de web-série présente la notion de rupture d'un commun accord et le formalisme protecteur qui entoure le consentement du salarié. Le régime applicable à un départ négocié se vérifie dans le Code du travail malien et les conventions collectives en vigueur.",
+    "niveau": "Licence 2 — ruptures négociées"
+   }
+  ]
  }
 }
