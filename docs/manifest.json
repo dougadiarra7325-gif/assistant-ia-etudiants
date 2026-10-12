@@ -5672,5 +5672,51 @@
     "niveau": "Intermédiaire à avancé"
    }
   ]
+ },
+ "BBA-L3-03": {
+  "pdf": "pdf/BBA-L3-03.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "Gestion Financière : Comprendre l’emprunt obligataire & Crédit bail",
+    "chaine": "Abdellah Ounejjar",
+    "url": "https://www.youtube.com/watch?v=iHbw8J-_Pe0",
+    "langue": "Français",
+    "description": "L'emprunt obligataire expliqué comme source de financement par dette : caractéristiques, catégories d'obligations et comparaison avec le crédit-bail. Un prolongement concret de la leçon 1 sur les choix de structure financière.",
+    "niveau": "Avancé"
+   },
+   {
+    "titre": "Gestion Financière : Le CMPC devient facile ! Guide complet + Exercice.",
+    "chaine": "Abdellah Ounejjar",
+    "url": "https://www.youtube.com/watch?v=jvJFR_sbYxw",
+    "langue": "Français",
+    "description": "Le calcul complet du CMPC pas à pas, avec un exercice corrigé : pondérations, coût de la dette après impôt et rôle de taux plancher. À refaire en parallèle de l'exemple chiffré de la leçon 2.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Comprendre les obligations en 6min ! Tout ce qu’il faut savoir !",
+    "chaine": "basefinance",
+    "url": "https://www.youtube.com/watch?v=0ybBmzhwaDI",
+    "langue": "Français",
+    "description": "Ce qu'est une obligation — nominal, coupon, échéance — et comment son prix réagit aux taux du marché. L'introduction idéale avant le calcul d'actualisation de la leçon 3.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Coût des capitaux propres : 3 méthodes expliquées simplement",
+    "chaine": "Abdellah Ounejjar",
+    "url": "https://www.youtube.com/watch?v=x4fA59Shio0",
+    "langue": "Français",
+    "description": "Trois méthodes pour estimer le coût des capitaux propres, dont le modèle de Gordon-Shapiro utilisé dans ce cours pour évaluer l'action. Utile aussi pour comprendre d'où vient le taux k des leçons 2 et 3.",
+    "niveau": "Avancé"
+   },
+   {
+    "titre": "Dividendes : l’erreur qui met des PME en difficulté après un bon exercice",
+    "chaine": "Prospérin Tsialonina | Entrepreneur",
+    "url": "https://www.youtube.com/watch?v=IdqxvCT6LFg",
+    "langue": "Français",
+    "description": "Pourquoi distribuer des dividendes après un bon exercice peut mettre une PME en difficulté de trésorerie, et les bons réflexes au moment de l'affectation du résultat. Le contrepoint pratique de l'arbitrage distribution/rétention de la leçon 4.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
