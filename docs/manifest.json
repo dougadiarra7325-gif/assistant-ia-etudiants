@@ -9914,5 +9914,51 @@
     "niveau": "Débutant à intermédiaire"
    }
   ]
+ },
+ "DRO-L3-23": {
+  "pdf": "pdf/DRO-L3-23.pdf",
+  "pages": 26,
+  "videos": [
+   {
+    "titre": "Le système de santé en Afrique : défis, réalités et solutions PARTIE 1",
+    "chaine": "GLOBAL SANTÉ ACTU",
+    "url": "https://www.youtube.com/watch?v=P6hpPfIh6Wg",
+    "langue": "Français",
+    "description": "Une présentation de l'organisation des systèmes de santé africains : niveaux de soins, rôle des centres de santé et des hôpitaux, défis de financement. Elle donne des images concrètes à la description par fonctions de la leçon 2, à transposer au cadre malien étudié dans le cours.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Consentement aux soins - LA LOI ET VOUS (par Éducaloi)",
+    "chaine": "Éducaloi",
+    "url": "https://www.youtube.com/watch?v=eM9WSbPg95M",
+    "langue": "Français",
+    "description": "Un organisme d'information juridique explique les règles générales du consentement aux soins et le droit de les refuser. Le cadre présenté est québécois, mais le mécanisme — information, volonté libre, refus possible — est exactement celui de la leçon 3.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Information du patient et consentement à l'acte",
+    "chaine": "Institut Montsouris",
+    "url": "https://www.youtube.com/watch?v=uInBvuBbdaM",
+    "langue": "Français",
+    "description": "Un établissement de santé présente sa démarche d'information du patient avant les soins : comprendre sa situation, les options proposées et leurs risques pour décider en connaissance de cause. Un complément concret au processus de consentement éclairé de la leçon 3.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Qu'est-ce que le secret médical et qui peut le rompre ?",
+    "chaine": "Europe 1",
+    "url": "https://www.youtube.com/watch?v=jP-JzTJ3Co8",
+    "langue": "Français",
+    "description": "Un médecin explique, dans une chronique radio filmée, ce que recouvre le secret médical et les rares hypothèses où il peut être levé. À écouter avec la grille de la leçon 4 : qualité du demandeur, base légale, nécessité, trace.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "La Responsabilité de l'Infirmier (IDE) : Civile, Administrative et Pénale | Cours Complet UE 1.3",
+    "chaine": "santé plus",
+    "url": "https://www.youtube.com/watch?v=MyukSLAwYY0",
+    "langue": "Français",
+    "description": "Un cours complet sur les trois régimes de responsabilité des professionnels de santé : civile, administrative (faute de service et faute personnelle) et pénale. C'est le prolongement direct de la leçon 5, avec un tableau comparatif final utile en révision.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
