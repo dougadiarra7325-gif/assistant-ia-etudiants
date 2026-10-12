@@ -4914,5 +4914,43 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "BBA-L2-11": {
+  "pdf": "pdf/BBA-L2-11.pdf",
+  "pages": 30,
+  "videos": [
+   {
+    "titre": "4 étapes pour une vraie étude de marché",
+    "chaine": "Jean Binyet, économiste conseil et coach",
+    "url": "https://www.youtube.com/watch?v=pjWHXLwsMqE",
+    "langue": "Français",
+    "description": "Une méthode d'étude de marché en quatre étapes, racontée à travers l'histoire d'un créateur qui a failli surestimer grossièrement la taille de son marché. Le complément direct de la leçon 1 : pourquoi les hypothèses de marché doivent être découpées et testées au lieu d'être affirmées.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Business Model Canvas avec exemple, en 10 minutes (modèle d'affaire)",
+    "chaine": "StrategeMarketing",
+    "url": "https://www.youtube.com/watch?v=GW8lbW1E-U8",
+    "langue": "Français",
+    "description": "Le canevas du modèle économique expliqué bloc par bloc et appliqué à un exemple concret en une dizaine de minutes. Parfait pour refaire, juste après la leçon 2, le canevas de ton propre projet en suivant la vidéo pas à pas.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "RÉUSSIR SON PRÉVISIONNEL FINANCIER (indispensable pour créer son entreprise)",
+    "chaine": "Pro by CA",
+    "url": "https://www.youtube.com/watch?v=qt8BMZaG1XQ",
+    "langue": "Français",
+    "description": "Ce qu'est un prévisionnel financier, à quoi il sert et comment le construire dans l'ordre : plan de financement, compte de résultat prévisionnel, bilan prévisionnel et plan de trésorerie. La vidéo reprend exactement les quatre tableaux de la leçon 5, avec des explications simples pour ceux qui redoutent la comptabilité.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "Créer son entreprise : comment faire un bon business plan pour convaincre les banques ?",
+    "chaine": "Finance Conseil",
+    "url": "https://www.youtube.com/watch?v=sA7HLS3YFMA",
+    "langue": "Français",
+    "description": "Un échange avec un professionnel du financement de création : ce que les banques attendent réellement d'un business plan, les erreurs fréquentes des porteurs de projet, et comment un dossier refusé peut être retravaillé. À regarder en prolongement de la leçon 6, en gardant en tête que les pratiques bancaires varient d'un pays à l'autre.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
