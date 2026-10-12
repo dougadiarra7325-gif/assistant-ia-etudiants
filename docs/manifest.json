@@ -5320,5 +5320,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "BBA-L2-20": {
+  "pdf": "pdf/BBA-L2-20.pdf",
+  "pages": 25,
+  "videos": [
+   {
+    "titre": "How to Lead a Meeting in English: What to Say from Start to Finish | Business English",
+    "chaine": "Business English Speaking Practice",
+    "url": "https://www.youtube.com/watch?v=lnuG8bXH1dw",
+    "langue": "Anglais",
+    "description": "Vidéo EN ANGLAIS (sous-titres disponibles) : animer une réunion de bout en bout — ouvrir, présenter l'agenda, faire participer, recentrer poliment et conclure avec des action points. Regarde-la après la leçon 1 et repère les formules que tu connais déjà.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Describing Graphs & Charts in English - Free Business English Course",
+    "chaine": "E4B Free English Course",
+    "url": "https://www.youtube.com/watch?v=uAU_qh-WBuQ",
+    "langue": "Anglais",
+    "description": "Vidéo EN ANGLAIS : le vocabulaire complet pour décrire des graphiques en présentation — tendances à la hausse, à la baisse et stables, avec de nombreux exemples à répéter à voix haute. Le prolongement direct de la leçon 2.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Work emails: Office English episode 1",
+    "chaine": "BBC Learning English",
+    "url": "https://www.youtube.com/watch?v=k188_aGDklQ",
+    "langue": "Anglais",
+    "description": "Vidéo EN ANGLAIS de la série Office English de la BBC : écrire des courriels professionnels clairs et polis — objet, formules d'ouverture et de clôture, demandes formulées correctement. À regarder avant de refaire la chaîne de courriels de la leçon 3.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Negotiating - 30 - English at Work negotiates the best deal",
+    "chaine": "BBC Learning English",
+    "url": "https://www.youtube.com/watch?v=-HZrTUNJKCs",
+    "langue": "Anglais",
+    "description": "Vidéo EN ANGLAIS de la série English at Work (BBC) : une négociation commerciale mise en scène, avec les expressions pour demander un prix, refuser poliment et proposer un compromis. Compare ses formules avec le dialogue de la leçon 4.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Stop Freezing in Meetings! Business English Phrases for Charts & Graphs",
+    "chaine": "Andrea Fixes Your English | Native British Teacher",
+    "url": "https://www.youtube.com/watch?v=EI_BW64S4qo",
+    "langue": "Anglais",
+    "description": "Vidéo EN ANGLAIS : présenter un graphique en réunion sans rester bloqué — types de graphiques, vocabulaire des tendances et structure d'explication, avec un quiz final. Utile pour préparer la présentation orale de la leçon 7 et le TP.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
