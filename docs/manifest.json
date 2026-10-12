@@ -9608,5 +9608,35 @@
     "niveau": "Intermédiaire"
    }
   ]
+ },
+ "DRO-L3-16": {
+  "pdf": "pdf/DRO-L3-16.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Droit Maritime : règles, responsabilités et enjeux expliqués",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=mHtF3oReAQU",
+    "langue": "Français",
+    "description": "Présentation du droit maritime — règles, responsabilités et enjeux — qui donne chair au plus ancien des modes de transport avant la cartographie des sources de la leçon. À regarder comme une illustration du mode maritime, dont le cours étudie surtout les mécanismes du connaissement à la leçon 4.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Tout Simplement Droit n24",
+    "chaine": "Tout Simplement Droit",
+    "url": "https://www.youtube.com/watch?v=zTdDykQ9ZgM",
+    "langue": "Français",
+    "description": "Épisode consacré au contrat de transport de marchandises : en cas de perte d'un colis, qui répond — le vendeur, le transporteur ou le client ? Un cas pratique qui prolonge directement les rôles et obligations de la leçon 2 et prépare la présomption de la leçon 3.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "RENSEIGNER LA LETTRE DE VOITURE (CMR)",
+    "chaine": "David Ramirez    Professeur en conduite routière",
+    "url": "https://www.youtube.com/watch?v=AYr4Y8zv780",
+    "langue": "Français",
+    "description": "Démonstration pratique du remplissage d'une lettre de voiture internationale (dite CMR) : les mentions que le document porte et leur ordre de lecture. Elle illustre concrètement les fonctions de preuve et de guide étudiées à la leçon 4, du point de vue du terrain ; elle était déjà signalée, sous l'angle du contrat, dans DRO-L3-08.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
