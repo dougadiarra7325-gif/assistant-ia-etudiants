@@ -9638,5 +9638,51 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "DRO-L3-17": {
+  "pdf": "pdf/DRO-L3-17.pdf",
+  "pages": 28,
+  "videos": [
+   {
+    "titre": "Tout ce que vous devez savoir sur les permis miniers",
+    "chaine": "MineGeo224",
+    "url": "https://www.youtube.com/watch?v=x2zcBQSRI5Q",
+    "langue": "Français",
+    "description": "Une présentation pédagogique des permis miniers : ce qu'ils autorisent, pourquoi ils sont nécessaires et les grandes lignes de leur obtention. Elle prolonge la leçon 3 sur la distinction des titres par leurs fonctions.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Les grandes phases de l'exploitation minière",
+    "chaine": "L'alchimiste des sols 412",
+    "url": "https://www.youtube.com/watch?v=_RAU3_Ki_sk",
+    "langue": "Français",
+    "description": "Le cycle complet d'une mine, de la prospection à la fermeture et à la récupération du site. Elle illustre pourquoi la réhabilitation (leçon 6) fait partie du projet dès son origine.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "L’adhésion aux principes de transparence et de bonne gouvernance dans le secteur minier à Madagascar",
+    "chaine": "EITI Madagascar",
+    "url": "https://www.youtube.com/watch?v=GZZ9she_08k",
+    "langue": "Français",
+    "description": "Une vidéo institutionnelle de l'ITIE sur l'adhésion aux principes de transparence et de bonne gouvernance dans le secteur minier d'un pays de mise en œuvre. Elle illustre la logique de publication des paiements décrite à la leçon 6.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Africa GreenTec - L’électricité pour les villages reculés du Mali",
+    "chaine": "Africa GreenTec",
+    "url": "https://www.youtube.com/watch?v=LFhavhAvcOw",
+    "langue": "Français",
+    "description": "La présentation, par un opérateur, de mini-centrales solaires alimentant des villages reculés du Mali hors réseau. Elle illustre concrètement les fonctions de production et de distribution locales décrites à la leçon 7.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "DIALOGUE NATIONAL SUR LES MINI-RÉSEAUX PHOTOVOLTAÏQUES : LE BÉNIN ACCÉLÈRE  L'ÉLECTRIFICATION RURALE",
+    "chaine": "Société Béninoise de Production Electrique",
+    "url": "https://www.youtube.com/watch?v=j3f1KOyU5hI",
+    "langue": "Français",
+    "description": "Une vidéo institutionnelle sur un dialogue national consacré aux mini-réseaux photovoltaïques et aux modèles de leur viabilité, avec les institutions du secteur. Elle illustre le cadre d'appui et la concertation institutionnelle décrits à la leçon 8.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
