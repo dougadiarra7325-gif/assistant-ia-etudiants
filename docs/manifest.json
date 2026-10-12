@@ -9142,5 +9142,51 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "DRO-L3-05": {
+  "pdf": "pdf/DRO-L3-05.pdf",
+  "pages": 30,
+  "videos": [
+   {
+    "titre": "OHADA - L'acte uniforme sur les voies d'exécution",
+    "chaine": "Uplawder",
+    "url": "https://www.youtube.com/watch?v=MuhVv2NYImk",
+    "langue": "Français",
+    "description": "Des universitaires et des praticiens présentent l'Acte uniforme sur les voies d'exécution et les enjeux de sa modernisation : une vue d'ensemble idéale pour ouvrir le cours. La cartographie de la leçon 1 reste celle du cours : grandes masses et mécanismes, avant le détail des textes.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "L'injonction de délivrer ou de restituer un bien meuble",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=tV_ZNe19FLc",
+    "langue": "Français",
+    "description": "Cette vidéo présente l'autre procédure simplifiée du même Acte : l'injonction de délivrer ou de restituer un bien meuble, sœur de l'injonction de payer étudiée dans la leçon 3. La comparaison des deux mécanismes — une somme d'argent d'un côté, un bien déterminé de l'autre — éclaire la logique commune des procédures simplifiées.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "4 CONSEILS pour bien comprendre une SAISIE-ATTRIBUTION",
+    "chaine": "Maître Charles Simon",
+    "url": "https://www.youtube.com/watch?v=G44qQEZfYOM",
+    "langue": "Français",
+    "description": "Un avocat explique la saisie-attribution à partir de la saisie de compte bancaire, dans le cadre français : seuls les mécanismes se transposent — tiers saisi, indisponibilité, attribution — car les règles de détail applicables dans l'espace OHADA sont celles de l'Acte uniforme. À regarder pour la pédagogie du mécanisme, après la leçon 5.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Procédure  du  contentieux de recouvrement sous le droit OHADA : mécanismes, garanties et exécution",
+    "chaine": "CREP RDC",
+    "url": "https://www.youtube.com/watch?v=QTNfgKHCtog",
+    "langue": "Français",
+    "description": "Un exposé de fond sur le contentieux du recouvrement en droit OHADA : mécanismes, garanties et exécution forcée. Il prolonge directement la leçon 7 sur les incidents et le contentieux de l'exécution, en reliant le recouvrement au droit des sûretés étudié en DRO-L3-02.",
+    "niveau": "Avancé"
+   },
+   {
+    "titre": "La saisie conservatoire convertie en saisie exécutoire",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=q64v2SdA01A",
+    "langue": "Français",
+    "description": "La conversion est le moment clé de la leçon 8 : comment une saisie conservatoire, une fois le titre obtenu, devient une saisie exécutoire — en saisie-vente pour les biens, en saisie-attribution pour les créances. La vidéo détaille ce passage du provisoire au définitif dans le cadre de l'Acte uniforme.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
