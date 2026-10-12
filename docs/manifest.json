@@ -9096,5 +9096,51 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "DRO-L3-04": {
+  "pdf": "pdf/DRO-L3-04.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "L'arbitrage (définition, clause compromissoire, compromis d'arbitrage)",
+    "chaine": "Jurixio - Les vidéos de droit",
+    "url": "https://www.youtube.com/watch?v=D1e1IWNyCR0",
+    "langue": "Français",
+    "description": "Le socle général du cours : définition de l'arbitrage, clause compromissoire et compromis, déjà signalé en DRO-L2-19 et repris ici comme point de départ. Les mécanismes OHADA développés dans les leçons suivantes priment pour l'espace régional.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "La convention d'arbitrage",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=7qVqwzKyQ5A",
+    "langue": "Français",
+    "description": "La convention d'arbitrage dans le cadre de l'Acte uniforme : clause compromissoire et compromis, autonomie de la convention et effets sur le juge étatique. Le prolongement direct de la leçon 2.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "L'incompétence du juge étatique en présence d'une clause compromissoire",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=5j9WR27Dcn0",
+    "langue": "Français",
+    "description": "L'effet négatif de la convention en pratique : quand le juge étatique doit se dessaisir et les questions que soulève une clause invoquée devant lui. À regarder après la cartographie de l'Acte de la leçon 3.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "La sentence arbitrale et les voies de recours",
+    "chaine": "Actualités Droit OHADA",
+    "url": "https://www.youtube.com/watch?v=B-YapVucMSE",
+    "langue": "Français",
+    "description": "Élaboration et contenu de la sentence, ses effets, la reconnaissance et l'exequatur, puis les recours ouverts contre elle dans le cadre OHADA. Le compagnon vidéo des leçons 5 et 8.",
+    "niveau": "Licence 3"
+   },
+   {
+    "titre": "Le droit OHADA en pratique - DAC RDC",
+    "chaine": "DiasporaAuditCompta RDC",
+    "url": "https://www.youtube.com/watch?v=wh-aNWrMcPs",
+    "langue": "Français",
+    "description": "Une présentation institutionnelle du système OHADA et de ses organes, dont la CCJA et sa compétence de cassation sur les décisions nationales appliquant les Actes uniformes — avec, en prime, le mécanisme d'évocation expliqué en contexte.",
+    "niveau": "Licence 3"
+   }
+  ]
  }
 }
