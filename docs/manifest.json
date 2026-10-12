@@ -6592,5 +6592,43 @@
     "niveau": "Licence 3 (L3)"
    }
   ]
+ },
+ "BBA-L3-23": {
+  "pdf": "pdf/BBA-L3-23.pdf",
+  "pages": 30,
+  "videos": [
+   {
+    "titre": "Management Interculturel : Le Modèle d'Hofstede",
+    "chaine": "Strategie & Management",
+    "url": "https://www.youtube.com/watch?v=70AQQmV1rBA",
+    "langue": "Français",
+    "description": "Un professeur des universités présente les six dimensions culturelles issues des travaux de Hofstede, avec définitions et exemples. À regarder avec l'esprit critique de la leçon 1 : des tendances moyennes utiles pour préparer ses questions, jamais des étiquettes à coller sur des personnes.",
+    "niveau": "Intermédiaire à avancé"
+   },
+   {
+    "titre": "Changer son regard sur les hommes pour voir le monde autrement: Clair Michalon at TEDxParis",
+    "chaine": "TEDx Talks",
+    "url": "https://www.youtube.com/watch?v=6DXmjKlL0Os",
+    "langue": "Français",
+    "description": "Un consultant en relations interculturelles, fort de missions dans de nombreux pays, raconte comment nos évidences les plus familières deviennent étrangères ailleurs — et inversement. Un excellent entraînement à suspendre son jugement et à observer avant d'interpréter, au cœur des leçons 2 et 7.",
+    "niveau": "Tous niveaux"
+   },
+   {
+    "titre": "Classe Digitale - Management interculturel et intergénérationnel - Chapitre 2",
+    "chaine": "Classe Digitale",
+    "url": "https://www.youtube.com/watch?v=_r1gts9TFEc",
+    "langue": "Français",
+    "description": "Ce chapitre de cours traite du travail en équipe multiculturelle, du rôle des stéréotypes et de la nécessité de reconnaître chaque individu au-delà des généralisations sur son groupe. Il prolonge directement la leçon 5 et sa charte d'équipe.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Les contours du management interculturel",
+    "chaine": "Management International Enjeux et Perspectives",
+    "url": "https://www.youtube.com/watch?v=jha-lmiyqfU",
+    "langue": "Français",
+    "description": "Une présentation structurée du champ du management interculturel : définitions, niveaux d'analyse et enjeux pour les organisations qui travaillent par-delà les frontières. Utile pour situer la distinction entre cultures nationales, culture d'entreprise et pratiques, travaillée dans la leçon 6.",
+    "niveau": "Intermédiaire"
+   }
+  ]
  }
 }
