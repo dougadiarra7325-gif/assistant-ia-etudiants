@@ -9440,5 +9440,43 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "DRO-L3-12": {
+  "pdf": "pdf/DRO-L3-12.pdf",
+  "pages": 31,
+  "videos": [
+   {
+    "titre": "Tarification IARD – #01 | Introduction générale",
+    "chaine": "L'Actuariat Décrypté",
+    "url": "https://www.youtube.com/watch?v=G9lzlzxrd_U",
+    "langue": "Français",
+    "description": "Une introduction claire aux briques du prix de l'assurance : fréquence, sévérité, prime pure et prime commerciale. Elle prolonge la leçon 1 sur la mutualisation et le calcul de la prime, sous l'angle technique de la tarification.",
+    "niveau": "Licence 3 (L3)"
+   },
+   {
+    "titre": "Assurance en Afrique : Dakar accueille la session  du Comité des Experts de la CIMA",
+    "chaine": "Financial Afrik / Toute la Finance Africaine",
+    "url": "https://www.youtube.com/watch?v=s-CXvf45I4k",
+    "langue": "Français",
+    "description": "Un reportage sur une session du Comité des Experts de la CIMA, organe technique de la Conférence : on y voit les institutions de la leçon 2 au travail, sur les orientations du marché commun de l'assurance. Les titres et chaînes des vidéos sont repris exactement tels que retournés par YouTube.",
+    "niveau": "Licence 3 (L3)"
+   },
+   {
+    "titre": "Les caractéristiques du contrat d'assurance",
+    "chaine": "Juristudes",
+    "url": "https://www.youtube.com/watch?v=wLaj1cCnM1A",
+    "langue": "Français",
+    "description": "Une synthèse pédagogique des traits du contrat d'assurance — contrat consensuel, aléatoire, d'adhésion et de bonne foi — qui éclaire la formation et l'interprétation étudiées dans la leçon 3. La méthode se transpose au cadre CIMA, seul texte de référence pour le détail des règles.",
+    "niveau": "Licence 3 (L3)"
+   },
+   {
+    "titre": "Défis stratégiques et évolution de la gouvernance des marchés de l'assurance en zone CIMA",
+    "chaine": "Financial Afrik / Toute la Finance Africaine",
+    "url": "https://www.youtube.com/watch?v=QvCa95CHxBs",
+    "langue": "Français",
+    "description": "Un entretien d'expert sur la gouvernance et la régulation des marchés d'assurance dans la zone CIMA : un écho concret au contrôle des entreprises et à la protection des assurés étudiés dans la leçon 8. Les titres et chaînes des vidéos sont repris exactement tels que retournés par YouTube.",
+    "niveau": "Licence 3 (L3)"
+   }
+  ]
  }
 }
