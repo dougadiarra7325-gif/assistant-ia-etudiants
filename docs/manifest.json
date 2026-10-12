@@ -8866,5 +8866,51 @@
     "niveau": "Licence 2"
    }
   ]
+ },
+ "DRO-L2-24": {
+  "pdf": "pdf/DRO-L2-24.pdf",
+  "pages": 29,
+  "videos": [
+   {
+    "titre": "La liberté d'expression en France - Que dit la loi ?",
+    "chaine": "Sciences Po",
+    "url": "https://www.youtube.com/watch?v=KyT3Z3TxOqw",
+    "langue": "Français",
+    "description": "Une présentation universitaire des fondements juridiques de la liberté d'expression et de la culture du débat, utile pour poser les notions de la leçon 1. Le cadre étranger montré sert de comparaison : au Mali, ce sont les textes maliens en vigueur qui font foi.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "Qu’est-ce que la liberté d’expression et quelles sont ses limites ?",
+    "chaine": "Vie publique",
+    "url": "https://www.youtube.com/watch?v=h-vH3ZtMTh8",
+    "langue": "Français",
+    "description": "Un format institutionnel court qui définit la liberté d'expression et présente ses limites en catégories, exactement la grille travaillée dans la leçon 1. À regarder comme une synthèse, le raisonnement détaillé restant celui du cours écrit.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "Cours I Droit des médias et du numérique",
+    "chaine": "Gauthier Soufflard",
+    "url": "https://www.youtube.com/watch?v=4JESbdRWpxg",
+    "langue": "Français",
+    "description": "Le premier cours d'une série universitaire de droit des médias et du numérique, pour situer la matière et ses grandes branches. Il présente un autre cadre national : l'étudiant retiendra les mécanismes et les comparera au cadre malien de la leçon 2.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "C'est quoi une DIFFAMATION et quels sont mes recours ?",
+    "chaine": "Emilie VERGNE Avocat",
+    "url": "https://www.youtube.com/watch?v=n-FxvLPqSNg",
+    "langue": "Français",
+    "description": "Une avocate définit la diffamation et passe en revue les recours de la personne visée, en écho direct aux éléments et aux défenses de la leçon 4. Les règles précises évoquées relèvent d'un autre système : seuls les raisonnements se transposent, les textes maliens en vigueur font foi.",
+    "niveau": "Licence 2 (L2)"
+   },
+   {
+    "titre": "Attention à la diffamation sur les réseaux sociaux",
+    "chaine": "Olivier d'Ardalhon - Avocat en Droit du Travail",
+    "url": "https://www.youtube.com/watch?v=EJ_IWWGxyI8",
+    "langue": "Français",
+    "description": "Un avocat alerte sur la diffamation commise par les réseaux sociaux et sur la responsabilité de ceux qui publient ou relaient, en lien avec la chaîne d'acteurs de la leçon 7. Là encore, les mécanismes se retiennent et les dispositions précises se vérifient dans les textes maliens.",
+    "niveau": "Licence 2 (L2)"
+   }
+  ]
  }
 }
