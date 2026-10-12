@@ -6224,5 +6224,51 @@
     "niveau": "Licence 3"
    }
   ]
+ },
+ "BBA-L3-15": {
+  "pdf": "pdf/BBA-L3-15.pdf",
+  "pages": 30,
+  "videos": [
+   {
+    "titre": "C'est quoi la Supply Chain : Définition Simple",
+    "chaine": "AbcSupplyChain FR",
+    "url": "https://www.youtube.com/watch?v=MoGfMBxvOII",
+    "langue": "Français",
+    "description": "Une définition simple et directe de la supply chain, de la différence avec la logistique et du rôle de la gestion des stocks. C'est le point d'entrée idéal avant la leçon 1, pour fixer le vocabulaire de tout le cours.",
+    "niveau": "Débutant"
+   },
+   {
+    "titre": "Logistique d'Approvisionnement (Supply Chain) : Tout Comprendre en 25 Minutes »",
+    "chaine": "ACADEMIE DES LOGISTICIENS Didi chance AMBIA",
+    "url": "https://www.youtube.com/watch?v=rbmKNEzCzEA",
+    "langue": "Français",
+    "description": "Un tour complet de la logistique d'approvisionnement : étapes, acteurs, flux et enjeux de la chaîne, de la matière première au consommateur. Elle prolonge la leçon 2 en montrant comment la demande se transforme en plans d'approvisionnement.",
+    "niveau": "Débutant à intermédiaire"
+   },
+   {
+    "titre": "10 Indicateurs pour mesurer la performance de votre Supply Chain / Gestion de stock",
+    "chaine": "AbcSupplyChain FR",
+    "url": "https://www.youtube.com/watch?v=s7LKxnuKgQQ",
+    "langue": "Français",
+    "description": "Les indicateurs clés d'une supply chain : taux de service et de disponibilité, rotation et couverture de stock, fiabilité des prévisions, coûts logistiques et délais. C'est le complément direct du tableau de bord construit dans la leçon 5.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "Formule de Wilson EOQ : Calcul et Exemples sur Excel",
+    "chaine": "AbcSupplyChain FR",
+    "url": "https://www.youtube.com/watch?v=v_kRuEibYks",
+    "langue": "Français",
+    "description": "Le modèle de Wilson calculé pas à pas sur tableur, avec ses hypothèses et ses limites, en lien avec la rotation des stocks de la leçon 5. Utile pour revoir le socle de BBA-L2-16 avant d'attaquer les indicateurs de chaîne.",
+    "niveau": "Intermédiaire"
+   },
+   {
+    "titre": "La logistique inverse, c'est quoi ? (définition, aide, lexique, tuto, explication)",
+    "chaine": "Infonet",
+    "url": "https://www.youtube.com/watch?v=LpohkJhZ-WA",
+    "langue": "Français",
+    "description": "Une explication claire de la logistique inverse : définition, fonctionnement et place dans la chaîne d'approvisionnement. À regarder avant la leçon 6 pour saisir pourquoi les flux de retour sont un processus à part entière, pas une corvée.",
+    "niveau": "Débutant"
+   }
+  ]
  }
 }
