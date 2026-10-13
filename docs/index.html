@@ -424,8 +424,19 @@ async function ask(text){
   }
   const codeM = text.toUpperCase().match(/(INF|BBA|DRO)-L[123]-\d{2}/);
   if (codeM){
-    const crow = KB.find(r => r.categorie.startsWith("Bibliothèque") && r.keywords.startsWith(codeM[0]));
-    if (crow){ addMsg(crow.reponse, "bot", crow.categorie); showSuggestions(KB.filter(r => r.categorie === crow.categorie && r.question !== crow.question).slice(0, 3).map(r => r.question)); return; }
+    const code = codeM[0];
+    const rows = KB.filter(r => r.categorie.startsWith("Bibliothèque") && r.keywords.startsWith(code));
+    if (rows.length){
+      const nq = norm(text);
+      let pick = null;
+      if (/video/.test(nq)) pick = rows.find(r => r.question.startsWith("Vidéos du cours"));
+      else if (/(exercice|qcm|entrain)/.test(nq) || /\btd\b/.test(nq) || /\btp\b/.test(nq)) pick = rows.find(r => r.question.startsWith("Exercices, TD et QCM"));
+      else if (/revis/.test(nq)) pick = rows.find(r => r.question.startsWith("Comment bien réviser"));
+      else if (/lecon/.test(nq)) pick = rows.find(r => r.question.startsWith("Quelles sont les leçons"));
+      else if (/(contenu|pdf|programme|sommaire)/.test(nq)) pick = rows.find(r => r.question.startsWith("Que contient le PDF"));
+      const crow = pick || rows.find(r => r.question.startsWith("C'est quoi le cours")) || rows[0];
+      addMsg(crow.reponse, "bot", crow.categorie); showSuggestions(KB.filter(r => r.categorie === crow.categorie && r.question !== crow.question).slice(0, 3).map(r => r.question)); return;
+    }
   }
   const { row, sugg } = findAnswer(text);
   if (row){ addMsg(row.reponse, "bot", row.categorie); showSuggestions(KB.filter(r => r.categorie === row.categorie && r.question !== row.question).slice(0, 3).map(r => r.question)); return; }
@@ -437,7 +448,7 @@ async function ask(text){
   } catch(e){}
   const ctx = (histTxt ? "Historique récent de la conversation (pour comprendre les questions de suivi) :\n" + histTxt + "\n\n" : "") + sugg.map(s => "- " + s.question + " → " + s.reponse).join("\n");
   const res = await gemini(text, ctx);
-  if (res.text){ wait.classList.remove("typing"); wait.textContent = res.text; const s = document.createElement("div"); s.className = "cat"; s.textContent = "Réponse IA — Google Gemini"; wait.appendChild(s); saveHist(res.text, "bot", "Réponse IA — Google Gemini"); speakText(res.text); showSuggestions(sugg.map(s2 => s2.question)); }
+  if (res.text){ wait.classList.remove("typing"); wait.textContent = res.text; const s = document.createElement("div"); s.className = "cat"; s.textContent = "Réponse IA"; wait.appendChild(s); saveHist(res.text, "bot", "Réponse IA"); speakText(res.text); showSuggestions(sugg.map(s2 => s2.question)); }
   else {
     pendingQuestion = text;
     let rep;

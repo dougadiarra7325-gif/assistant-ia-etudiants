@@ -63,6 +63,28 @@ async function appelerGemini(prompt) {
   return { err: lastErr };
 }
 
+// Service IA gratuit sans clé (Pollinations) — utilisé tant qu'aucune clé
+// Gemini n'est configurée ; dès qu'une clé est enregistrée, Gemini reprend.
+async function appelerIaLibre(prompt) {
+  try {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 60000);
+    const r = await fetch("https://text.pollinations.ai/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      signal: ctrl.signal,
+      body: JSON.stringify({ model: "openai", messages: [{ role: "user", content: prompt }] })
+    });
+    clearTimeout(timer);
+    if (!r.ok) return { err: "HTTP " + r.status + " (service IA gratuit)" };
+    const t = (await r.text()).trim();
+    if (t) return { text: t };
+    return { err: "réponse vide du service IA gratuit" };
+  } catch (e) {
+    return { err: "réseau (" + e.message + ")" };
+  }
+}
+
 const server = http.createServer((req, res) => {
   const origin = req.headers.origin || "";
   const send = (code, obj, cors) => {
@@ -106,7 +128,7 @@ const server = http.createServer((req, res) => {
   }
   if (req.method !== "POST") return send(405, { err: "Méthode non autorisée" }, false);
   if (!origineAutorisee(origin)) return send(403, { err: "Origine non autorisée" }, false);
-  if (!KEY) return send(500, { err: "Clé Gemini non configurée sur le serveur (variable GEMINI_API_KEY manquante)." }, true);
+
   let data = "";
   req.on("data", c => { data += c; if (data.length > 20000) req.destroy(); });
   req.on("end", async () => {
@@ -119,9 +141,9 @@ const server = http.createServer((req, res) => {
     let prompt = SYSTEME;
     if (contexte) prompt += "\n\nInformations et historique fournis par l'assistant (à utiliser en priorité si elles répondent) :\n" + contexte;
     prompt += "\n\nQuestion de l'étudiant : " + question;
-    const out = await appelerGemini(prompt);
+    const out = KEY ? await appelerGemini(prompt) : await appelerIaLibre(prompt);
     send(200, out, true);
   });
 });
 
-server.listen(PORT, () => console.log("Proxy Assistant IAM en écoute sur le port " + PORT + (KEY ? "" : " — ⚠️ GEMINI_API_KEY manquante")));
+server.listen(PORT, () => console.log("Proxy Assistant IAM en écoute sur le port " + PORT + (KEY ? " — moteur Gemini" : " — moteur IA gratuit sans clé (Pollinations)")));
