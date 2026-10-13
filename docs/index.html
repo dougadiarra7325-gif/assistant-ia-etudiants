@@ -47,6 +47,21 @@ body::after{width:520px;height:520px;background:radial-gradient(circle,#7fa8d9,t
 .stat:hover{transform:translateY(-3px);background:rgba(255,255,255,.16)}
 .stat b{font-size:19px;color:var(--gold2);line-height:1}
 .stat span{font-size:11.5px;color:#cfdaea;margin-top:3px}
+/* ——— Carrousel pivotant Questions/Réponses ——— */
+.qna-carousel{margin-top:18px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.22);border-radius:16px;padding:14px 16px 10px;backdrop-filter:blur(4px)}
+.qna-track{position:relative;min-height:96px}
+.qna-slide{position:absolute;inset:0;opacity:0;transform:perspective(700px) rotateY(14deg) translateX(18px);transition:opacity .55s ease,transform .55s ease;pointer-events:none}
+.qna-slide.on{opacity:1;transform:perspective(700px) rotateY(0) translateX(0);pointer-events:auto}
+.qna-slide .tag{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:#241a02;background:linear-gradient(140deg,var(--gold2),var(--gold));padding:2.5px 9px;border-radius:999px;margin-bottom:7px}
+.qna-slide .qq{font-size:16.5px;font-weight:800;line-height:1.3;margin:0 0 4px}
+.qna-slide .aa{font-size:13.5px;color:#d7e2f0;line-height:1.5;margin:0}
+.qna-slide .big{font-size:30px;font-weight:900;color:var(--gold2);line-height:1}
+.qna-nav{display:flex;align-items:center;gap:10px;margin-top:8px}
+.qna-arrow{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:50%;width:26px;height:26px;font-size:15px;cursor:pointer;line-height:1}
+.qna-dots{display:flex;gap:6px;flex:1}
+.qna-dots button{width:8px;height:8px;border-radius:99px;border:0;background:rgba(255,255,255,.35);cursor:pointer;padding:0;transition:all .3s}
+.qna-dots button.on{width:22px;background:var(--gold2)}
+@media (max-width:600px){.qna-track{min-height:118px}.qna-slide .qq{font-size:15px}}
 /* ——— Cartes ——— */
 .chatbox,.panel{background:rgba(255,255,255,.92);backdrop-filter:blur(6px);border:1px solid rgba(219,226,236,.9);border-radius:var(--r);padding:16px;margin-bottom:16px;box-shadow:var(--shadow);transition:transform .3s ease,box-shadow .3s ease}
 .panel:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
@@ -148,11 +163,13 @@ html[data-theme="dark"] .messages::-webkit-scrollbar-thumb{background:#33465f}
   <section class="hero reveal">
     <h1>Bonjour, je suis ton <span class="grad">assistant étudiant</span> 👋</h1>
     <p>Pose-moi tes questions sur l'atelier IAM Code to Career, les emplois du temps, les examens et les démarches administratives. Tu peux aussi me dicter ta question au micro (bouton 🎤), lancer un « quiz » d'entraînement ou me demander un « planning » de révisions.</p>
-    <div class="stats">
-      <div class="stat"><b>103</b><span>réponses documentées</span></div>
-      <div class="stat"><b>Quiz</b><span>8 questions, score immédiat</span></div>
-      <div class="stat"><b>3 PDF</b><span>25 pages de leçons par niveau</span></div>
-      <div class="stat"><b>Voix</b><span>dicte et écoute les réponses</span></div>
+    <div class="qna-carousel" id="qnaCarousel">
+      <div class="qna-track" id="qnaTrack"></div>
+      <div class="qna-nav">
+        <button type="button" class="qna-arrow" id="qnaPrev" aria-label="Question précédente">‹</button>
+        <div class="qna-dots" id="qnaDots"></div>
+        <button type="button" class="qna-arrow" id="qnaNext" aria-label="Question suivante">›</button>
+      </div>
     </div>
   </section>
 
@@ -592,8 +609,61 @@ document.getElementById("ia-test").addEventListener("click", async () => {
   else if (res.err && (res.err.includes("API key not valid") || res.err.includes("INVALID_ARGUMENT"))){ localStorage.removeItem("gemini_key"); refreshIa(); out.textContent = "❌ Cette clé n'est pas une vraie clé Gemini (elle doit commencer par « AIza ») : je l'ai retirée. Colle ta clé copiée depuis aistudio.google.com/apikey."; }
   else out.textContent = "❌ L'IA ne répond pas — détail : " + res.err;
 });
+/* ——— Carrousel pivotant Questions/Réponses (hero) ——— */
+const QNA_FALLBACK = [
+  { question: "Quels sont les horaires de l'atelier ?", reponse: "L'atelier a lieu du lundi au vendredi : de 9h00 à 15h00, sauf le vendredi de 9h00 à 13h00." },
+  { question: "Qui dirige l'atelier Code to Career ?", reponse: "L'atelier est piloté par DataInsights. Le chef d'atelier est Abdoulaye TRAORE, Responsable IT." },
+  { question: "C'est quoi le BBA ?", reponse: "Le BBA (Bachelor of Business Administration) est une licence en administration des affaires : une formation généraliste en gestion d'entreprise." }
+];
+let qnaIdx = 0, qnaTimer = null;
+function qnaEsc(s){ return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function buildQnaCarousel(){
+  const track = document.getElementById("qnaTrack");
+  const dots = document.getElementById("qnaDots");
+  if (!track || !dots) return;
+  const picks = [];
+  for (const q of QNA_FALLBACK.map(f => f.question)){
+    const row = KB.find(r => r.question === q);
+    picks.push(row || QNA_FALLBACK.find(f => f.question === q));
+  }
+  const total = KB.length || 104;
+  const slides = [
+    `<div class="qna-slide"><span class="tag">❓ Questions / Réponses</span><div class="big">${total} réponses documentées</div><p class="aa">Pose-moi ta question sur l'atelier, les cours ou les démarches : je réponds tout de suite, par écrit ou à la voix.</p></div>`,
+    ...picks.map(r => `<div class="qna-slide"><span class="tag">❓ Question d'étudiant</span><p class="qq">${qnaEsc(r.question)}</p><p class="aa">${qnaEsc(r.reponse.length > 170 ? r.reponse.slice(0, 170).trim() + "…" : r.reponse)}</p></div>`)
+  ];
+  track.innerHTML = slides.join("");
+  dots.innerHTML = slides.map((_, i) => `<button type="button" aria-label="Aller à la diapositive ${i + 1}" data-i="${i}"></button>`).join("");
+  dots.querySelectorAll("button").forEach(b => b.addEventListener("click", () => { qnaShow(parseInt(b.dataset.i, 10)); qnaRestart(); }));
+  qnaShow(0);
+  qnaRestart();
+}
+function qnaShow(i){
+  const track = document.getElementById("qnaTrack");
+  const dots = document.getElementById("qnaDots");
+  if (!track) return;
+  const slides = track.children;
+  if (!slides.length) return;
+  qnaIdx = ((i % slides.length) + slides.length) % slides.length;
+  [...slides].forEach((s, k) => s.classList.toggle("on", k === qnaIdx));
+  [...dots.children].forEach((d, k) => d.classList.toggle("on", k === qnaIdx));
+}
+function qnaRestart(){
+  if (qnaTimer) clearInterval(qnaTimer);
+  qnaTimer = setInterval(() => qnaShow(qnaIdx + 1), 4500);
+}
+(function(){
+  const c = document.getElementById("qnaCarousel");
+  if (c){
+    c.addEventListener("pointerenter", () => { if (qnaTimer) clearInterval(qnaTimer); });
+    c.addEventListener("pointerleave", qnaRestart);
+    document.getElementById("qnaPrev").addEventListener("click", () => { qnaShow(qnaIdx - 1); qnaRestart(); });
+    document.getElementById("qnaNext").addEventListener("click", () => { qnaShow(qnaIdx + 1); qnaRestart(); });
+  }
+  buildQnaCarousel();
+})();
 fetch("kb.json?ts=" + Date.now(), { cache: "no-store" }).then(r => r.json()).then(data => {
   KB = data;
+  buildQnaCarousel();
   const ex = document.getElementById("exemples");
   KB.filter(r => r.categorie === "Atelier Code to Career").slice(0,4).forEach(r => {
     const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.textContent = r.question;
