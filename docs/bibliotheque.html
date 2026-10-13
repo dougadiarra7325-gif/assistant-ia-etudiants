@@ -84,6 +84,24 @@ body::before{content:"";position:fixed;inset:0;z-index:-1;background:
 .foot{text-align:center;color:var(--mut);font-size:13px;padding:22px 16px 30px;line-height:1.7}
 @media (max-width:600px){.hero h1{font-size:23px}.hero{padding:21px 17px}.reader{height:64vh}}
 
+.cover{height:104px;border-radius:13px;position:relative;overflow:hidden;color:#fff;margin:-6px -6px 9px;background:linear-gradient(130deg,var(--c1,#0b3d91),var(--c2,#1256c4));box-shadow:inset 0 0 0 1px rgba(255,255,255,.22)}
+.cover::before{content:"";position:absolute;width:190px;height:190px;border-radius:50%;background:rgba(255,255,255,.14);right:-60px;top:-90px}
+.cover::after{content:"";position:absolute;width:120px;height:120px;border-radius:50%;border:22px solid rgba(255,255,255,.10);left:-40px;bottom:-70px}
+.cover .big{position:absolute;right:12px;top:8px;font-size:46px;filter:drop-shadow(0 4px 8px rgba(0,0,0,.3))}
+.cover .ccode{position:absolute;left:12px;top:10px;font-size:11px;font-weight:900;letter-spacing:1.1px;background:rgba(0,0,0,.28);padding:3px 8px;border-radius:999px}
+.cover .cmeta{position:absolute;left:12px;bottom:10px;font-size:12px;font-weight:800;text-shadow:0 1px 4px rgba(0,0,0,.45)}
+.cover.big{height:150px;margin:-6px -6px 12px}
+.cover.big .big{font-size:74px;top:16px;right:18px}
+.cover.big .cmeta{font-size:14px}
+.favbtn{position:absolute;top:8px;right:8px;z-index:3;background:rgba(255,255,255,.92);border:0;border-radius:50%;width:32px;height:32px;font-size:16px;cursor:pointer;box-shadow:0 3px 8px rgba(0,0,0,.25);line-height:1}
+.scard{position:relative}
+.sectiontitle{font-size:18px;margin:20px 0 4px;display:flex;align-items:center;gap:8px}
+.sectiontitle::after{content:"";flex:1;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--gold),transparent)}
+.rail{display:flex;gap:12px;overflow-x:auto;padding:6px 2px 12px;scroll-snap-type:x mandatory;scrollbar-width:thin}
+.rail .scard{min-width:248px;max-width:248px;scroll-snap-align:start}
+.badges{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 2px}
+.badgechip{font-size:12.5px;font-weight:800;padding:7px 12px;border-radius:999px;background:#eef3fb;border:1px solid var(--line);color:var(--mut)}
+.badgechip.on{background:linear-gradient(140deg,#fdf6dd,#f7ecd0);border-color:var(--gold);color:#5c4703;box-shadow:0 4px 12px rgba(201,162,39,.25)}
 .filters{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 14px}
 .filters button{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font-weight:700;cursor:pointer;font-size:13px;transition:all .2s}
 .filters button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
@@ -134,6 +152,29 @@ html[data-theme="dark"] .reader{background:#101b30}
 <script>
 let CAT = null, MAN = {};
 let DONE = new Set(JSON.parse(localStorage.getItem("biblio_done") || "[]"));
+let FAVS = new Set(JSON.parse(localStorage.getItem("biblio_favs") || "[]"));
+let RECENT = JSON.parse(localStorage.getItem("biblio_recent") || "[]");
+function saveFavs(){ localStorage.setItem("biblio_favs", JSON.stringify([...FAVS])); }
+function toggleFav(code, ev){ if (ev) ev.stopPropagation(); FAVS.has(code) ? FAVS.delete(code) : FAVS.add(code); saveFavs(); renderCurrent(); }
+function markRecent(code){ RECENT = [code, ...RECENT.filter(c => c !== code)].slice(0, 8); localStorage.setItem("biblio_recent", JSON.stringify(RECENT)); }
+const COVER = { INF:["#0b3d91","#00a6fb","💻"], BBA:["#14532d","#c9a227","💼"], DRO:["#3b1470","#c2410c","⚖️"] };
+function coverHTML(m, big){
+  const p = (m.code || "INF").slice(0,3); const c = COVER[p] || COVER.INF;
+  const a = MAN[m.code] || {};
+  return `<div class="cover${big ? " big" : ""}" style="--c1:${c[0]};--c2:${c[1]}"><span class="big">${c[2]}</span><span class="ccode">${esc(m.code)}</span><span class="cmeta">📄 ${a.pages || "25+"} pages${a.videos && a.videos.length ? " · 🎥 " + a.videos.length + " vidéos" : ""}</span></div>`;
+}
+function badgesHTML(){
+  const n = DONE.size;
+  const B = [[1,"🌱","Premier cours"],[10,"📚","10 cours"],[25,"🎯","Un niveau entier"],[75,"🏅","Une filière entière"],[150,"🔥","150 cours"],[225,"🏆","Bibliothèque complète"]];
+  return `<div class="badges">${B.map(([s,i,l]) => `<span class="badgechip${n >= s ? " on" : ""}">${i} ${l}${n >= s ? " ✓" : ""}</span>`).join("")}</div>`;
+}
+let VIEW = { type: "home" };
+function renderCurrent(){
+  if (VIEW.type === "filiere") vueFiliere(curF);
+  else if (VIEW.type === "matiere") vueMatiere(VIEW.code);
+  else if (VIEW.type === "search") doSearch(document.getElementById("search").value);
+  else vueAccueil();
+}
 const app = document.getElementById("app");
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const totalCours = () => CAT.filieres.reduce((a,f) => a + ["L1","L2","L3"].reduce((x,n) => x + f.niveaux[n].length, 0), 0);
@@ -154,45 +195,65 @@ function progFiliere(f){
   return { d, t: codes.length, pct: Math.round(d / codes.length * 100) };
 }
 
+function matsByCodes(codes){ return codes.map(c => { const r = findMatiere(c); return r ? r.m : null; }).filter(Boolean); }
+function railHTML(titre, mats){
+  if (!mats.length) return "";
+  return `<h3 class="sectiontitle">${titre}</h3><div class="rail">${mats.map((m,j) => cardMatiere(m, j)).join("")}</div>`;
+}
 function vueAccueil(){
+  VIEW = { type: "home" };
   const icons = { "Informatique":"💻", "BBA — Business Administration":"💼", "Droit":"⚖️" };
   const desc = {
     "Informatique":"Algorithmique, programmation, web, réseaux, bases de données, cybersécurité, cloud et intelligence artificielle.",
     "BBA — Business Administration":"Management, comptabilité SYSCOHADA, finance, marketing, ressources humaines et entrepreneuriat.",
     "Droit":"Droit malien et OHADA : civil, constitutionnel, des affaires, des sociétés, fiscal, bancaire et procédures."
   };
-  app.innerHTML = `<div class="grid">${CAT.filieres.map((f,i) => { const p = progFiliere(f); return `
+  const featured = matsByCodes(["INF-L1-01","DRO-L3-01","BBA-L1-01","INF-L2-01","DRO-L1-01","BBA-L3-01"]);
+  const recents = matsByCodes(RECENT);
+  const favs = matsByCodes([...FAVS]);
+  app.innerHTML = railHTML("⭐ Cours à la une", featured)
+    + railHTML("▶️ Reprendre mes cours", recents)
+    + (favs.length ? `<h3 class="sectiontitle">❤️ Mes favoris</h3><div class="grid">${favs.map((m,j) => cardMatiere(m, j)).join("")}</div>` : "")
+    + `<h3 class="sectiontitle">🎓 Les filières</h3><div class="grid">${CAT.filieres.map((f,i) => { const p = progFiliere(f); return `
     <div class="fcard" style="animation-delay:${i*0.08}s" onclick="vueFiliere(${i})">
       <div class="ico">${icons[f.filiere] || "📘"}</div>
       <h3>${esc(f.filiere.replace(" — Business Administration",""))}</h3>
       <p>${desc[f.filiere] || ""}</p>
       <div class="bar"><i style="width:${p.pct}%"></i></div>
       <div class="barlbl">${p.d}/${p.t} cours terminés · 75 cours (L1, L2, L3) · 📄 ${dispoFiliere(f)} PDF disponibles</div>
-    </div>`; }).join("")}</div>`;
+    </div>`; }).join("")}</div>`
+    + `<h3 class="sectiontitle">🏅 Mes badges</h3>` + badgesHTML();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 let curF = 0, curN = "L1", curFilter = "tous";
 function setFilter(k){ curFilter = k; vueFiliere(curF); }
 function vueFiliere(i, niv){
+  VIEW = { type: "filiere" };
   curF = i; if (niv) curN = niv;
   const f = CAT.filieres[i];
+  const prefix = f.niveaux[curN][0].code.split("-")[0];
+  const doneN = f.niveaux[curN].filter(m => DONE.has(m.code)).length;
   app.innerHTML = `
     <div class="crumbs"><button onclick="vueAccueil()">Accueil</button><span>›</span><b>${esc(f.filiere)}</b></div>
     <div class="lvl">${["L1","L2","L3"].map(n => `<button class="${n===curN?"on":""}" onclick="vueFiliere(${i},'${n}')">${n === "L1" ? "Licence 1" : n === "L2" ? "Licence 2" : "Licence 3"}</button>`).join("")}</div>
-    <div class="lvlmeta">${f.niveaux[curN].filter(m => DONE.has(m.code)).length}/25 cours terminés · ${f.niveaux[curN].filter(m => MAN[m.code] && MAN[m.code].pdf).length} PDF disponibles dans ce niveau</div>
-    <div class="filters">${[["tous","Tous"],["dispo","📄 PDF disponibles"],["done","✓ Terminés"],["wait","⏳ En préparation"]].map(([k,l]) => `<button class="${curFilter===k?"on":""}" onclick="setFilter('${k}')">${l}</button>`).join("")}</div>
-    <div class="grid">${f.niveaux[curN].filter(m => curFilter==="tous" || (curFilter==="dispo" && MAN[m.code] && MAN[m.code].pdf) || (curFilter==="done" && DONE.has(m.code)) || (curFilter==="wait" && !(MAN[m.code] && MAN[m.code].pdf))).map((m,j) => cardMatiere(m, j)).join("") || '<p class="empty">Aucun cours dans cette catégorie pour le moment.</p>'}</div>`;
+    <div class="lvlmeta">${doneN}/25 cours terminés · ${f.niveaux[curN].filter(m => MAN[m.code] && MAN[m.code].pdf).length} PDF disponibles dans ce niveau${doneN === 25 ? " · 🏆 Niveau terminé, bravo !" : ""}</div>
+    <div class="btnrow"><a class="btn gold" href="zips/${prefix}-${curN}.zip" download>⬇ Télécharger tout le niveau ${curN} (ZIP, 25 PDF)</a></div>
+    <div class="filters">${[["tous","Tous"],["dispo","📄 PDF disponibles"],["done","✓ Terminés"],["fav","❤️ Favoris"],["wait","⏳ En préparation"]].map(([k,l]) => `<button class="${curFilter===k?"on":""}" onclick="setFilter('${k}')">${l}</button>`).join("")}</div>
+    <div class="grid">${f.niveaux[curN].filter(m => curFilter==="tous" || (curFilter==="dispo" && MAN[m.code] && MAN[m.code].pdf) || (curFilter==="done" && DONE.has(m.code)) || (curFilter==="fav" && FAVS.has(m.code)) || (curFilter==="wait" && !(MAN[m.code] && MAN[m.code].pdf))).map((m,j) => cardMatiere(m, j)).join("") || '<p class="empty">Aucun cours dans cette catégorie pour le moment.</p>'}</div>`;
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 function cardMatiere(m, j){
   const a = MAN[m.code];
   const done = DONE.has(m.code);
+  const fav = FAVS.has(m.code);
   return `<div class="scard" style="animation-delay:${Math.min(j*0.03,0.5)}s" onclick="vueMatiere('${m.code}')">
-    <span class="code">${esc(m.code)}</span>
+    <button class="favbtn" title="Ajouter aux favoris" onclick="toggleFav('${m.code}', event)">${fav ? "❤️" : "🤍"}</button>
+    ${coverHTML(m, false)}
     <h4>${esc(m.titre)}</h4>
     <p>${esc(m.resume)}</p>
     <div>${a && a.pdf ? `<span class="pill ok">📄 PDF · ${a.pages || "25+"} pages</span>` : `<span class="pill wait">⏳ En préparation</span>`}
+    ${a && a.videos && a.videos.length ? ` <span class="pill ok">🎥 ${a.videos.length} vidéos</span>` : ""}
     ${done ? ` <span class="pill done">✓ Terminé</span>` : ""}</div>
   </div>`;
 }
@@ -206,18 +267,25 @@ function findMatiere(code){
 }
 function vueMatiere(code){
   const r = findMatiere(code); if (!r) return;
+  VIEW = { type: "matiere", code };
+  markRecent(code);
   const { m, fi, niv } = r; const f = CAT.filieres[fi]; const a = MAN[code] || {};
   const done = DONE.has(code);
+  const fav = FAVS.has(code);
   const videos = a.videos || [];
+  const idx = f.niveaux[niv].findIndex(x => x.code === code);
+  const similaires = [1,2,3].map(k => f.niveaux[niv][(idx + k) % f.niveaux[niv].length]).filter(x => x && x.code !== code);
   app.innerHTML = `
     <div class="crumbs"><button onclick="vueAccueil()">Accueil</button><span>›</span><button onclick="vueFiliere(${fi},'${niv}')">${esc(f.filiere)} · ${niv}</button><span>›</span><b>${esc(m.titre)}</b></div>
     <section class="panel">
+      ${coverHTML(m, true)}
       <span class="code" style="font-size:12px;font-weight:800;letter-spacing:.6px;color:var(--blue2)">${esc(m.code)} · ${esc(f.filiere)} — ${niv === "L1" ? "Licence 1" : niv === "L2" ? "Licence 2" : "Licence 3"}</span>
       <h2>${esc(m.titre)}</h2>
       <p class="note">${esc(m.resume)}</p>
       <div class="btnrow">
         ${a.pdf ? `<a class="btn gold" href="${a.pdf}" download>⬇ Télécharger le PDF (${a.pages || "25+"} pages)</a>` : `<span class="pill wait">⏳ PDF en préparation — les leçons ci-dessous sont déjà consultables</span>`}
         <button class="btn ${done ? "ghost" : ""}" onclick="toggleDone('${code}')">${done ? "↩ Marquer comme non terminé" : "✓ Marquer comme terminé"}</button>
+        <button class="btn ghost" onclick="toggleFav('${code}', event)">${fav ? "❤️ Dans mes favoris" : "🤍 Ajouter aux favoris"}</button>
         <button class="btn ghost" onclick="shareCours('${code}')">📲 Partager ce cours</button>
       </div>
       <h3>📖 Leçons du cours</h3>
@@ -227,7 +295,9 @@ function vueMatiere(code){
       <h3>✍️ Exercices et QCM</h3>
       <p class="note">${a.pdf ? "Les travaux dirigés, exercices corrigés et le QCM d'évaluation de ce cours se trouvent dans le PDF (sections TD, Exercices corrigés et QCM)." : "Les exercices corrigés et le QCM arriveront avec le PDF de ce cours."}</p>
     </section>
-    ${a.pdf ? `<section class="panel"><h3 style="margin-top:0">📄 Lire le cours ici</h3><iframe class="reader" src="${a.pdf}" title="Lecteur PDF — ${esc(m.titre)}"></iframe></section>` : ""}`;
+    ${a.pdf ? `<section class="panel"><h3 style="margin-top:0">📄 Lire le cours ici</h3><iframe class="reader" src="${a.pdf}" title="Lecteur PDF — ${esc(m.titre)}"></iframe></section>` : ""}
+    <h3 class="sectiontitle">📚 Cours similaires — continue dans ce niveau</h3>
+    <div class="grid">${similaires.map((x,j) => cardMatiere(x, j)).join("")}</div>`;
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 function shareCours(code){
@@ -238,9 +308,10 @@ function shareCours(code){
 }
 function toggleDone(code){ DONE.has(code) ? DONE.delete(code) : DONE.add(code); saveDone(); vueMatiere(code); }
 
-document.getElementById("search").addEventListener("input", e => {
-  const q = e.target.value.trim().toLowerCase();
+function doSearch(val){
+  const q = String(val || "").trim().toLowerCase();
   if (q.length < 2){ vueAccueil(); return; }
+  VIEW = { type: "search" };
   const res = [];
   CAT.filieres.forEach((f, fi) => ["L1","L2","L3"].forEach(n => f.niveaux[n].forEach(m => {
     const hay = (m.titre + " " + m.resume + " " + m.lecons.join(" ")).toLowerCase();
@@ -249,7 +320,8 @@ document.getElementById("search").addEventListener("input", e => {
   app.innerHTML = res.length
     ? `<p class="note">${res.length} cours trouvé(s) pour « ${esc(q)} »</p><div class="grid">${res.map((m,j) => cardMatiere(m, j)).join("")}</div>`
     : `<p class="empty">Aucun cours trouvé pour « ${esc(q)} ». Essaie un autre mot (ex. : algorithme, fiscalité, sociétés…).</p>`;
-});
+}
+document.getElementById("search").addEventListener("input", e => doSearch(e.target.value));
 
 Promise.all([
   fetch("catalogue.json", { cache: "no-store" }).then(r => r.json()),
