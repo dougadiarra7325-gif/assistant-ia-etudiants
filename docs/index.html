@@ -390,6 +390,13 @@ function waLink(question, numero){
   return a;
 }
 async function ask(text){
+  const keyM = text.trim().match(/^AIza[0-9A-Za-z_\-]{20,}$/);
+  if (keyM){
+    addMsg("🔑 Clé Gemini collée (masquée)", "user");
+    localStorage.setItem("gemini_key", keyM[0]);
+    addMsg("✅ Vraie IA activée sur ce navigateur ! Ta clé reste chez toi, dans ton navigateur uniquement. Maintenant, pose-moi n'importe quelle question — cours, IAM ou autre — je demande à Google Gemini quand ma base n'a pas la réponse.", "bot", "Vraie IA — Google Gemini");
+    return;
+  }
   addMsg(text, "user");
   const qz = quizStep(text);
   if (qz !== null){ addMsg(qz, "bot", "Quiz entraînement"); return; }
@@ -403,6 +410,11 @@ async function ask(text){
     const d = addMsg("Merci ! Ta question est prête. Clique sur le bouton vert pour l'envoyer à Douga sur WhatsApp : il te répondra et t'expliquera le reste.", "bot", "Question à transmettre");
     d.appendChild(waLink(q, digits));
     return;
+  }
+  const codeM = text.toUpperCase().match(/(INF|BBA|DRO)-L[123]-\d{2}/);
+  if (codeM){
+    const crow = KB.find(r => r.categorie.startsWith("Bibliothèque") && r.keywords.startsWith(codeM[0]));
+    if (crow){ addMsg(crow.reponse, "bot", crow.categorie); showSuggestions(KB.filter(r => r.categorie === crow.categorie && r.question !== crow.question).slice(0, 3).map(r => r.question)); return; }
   }
   const { row, sugg } = findAnswer(text);
   if (row){ addMsg(row.reponse, "bot", row.categorie); showSuggestions(KB.filter(r => r.categorie === row.categorie && r.question !== row.question).slice(0, 3).map(r => r.question)); return; }
@@ -418,7 +430,7 @@ async function ask(text){
       rep = "La clé enregistrée sur ce navigateur n'est pas une vraie clé Gemini — une vraie clé commence par « AIza ». Je l'ai retirée : la base et la calculatrice continuent de marcher. En attendant, tu peux transmettre ta question à Douga :";
     } else {
       rep = "Je n'ai pas encore la réponse à cette question. Écris-moi ton numéro WhatsApp ici, ou clique le bouton vert : ta question sera envoyée à Douga (73 25 58 73), qui te répondra et t'expliquera le reste.";
-      if (!localStorage.getItem("gemini_key")) rep += " Astuce : active aussi la vraie IA ci-dessous pour que je réponde à bien plus de questions.";
+      if (!localStorage.getItem("gemini_key")) rep += " Astuce : pour que je réponde aussi aux questions hors de ma base, active la vraie IA gratuite : colle ta clé Gemini (elle commence par « AIza », récupérée gratuitement sur aistudio.google.com) directement ici dans le chat — elle reste dans ton navigateur.";
       if (sugg.length) rep += " Peut-être que tu cherches : " + sugg.map(s => "« " + s.question + " »").join(" ; ");
     }
     wait.classList.remove("typing");
@@ -622,7 +634,7 @@ fetch("kb.json?ts=" + Date.now(), { cache: "no-store" }).then(r => r.json()).the
   });
   const doc = document.getElementById("doc");
   const cats = {};
-  data.forEach(r => { (cats[r.categorie] = cats[r.categorie] || []).push(r); });
+  data.forEach(r => { if (r.categorie.startsWith("Bibliothèque")) return; (cats[r.categorie] = cats[r.categorie] || []).push(r); });
   doc.innerHTML = "";
   for (const [c, rows] of Object.entries(cats)){
     const h = document.createElement("h3"); h.textContent = c; doc.appendChild(h);
