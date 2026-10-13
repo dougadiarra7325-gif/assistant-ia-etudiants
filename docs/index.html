@@ -178,8 +178,6 @@ html[data-theme="dark"] .messages::-webkit-scrollbar-thumb{background:#33465f}
   <nav class="quicknav">
     <a href="#chat">💬 Chat</a>
     <a href="bibliotheque.html">📚 Bibliothèque · 225 cours</a>
-    <a href="#lecons">📄 Leçons PDF</a>
-    <a href="#ia">🤖 Vraie IA</a>
     <a href="#docpanel">❓ Documentation</a>
   </nav>
   <a href="bibliotheque.html" class="biblio-banner reveal visible">
@@ -205,35 +203,6 @@ html[data-theme="dark"] .messages::-webkit-scrollbar-thumb{background:#33465f}
       <button type="submit">Envoyer</button>
     </form>
   </div>
-
-  <section class="panel reveal" id="lecons">
-    <h2>📚 Leçons PDF — L1, L2, L3 · 25 pages par niveau</h2>
-    <p class="note">Des livrets de révision gratuits de <b>25 pages chacun</b>, rédigés pour les étudiants de l'IAM et <b>organisés par filière</b> (tronc commun, informatique, gestion-BBA, droit, comptabilité, marketing, RH, logistique) : leçons résumées, exemples, QCM corrigés, glossaire, sujets d'entraînement et fiches de révision.</p>
-    <div class="toolbar">
-      <a class="tool" href="lecons-l1.pdf" download>⬇ Leçons Licence 1 (PDF)</a>
-      <a class="tool" href="lecons-l2.pdf" download>⬇ Leçons Licence 2 (PDF)</a>
-      <a class="tool" href="lecons-l3.pdf" download>⬇ Leçons Licence 3 (PDF)</a>
-    </div>
-    <h3 style="margin:14px 0 4px">Formations complètes Adrian — Bronbah Tech</h3>
-    <p class="note">11 formations complètes avec accompagnement : HTML, CSS, JavaScript, PHP, C, C++, Création de sites web, CapCut, Intelligence artificielle, ChatGPT, Canva. <b>13 000 FCFA</b> la formation complète (inscription 3 000 + formation 10 000) : le PDF complet est envoyé après l'inscription.</p>
-    <a class="wa-btn" href="https://wa.me/22373255873?text=Bonjour%20Adrian%2C%20je%20veux%20des%20informations%20sur%20les%20formations%20Bronbah%20Tech" target="_blank" rel="noopener">📲 Commander une formation sur WhatsApp</a>
-  </section>
-
-  <section class="panel reveal" id="ia">
-    <h2>🤖 Vraie IA — Google Gemini (gratuit)</h2>
-    <p id="ia-status" class="note">Vérification…</p>
-    <div id="ia-form">
-      <label>Colle ta clé gratuite Google AI Studio (aistudio.google.com → « Get API key ») :
-        <input type="password" id="ia-key" placeholder="AIza…" autocomplete="off"></label>
-      <button class="btn gold" id="ia-save" type="button">Activer la vraie IA</button>
-      <p class="note">Ta clé reste <b>dans ton navigateur uniquement</b> (jamais publiée, jamais dans le code du site). Quand ma base n'a pas la réponse, ton navigateur demande directement à Google Gemini.</p>
-    </div>
-    <div id="ia-on" style="display:none">
-      <button class="btn gold" id="ia-test" type="button">Tester ma clé</button>
-      <button class="btn" id="ia-del" type="button">Retirer la clé de ce navigateur</button>
-      <p class="note" id="ia-test-result"></p>
-    </div>
-  </section>
 
   <section class="panel reveal" id="docpanel">
     <h2>Documentation — questions fréquentes</h2>
@@ -445,8 +414,8 @@ async function ask(text){
     pendingQuestion = text;
     let rep;
     if (res.err && (res.err.includes("API key not valid") || res.err.includes("INVALID_ARGUMENT"))){
-      localStorage.removeItem("gemini_key"); refreshIa();
-      rep = "La clé enregistrée sur ce navigateur n'est pas une vraie clé Gemini — une vraie clé commence par « AIza ». Je l'ai retirée : la base et la calculatrice continuent de marcher. Pour la vraie IA, colle ta clé d'AI Studio dans la section « Vraie IA » ci-dessous. En attendant, tu peux transmettre ta question à Douga :";
+      localStorage.removeItem("gemini_key");
+      rep = "La clé enregistrée sur ce navigateur n'est pas une vraie clé Gemini — une vraie clé commence par « AIza ». Je l'ai retirée : la base et la calculatrice continuent de marcher. En attendant, tu peux transmettre ta question à Douga :";
     } else {
       rep = "Je n'ai pas encore la réponse à cette question. Écris-moi ton numéro WhatsApp ici, ou clique le bouton vert : ta question sera envoyée à Douga (73 25 58 73), qui te répondra et t'expliquera le reste.";
       if (!localStorage.getItem("gemini_key")) rep += " Astuce : active aussi la vraie IA ci-dessous pour que je réponde à bien plus de questions.";
@@ -587,28 +556,6 @@ document.getElementById("chatform").addEventListener("submit", e => {
   const t = inp.value.trim(); if (!t) return;
   inp.value = ""; ask(t);
 });
-function refreshIa(){
-  const has = !!localStorage.getItem("gemini_key");
-  document.getElementById("ia-status").innerHTML = has
-    ? "<span class='ok'>✅ IA active sur ce navigateur.</span> Quand la base n'a pas la réponse, je demande à Google Gemini."
-    : "L'IA n'est pas encore activée sur ce navigateur : colle ta clé ci-dessous pour l'activer.";
-  document.getElementById("ia-form").style.display = has ? "none" : "block";
-  document.getElementById("ia-on").style.display = has ? "block" : "none";
-}
-document.getElementById("ia-save").addEventListener("click", () => {
-  const v = document.getElementById("ia-key").value.trim();
-  if (v.length < 20){ alert("Clé trop courte : copie la clé complète depuis Google AI Studio."); return; }
-  localStorage.setItem("gemini_key", v); refreshIa();
-});
-document.getElementById("ia-del").addEventListener("click", () => { localStorage.removeItem("gemini_key"); refreshIa(); });
-document.getElementById("ia-test").addEventListener("click", async () => {
-  const out = document.getElementById("ia-test-result");
-  out.textContent = "Test en cours…";
-  const res = await gemini("Dis bonjour en une phrase à un étudiant de l'IAM.", "");
-  if (res.text) out.textContent = "✅ L'IA répond : « " + res.text + " »";
-  else if (res.err && (res.err.includes("API key not valid") || res.err.includes("INVALID_ARGUMENT"))){ localStorage.removeItem("gemini_key"); refreshIa(); out.textContent = "❌ Cette clé n'est pas une vraie clé Gemini (elle doit commencer par « AIza ») : je l'ai retirée. Colle ta clé copiée depuis aistudio.google.com/apikey."; }
-  else out.textContent = "❌ L'IA ne répond pas — détail : " + res.err;
-});
 /* ——— Carrousel pivotant Questions/Réponses (hero) ——— */
 const QNA_FALLBACK = [
   { question: "Quels sont les horaires de l'atelier ?", reponse: "L'atelier a lieu du lundi au vendredi : de 9h00 à 15h00, sauf le vendredi de 9h00 à 13h00." },
@@ -686,7 +633,6 @@ fetch("kb.json?ts=" + Date.now(), { cache: "no-store" }).then(r => r.json()).the
   }
 }).catch(() => { document.getElementById("doc").innerHTML = "<p class='note'>Base introuvable (kb.json).</p>"; });
 restoreHistory();
-refreshIa();
 </script>
 <script>
 const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add("visible"); io.unobserve(e.target); } }), { threshold: 0.06 });
