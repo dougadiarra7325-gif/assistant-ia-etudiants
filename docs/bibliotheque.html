@@ -82,7 +82,28 @@ body::before{content:"";position:fixed;inset:0;z-index:-1;background:
 .note{font-size:13px;color:var(--mut);line-height:1.55}
 .empty{color:var(--mut);font-style:italic;font-size:14px}
 .foot{text-align:center;color:var(--mut);font-size:13px;padding:22px 16px 30px;line-height:1.7}
-@media (max-width:600px){.hero h1{font-size:23px}.hero{padding:21px 17px}.reader{height:64vh}}
+.navrow{position:sticky;top:64px;z-index:55;display:flex;gap:8px;margin:10px 0 2px}
+.navrow .btn{background:rgba(255,255,255,.92);backdrop-filter:blur(6px)}
+img{max-width:100%}
+.grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+@media (max-width:600px){
+  .hero h1{font-size:23px}.hero{padding:21px 17px}.reader{height:60vh}
+  .topbar{flex-wrap:wrap;gap:8px;padding:10px 12px}
+  .topbar .tag{display:none}
+  .topbar img{height:34px}
+  .logo{font-size:16px}
+  .wrap{padding:12px 10px 8px}
+  .stat{flex:1 1 42%;min-width:0}
+  .rail .scard{min-width:76vw;max-width:76vw}
+  .btnrow .btn{flex:1 1 150px;text-align:center}
+  .cover.big{height:112px}
+  .cover.big .big{font-size:52px}
+  .panel{padding:14px}
+  .navrow{top:56px}
+  .searchbar input{padding:12px 13px;font-size:14px}
+  .favbtn{width:36px;height:36px}
+}
+@media (max-width:360px){.rail .scard{min-width:84vw;max-width:84vw}.hero h1{font-size:20px}}
 
 .cover{height:104px;border-radius:13px;position:relative;overflow:hidden;color:#fff;margin:-6px -6px 9px;background:linear-gradient(130deg,var(--c1,#0b3d91),var(--c2,#1256c4));box-shadow:inset 0 0 0 1px rgba(255,255,255,.22)}
 .cover::before{content:"";position:absolute;width:190px;height:190px;border-radius:50%;background:rgba(255,255,255,.14);right:-60px;top:-90px}
@@ -141,6 +162,7 @@ html[data-theme="dark"] .reader{background:#101b30}
     </div>
   </section>
 
+  <div class="navrow"><button type="button" id="backbtn" class="btn ghost" style="display:none" onclick="goBack()">← Retour</button><button type="button" class="btn ghost" onclick="goHome()">🏠 Accueil Bibliothèque</button></div>
   <div class="searchbar"><input id="search" type="search" placeholder="🔎 Rechercher un cours, une leçon… (ex. : algorithme, comptabilité, droit des sociétés)"></div>
   <div id="app"><p class="empty">Chargement du catalogue…</p></div>
 </main>
@@ -175,6 +197,32 @@ function renderCurrent(){
   else if (VIEW.type === "search") doSearch(document.getElementById("search").value);
   else vueAccueil();
 }
+function goHome(){ if (location.hash !== "#accueil") location.hash = "#accueil"; else vueAccueil(); }
+function goF(i, n){ const t = "#f=" + i + (n ? "&n=" + n : ""); if (location.hash !== t) location.hash = t; else vueFiliere(i, n); }
+function goC(code){ const t = "#c=" + code; if (location.hash !== t) location.hash = t; else vueMatiere(code); }
+function goBack(){
+  const before = location.hash;
+  history.back();
+  setTimeout(() => { if (location.hash === before) goHome(); }, 350);
+}
+function route(){
+  if (!CAT) return;
+  const h = location.hash || "";
+  let done = false;
+  if (h.startsWith("#c=")){
+    const code = h.slice(3); if (findMatiere(code)){ vueMatiere(code); done = true; }
+  } else if (/^#[A-Z]{3}-L[123]-\d{2}$/.test(h)){
+    const code = h.slice(1); if (findMatiere(code)){ vueMatiere(code); done = true; }
+  } else if (h.startsWith("#f=")){
+    const parts = h.slice(3).split("&n=");
+    const fi = parseInt(parts[0], 10);
+    if (!isNaN(fi) && CAT.filieres[fi]){ vueFiliere(fi, parts[1] || undefined); done = true; }
+  }
+  if (!done) vueAccueil();
+  const bb = document.getElementById("backbtn");
+  if (bb) bb.style.display = VIEW.type === "home" ? "none" : "";
+}
+window.addEventListener("hashchange", route);
 const app = document.getElementById("app");
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const totalCours = () => CAT.filieres.reduce((a,f) => a + ["L1","L2","L3"].reduce((x,n) => x + f.niveaux[n].length, 0), 0);
@@ -215,7 +263,7 @@ function vueAccueil(){
     + railHTML("▶️ Reprendre mes cours", recents)
     + (favs.length ? `<h3 class="sectiontitle">❤️ Mes favoris</h3><div class="grid">${favs.map((m,j) => cardMatiere(m, j)).join("")}</div>` : "")
     + `<h3 class="sectiontitle">🎓 Les filières</h3><div class="grid">${CAT.filieres.map((f,i) => { const p = progFiliere(f); return `
-    <div class="fcard" style="animation-delay:${i*0.08}s" onclick="vueFiliere(${i})">
+    <div class="fcard" style="animation-delay:${i*0.08}s" onclick="goF(${i})">
       <div class="ico">${icons[f.filiere] || "📘"}</div>
       <h3>${esc(f.filiere.replace(" — Business Administration",""))}</h3>
       <p>${desc[f.filiere] || ""}</p>
@@ -235,8 +283,8 @@ function vueFiliere(i, niv){
   const prefix = f.niveaux[curN][0].code.split("-")[0];
   const doneN = f.niveaux[curN].filter(m => DONE.has(m.code)).length;
   app.innerHTML = `
-    <div class="crumbs"><button onclick="vueAccueil()">Accueil</button><span>›</span><b>${esc(f.filiere)}</b></div>
-    <div class="lvl">${["L1","L2","L3"].map(n => `<button class="${n===curN?"on":""}" onclick="vueFiliere(${i},'${n}')">${n === "L1" ? "Licence 1" : n === "L2" ? "Licence 2" : "Licence 3"}</button>`).join("")}</div>
+    <div class="crumbs"><button onclick="goHome()">Accueil</button><span>›</span><b>${esc(f.filiere)}</b></div>
+    <div class="lvl">${["L1","L2","L3"].map(n => `<button class="${n===curN?"on":""}" onclick="goF(${i},'${n}')">${n === "L1" ? "Licence 1" : n === "L2" ? "Licence 2" : "Licence 3"}</button>`).join("")}</div>
     <div class="lvlmeta">${doneN}/25 cours terminés · ${f.niveaux[curN].filter(m => MAN[m.code] && MAN[m.code].pdf).length} PDF disponibles dans ce niveau${doneN === 25 ? " · 🏆 Niveau terminé, bravo !" : ""}</div>
     <div class="btnrow"><a class="btn gold" href="zips/${prefix}-${curN}.zip" download>⬇ Télécharger tout le niveau ${curN} (ZIP, 25 PDF)</a></div>
     <div class="filters">${[["tous","Tous"],["dispo","📄 PDF disponibles"],["done","✓ Terminés"],["fav","❤️ Favoris"],["wait","⏳ En préparation"]].map(([k,l]) => `<button class="${curFilter===k?"on":""}" onclick="setFilter('${k}')">${l}</button>`).join("")}</div>
@@ -247,7 +295,7 @@ function cardMatiere(m, j){
   const a = MAN[m.code];
   const done = DONE.has(m.code);
   const fav = FAVS.has(m.code);
-  return `<div class="scard" style="animation-delay:${Math.min(j*0.03,0.5)}s" onclick="vueMatiere('${m.code}')">
+  return `<div class="scard" style="animation-delay:${Math.min(j*0.03,0.5)}s" onclick="goC('${m.code}')">
     <button class="favbtn" title="Ajouter aux favoris" onclick="toggleFav('${m.code}', event)">${fav ? "❤️" : "🤍"}</button>
     ${coverHTML(m, false)}
     <h4>${esc(m.titre)}</h4>
@@ -276,7 +324,7 @@ function vueMatiere(code){
   const idx = f.niveaux[niv].findIndex(x => x.code === code);
   const similaires = [1,2,3].map(k => f.niveaux[niv][(idx + k) % f.niveaux[niv].length]).filter(x => x && x.code !== code);
   app.innerHTML = `
-    <div class="crumbs"><button onclick="vueAccueil()">Accueil</button><span>›</span><button onclick="vueFiliere(${fi},'${niv}')">${esc(f.filiere)} · ${niv}</button><span>›</span><b>${esc(m.titre)}</b></div>
+    <div class="crumbs"><button onclick="goHome()">Accueil</button><span>›</span><button onclick="goF(${fi},'${niv}')">${esc(f.filiere)} · ${niv}</button><span>›</span><b>${esc(m.titre)}</b></div>
     <section class="panel">
       ${coverHTML(m, true)}
       <span class="code" style="font-size:12px;font-weight:800;letter-spacing:.6px;color:var(--blue2)">${esc(m.code)} · ${esc(f.filiere)} — ${niv === "L1" ? "Licence 1" : niv === "L2" ? "Licence 2" : "Licence 3"}</span>
@@ -301,7 +349,7 @@ function vueMatiere(code){
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 function shareCours(code){
-  const r = findMatiere(code); const url = location.href.split("#")[0] + "#" + code;
+  const r = findMatiere(code); const url = location.href.split("#")[0] + "#c=" + code;
   const data = { title: "Assistant IAM — Bibliothèque", text: "📚 Cours " + code + " — " + (r ? r.m.titre : code) + " (Assistant IAM, Bibliothèque Universitaire)", url };
   if (navigator.share){ navigator.share(data).catch(() => {}); }
   else if (navigator.clipboard){ navigator.clipboard.writeText(url).then(() => alert("Lien du cours copié !")); }
@@ -310,7 +358,7 @@ function toggleDone(code){ DONE.has(code) ? DONE.delete(code) : DONE.add(code); 
 
 function doSearch(val){
   const q = String(val || "").trim().toLowerCase();
-  if (q.length < 2){ vueAccueil(); return; }
+  if (q.length < 2){ if (location.hash && location.hash !== "#accueil") location.hash = "#accueil"; else vueAccueil(); return; }
   VIEW = { type: "search" };
   const res = [];
   CAT.filieres.forEach((f, fi) => ["L1","L2","L3"].forEach(n => f.niveaux[n].forEach(m => {
@@ -326,7 +374,7 @@ document.getElementById("search").addEventListener("input", e => doSearch(e.targ
 Promise.all([
   fetch("catalogue.json", { cache: "no-store" }).then(r => r.json()),
   fetch("manifest.json", { cache: "no-store" }).then(r => r.json()).catch(() => ({}))
-]).then(([cat, man]) => { CAT = cat; MAN = man || {}; majStats(); vueAccueil(); })
+]).then(([cat, man]) => { CAT = cat; MAN = man || {}; majStats(); route(); })
  .catch(() => { app.innerHTML = `<p class="empty">Le catalogue n'a pas pu être chargé. Vérifie ta connexion puis recharge la page.</p>`; });
 </script>
 <script>
