@@ -240,7 +240,18 @@ function findAnswer(text){
 }
 const SYSTEME = "Tu es l'assistant des étudiants de l'Université IAM (Institut Africain de Management) de Bamako, au Mali. Tu réponds en français simple et clair, en 2 à 6 phrases maximum, avec un ton aidant pour des étudiants. Faits sûrs : l'atelier IAM Code to Career est piloté par DataInsights, chef d'atelier Abdoulaye TRAORE ; horaires : lundi à vendredi 9h00-15h00 (vendredi 9h00-13h00) ; 12 projets d'équipe ; livrables : démonstration, code sur GitHub, présentation, projet intégré au CV et au profil en ligne. Règles strictes : n'invente JAMAIS de dates officielles (examens, inscriptions, résultats) ni de numéros de téléphone : pour ces sujets, dis de vérifier auprès du secrétariat ou de l'affichage officiel de l'IAM. Tu peux expliquer des notions de cours (programmation, informatique), donner des conseils d'étude, présenter l'IAM et ses grandes familles de parcours en précisant que les filières ouvertes varient selon le campus et l'année, aider à rédiger ou améliorer un CV étudiant, et répondre simplement à des questions générales de conversation. Tu tiens une vraie conversation suivie : si l'étudiant dit « et ensuite ? », « donne un exemple », « explique autrement » ou « et pour la L2 ? », appuie-toi sur l'historique de conversation fourni pour comprendre de quoi il parle, et réponds dans la continuité.";
 const MODELES_IA = ["gemini-3.8-flash", "gemini-3.8-flash", "gemini-2.5-flash"];
+const ASSISTANT_PROXY_URL = ""; // Proxy sécurisé (clé Gemini côté serveur, jamais dans la page) — renseigner l'adresse après déploiement, voir proxy/README.md. Vide = clé personnelle du navigateur uniquement.
 async function gemini(question, contexte){
+  if (ASSISTANT_PROXY_URL){
+    try {
+      const rp = await fetch(ASSISTANT_PROXY_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question, contexte: contexte || "" }) });
+      const dp = await rp.json().catch(() => null);
+      if (dp && dp.text) return { text: dp.text };
+      if (!localStorage.getItem("gemini_key")) return { err: (dp && dp.err) ? dp.err : "proxy injoignable" };
+    } catch(e){
+      if (!localStorage.getItem("gemini_key")) return { err: "proxy (" + e.message + ")" };
+    }
+  }
   const key = localStorage.getItem("gemini_key");
   if (!key) return { err: "aucune clé" };
   let prompt = SYSTEME;
@@ -435,7 +446,7 @@ async function ask(text){
       rep = "La clé enregistrée sur ce navigateur n'est pas une vraie clé Gemini — une vraie clé commence par « AIza ». Je l'ai retirée : la base et la calculatrice continuent de marcher. En attendant, tu peux transmettre ta question à Douga :";
     } else {
       rep = "Je n'ai pas encore la réponse à cette question. Écris-moi ton numéro WhatsApp ici, ou clique le bouton vert : ta question sera envoyée à Douga (73 25 58 73), qui te répondra et t'expliquera le reste.";
-      if (!localStorage.getItem("gemini_key")) rep += " Astuce : pour que je réponde aussi aux questions hors de ma base, active la vraie IA gratuite : colle ta clé Gemini (elle commence par « AIza », récupérée gratuitement sur aistudio.google.com) directement ici dans le chat — elle reste dans ton navigateur.";
+      if (!localStorage.getItem("gemini_key") && !ASSISTANT_PROXY_URL) rep += " Astuce : pour que je réponde aussi aux questions hors de ma base, active la vraie IA gratuite : colle ta clé Gemini (elle commence par « AIza », récupérée gratuitement sur aistudio.google.com) directement ici dans le chat — elle reste dans ton navigateur.";
       if (sugg.length) rep += " Peut-être que tu cherches : " + sugg.map(s => "« " + s.question + " »").join(" ; ");
     }
     wait.classList.remove("typing");
