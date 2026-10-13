@@ -3,6 +3,33 @@
 // La clé Gemini vient de la variable d'environnement GEMINI_API_KEY (réglages secrets de l'hébergeur),
 // jamais du code, jamais du navigateur des visiteurs.
 const http = require("http");
+// Sortie réseau : sur cette machine, le fetch global de Node ignore le proxy
+// d'environnement (NODE_USE_ENV_PROXY ne le couvre pas et le module « undici »
+// n'est pas installable ici) → on installe un agent HTTPS global qui tunnelise
+// via HTTP CONNECT à travers HTTPS_PROXY, sans aucune dépendance.
+(function brancherProxySortie() {
+  const brut = process.env.HTTPS_PROXY || process.env.https_proxy || "";
+  if (!brut) return;
+  try {
+    const https = require("https"), tls = require("tls");
+    const u = new URL(brut);
+    const auth = u.username ? "Basic " + Buffer.from(decodeURIComponent(u.username) + ":" + decodeURIComponent(u.password || "")).toString("base64") : null;
+    https.globalAgent = new (class extends https.Agent {
+      createConnection(opts, cb) {
+        const cible = opts.host + ":" + (opts.port || 443);
+        const req = http.request({ host: u.hostname, port: u.port || 3128, method: "CONNECT", path: cible, headers: { Host: cible } });
+        if (auth) req.setHeader("Proxy-Authorization", auth);
+        req.on("connect", (res, sock) => {
+          if (res.statusCode !== 200) { cb(new Error("CONNECT " + res.statusCode)); sock.destroy(); return; }
+          const t = tls.connect({ socket: sock, servername: opts.servername || opts.host }, () => cb(null, t));
+          t.on("error", cb);
+        });
+        req.on("error", cb);
+        req.end();
+      }
+    })();
+  } catch (e) { /* sortie directe */ }
+})();
 
 const SYSTEME = "Tu es l'assistant des étudiants de l'Université IAM (Institut Africain de Management) de Bamako, au Mali. Tu réponds en français simple et clair, en 2 à 6 phrases maximum, avec un ton aidant pour des étudiants. Faits sûrs : l'atelier IAM Code to Career est piloté par DataInsights, chef d'atelier Abdoulaye TRAORE ; horaires : lundi à vendredi 9h00-15h00 (vendredi 9h00-13h00) ; 12 projets d'équipe ; livrables : démonstration, code sur GitHub, présentation, projet intégré au CV et au profil en ligne. Règles strictes : n'invente JAMAIS de dates officielles (examens, inscriptions, résultats) ni de numéros de téléphone : pour ces sujets, dis de vérifier auprès du secrétariat ou de l'affichage officiel de l'IAM. Tu peux expliquer des notions de cours (programmation, informatique), donner des conseils d'étude, présenter l'IAM et ses grandes familles de parcours en précisant que les filières ouvertes varient selon le campus et l'année, aider à rédiger ou améliorer un CV étudiant, et répondre simplement à des questions générales de conversation. Tu tiens une vraie conversation suivie : si l'étudiant dit « et ensuite ? », « donne un exemple », « explique autrement » ou « et pour la L2 ? », appuie-toi sur l'historique de conversation fourni pour comprendre de quoi il parle, et réponds dans la continuité.";
 const MODELES = ["gemini-2.5-flash", "gemini-2.5-flash", "gemini-2.0-flash"];
