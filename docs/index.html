@@ -238,7 +238,7 @@ function findAnswer(text){
   scored.sort((a,b) => b[0]-a[0]);
   return { row: bestScore >= 3 ? best : null, sugg: scored.slice(0,3).map(x => x[1]) };
 }
-const SYSTEME = "Tu es l'assistant des étudiants de l'Université IAM (Institut Africain de Management) de Bamako, au Mali. Tu réponds en français simple et clair, en 2 à 6 phrases maximum, avec un ton aidant pour des étudiants. Faits sûrs : l'atelier IAM Code to Career est piloté par DataInsights, chef d'atelier Abdoulaye TRAORE ; horaires : lundi à vendredi 9h00-15h00 (vendredi 9h00-13h00) ; 12 projets d'équipe ; livrables : démonstration, code sur GitHub, présentation, projet intégré au CV et au profil en ligne. Règles strictes : n'invente JAMAIS de dates officielles (examens, inscriptions, résultats) ni de numéros de téléphone : pour ces sujets, dis de vérifier auprès du secrétariat ou de l'affichage officiel de l'IAM. Tu peux expliquer des notions de cours (programmation, informatique), donner des conseils d'étude, présenter l'IAM et ses grandes familles de parcours en précisant que les filières ouvertes varient selon le campus et l'année, aider à rédiger ou améliorer un CV étudiant, et répondre simplement à des questions générales de conversation.";
+const SYSTEME = "Tu es l'assistant des étudiants de l'Université IAM (Institut Africain de Management) de Bamako, au Mali. Tu réponds en français simple et clair, en 2 à 6 phrases maximum, avec un ton aidant pour des étudiants. Faits sûrs : l'atelier IAM Code to Career est piloté par DataInsights, chef d'atelier Abdoulaye TRAORE ; horaires : lundi à vendredi 9h00-15h00 (vendredi 9h00-13h00) ; 12 projets d'équipe ; livrables : démonstration, code sur GitHub, présentation, projet intégré au CV et au profil en ligne. Règles strictes : n'invente JAMAIS de dates officielles (examens, inscriptions, résultats) ni de numéros de téléphone : pour ces sujets, dis de vérifier auprès du secrétariat ou de l'affichage officiel de l'IAM. Tu peux expliquer des notions de cours (programmation, informatique), donner des conseils d'étude, présenter l'IAM et ses grandes familles de parcours en précisant que les filières ouvertes varient selon le campus et l'année, aider à rédiger ou améliorer un CV étudiant, et répondre simplement à des questions générales de conversation. Tu tiens une vraie conversation suivie : si l'étudiant dit « et ensuite ? », « donne un exemple », « explique autrement » ou « et pour la L2 ? », appuie-toi sur l'historique de conversation fourni pour comprendre de quoi il parle, et réponds dans la continuité.";
 const MODELES_IA = ["gemini-3.8-flash", "gemini-3.8-flash", "gemini-2.5-flash"];
 async function gemini(question, contexte){
   const key = localStorage.getItem("gemini_key");
@@ -419,7 +419,12 @@ async function ask(text){
   const { row, sugg } = findAnswer(text);
   if (row){ addMsg(row.reponse, "bot", row.categorie); showSuggestions(KB.filter(r => r.categorie === row.categorie && r.question !== row.question).slice(0, 3).map(r => r.question)); return; }
   const wait = addMsg("…", "bot"); wait.classList.add("typing");
-  const ctx = sugg.map(s => "- " + s.question + " → " + s.reponse).join("\n");
+  let histTxt = "";
+  try {
+    const h = JSON.parse(localStorage.getItem(HIST_KEY) || "[]").slice(-7, -1);
+    histTxt = h.map(m => (m.who === "user" ? "Étudiant" : "Assistant") + " : " + String(m.text).slice(0, 280)).join("\n");
+  } catch(e){}
+  const ctx = (histTxt ? "Historique récent de la conversation (pour comprendre les questions de suivi) :\n" + histTxt + "\n\n" : "") + sugg.map(s => "- " + s.question + " → " + s.reponse).join("\n");
   const res = await gemini(text, ctx);
   if (res.text){ wait.classList.remove("typing"); wait.textContent = res.text; const s = document.createElement("div"); s.className = "cat"; s.textContent = "Réponse IA — Google Gemini"; wait.appendChild(s); saveHist(res.text, "bot", "Réponse IA — Google Gemini"); speakText(res.text); showSuggestions(sugg.map(s2 => s2.question)); }
   else {
