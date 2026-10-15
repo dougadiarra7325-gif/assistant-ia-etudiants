@@ -9,7 +9,7 @@ cd "$HOME/workspace/assistant-ia-etudiants/proxy" || exit 1
 if ! pgrep -f "node server.js" > /dev/null; then
   [ -f "$DATA/setup-token.txt" ] || python3 -c "import secrets; print(secrets.token_hex(16))" > "$DATA/setup-token.txt"
   TOKEN=$(cat "$DATA/setup-token.txt")
-  PORT=8787 NODE_USE_ENV_PROXY=1 GEMINI_KEY_FILE="$DATA/gemini-key.txt" SETUP_TOKEN="$TOKEN" \
+  PORT=8787 NODE_USE_ENV_PROXY=1 NO_PROXY="localhost,127.0.0.1" no_proxy="localhost,127.0.0.1" GEMINI_KEY_FILE="$DATA/gemini-key.txt" SETUP_TOKEN="$TOKEN" \
     nohup node server.js >> "$DATA/server.log" 2>&1 &
   echo "Serveur proxy démarré."
 fi
